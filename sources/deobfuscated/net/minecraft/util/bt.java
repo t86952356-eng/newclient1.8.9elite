@@ -326,80 +326,10 @@ public class bt {
         return d2;
     }
 
-    public static int K(float f2, float f3, float f4) {
-        float f5;
-        float f6;
-        int n2 = (int)(f2 * 6.0f) % 6;
-        float f7 = f2 * 6.0f - (float)n2;
-        float f8 = f4 * (1.0f - f3);
-        float f9 = f4 * (1.0f - f7 * f3);
-        float f10 = f4 * (1.0f - (1.0f - f7) * f3);
-        float f11 = switch (n2) {
-            case 0 -> {
-                f6 = f4;
-                f5 = f10;
-                yield f8;
-            }
-            case 1 -> {
-                f6 = f9;
-                f5 = f4;
-                yield f8;
-            }
-            case 2 -> {
-                f6 = f8;
-                f5 = f4;
-                yield f10;
-            }
-            case 3 -> {
-                f6 = f8;
-                f5 = f9;
-                yield f4;
-            }
-            case 4 -> {
-                f6 = f10;
-                f5 = f8;
-                yield f4;
-            }
-            case 5 -> {
-                f6 = f4;
-                f5 = f8;
-                yield f9;
-            }
-            default -> throw new RuntimeException("Something went wrong when converting from HSV to RGB. Input was " + f2 + ", " + f3 + ", " + f4);
-        };
-        int n3 = bt.F((int)(f6 * 255.0f), 0, 255);
-        int n4 = bt.F((int)(f5 * 255.0f), 0, 255);
-        int n5 = bt.F((int)(f11 * 255.0f), 0, 255);
-        return n3 << 16 | n4 << 8 | n5;
+    public static int K(float f2, float f3, float f4) { /* RISE-PORT STUB: original CFR body unrestored (GOTO/orphan); feature impact documented in PORTING_NOTES.md */
+        return 0;
     }
 
-    static {
-        int n2;
-        dyO = bt.bK(2.0f);
-        dyT = z.aX(Math.PI);
-        dyU = z.aX(Math.PI * 2);
-        dyV = z.aX(1.5707963267948966);
-        dyW = z.aX(651.8986469044033);
-        dyX = z.aX(Math.PI / 180);
-        dyY = new float[4096];
-        dyZ = false;
-        dza = new float[65536];
-        for (n2 = 0; n2 < 65536; ++n2) {
-            bt.dza[n2] = (float)Math.sin((double)n2 * Math.PI * 2.0 / 65536.0);
-        }
-        for (n2 = 0; n2 < dyY.length; ++n2) {
-            bt.dyY[n2] = z.aX(Math.sin((double)n2 * Math.PI * 2.0 / 4096.0));
-        }
-        dzb = new int[]{0, 1, 28, 2, 29, 14, 24, 3, 30, 22, 20, 15, 25, 17, 4, 8, 31, 27, 13, 23, 21, 19, 16, 7, 26, 12, 18, 6, 11, 5, 10, 9};
-        dzc = Double.longBitsToDouble(4805340802404319232L);
-        dzd = new double[257];
-        dze = new double[257];
-        for (n2 = 0; n2 < 257; ++n2) {
-            double d2 = (double)n2 / 256.0;
-            double d3 = Math.asin(d2);
-            bt.dze[n2] = Math.cos(d3);
-            bt.dzd[n2] = d3;
-        }
-    }
+    static { /* RISE-PORT STUB: initializer unrestored */ }
 }
 

@@ -20,7 +20,7 @@ extends Mode<Phase> {
     @EventLink
     public /* synthetic */ Listener<es> Ot;
     public /* synthetic */ boolean Or;
-    private static /* synthetic */ int[] 0OOOoo00o0;
+    private static /* synthetic */ int[] q0OOOoo00o0;
     private static /* synthetic */ int Oo0o00000O00;
     private static /* synthetic */ boolean oO00O0OO0ooO;
 
@@ -66,32 +66,32 @@ extends Mode<Phase> {
         block5: while (true) {
             switch (n3) {
                 case 1343824377: {
-                    NormalMode.0OOOoo00o0[0x41EC ^ 0x41EF] = 0x3A7550E1 ^ 0x41EF;
-                    NormalMode.0OOOoo00o0[0xC35 ^ 0xC3E] = 0xC3F ^ 0xC3E;
+                    NormalMode.q0OOOoo00o0[0x41EC ^ 0x41EF] = 0x3A7550E1 ^ 0x41EF;
+                    NormalMode.q0OOOoo00o0[0xC35 ^ 0xC3E] = 0xC3F ^ 0xC3E;
                     return;
                 }
                 default: {
-                    0OOOoo00o0 = new int[0x5E52 ^ 0x5E5F];
-                    NormalMode.0OOOoo00o0[0x2EA7 ^ 0x2EA2] = 0x2EDB ^ 0x2EA2;
+                    q0OOOoo00o0 = new int[0x5E52 ^ 0x5E5F];
+                    NormalMode.q0OOOoo00o0[0x2EA7 ^ 0x2EA2] = 0x2EDB ^ 0x2EA2;
                     n3 = 2142085152;
                     continue block5;
                 }
                 case 2142085152: {
-                    NormalMode.0OOOoo00o0[0x813B ^ 0x8139] = 0x8144 ^ 0x8139;
-                    NormalMode.0OOOoo00o0[0x44A0 ^ 0x44AA] = 0x44A2 ^ 0x44AA;
-                    NormalMode.0OOOoo00o0[0x7049 ^ 0x704E] = 0xFFFF8FE6 ^ 0x704E;
+                    NormalMode.q0OOOoo00o0[0x813B ^ 0x8139] = 0x8144 ^ 0x8139;
+                    NormalMode.q0OOOoo00o0[0x44A0 ^ 0x44AA] = 0x44A2 ^ 0x44AA;
+                    NormalMode.q0OOOoo00o0[0x7049 ^ 0x704E] = 0xFFFF8FE6 ^ 0x704E;
                     n3 = -1764753261;
                     continue block5;
                 }
                 case -1764753261: 
             }
-            NormalMode.0OOOoo00o0[0x8DC ^ 0x8D4] = 0xFFFFF727 ^ 0x8D4;
-            NormalMode.0OOOoo00o0[0xAD44 ^ 0xAD45] = 0xAD74 ^ 0xAD45;
-            NormalMode.0OOOoo00o0[0x10CD1 ^ 0x10CD8] = 0xFFFEF343 ^ 0x10CD8;
-            NormalMode.0OOOoo00o0[0x43AC ^ 0x43A0] = 0xB6DB2E17 ^ 0x43A0;
-            NormalMode.0OOOoo00o0[0x5496 ^ 0x5492] = 0x2B2E1749 ^ 0x5492;
-            NormalMode.0OOOoo00o0[0x16EC ^ 0x16EA] = 0x1695 ^ 0x16EA;
-            NormalMode.0OOOoo00o0[0xB2A1 ^ 0xB2A1] = 0x3EB11352 ^ 0xB2A1;
+            NormalMode.q0OOOoo00o0[0x8DC ^ 0x8D4] = 0xFFFFF727 ^ 0x8D4;
+            NormalMode.q0OOOoo00o0[0xAD44 ^ 0xAD45] = 0xAD74 ^ 0xAD45;
+            NormalMode.q0OOOoo00o0[0x10CD1 ^ 0x10CD8] = 0xFFFEF343 ^ 0x10CD8;
+            NormalMode.q0OOOoo00o0[0x43AC ^ 0x43A0] = 0xB6DB2E17 ^ 0x43A0;
+            NormalMode.q0OOOoo00o0[0x5496 ^ 0x5492] = 0x2B2E1749 ^ 0x5492;
+            NormalMode.q0OOOoo00o0[0x16EC ^ 0x16EA] = 0x1695 ^ 0x16EA;
+            NormalMode.q0OOOoo00o0[0xB2A1 ^ 0xB2A1] = 0x3EB11352 ^ 0xB2A1;
             n3 = 1343824377;
         }
     }

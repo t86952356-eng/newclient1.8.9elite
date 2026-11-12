@@ -60,65 +60,8 @@ extends d {
     /*
      * WARNING - void declaration
      */
-    public static void a(n n2, List<String> list) {
-        boolean bl2;
-        boolean bl3;
-        int[] nArray;
-        int n3;
-        byte by2 = n2.eE("Type");
-        if (by2 >= 0 && by2 <= 4) {
-            list.add(cr.gm("item.fireworksCharge.type." + by2).trim());
-        } else {
-            list.add(cr.gm("item.fireworksCharge.type").trim());
-        }
-        int[] nArray2 = n2.eM("Colors");
-        if (nArray2.length > 0) {
-            boolean bl4 = true;
-            Object object = "";
-            for (int n4 : nArray2) {
-                if (!bl4) {
-                    object = (String)object + ", ";
-                }
-                bl4 = false;
-                int n5 = 0;
-                for (n3 = 0; n3 < ar.cWc.length; ++n3) {
-                    if (n4 != ar.cWc[n3]) continue;
-                    n5 = 1;
-                    object = (String)object + cr.gm("item.fireworksCharge." + b.fR(n3).xB());
-                    break;
-                }
-                if (n5 != 0) continue;
-                object = (String)object + cr.gm("item.fireworksCharge.customColor");
-            }
-            list.add((String)object);
-        }
-        if ((nArray = n2.eM("FadeColors")).length > 0) {
-            void var6_11;
-            boolean bl5 = true;
-            String bl22 = cr.gm("item.fireworksCharge.fadeTo") + " ";
-            for (int n5 : nArray) {
-                if (!bl5) {
-                    String string = (String)var6_11 + ", ";
-                }
-                bl5 = false;
-                n3 = 0;
-                for (int i2 = 0; i2 < 16; ++i2) {
-                    if (n5 != ar.cWc[i2]) continue;
-                    n3 = 1;
-                    String string = (String)var6_11 + cr.gm("item.fireworksCharge." + b.fR(i2).xB());
-                    break;
-                }
-                if (n3 != 0) continue;
-                String string = (String)var6_11 + cr.gm("item.fireworksCharge.customColor");
-            }
-            list.add((String)var6_11);
-        }
-        if (bl3 = n2.eO("Trail")) {
-            list.add(cr.gm("item.fireworksCharge.trail"));
-        }
-        if (bl2 = n2.eO("Flicker")) {
-            list.add(cr.gm("item.fireworksCharge.flicker"));
-        }
+    public static void a(n n2, List<String> list) { /* RISE-PORT STUB: original CFR body unrestored (GOTO/orphan); feature impact documented in PORTING_NOTES.md */
+        
     }
 }
 

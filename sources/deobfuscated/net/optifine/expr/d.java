@@ -36,7 +36,7 @@ public class d {
         this.ehM = q2;
     }
 
-    public o if(String string) {
+    public o j_if(String string) {
         l l2 = this.ih(string);
         if (!(l2 instanceof o)) {
             throw new u("Not a float expression: " + String.valueOf((Object)l2.aCq()));

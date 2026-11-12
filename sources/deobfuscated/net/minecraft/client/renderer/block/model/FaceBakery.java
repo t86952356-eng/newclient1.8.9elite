@@ -131,7 +131,7 @@ public class FaceBakery {
         nArray[n6 + 2] = Float.floatToRawIntBits(vector3f.z);
         nArray[n6 + 3] = n4;
         nArray[n6 + 4] = Float.floatToRawIntBits(textureAtlasSprite.al((double)blockFaceUV.dn(n3) * 0.999 + (double)blockFaceUV.dn((n3 + 2) % 4) * 0.001));
-        nArray[n6 + 4 + 1] = Float.floatToRawIntBits(textureAtlasSprite.am((double)blockFaceUV.do(n3) * 0.999 + (double)blockFaceUV.do((n3 + 2) % 4) * 0.001));
+        nArray[n6 + 4 + 1] = Float.floatToRawIntBits(textureAtlasSprite.am((double)blockFaceUV.j_do(n3) * 0.999 + (double)blockFaceUV.j_do((n3 + 2) % 4) * 0.001));
     }
 
     private void a(Vector3f vector3f, BlockPartRotation blockPartRotation) {

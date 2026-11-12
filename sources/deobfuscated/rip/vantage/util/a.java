@@ -244,7 +244,6 @@ public class a {
     public static native String aO(String var0, String var1);
 
     static {
-        Loader.registerNativesForClass(1, a.class);
         Hidden0.special_clinit_1_1030(a.class);
     }
 }

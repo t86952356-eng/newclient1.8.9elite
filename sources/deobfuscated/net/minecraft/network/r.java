@@ -81,11 +81,11 @@ extends SimpleChannelInboundHandler<aj> {
     public static /* synthetic */ Marker cZA;
     public static /* synthetic */ String[] oO000O00OO00;
     public static /* synthetic */ bo<LocalEventLoopGroup> cZF;
-    public static /* synthetic */ String 0OOOoo00o0;
+    public static /* synthetic */ String q0OOOoo00o0;
     public static /* synthetic */ bo<NioEventLoopGroup> cZD;
     public static /* synthetic */ String oO00O0OO0ooO;
     public static /* synthetic */ String[] ooO00oO0OoO0;
-    public static /* synthetic */ String 0oOOoOo0O00O;
+    public static /* synthetic */ String q0oOOoOo0O00O;
     public /* synthetic */ boolean cZN;
     public static /* synthetic */ bo<EpollEventLoopGroup> cZE;
     public /* synthetic */ boolean cZO;
@@ -112,7 +112,7 @@ extends SimpleChannelInboundHandler<aj> {
     /*
      * Enabled aggressive block sorting
      */
-    private static /* synthetic */ void 0OOOoo00o0() {
+    private static /* synthetic */ void q0OOOoo00o0() {
         int n2 = -1090964230;
         if (n2 != n2) {
             oOO00OO0OOO0 = n2 = 1181831951;
@@ -878,7 +878,7 @@ extends SimpleChannelInboundHandler<aj> {
         }
         Object[] objectArray = new Object[22];
         long[] lArray = new long[22];
-        r.0OOOoo00o0();
+        r.q0OOOoo00o0();
         ooO00oO0OoO0 = new String[o0O000O0O0O0[247]];
         oO000O00OO00 = new String[o0O000O0O0O0[248]];
         oOo00Oo0OOo0 = new Object[-o0O000O0O0O0[249] - o0O000O0O0O0[250] - o0O000O0O0O0[251]];
@@ -1026,266 +1026,10 @@ extends SimpleChannelInboundHandler<aj> {
         return r2;
     }
 
-    /*
-     * Recovered potentially malformed switches.  Disable with '--allowmalformedswitch false'
-     * Unable to fully structure code
-     * Enabled aggressive block sorting
-     */
-    public static /* bridge */ strictfp /* synthetic */ String o0Oo000O0oO(int var0, String var1_1) {
-        block40: {
-            block39: {
-                block38: {
-                    var34_2 = -1636274694;
-                    if (var34_2 != var34_2) {
-                        throw null;
-                    }
-                    var34_2 = 346408347;
-                    if (var34_2 != var34_2) {
-                        var34_2 = -1636045292;
-                    }
-                    if ((var34_2 = 1147008893) != var34_2) {
-                        var34_2 = -412016011;
-                    }
-                    if ((var34_2 = -1473027108) != var34_2) {
-                    }
-                    var29_6 = new Object[27];
-                    var30_7 = new long[27];
-                    v0 = r.oo000o00Oo00;
-                    if (r.oo000o00Oo00 == null) {
-                        v1 = new Object[1];
-                        r.oo000o00Oo00 = v1;
-                        v0 = v1;
-                        var29_6[21] = new byte[2149 ^ 2165];
-                        ((byte[])var29_6[21])[55866 ^ 55856] = -55812 ^ 55856;
-                        ((byte[])var29_6[21])[47976 ^ 47973] = 47917 ^ 47973;
-                        ((byte[])var29_6[21])[42556 ^ 42559] = -42578 ^ 42559;
-                        ((byte[])var29_6[21])[49819 ^ 49818] = 49877 ^ 49818;
-                        ((byte[])var29_6[21])[7021 ^ 7019] = 6981 ^ 7019;
-                        ((byte[])var29_6[21])[17616 ^ 17616] = -17662 ^ 17616;
-                        ((byte[])var29_6[21])[54074 ^ 54070] = -54084 ^ 54070;
-                        ((byte[])var29_6[21])[15831 ^ 15833] = -15777 ^ 15833;
-                        ((byte[])var29_6[21])[37644 ^ 37643] = -37718 ^ 37643;
-                        ((byte[])var29_6[21])[41033 ^ 41036] = 40962 ^ 41036;
-                        ((byte[])var29_6[21])[18405 ^ 18414] = 18381 ^ 18414;
-                        ((byte[])var29_6[21])[3891 ^ 3900] = -3842 ^ 3900;
-                        ((byte[])var29_6[21])[49399 ^ 49395] = 49389 ^ 49395;
-                        ((byte[])var29_6[21])[61055 ^ 61047] = -61000 ^ 61047;
-                        ((byte[])var29_6[21])[56113 ^ 56120] = 56174 ^ 56120;
-                        ((byte[])var29_6[21])[35267 ^ 35265] = 35296 ^ 35265;
-                        v1[0] = (byte[])var29_6[21];
-                    }
-                    var29_6[10] = (byte[])v0[0];
-                    if (r.o0000000O000 != null) ** GOTO lbl70
-                    var22_3 = -1286035817;
-                    switch (var22_3) {
-                        case -1749741972: {
-                            ** GOTO lbl70
-                        }
-                        default: {
-                            var29_6[9] = new byte[60650 ^ 60618];
-                            ((byte[])var29_6[9])[12509 ^ 12511] = -12462 ^ 12511;
-                            ((byte[])var29_6[9])[3109 ^ 3125] = 3084 ^ 3125;
-                            var23_4 = -346444080;
-                            break;
-                        }
-                    }
-                    break block40;
-lbl50:
-                    // 1 sources
-
-                    while (true) {
-                        var24_5 = 932703586;
-                        break block38;
-                        while (true) {
-                            v2 = new String((char[])var29_6[15]);
-                            while (true) {
-                                break block39;
-                                break;
-                            }
-                            break;
-                        }
-                        break;
-                    }
-lbl57:
-                    // 1 sources
-
-                    while (true) {
-                        var29_6[15] = "\u990e\u9a0e\u900e".toCharArray();
-                        var30_7[24] = var31_8 = (long)0;
-                        while ((int)var30_7[24] < ((char[])var29_6[15]).length) {
-                            v3 = (char[])var29_6[15];
-                            v4 = (int)var30_7[24];
-                            v5 = (char)(v3[v4] - 54083);
-                            v3[v4] = (char)((char)((char)(-((char)((char)(-((char)(~((char)((char)(~((char)(v5 << 9 | v5 >>> 7))) ^ 4593))))) - v4))) + 31175) + v4);
-                            var30_7[24] = var31_8 = (long)((int)var30_7[24] + 1);
-                        }
-                        v6 = new String((char[])var29_6[15]);
-lbl68:
-                        // 2 sources
-
-                        while (true) {
-                            r.o0000000O000 = new SecretKeySpec(v7, v6);
-lbl70:
-                            // 3 sources
-
-                            var29_6[6] = Base64.getDecoder().decode(var1_1);
-                            var29_6[14] = Arrays.copyOfRange((byte[])var29_6[6], 0, 16);
-                            var29_6[17] = Arrays.copyOfRange((byte[])var29_6[6], 16, ((byte[])var29_6[6]).length);
-                            v8 = r.ooO00oO0OoO0[3];
-                            if (v8 == null) {
-                                var29_6[15] = "\u4c38\u4c3b\u4c48\u4c27\u4c3e\u4c36\u4c34\u4c2b\u4c4f\u4c39\u4c40\u4c53\u4c38\u4c3c\u4c4e\u4c4e\u4c6b\u4c4f\u4c57\u4c6f".toCharArray();
-                                var30_7[24] = var31_8 = (long)0;
-                                while ((int)var30_7[24] < ((char[])var29_6[15]).length) {
-                                    v9 = (char[])var29_6[15];
-                                    v10 = (int)var30_7[24];
-                                    v9[v10] = -((char)((char)((char)(~((char)((char)(~((char)((char)(-((char)(~((char)((char)((char)(~v9[v10]) + v10) + 32541))))) ^ v10))) + 57612))) - 21018) - v10));
-                                    var27_12 = 1602370459;
-                                    var30_7[24] = var31_8 = (long)((int)var30_7[24] + 1);
-                                }
-                                v8 = new String((char[])var29_6[15]);
-                            }
-                            var29_6[19] = Cipher.getInstance(v8);
-                            ((Cipher)var29_6[19]).init(2, (Key)((SecretKey)r.o0000000O000), new IvParameterSpec((byte[])var29_6[14]));
-                            var28_13 = 1525863882;
-                            var29_6[16] = ((Cipher)var29_6[19]).doFinal((byte[])var29_6[17]);
-                            r.oO000O00OO00[var0] = new String((byte[])var29_6[16], StandardCharsets.UTF_8);
-                            return r.oO000O00OO00[var0];
-                        }
-                        break;
-                    }
-                }
-lbl92:
-                // 2 sources
-
-                while (true) {
-                    switch (var24_5) {
-                        case 932703586: {
-                            var29_6[15] = "\ub09a\ub36a\ub50a\ub7aa\ub97a\uc0aa\ubc8a\uc13a\uc25a\uc58a\uc57a\uc9bb\ucb4b\ucd3b\ucc4b\ucfab\ud08b\ud99b".toCharArray();
-                            var30_7[24] = var31_8 = (long)0;
-                            while (true) {
-                                if ((int)var30_7[24] >= ((char[])var29_6[15]).length) ** continue;
-                                v11 = (char[])var29_6[15];
-                                v12 = (int)var30_7[24];
-                                v13 = (char)((char)((char)(v11[v12] + v12) - v12) + 14371);
-                                v14 = (char)((char)((char)((char)(~((char)((char)((char)(-((char)((char)(v13 << 7 | v13 >>> 9) - 60364))) - 36441) + v12))) - 24325) + 13949) ^ 22778);
-                                v11[v12] = (char)((char)(v14 >>> 11 | v14 << 5) ^ v12);
-                                var25_9 = -1786003029;
-                                var30_7[24] = var31_8 = (long)((int)var30_7[24] + 1);
-                            }
-                        }
-                    }
-                    System.arraycopy((byte[])var29_6[9], 0, (byte[])var29_6[12], ((byte[])var29_6[10]).length, ((byte[])var29_6[9]).length);
-                    if ((v2 = r.ooO00oO0OoO0[1]) != null) ** continue;
-                    ** continue;
-                    break;
-                }
-            }
-            var29_6[5] = SecretKeyFactory.getInstance(v2);
-            var29_6[3] = new byte[16];
-            ((byte[])var29_6[3])[13] = -128;
-            ((byte[])var29_6[3])[14] = -74;
-            ((byte[])var29_6[3])[10] = -117;
-            ((byte[])var29_6[3])[3] = 68;
-            ((byte[])var29_6[3])[9] = -14;
-            var26_10 = -1071159973;
-            block30: while (true) {
-                switch (var26_10) {
-                    default: {
-                        ((byte[])var29_6[3])[15] = 92;
-                        ((byte[])var29_6[3])[5] = 3;
-                        ((byte[])var29_6[3])[12] = -7;
-                        ((byte[])var29_6[3])[1] = 52;
-                        ((byte[])var29_6[3])[6] = -27;
-                        ((byte[])var29_6[3])[7] = 102;
-                        ((byte[])var29_6[3])[4] = 75;
-                        var26_10 = 1398161189;
-                        continue block30;
-                    }
-                    case 1398161189: 
-                }
-                break;
-            }
-            ((byte[])var29_6[3])[2] = 57;
-            ((byte[])var29_6[3])[8] = -64;
-            ((byte[])var29_6[3])[11] = 99;
-            ((byte[])var29_6[3])[0] = 37;
-            var7_11 = new PBEKeySpec(new String((byte[])var29_6[12], StandardCharsets.UTF_8).toCharArray(), (byte[])var29_6[3], 19, 256);
-            var29_6[11] = ((SecretKeyFactory)var29_6[5]).generateSecret(var7_11).getEncoded();
-            v7 = (byte[])var29_6[11];
-            ** while ((v6 = r.ooO00oO0OoO0[2]) != null)
-lbl140:
-            // 1 sources
-
-            ** while (true)
-        }
-        block31: while (true) {
-            switch (var23_4) {
-                default: {
-                    ((byte[])var29_6[9])[52295 ^ 52295] = 52242 ^ 52295;
-                    ((byte[])var29_6[9])[7383 ^ 7360] = -7336 ^ 7360;
-                    ((byte[])var29_6[9])[57449 ^ 57442] = -57381 ^ 57442;
-                    ((byte[])var29_6[9])[66294 ^ 66298] = -66292 ^ 66298;
-                    ((byte[])var29_6[9])[59587 ^ 59586] = -59575 ^ 59586;
-                    var23_4 = 1469563289;
-                    continue block31;
-                }
-                case 1469563289: {
-                    ((byte[])var29_6[9])[41892 ^ 41901] = -41927 ^ 41901;
-                    ((byte[])var29_6[9])[30267 ^ 30244] = -30292 ^ 30244;
-                    var23_4 = 972656719;
-                    continue block31;
-                }
-                case 972656719: {
-                    ((byte[])var29_6[9])[52189 ^ 52183] = 52161 ^ 52183;
-                    ((byte[])var29_6[9])[189 ^ 185] = -223 ^ 185;
-                    var23_4 = 1894981561;
-                    continue block31;
-                }
-                case 1894981561: {
-                    ((byte[])var29_6[9])[23414 ^ 23403] = 23330 ^ 23403;
-                    ((byte[])var29_6[9])[62290 ^ 62289] = 62289 ^ 62289;
-                    ((byte[])var29_6[9])[23958 ^ 23943] = -24028 ^ 23943;
-                    ((byte[])var29_6[9])[21994 ^ 22014] = -22010 ^ 22014;
-                    ((byte[])var29_6[9])[59518 ^ 59512] = -59469 ^ 59512;
-                    ((byte[])var29_6[9])[69385 ^ 69404] = -69393 ^ 69404;
-                    ((byte[])var29_6[9])[18091 ^ 18086] = 18150 ^ 18086;
-                    ((byte[])var29_6[9])[14391 ^ 14393] = 14365 ^ 14393;
-                    var23_4 = 1490053372;
-                    continue block31;
-                }
-                case 1490053372: {
-                    ((byte[])var29_6[9])[8870 ^ 8890] = -8913 ^ 8890;
-                    ((byte[])var29_6[9])[48693 ^ 48686] = -48762 ^ 48686;
-                    ((byte[])var29_6[9])[68745 ^ 68753] = 68785 ^ 68753;
-                    ((byte[])var29_6[9])[5693 ^ 5668] = 5643 ^ 5668;
-                    var23_4 = 334316813;
-                    continue block31;
-                }
-                case 334316813: {
-                    ((byte[])var29_6[9])[9342 ^ 9324] = -9274 ^ 9324;
-                    var23_4 = -592389978;
-                    continue block31;
-                }
-                case -592389978: {
-                    ((byte[])var29_6[9])[44804 ^ 44830] = 44841 ^ 44830;
-                    ((byte[])var29_6[9])[3428 ^ 3435] = -3392 ^ 3435;
-                    ((byte[])var29_6[9])[7139 ^ 7152] = 7163 ^ 7152;
-                    ((byte[])var29_6[9])[69180 ^ 69179] = -69224 ^ 69179;
-                    ((byte[])var29_6[9])[35625 ^ 35639] = 35697 ^ 35639;
-                    ((byte[])var29_6[9])[29612 ^ 29609] = -29659 ^ 29609;
-                    var23_4 = -115738648;
-                    continue block31;
-                }
-                case -115738648: 
-            }
-            break;
-        }
-        ((byte[])var29_6[9])[6659 ^ 6667] = 6743 ^ 6667;
-        ((byte[])var29_6[9])[12084 ^ 12066] = 12151 ^ 12066;
-        var29_6[12] = new byte[((byte[])var29_6[10]).length + ((byte[])var29_6[9]).length];
-        System.arraycopy((byte[])var29_6[10], 0, (byte[])var29_6[12], 0, ((byte[])var29_6[10]).length);
-        var24_5 = 381972407;
-        ** while (true)
+    public static String o0Oo000O0oO(int var0, String var1_1) {
+        /* ANDROID/VANILLA PORT NOTE: original CFR body (GOTO-mangled) replaced by
+           nl.StringDecryptor; identical algorithm, pure Java. */
+        return nl.StringDecryptor.decrypt(var0, var1_1);
     }
 
     /*

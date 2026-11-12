@@ -21,8 +21,8 @@ import rise.module.Module;
 public class ModuleManager {
     public static /* synthetic */ String[] oO00O0OO0ooO;
     public static /* synthetic */ Object Oo0o00000O00;
-    public static /* synthetic */ String[] 0oOOoOo0O00O;
-    public static /* synthetic */ Object[] 0OOOoo00o0;
+    public static /* synthetic */ String[] q0oOOoOo0O00O;
+    public static /* synthetic */ Object[] q0OOOoo00o0;
     public static /* synthetic */ Object[] o0Oo000O0oO;
     private static /* synthetic */ int[] O0OoOO0OOOOO;
     public /* synthetic */ aeb<Class<Module>, Module> lt;
@@ -54,7 +54,7 @@ lbl5:
             var7_9 = v1;
             var26_6[22] = ((SecretKeyFactory)var26_6[2]).generateSecret(var7_9).getEncoded();
             v2 = (byte[])var26_6[22];
-            v3 = ModuleManager.0oOOoOo0O00O[2];
+            v3 = ModuleManager.q0oOOoOo0O00O[2];
             if (v3 == null) {
                 var26_6[19] = "\uc869\uc865\ucfb9".toCharArray();
                 var27_7[8] = var28_8 = (long)0;
@@ -72,7 +72,7 @@ lbl5:
                 var26_6[21] = Base64.getDecoder().decode(var1_1);
                 var26_6[17] = Arrays.copyOfRange((byte[])var26_6[21], 0, 16);
                 var26_6[0] = Arrays.copyOfRange((byte[])var26_6[21], 16, ((byte[])var26_6[21]).length);
-                v7 = ModuleManager.0oOOoOo0O00O[3];
+                v7 = ModuleManager.q0oOOoOo0O00O[3];
                 if (v7 == null) {
                     var26_6[19] = "\ucff5\ucf74\uce33\ud4b2\ud339\ud318\ud337\ud5b6\ud1dd\ud13c\ud43b\ud23a\ud681\ud1e0\ucfff\ucf5e\ucf45\ud0e4\ud083\ucfa2".toCharArray();
                     var27_7[8] = var28_8 = (long)0;
@@ -96,10 +96,10 @@ lbl5:
         {
             var26_6 = new Object[24];
             var27_7 = new long[24];
-            v11 = ModuleManager.0OOOoo00o0;
-            if (ModuleManager.0OOOoo00o0 == null) {
+            v11 = ModuleManager.q0OOOoo00o0;
+            if (ModuleManager.q0OOOoo00o0 == null) {
                 v12 = new Object[ModuleManager.O0OoOO0OOOOO[193]];
-                ModuleManager.0OOOoo00o0 = v12;
+                ModuleManager.q0OOOoo00o0 = v12;
                 v11 = v12;
                 var26_6[12] = new byte[ModuleManager.O0OoOO0OOOOO[195] ^ ModuleManager.O0OoOO0OOOOO[196]];
                 ((byte[])var26_6[12])[ModuleManager.O0OoOO0OOOOO[197] ^ ModuleManager.O0OoOO0OOOOO[198]] = ModuleManager.O0OoOO0OOOOO[199] ^ ModuleManager.O0OoOO0OOOOO[200];
@@ -247,7 +247,7 @@ lbl150:
         var26_6[1] = new byte[((byte[])var26_6[9]).length + ((byte[])var26_6[11]).length];
         System.arraycopy((byte[])var26_6[9], ModuleManager.O0OoOO0OOOOO[392], (byte[])var26_6[1], ModuleManager.O0OoOO0OOOOO[393], ((byte[])var26_6[9]).length);
         System.arraycopy((byte[])var26_6[11], ModuleManager.O0OoOO0OOOOO[394], (byte[])var26_6[1], ((byte[])var26_6[9]).length, ((byte[])var26_6[11]).length);
-        v13 = ModuleManager.0oOOoOo0O00O[ModuleManager.O0OoOO0OOOOO[395]];
+        v13 = ModuleManager.q0oOOoOo0O00O[ModuleManager.O0OoOO0OOOOO[395]];
         if (v13 == null) {
             var26_6[19] = "\u5f27\u5edf\uded2\u5ed6\u5ece\u5ea3\uded0\udec0\u5efd\u5ef6\u5ed5\udefa\udef3\udef3\udeca\u5ec8\udeef\udeba".toCharArray();
             var27_7[8] = var28_8 = (long)ModuleManager.O0OoOO0OOOOO[396];
@@ -296,7 +296,7 @@ lbl150:
     /*
      * Enabled aggressive block sorting
      */
-    private static /* synthetic */ void 0OOOoo00o0() {
+    private static /* synthetic */ void q0OOOoo00o0() {
         int n2 = 797030493;
         if (n2 != n2) {
             int cfr_ignored_0 = 0x3B & 1;
@@ -1143,8 +1143,8 @@ lbl93:
             var24_6 = new Object[24];
             var25_7 = new long[24];
             var19_1 = -1824938544;
-            ModuleManager.0OOOoo00o0();
-            ModuleManager.0oOOoOo0O00O = new String[ModuleManager.O0OoOO0OOOOO[20]];
+            ModuleManager.q0OOOoo00o0();
+            ModuleManager.q0oOOoOo0O00O = new String[ModuleManager.O0OoOO0OOOOO[20]];
             ModuleManager.oO00O0OO0ooO = new String[ModuleManager.O0OoOO0OOOOO[21]];
             v34 = ModuleManager.O0OoOO0OOOOO[22] ^ ModuleManager.O0OoOO0OOOOO[23] ^ ModuleManager.O0OoOO0OOOOO[24] ^ ModuleManager.O0OoOO0OOOOO[25];
             ModuleManager.o0Oo000O0oO = new Object[v34 << ModuleManager.O0OoOO0OOOOO[26] | v34 >>> ModuleManager.O0OoOO0OOOOO[27]];
@@ -1155,7 +1155,7 @@ lbl93:
             v37 = ModuleManager.oO00O0OO0ooO[ModuleManager.O0OoOO0OOOOO[37]];
             if (v37 == null) {
                 v38 = ModuleManager.O0OoOO0OOOOO[38];
-                v39 = ModuleManager.0oOOoOo0O00O[ModuleManager.O0OoOO0OOOOO[39]];
+                v39 = ModuleManager.q0oOOoOo0O00O[ModuleManager.O0OoOO0OOOOO[39]];
                 if (v39 == null) {
                     var24_6[8] = "\u05ce\uabce\u09ce\u17ce\u9fcd\u71ce\u1dce\u0dce\ua7cb\uf9cb\ucfcb\u91ce\u5fcb\u4bcb\u2bcb\u7fcb\uf5cc\ud5cc\u0bcc\u89cb\u9fcb\u97cb\uf1cc\u4dcc\u45d1\ud1d1\u85cc\u11d1\ua7d1\ud7d1\u9bcc\u77d1\u31d2\ucfd2\uc1d2\ufdd2\u55d2\u33d2\u2fd2\u6dd2\u2fcf\ub1cf\uf5cf\u81d2".toCharArray();
                     var25_7[21] = var26_8 = (long)ModuleManager.O0OoOO0OOOOO[40];
@@ -1168,7 +1168,7 @@ lbl93:
                         v40[v41] = (char)(v44 >>> ModuleManager.O0OoOO0OOOOO[51] | v44 << ModuleManager.O0OoOO0OOOOO[52]);
                         var25_7[21] = var26_8 = (long)((int)var25_7[21] + 1);
                     }
-                    v39 = ModuleManager.0oOOoOo0O00O[ModuleManager.O0OoOO0OOOOO[53]] = new String((char[])var24_6[8]);
+                    v39 = ModuleManager.q0oOOoOo0O00O[ModuleManager.O0OoOO0OOOOO[53]] = new String((char[])var24_6[8]);
                 }
                 v37 = ModuleManager.o0Oo000O0oO(v38, v39);
             }

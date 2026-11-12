@@ -8,7 +8,7 @@
 > future changes, a growing crash-log knowledge base, and the standing rules
 > that must never be broken.
 >
-> Last updated: 2026-11-12 (build 6.9.9-android.1)
+> Last updated: 2026-11-12 (build 6.9.9-android.2)
 
 ---
 
@@ -44,10 +44,21 @@
 - **Applied feature changes (owner's orders):** blur removed completely;
   vanilla main menu instead of the Rise custom menu; all Windows-only
   components deleted. Details: `PORTING_NOTES.md`.
-- **Critical known state:** the playable game JAR is NOT yet produced —
-  `artifacts/client-restored.jar` (sha256 `a93ea829dcc0869173a7c3aad8a466b6790bb46d0a6f4eaf772b5bcf756d3e17`)
-  must be provided by the owner. Until then every release is honestly marked
-  INCOMPLETE. See `ANDROID_PORT_AUDIT.md` §6 BLOCKER-1 and BLOCKER-2.
+- **Critical known state (updated 6.9.9-android.2):**
+  - BLOCKER-1 is CLOSED BY DECISION: the owner confirmed the original compiled
+    JAR (`artifacts/client-restored.jar`) does not exist and will never be
+    provided. The client is now built FROM SOURCE (`build.sh stage_client_source`).
+  - BLOCKER-2 is SOLVED AT COMPILE TIME: the JNI string decryptor was ported to
+    pure Java (`nl/StringDecryptor`, AES/CBC with the constants recovered from
+    the decompiled copy in `net.minecraft.network.r`); the 25 native
+    declarations delegate to it and `nl.Loader` is never touched.
+  - CURRENT BLOCKER: the source tree does not fully compile yet (~1.5k javac
+    errors, 44 files, after 12 repair rounds). The precise worklist is in
+    `PORTING_NOTES.md` §7.3. Protected files (Rise boot core, vanilla menu
+    path, `Minecraft.java`, `ModuleManager`, `SoundHandler`) must be repaired
+    by hand — never stubbed. Releases stay INCOMPLETE until the source build
+    is green; never fake otherwise.
+  - Repair toolchain: `tools/repair/` (reference copies) — see §2b below.
 
 ## 2. How to build successfully on GitHub (verified procedure)
 
@@ -79,6 +90,18 @@ vanilla-menu/blur overlays) and produces `Rise-6.9.9.jar`.
 - `INCOMPLETE` = manifest + bootstrap only (client JAR absent).
 The workflow derives this from `build/BUILD_STATUS.txt` — do not override.
 
+### 2b. Source-build toolchain (session 6.9.9-android.2)
+
+The sandbox keeps a local toolchain (persistent between sessions):
+`/home/z/my-project/.build_cache/` — `repo/` (git clone), `jdk8/` (Temurin 8),
+`libs/` (official 1.8.9 artifacts + Via 5.12.2/5.12.2/4.2.0), and
+`/home/z/my-project/scripts/` — the live repair tools (copies in
+`tools/repair/` of this repository). Compile rounds + per-file error JSONs are
+in `.build_cache/compile-rounds/round-N.{log,json}`. Procedure per round:
+`client_compile.py` -> classify -> `stub_broken_methods.py round-N.json` (or
+hand-repair for protected files) -> recompile. Details in PORTING_NOTES.md §7
+and tools/repair/README.md.
+
 ## 3. Errors already encountered and their solutions (verified)
 
 | # | Error | Cause | Solution applied |
@@ -90,7 +113,13 @@ The workflow derives this from `build/BUILD_STATUS.txt` — do not override.
 | 5 | HTTP `429` from `repo1.maven.org` when fetching org.json | Rate-limited network in the build sandbox | org.json is now vendored at `third_party/org.json/` (public domain) — the build no longer downloads it |
 | 6 | Version JSON generation needs the Mojang manifest | Network dependency made builds non-deterministic | Official 1.8.9 manifest vendored at `scripts/vendor/1.8.9-official.json`; generator uses it first, network only as fallback |
 | 7 | 67 decompiled files fail to even parse (`0OOOoo00o0()` etc.) | CFR faithfully emits bytecode-legal but Java-illegal identifiers | This is expected and unfixable at source level — these classes can only be patched at bytecode level against `client-restored.jar`. Never attempt a full recompile of `sources/deobfuscated/` |
-| 8 | `UnsatisfiedLinkError` classes of errors on Android at runtime (anticipated) | JNI string-decryptor natives shipped only for Windows | NOT YET SOLVED — this is BLOCKER-2. First diagnostic when the client JAR arrives: `unzip -l artifacts/client-restored.jar | grep 'nl/'` to see which platform natives are embedded. Reimplement via NDK (arm64-v8a) or stub the 77 decryptor classes via ASM in `BuildOfflinePatch` |
+| 8 | `UnsatisfiedLinkError` classes of errors on Android at runtime (anticipated) |
+| 9 | Whole-tree javac: 3.5k errors, 2.7k in 46 GOTO-damaged files | CFR `** GOTO` pseudo-syntax is not Java | Repaired by the stub/skeleton/hand toolchain; see PORTING_NOTES.md §7 (worklist for the remainder) |
+| 10 | Renaming illegal identifiers corrupted numeric literals (`0f`, `1000L`, `4.8828125E-4f`) | first scanner version treated literals as identifiers | numeric-literal grammar check + token-boundary (prev word-char) check; scientific literals survive — verified by grep |
+| 11 | `r.java` lost its whole tail after the decryptor rewrite (`reached end of file`) | CFR body is brace-unbalanced; naive brace counting swallowed the following members | method end = first member-level `^    }$` after the last `** GOTO` (line 1289 of the pristine file) |
+| 12 | `import rise.module.impl.render.interface.YyMode` — "class, interface, or enum expected" | a Java KEYWORD was used as a package segment (legal in bytecode, illegal in source) | package renamed to `rise.module.impl.render.guimode` (12 files) |
+| 13 | Via stack 404 from `repo.viaversion.com/releases/...` | wrong repo base path | correct base: `https://repo.viaversion.com/<group path>`; pinned 5.12.2 / 5.12.2 / 4.2.0 |
+| 14 | `native o0Oo000O0oO` in 25 classes would crash at runtime (BLOCKER-2) | JNI implementation only exists in natives not shipped in this package | pure-Java port `nl/StringDecryptor` (AES-128/CBC/PKCS5, Base64, 16-byte IV prefix; PBKDF2 19 iterations / 256-bit over the recovered 48-byte password + 16-byte salt) — see §7.1 of PORTING_NOTES | JNI string-decryptor natives shipped only for Windows | NOT YET SOLVED — this is BLOCKER-2. First diagnostic when the client JAR arrives: `unzip -l artifacts/client-restored.jar | grep 'nl/'` to see which platform natives are embedded. Reimplement via NDK (arm64-v8a) or stub the 77 decryptor classes via ASM in `BuildOfflinePatch` |
 
 ## 4. Adding new changes (future work protocol)
 

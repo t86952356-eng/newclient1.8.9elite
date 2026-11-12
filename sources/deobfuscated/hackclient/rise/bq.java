@@ -26,14 +26,14 @@ public class bq
 extends am {
     public /* synthetic */ IntBuffer fN;
     public /* synthetic */ String fH;
-    public static /* synthetic */ Object[] 0OOOoo00o0;
+    public static /* synthetic */ Object[] q0OOOoo00o0;
     public static /* synthetic */ int fF;
     public /* synthetic */ int[] fO;
     public /* synthetic */ long fI;
     public /* synthetic */ int fJ;
     public /* synthetic */ List<byte[]> fL;
     public /* synthetic */ BufferedImage fP;
-    public static /* synthetic */ String[] 0oOOoOo0O00O;
+    public static /* synthetic */ String[] q0oOOoOo0O00O;
     public static /* synthetic */ Object oO00O0OO0ooO;
     public static /* synthetic */ Object[] Oo0o00000O00;
     public /* synthetic */ int fK;
@@ -62,11 +62,13 @@ extends am {
     private static /* synthetic */ boolean oOo00Oo0OOo0;
 
     static {
-        Loader.registerNativesForClass(3, bq.class);
         Hidden0.special_clinit_3_20(bq.class);
     }
 
-    public static /* bridge */ native strictfp /* synthetic */ String o0Oo000O0oO(int var0, String var1);
+    public static String o0Oo000O0oO(int var0, String var1) {
+        /* ANDROID/VANILLA PORT NOTE: JNI native replaced by pure-Java nl.StringDecryptor. */
+        return nl.StringDecryptor.decrypt(var0, var1);
+    }
 
     /*
      * Enabled aggressive block sorting
@@ -84,6 +86,6 @@ extends am {
 
     public static /* bridge */ native strictfp /* synthetic */ String h(String var0);
 
-    private static native /* synthetic */ void 0OOOoo00o0();
+    private static void q0OOOoo00o0() {}
 }
 

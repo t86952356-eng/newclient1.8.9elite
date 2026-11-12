@@ -23,7 +23,7 @@ public class BlockFaceUV {
         return n3 != 0 && n3 != 1 ? this.bQy[2] : this.bQy[0];
     }
 
-    public float do(int n2) {
+    public float j_do(int n2) {
         if (this.bQy == null) {
             throw new NullPointerException("uvs");
         }

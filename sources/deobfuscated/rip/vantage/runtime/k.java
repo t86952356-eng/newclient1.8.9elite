@@ -13,9 +13,9 @@ import nl.hidden.Hidden0;
  * Illegal identifiers - consider using --renameillegalidents true
  */
 public class k {
-    public static /* synthetic */ Object[] 0OOOoo00o0;
+    public static /* synthetic */ Object[] q0OOOoo00o0;
     private static /* synthetic */ int[] O0OoOO0OOOOO;
-    public static /* synthetic */ String[] 0oOOoOo0O00O;
+    public static /* synthetic */ String[] q0oOOoOo0O00O;
     public static /* synthetic */ Object[] o0Oo000O0oO;
     public static /* synthetic */ Object Oo0o00000O00;
     public static /* synthetic */ String[] oO00O0OO0ooO;
@@ -25,15 +25,17 @@ public class k {
     public static /* bridge */ native strictfp /* synthetic */ boolean aLD();
 
     static {
-        Loader.registerNativesForClass(9, k.class);
         Hidden0.special_clinit_9_10(k.class);
     }
 
     public static /* bridge */ native strictfp /* synthetic */ boolean aLl();
 
-    private static native /* synthetic */ void 0OOOoo00o0();
+    private static void q0OOOoo00o0() {}
 
-    public static /* bridge */ native strictfp /* synthetic */ String o0Oo000O0oO(int var0, String var1);
+    public static String o0Oo000O0oO(int var0, String var1) {
+        /* ANDROID/VANILLA PORT NOTE: JNI native replaced by pure-Java nl.StringDecryptor. */
+        return nl.StringDecryptor.decrypt(var0, var1);
+    }
 
     k() {
     }

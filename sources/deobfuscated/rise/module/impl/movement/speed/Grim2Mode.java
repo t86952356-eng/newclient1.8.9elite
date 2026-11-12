@@ -24,7 +24,7 @@ import rise.value.NumberValue;
 public class Grim2Mode
 extends Mode<Speed> {
     public /* synthetic */ int Px;
-    public static /* synthetic */ Object[] 0oOOoOo0O00O;
+    public static /* synthetic */ Object[] q0oOOoOo0O00O;
     @EventLink
     public /* synthetic */ Listener<StrafeEvent> PB;
     public /* synthetic */ boolean gD;
@@ -47,7 +47,7 @@ extends Mode<Speed> {
     public static /* synthetic */ String Oo0o00000O00;
     public static /* synthetic */ String[] o0o000o0O0o0;
     public static /* synthetic */ String o0Oo000O0oO;
-    public static /* synthetic */ String 0OOOoo00o0;
+    public static /* synthetic */ String q0OOOoo00o0;
     public /* synthetic */ boolean Ga;
     public static /* synthetic */ String[] ooo00oo0Ooo0;
     @EventLink
@@ -61,7 +61,7 @@ extends Mode<Speed> {
     /*
      * Enabled aggressive block sorting
      */
-    private static /* synthetic */ void 0OOOoo00o0() {
+    private static /* synthetic */ void q0OOOoo00o0() {
         int n2 = -2051212431;
         if (n2 != n2) {
             int cfr_ignored_0 = 0x2C & 1;
@@ -935,187 +935,6 @@ extends Mode<Speed> {
     /*
      * Unable to fully structure code
      */
-    static {
-        block23: {
-            block25: {
-                block20: {
-                    block21: {
-                        block22: {
-                            block24: {
-                                var29 = 859097868;
-                                if (var29 == var29) break block24;
-                                3 & 1;
-                                break block24;
-lbl6:
-                                // 1 sources
-
-                                while (true) {
-                                    v0[v1] = (char)((char)((char)((char)((char)((char)(-((char)((char)((char)((char)((char)((char)(v2 >>> Grim2Mode.oOo00Oo0OOo0[188] | v2 << Grim2Mode.oOo00Oo0OOo0[189]) ^ Grim2Mode.oOo00Oo0OOo0[190]) ^ Grim2Mode.oOo00Oo0OOo0[191]) ^ Grim2Mode.oOo00Oo0OOo0[192]) - v1) ^ Grim2Mode.oOo00Oo0OOo0[193]))) - Grim2Mode.oOo00Oo0OOo0[194]) ^ v1) ^ v1) + v1) - Grim2Mode.oOo00Oo0OOo0[195]);
-                                    var25_3[13] = var26_4 = (long)((int)var25_3[13] + 1);
-lbl9:
-                                    // 2 sources
-
-                                    while ((int)var25_3[13] >= ((char[])var24_2[7]).length) {
-                                        v3 = Grim2Mode.o0o000o0O0o0[Grim2Mode.oOo00Oo0OOo0[196]] = new String((char[])var24_2[7]);
-lbl11:
-                                        // 2 sources
-
-                                        while (true) {
-                                            v4 = Grim2Mode.o0Oo000O0oO(v5, v3);
-lbl13:
-                                            // 2 sources
-
-                                            while (true) {
-                                                var24_2[9] = v4.toCharArray();
-                                                var20_5 = -1281579987;
-                                                v6 = Grim2Mode.oOo00Oo0OOo0[197] * Grim2Mode.oOo00Oo0OOo0[198];
-                                                var25_3[14] = var26_4 = 8446829618220977059L;
-                                                v7 = var25_3[14];
-                                                v8 = Grim2Mode.oOo00Oo0OOo0[203] * Grim2Mode.oOo00Oo0OOo0[204];
-                                                v9 = v8 << Grim2Mode.oOo00Oo0OOo0[205] | v8 >>> Grim2Mode.oOo00Oo0OOo0[206];
-                                                var25_3[14] = var26_4 = v7 ^ ((long)(v6 >>> Grim2Mode.oOo00Oo0OOo0[199] | v6 << Grim2Mode.oOo00Oo0OOo0[200]) << -(-(Grim2Mode.oOo00Oo0OOo0[201] ^ Grim2Mode.oOo00Oo0OOo0[202])) ^ v7) & -1L << (v9 >>> Grim2Mode.oOo00Oo0OOo0[207] | v9 << Grim2Mode.oOo00Oo0OOo0[208]);
-                                                var25_3[19] = var26_4 = 4011482415619888125L;
-                                                v10 = var25_3[19];
-                                                v11 = Grim2Mode.oOo00Oo0OOo0[213] + Grim2Mode.oOo00Oo0OOo0[214];
-                                                var25_3[19] = var26_4 = v10 ^ ((long)((Grim2Mode.oOo00Oo0OOo0[209] ^ Grim2Mode.oOo00Oo0OOo0[210]) * Grim2Mode.oOo00Oo0OOo0[211] * Grim2Mode.oOo00Oo0OOo0[212]) ^ v10) & -1L >>> (v11 >>> Grim2Mode.oOo00Oo0OOo0[215] | v11 << Grim2Mode.oOo00Oo0OOo0[216]);
-lbl26:
-                                                // 2 sources
-
-                                                while (true) {
-                                                    var21_6 = 981783477;
-                                                    break block20;
-                                                    break;
-                                                }
-lbl29:
-                                                // 1 sources
-
-                                                while (true) {
-                                                    v12 = Grim2Mode.oOo00Oo0OOo0[217] * Grim2Mode.oOo00Oo0OOo0[218];
-                                                    v13 = v12 >>> Grim2Mode.oOo00Oo0OOo0[219] | v12 << Grim2Mode.oOo00Oo0OOo0[220];
-                                                    if ((int)var25_3[19] >= (int)(var25_3[14] >>> ((v13 >>> Grim2Mode.oOo00Oo0OOo0[221] | v13 << Grim2Mode.oOo00Oo0OOo0[222]) ^ Grim2Mode.oOo00Oo0OOo0[223]))) break block21;
-                                                    v14 = var25_3[19];
-                                                    v15 = Grim2Mode.oOo00Oo0OOo0[224];
-                                                    v16 = Grim2Mode.oOo00Oo0OOo0[229];
-                                                    var25_3[19] = var26_4 = v14 ^ (v14 ^ v14 + (long)(-(((v15 >>> Grim2Mode.oOo00Oo0OOo0[225] | v15 << Grim2Mode.oOo00Oo0OOo0[226]) - Grim2Mode.oOo00Oo0OOo0[227]) * Grim2Mode.oOo00Oo0OOo0[228]))) & -1L >>> ((v16 << Grim2Mode.oOo00Oo0OOo0[230] | v16 >>> Grim2Mode.oOo00Oo0OOo0[231]) - Grim2Mode.oOo00Oo0OOo0[232]) * Grim2Mode.oOo00Oo0OOo0[233];
-                                                    v17 = var25_3[19];
-                                                    var25_3[19] = var26_4 = v17 ^ ((long)((char[])var24_2[9])[(int)var25_3[19]] << -(Grim2Mode.oOo00Oo0OOo0[234] + Grim2Mode.oOo00Oo0OOo0[235]) ^ v17) & -1L << (Grim2Mode.oOo00Oo0OOo0[236] * Grim2Mode.oOo00Oo0OOo0[237] + Grim2Mode.oOo00Oo0OOo0[238]) * Grim2Mode.oOo00Oo0OOo0[239];
-                                                    var21_6 = 1720671658;
-                                                    break block20;
-                                                    break;
-                                                }
-lbl41:
-                                                // 1 sources
-
-                                                while (true) {
-                                                    v18 = var25_3[19];
-                                                    v19 = (Grim2Mode.oOo00Oo0OOo0[240] - Grim2Mode.oOo00Oo0OOo0[241]) * Grim2Mode.oOo00Oo0OOo0[242];
-                                                    v20 = Grim2Mode.oOo00Oo0OOo0[245] ^ Grim2Mode.oOo00Oo0OOo0[246];
-                                                    var25_3[19] = var26_4 = v18 ^ (v18 ^ v18 + (long)(v19 << Grim2Mode.oOo00Oo0OOo0[243] | v19 >>> Grim2Mode.oOo00Oo0OOo0[244])) & -1L >>> (v20 >>> Grim2Mode.oOo00Oo0OOo0[247] | v20 << Grim2Mode.oOo00Oo0OOo0[248]);
-                                                    v21 = var25_3[14];
-                                                    v22 = Grim2Mode.oOo00Oo0OOo0[249] * Grim2Mode.oOo00Oo0OOo0[250];
-                                                    var25_3[14] = var26_4 = v21 ^ ((long)((char[])var24_2[9])[(int)var25_3[19]] ^ v21) & -1L >>> (v22 >>> Grim2Mode.oOo00Oo0OOo0[251] | v22 << Grim2Mode.oOo00Oo0OOo0[252]);
-                                                    v23 = Grim2Mode.oOo00Oo0OOo0[256];
-                                                    v24 = (v23 >>> Grim2Mode.oOo00Oo0OOo0[257] | v23 << Grim2Mode.oOo00Oo0OOo0[258]) ^ Grim2Mode.oOo00Oo0OOo0[259];
-                                                    v25 = var25_3[5];
-                                                    v26 = Grim2Mode.oOo00Oo0OOo0[263];
-                                                    v27 = -(v26 >>> Grim2Mode.oOo00Oo0OOo0[264] | v26 << Grim2Mode.oOo00Oo0OOo0[265]);
-                                                    var25_3[5] = var26_4 = v25 ^ ((long)((int)(var25_3[19] >>> (Grim2Mode.oOo00Oo0OOo0[253] ^ Grim2Mode.oOo00Oo0OOo0[254]) * Grim2Mode.oOo00Oo0OOo0[255]) << ((v24 >>> Grim2Mode.oOo00Oo0OOo0[260] | v24 << Grim2Mode.oOo00Oo0OOo0[261]) ^ Grim2Mode.oOo00Oo0OOo0[262]) | (int)var25_3[14]) ^ v25) & -1L >>> (v27 >>> Grim2Mode.oOo00Oo0OOo0[266] | v27 << Grim2Mode.oOo00Oo0OOo0[267]) * Grim2Mode.oOo00Oo0OOo0[268];
-                                                    var24_2[11] = new char[(int)var25_3[5]];
-                                                    var22_7 = 271013426;
-                                                    v28 = Grim2Mode.oOo00Oo0OOo0[269];
-                                                    var25_3[1] = var26_4 = -2898907172315729988L;
-                                                    v29 = var25_3[1];
-                                                    v30 = Grim2Mode.oOo00Oo0OOo0[275] ^ Grim2Mode.oOo00Oo0OOo0[276];
-                                                    var25_3[1] = var26_4 = v29 ^ ((long)((v28 >>> Grim2Mode.oOo00Oo0OOo0[270] | v28 << Grim2Mode.oOo00Oo0OOo0[271]) ^ Grim2Mode.oOo00Oo0OOo0[272]) << -Grim2Mode.oOo00Oo0OOo0[273] * Grim2Mode.oOo00Oo0OOo0[274] ^ v29) & -1L << (v30 >>> Grim2Mode.oOo00Oo0OOo0[277] | v30 << Grim2Mode.oOo00Oo0OOo0[278]);
-                                                    while ((int)(var25_3[1] >>> (Grim2Mode.oOo00Oo0OOo0[279] * Grim2Mode.oOo00Oo0OOo0[280] ^ Grim2Mode.oOo00Oo0OOo0[281])) < (int)var25_3[5]) {
-                                                        v31 = Grim2Mode.oOo00Oo0OOo0[282];
-                                                        v32 = v31 << Grim2Mode.oOo00Oo0OOo0[283] | v31 >>> Grim2Mode.oOo00Oo0OOo0[284];
-                                                        v33 = -Grim2Mode.oOo00Oo0OOo0[287];
-                                                        ((char[])var24_2[11])[(int)(var25_3[1] >>> (v32 << Grim2Mode.oOo00Oo0OOo0[285] | v32 >>> Grim2Mode.oOo00Oo0OOo0[286]))] = ((char[])var24_2[9])[(int)var25_3[19] + (int)(var25_3[1] >>> -((v33 << Grim2Mode.oOo00Oo0OOo0[288] | v33 >>> Grim2Mode.oOo00Oo0OOo0[289]) * Grim2Mode.oOo00Oo0OOo0[290]))];
-                                                        var25_3[1] = var26_4 = var25_3[1] + 0x100000000L;
-                                                    }
-                                                    break block22;
-                                                    break;
-                                                }
-                                                break;
-                                            }
-                                            break;
-                                        }
-                                    }
-                                    break block23;
-                                    break;
-                                }
-                            }
-                            if ((var29 = 1097738985) != var29) {
-                                Grim2Mode.oo000o00Oo00 = var29 = 1369053691;
-                            }
-                            break block25;
-                        }
-                        var25_3[5] = var26_4 = var25_3[5] + 0x100000000L;
-                        Grim2Mode.oO00O0OO0ooO[(int)(var25_3[5] >>> ((Grim2Mode.oOo00Oo0OOo0[291] ^ Grim2Mode.oOo00Oo0OOo0[292] ^ Grim2Mode.oOo00Oo0OOo0[293]) * Grim2Mode.oOo00Oo0OOo0[294] ^ Grim2Mode.oOo00Oo0OOo0[295]))] = new String((char[])var24_2[11]);
-                        v34 = var25_3[19];
-                        v35 = Grim2Mode.oOo00Oo0OOo0[296] * Grim2Mode.oOo00Oo0OOo0[297];
-                        var25_3[19] = var26_4 = v34 ^ ((long)((int)var25_3[19] + (int)var25_3[5]) ^ v34) & -1L >>> (v35 >>> Grim2Mode.oOo00Oo0OOo0[298] | v35 << Grim2Mode.oOo00Oo0OOo0[299]) - Grim2Mode.oOo00Oo0OOo0[300] + Grim2Mode.oOo00Oo0OOo0[301];
-                        ** while (true)
-                    }
-lbl83:
-                    // 2 sources
-
-                    return;
-                }
-                switch (var21_6) {
-                    default: {
-                        ** continue;
-                    }
-                    case 1720671658: {
-                        ** continue;
-                    }
-                    ** case -761045816:
-lbl92:
-                    // 1 sources
-
-                    ** continue;
-                }
-            }
-            var24_2 = new Object[24];
-            var25_3 = new long[24];
-            var19_1 = 1948584383;
-            block18: while (true) {
-                switch (var19_1) {
-                    default: {
-                        Grim2Mode.0OOOoo00o0();
-                        Grim2Mode.o0o000o0O0o0 = new String[Grim2Mode.oOo00Oo0OOo0[163]];
-                        var19_1 = 656411144;
-                        continue block18;
-                    }
-                    case 656411144: 
-                }
-                break;
-            }
-            Grim2Mode.ooo00oo0Ooo0 = new String[Grim2Mode.oOo00Oo0OOo0[164]];
-            v36 = -Grim2Mode.oOo00Oo0OOo0[165];
-            Grim2Mode.oO00O0OO0ooO = new Object[v36 >>> Grim2Mode.oOo00Oo0OOo0[166] | v36 << Grim2Mode.oOo00Oo0OOo0[167]];
-            var25_3[5] = var26_4 = -7184135858809340221L;
-            v37 = var25_3[5];
-            v38 = Grim2Mode.oOo00Oo0OOo0[174] ^ Grim2Mode.oOo00Oo0OOo0[175];
-            var25_3[5] = var26_4 = v37 ^ ((long)(Grim2Mode.oOo00Oo0OOo0[168] - Grim2Mode.oOo00Oo0OOo0[169] ^ Grim2Mode.oOo00Oo0OOo0[170]) << Grim2Mode.oOo00Oo0OOo0[171] * Grim2Mode.oOo00Oo0OOo0[172] * Grim2Mode.oOo00Oo0OOo0[173] ^ v37) & -1L << (v38 >>> Grim2Mode.oOo00Oo0OOo0[176] | v38 << Grim2Mode.oOo00Oo0OOo0[177]) * Grim2Mode.oOo00Oo0OOo0[178] + Grim2Mode.oOo00Oo0OOo0[179];
-            ** while ((v4 = Grim2Mode.ooo00oo0Ooo0[Grim2Mode.oOo00Oo0OOo0[180]]) != null)
-lbl113:
-            // 1 sources
-
-            v5 = Grim2Mode.oOo00Oo0OOo0[181];
-            ** while ((v3 = Grim2Mode.o0o000o0O0o0[Grim2Mode.oOo00Oo0OOo0[182]]) != null)
-lbl115:
-            // 1 sources
-
-            var24_2[7] = "\ua245\ua0c4\ua307\u9d46\ua2d9\ua278\u9e8b\ua05a\ua2cd\u9b5c\u9b4f\ua23e\ua221\ua1d0\u9bc3\u9b62\ua1f5\ua2d4\ua1e7\u9556\ua2d9\ua268\u967b\ua1ca\u968d\ua10c\ua0cf\ua16e\ua231\u9c90\u9cc3\ua182\u95b5\u9614\u9737\u9cd6\u9d19\u96d8\u9d2b\ua25a\u967d\ua30c\u9daf\u973e\ua191\u9d20\u9fc3\ua1d2\u9cd5\u96a4\u9fa7\u9646\u9d69\ua288\u9f5b\u96ea\ua11d\u9f6c\u9d3f\ua02e\ua001\ua1b0\ua043\ua282\ua095\ua004\u9db7\ua276\ua159\ua068\ua2cb\ua12a\ua10d\ua2ac\u9b7f\ua18e\ua311\u9b80\ua263\u9bf2\ua105\ua094\u9637\u9616\ua159\u9648\ua10b\ua11a\ua24d\ua16c\u9baf\ua1de\u9b81\u9be0\u9c23\u9b72\u95c5\u9d34\u9ce7\u9c46\u9d09\u9708\ua0fb\u969a\u970d\u9c4c\u964f\u9d1e\u9741\u9f80\u96a3\u9d22\ua235\u9d04\u9727\u9fe6\ua029\u9d18\u96db\u971a\u973d\ua02c\u9d7f\u9dbe\u9d31\u9f70\u9da3\u9f62\ua315\ua2a4\ua087\ua306\ua299\ua098\u9bfb\ua29a\ua2dd\u9eec\ua18f\ua1fe\u5470\ua340\ua193\u5573\u5634\ua184\ua337\ua246\ua219\ua1f8\u9bfb\u9b8a\ua24d\ua1bc\ua05f\u9b8e\u55c0\u9c10\u9b63\u5683\u56f4\u9b64\u9b77\u9c56\u9c99\u9cb8\u9b6b\u600b\u9e0d\u9c6c\u603e\u56df\u6030\u5581\u9e33\u5f73\u6014\u9d24\u5676\u5f77\u56a8\u56f9\u60da\u56bb\u631c\u5fed\u613e\u605f\u5f60\u5f81\u62b2\u6043\u6284\u5f75\u6326\u5be7\u9e09\u6329\u613a\u61db\u5fbc\u5c3d\u60fe\u5fbf\u5bf0\u61f1\u6182\u5c03\u55a4\u5565\u6116\u62a7\u62f8\u6269\u560a\u556b".toCharArray();
-            var25_3[13] = var26_4 = (long)Grim2Mode.oOo00Oo0OOo0[183];
-            ** GOTO lbl9
-        }
-        v0 = (char[])var24_2[7];
-        v1 = (int)var25_3[13];
-        v2 = (char)((char)((char)((char)((char)(v0[v1] ^ Grim2Mode.oOo00Oo0OOo0[184]) + Grim2Mode.oOo00Oo0OOo0[185]) + Grim2Mode.oOo00Oo0OOo0[186]) ^ v1) ^ Grim2Mode.oOo00Oo0OOo0[187]);
-        ** while (true)
-    }
+    static { /* RISE-PORT STUB: initializer unrestored */ }
 }
 

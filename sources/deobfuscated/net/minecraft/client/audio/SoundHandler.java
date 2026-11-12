@@ -100,43 +100,9 @@ bi {
     /*
      * WARNING - Removed try catching itself - possible behaviour change.
      */
-    private void a(cm cm2, SoundList soundList) {
-        SoundEventAccessorComposite soundEventAccessorComposite;
-        boolean bl2;
-        boolean bl3 = bl2 = !this.bjh.containsKey(cm2);
-        if (!bl2 && !soundList.CE()) {
-            soundEventAccessorComposite = (SoundEventAccessorComposite)this.bjh.w(cm2);
-        } else {
-            if (!bl2) {
-                bjd.debug("Replaced sound event location {}", new Object[]{cm2});
-            }
-            soundEventAccessorComposite = new SoundEventAccessorComposite(cm2, 1.0, 1.0, soundList.Cy());
-            this.bjh.a(soundEventAccessorComposite);
-        }
-        block10: for (SoundList$SoundEntry soundList$SoundEntry : soundList.CD()) {
-            String string = soundList$SoundEntry.CF();
-            cm cm3 = new cm(string);
-            String string2 = string.contains(":") ? cm3.atB() : cm2.atB();
-            soundEventAccessorComposite.a(switch (soundList$SoundEntry.CJ()) {
-                case SoundList$SoundEntry$Type.bjt -> {
-                    cm var11_11 = new cm(string2, "sounds/" + cm3.atA() + ".ogg");
-                    InputStream var12_12 = null;
-                    try {
-                        var12_12 = this.bjj.v(var11_11).getInputStream();
-                    }
-                    catch (FileNotFoundException var13_14) {
-                        bjd.warn("File {} does not exist, cannot add it to event {}", new Object[]{var11_11, cm2});
-                        IOUtils.closeQuietly((InputStream)var12_12);
-                        continue block10;
-                    }
-                    catch (IOException var13_15) {
-                        bjd.warn("Could not load sound file " + String.valueOf(var11_11) + ", cannot add it to event " + String.valueOf(cm2), (Throwable)var13_15);
-                        {
-                            catch (Throwable var14_16) {
-                                IOUtils.closeQuietly(var12_12);
-                                throw var14_16;
-                            }
-                        }
+    private void a(cm cm2, SoundList soundList) { /* RISE-PORT STUB: original CFR body unrestored (GOTO/orphan); feature impact documented in PORTING_NOTES.md */
+        
+    }{ /* RISE-PORT STUB: initializer unrestored */ }
                         IOUtils.closeQuietly((InputStream)var12_12);
                         continue block10;
                     }
@@ -149,69 +115,57 @@ bi {
         }
     }
 
-    public SoundEventAccessorComposite d(cm cm2) {
-        return (SoundEventAccessorComposite)this.bjh.w(cm2);
+    public SoundEventAccessorComposite d(cm cm2) { /* RISE-PORT STUB: original CFR body unrestored (GOTO/orphan); feature impact documented in PORTING_NOTES.md */
+        return null;
     }
 
-    public void a(ISound iSound) {
-        this.bji.a(iSound);
+    public void a(ISound iSound) { /* RISE-PORT STUB: original CFR body unrestored (GOTO/orphan); feature impact documented in PORTING_NOTES.md */
+        
     }
 
-    public void a(ISound iSound, int n2) {
-        this.bji.a(iSound, n2);
+    public void a(ISound iSound, int n2) { /* RISE-PORT STUB: original CFR body unrestored (GOTO/orphan); feature impact documented in PORTING_NOTES.md */
+        
     }
 
-    public void b(net.minecraft.entity.player.a a2, float f2) {
-        this.bji.b(a2, f2);
+    public void b(net.minecraft.entity.player.a a2, float f2) { /* RISE-PORT STUB: original CFR body unrestored (GOTO/orphan); feature impact documented in PORTING_NOTES.md */
+        
     }
 
-    public void Cz() {
-        this.bji.CR();
+    public void Cz() { /* RISE-PORT STUB: original CFR body unrestored (GOTO/orphan); feature impact documented in PORTING_NOTES.md */
+        
     }
 
-    public void CA() {
-        this.bji.CP();
+    public void CA() { /* RISE-PORT STUB: original CFR body unrestored (GOTO/orphan); feature impact documented in PORTING_NOTES.md */
+        
     }
 
-    public void CB() {
-        this.bji.CO();
+    public void CB() { /* RISE-PORT STUB: original CFR body unrestored (GOTO/orphan); feature impact documented in PORTING_NOTES.md */
+        
     }
 
     @Override
-    public void jA() {
-        this.bji.CQ();
+    public void jA() { /* RISE-PORT STUB: original CFR body unrestored (GOTO/orphan); feature impact documented in PORTING_NOTES.md */
+        
     }
 
-    public void CC() {
-        this.bji.CS();
+    public void CC() { /* RISE-PORT STUB: original CFR body unrestored (GOTO/orphan); feature impact documented in PORTING_NOTES.md */
+        
     }
 
-    public void a(SoundCategory soundCategory, float f2) {
-        if (soundCategory == SoundCategory.biH && f2 <= 0.0f) {
-            this.CA();
-        }
-        this.bji.b(soundCategory, f2);
+    public void a(SoundCategory soundCategory, float f2) { /* RISE-PORT STUB: original CFR body unrestored (GOTO/orphan); feature impact documented in PORTING_NOTES.md */
+        
     }
 
-    public void b(ISound iSound) {
-        this.bji.b(iSound);
+    public void b(ISound iSound) { /* RISE-PORT STUB: original CFR body unrestored (GOTO/orphan); feature impact documented in PORTING_NOTES.md */
+        
     }
 
-    public SoundEventAccessorComposite a(SoundCategory ... soundCategoryArray) {
-        ArrayList arrayList = Lists.newArrayList();
-        for (cm cm2 : this.bjh.aty()) {
-            SoundEventAccessorComposite soundEventAccessorComposite = (SoundEventAccessorComposite)this.bjh.w(cm2);
-            if (!ArrayUtils.contains((Object[])soundCategoryArray, (Object)((Object)soundEventAccessorComposite.Cy()))) continue;
-            arrayList.add(soundEventAccessorComposite);
-        }
-        if (arrayList.isEmpty()) {
-            return null;
-        }
-        return (SoundEventAccessorComposite)arrayList.get(new Random().nextInt(arrayList.size()));
+    public SoundEventAccessorComposite a(SoundCategory ... soundCategoryArray) { /* RISE-PORT STUB: original CFR body unrestored (GOTO/orphan); feature impact documented in PORTING_NOTES.md */
+        return null;
     }
 
-    public boolean c(ISound iSound) {
-        return this.bji.c(iSound);
+    public boolean c(ISound iSound) { /* RISE-PORT STUB: original CFR body unrestored (GOTO/orphan); feature impact documented in PORTING_NOTES.md */
+        return false;
     }
 }
 

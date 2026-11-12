@@ -23,12 +23,12 @@ public class l {
     public static volatile /* synthetic */ long eTy;
     public static /* synthetic */ Object[] oOo00Oo0OOo0;
     public static /* synthetic */ Object[] oo000o00Oo00;
-    public static /* synthetic */ String 0OOOoo00o0;
+    public static /* synthetic */ String q0OOOoo00o0;
     public static volatile /* synthetic */ long eTp;
     public static volatile /* synthetic */ long eTv;
     public static /* synthetic */ SecureRandom eTk;
     public static volatile /* synthetic */ long eTm;
-    public static /* synthetic */ String 0oOOoOo0O00O;
+    public static /* synthetic */ String q0oOOoOo0O00O;
     public static /* synthetic */ String o0Oo000O0oO;
     public static volatile /* synthetic */ byte[] eTl;
     public static volatile /* synthetic */ long eTw;
@@ -73,7 +73,10 @@ public class l {
 
     public static /* bridge */ native strictfp /* synthetic */ void aMN();
 
-    public static /* bridge */ native strictfp /* synthetic */ String o0Oo000O0oO(int var0, String var1);
+    public static String o0Oo000O0oO(int var0, String var1) {
+        /* ANDROID/VANILLA PORT NOTE: JNI native replaced by pure-Java nl.StringDecryptor. */
+        return nl.StringDecryptor.decrypt(var0, var1);
+    }
 
     public static /* bridge */ native strictfp /* synthetic */ boolean aMv();
 
@@ -99,7 +102,7 @@ public class l {
 
     public static /* bridge */ native strictfp /* synthetic */ long aMn();
 
-    private static native /* synthetic */ void 0OOOoo00o0();
+    private static void q0OOOoo00o0() {}
 
     public static /* bridge */ native strictfp /* synthetic */ void aMA();
 
@@ -136,7 +139,6 @@ public class l {
     public static /* bridge */ native strictfp /* synthetic */ int aMD();
 
     static {
-        Loader.registerNativesForClass(23, l.class);
         Hidden0.special_clinit_23_420(l.class);
     }
 

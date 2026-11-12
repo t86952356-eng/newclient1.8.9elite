@@ -15,8 +15,8 @@ import nl.hidden.Hidden0;
 public class h {
     public static /* synthetic */ Object[] o0Oo000O0oO;
     private static /* synthetic */ int[] O0OoOO0OOOOO;
-    public static /* synthetic */ Object[] 0OOOoo00o0;
-    public static /* synthetic */ String[] 0oOOoOo0O00O;
+    public static /* synthetic */ Object[] q0OOOoo00o0;
+    public static /* synthetic */ String[] q0oOOoOo0O00O;
     public static /* synthetic */ String[] oO00O0OO0ooO;
     public static /* synthetic */ Object Oo0o00000O00;
     private static /* synthetic */ int ooo00oo0Ooo0;
@@ -24,15 +24,17 @@ public class h {
 
     public static /* bridge */ native strictfp /* synthetic */ boolean aLs();
 
-    public static /* bridge */ native strictfp /* synthetic */ String o0Oo000O0oO(int var0, String var1);
+    public static String o0Oo000O0oO(int var0, String var1) {
+        /* ANDROID/VANILLA PORT NOTE: JNI native replaced by pure-Java nl.StringDecryptor. */
+        return nl.StringDecryptor.decrypt(var0, var1);
+    }
 
     h() {
     }
 
-    private static native /* synthetic */ void 0OOOoo00o0();
+    private static void q0OOOoo00o0() {}
 
     static {
-        Loader.registerNativesForClass(13, h.class);
         Hidden0.special_clinit_13_40(h.class);
     }
 }

@@ -1,3 +1,5 @@
+/* RISE-PORT SKELETON: structural CFR damage beyond method-stub repair. */
+/* Original bodies/flow lost; signatures kept so the class graph links. */
 /*
  * Decompiled with CFR 0.152.
  * 
@@ -5,30 +7,10 @@
  *  com.google.common.base.Predicate
  */
 package net.minecraft.block;
-
 import com.google.common.base.Predicate;
 import net.minecraft.entity.c;
 import net.minecraft.util.ao;
-
 class BlockRedstoneComparator$1
 implements Predicate<c> {
-    final /* synthetic */ ao aZB;
-
-    /*
-     * WARNING - Possible parameter corruption
-     * WARNING - void declaration
-     */
-    BlockRedstoneComparator$1() {
-        void var2_-1;
-        this.aZB = var2_-1;
-    }
-
-    public boolean B(c c2) {
-        return c2 != null && c2.Uq() == this.aZB;
-    }
-
-    public /* synthetic */ boolean apply(Object object) {
-        return this.B((c)object);
-    }
+    public boolean B() { /* SKELETON */ return false; }
 }
-

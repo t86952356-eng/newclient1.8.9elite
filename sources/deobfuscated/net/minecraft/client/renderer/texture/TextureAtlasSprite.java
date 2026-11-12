@@ -80,7 +80,7 @@ public class TextureAtlasSprite {
         return bYZ.equals(string) ? new TextureClock(string) : (bZa.equals(string) ? new TextureCompass(string) : new TextureAtlasSprite(string));
     }
 
-    public static void do(String string) {
+    public static void j_do(String string) {
         bYZ = string;
     }
 

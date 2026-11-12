@@ -48,16 +48,9 @@ extends GuiScreen {
         this.btf = new c(1, this.width / 2 - 152, this.height - 30, 150, 20, this.bsZ.c(net.minecraft.client.settings.c.ckd));
         this.buttonList.add(this.btf);
         this.buttonList.add(new c(2, this.width / 2 + 2, this.height - 30, 150, 20, I18n.a("gui.done", new Object[0])));
-        if (cn.aER.Bg() == null) ** GOTO lbl-1000
-        if (cn.aER.Bg().Bi() != null) {
-            v0 = true;
-        } else lbl-1000:
-        // 2 sources
-
-        {
-            v0 = false;
-        }
-        var3_3 = v0;
+        /* ANDROID/VANILLA PORT NOTE: CFR GOTO lbl-1000 restructured. */
+        boolean v0 = cn.aER.Bg() != null && cn.aER.Bg().Bi() != null;
+        boolean var3_3 = v0;
         for (Map.Entry<String, String> var5_5 : new TreeMap<String, String>(cn.aER.Bi().ajp()).entrySet()) {
             this.bta.add((var3_3 != false ? "C " : "") + var5_5.getKey());
             this.btb.add(this.fontRendererObj.k(var5_5.getValue(), this.width - 220));

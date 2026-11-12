@@ -11,10 +11,10 @@ import hackclient.rise.zg;
  */
 public class zj
 extends zg {
-    public static /* synthetic */ Object[] 0OOOoo00o0;
+    public static /* synthetic */ Object[] q0OOOoo00o0;
     public static /* synthetic */ Object Oo0o00000O00;
     private static /* synthetic */ int[] O0OoOO0OOOOO;
-    public static /* synthetic */ String[] 0oOOoOo0O00O;
+    public static /* synthetic */ String[] q0oOOoOo0O00O;
     public static /* synthetic */ Object[] o0Oo000O0oO;
     public static /* synthetic */ String[] oO00O0OO0ooO;
     private static /* synthetic */ int ooo00oo0Ooo0;
@@ -23,7 +23,7 @@ extends zg {
     /*
      * Enabled aggressive block sorting
      */
-    private static /* synthetic */ void 0OOOoo00o0() {
+    private static /* synthetic */ void q0OOOoo00o0() {
         int n2 = -429803471;
         if (n2 != n2) {
             n2 = 17;
@@ -744,8 +744,8 @@ extends zg {
         }
         Object[] objectArray = new Object[24];
         long[] lArray = new long[24];
-        zj.0OOOoo00o0();
-        0oOOoOo0O00O = new String[O0OoOO0OOOOO[59]];
+        zj.q0OOOoo00o0();
+        q0oOOoOo0O00O = new String[O0OoOO0OOOOO[59]];
         oO00O0OO0ooO = new String[O0OoOO0OOOOO[60]];
         int n3 = -1868168852;
         int n4 = O0OoOO0OOOOO[61] ^ O0OoOO0OOOOO[62];
@@ -758,7 +758,7 @@ extends zg {
         String string = oO00O0OO0ooO[O0OoOO0OOOOO[76]];
         if (string == null) {
             int n7 = O0OoOO0OOOOO[77];
-            String string2 = 0oOOoOo0O00O[O0OoOO0OOOOO[78]];
+            String string2 = q0oOOoOo0O00O[O0OoOO0OOOOO[78]];
             if (string2 == null) {
                 objectArray[2] = "\ud520\ud50c\ud578\ud4fa\ud508\ud54c\ud542\ud4c6\ud524\ud4d2\ud54a\ud4fa\ud50a\ud4b4\ud4ce\ud576\ud566\ud560\ud4b2\ud550\ud57a\ud564\ud50e\ud4c0\ud55e\ud532\ud55c\ud4e6\ud4e2\ud546\ud52c\ud548\ud4ce\ud532\ud55a\ud4d2\ud508\ud514\ud51a\ud562\ud55e\ud4f4\ud51e\ud57e\ud51a\ud4c0\ud5aa\ud568\ud594\ud54c\ud50a\ud59a\ud4b4\ud54a\ud4c0\ud4f0\ud558\ud590\ud558\ud4ee\ud4ee\ud52c\ud4e0\ud56c\ud5a0\ud550\ud4ee\ud510\ud542\ud5b2\ud5ac\ud574\ud54c\ud5aa\ud4d4\ud534\ud50c\ud4f4\ud4d0\ud550\ud4ee\ud4cc\ud59c\ud4c8\ud52a\ud59a\ud4da\ud59a\ud5b4\ud4ea\ud532\ud58c\ud530\ud554\ud54e\ud576\ud598\ud4ca\ud590\ud53c\ud570\ud582\ud61e\ud560\ud556\ud4d0\ud57e\ud612\ud536\ud5bc\ud538\ud628\ud53a\ud5a0\ud53c\ud626\ud574\ud53e\ud558\ud61c\ud59e\ud562\ud570\ud4a8\ud52e\ud530\ud4a4\ud51c\ud65e\ud638\ud510\ud4ca\ud638\ud638\ud500\ud4dc\ud626\ud50c\ud656\ud616\ud66a\ud4b0\ud678\ud662\ud640\ud4da\ud622\ud4dc\ud662\ud664\ud64a\ud63c\ud612\ud18c\ud65a\ud62e\ud62e\ud64a\ud262\ud628\ud4ce\ud61e\ud602\ud1b2\ud63a\ud1b0\ud608\ud61c\ud668\ud640\ud190\ud240".toCharArray();
                 lArray[17] = l2 = (long)O0OoOO0OOOOO[79];
@@ -769,7 +769,7 @@ extends zg {
                     cArray[n8] = (char)((char)((char)((char)((char)((char)((char)(c2 >>> O0OoOO0OOOOO[86] | c2 << O0OoOO0OOOOO[87]) + O0OoOO0OOOOO[88]) - O0OoOO0OOOOO[89]) + O0OoOO0OOOOO[90]) ^ O0OoOO0OOOOO[91]) ^ O0OoOO0OOOOO[92]) ^ O0OoOO0OOOOO[93]);
                     lArray[17] = l2 = (long)((int)lArray[17] + 1);
                 }
-                string2 = zj.0oOOoOo0O00O[zj.O0OoOO0OOOOO[94]] = new String((char[])objectArray[2]);
+                string2 = zj.q0oOOoOo0O00O[zj.O0OoOO0OOOOO[94]] = new String((char[])objectArray[2]);
             }
             string = zj.o0Oo000O0oO(n7, string2);
         }

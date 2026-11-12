@@ -60,35 +60,8 @@ public class d {
     /*
      * Unable to fully structure code
      */
-    private static String ja(String var0) {
-        var1_1 = new StringBuilder();
-        var2_2 = null;
-        var3_3 = null;
-        var4_4 = new StringReader(var0);
-        var5_5 = new BufferedReader(var4_4);
-        block0: while (true) {
-            if ((var6_6 = var5_5.readLine()) == null) {
-                return var1_1.toString();
-            }
-            if (!e.jc(var6_6)) continue;
-            if (var1_1.length() == 0) {
-                var1_1.append(m.aIb());
-            }
-            if (var3_3 == null) {
-                var3_3 = new ArrayList<l>(Arrays.asList(m.aIa()));
-            }
-            var7_7 = var3_3.iterator();
-            while (true) {
-                if (var7_7.hasNext()) ** break;
-                continue block0;
-                var8_8 = (l)var7_7.next();
-                if (!var6_6.contains(var8_8.getName())) continue;
-                var1_1.append(var8_8.aHV());
-                var1_1.append("\n");
-                var7_7.remove();
-            }
-            break;
-        }
+    private static String ja(String var0) { /* RISE-PORT STUB: original CFR body unrestored (GOTO/orphan); feature impact documented in PORTING_NOTES.md */
+        return "";
     }
 
     private static List<o> aHr() {

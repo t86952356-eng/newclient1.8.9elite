@@ -50,7 +50,6 @@ extends a {
     public native int aJK();
 
     static {
-        Loader.registerNativesForClass(7, c.class);
         Hidden0.special_clinit_7_90(c.class);
     }
 }

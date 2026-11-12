@@ -24,13 +24,13 @@ import org.json.JSONObject;
 public class b
 extends rip.vantage.commons.packet.api.abstracts.b {
     public static /* synthetic */ Object Oo0o00000O00;
-    public static /* synthetic */ String[] 0oOOoOo0O00O;
+    public static /* synthetic */ String[] q0oOOoOo0O00O;
     private static /* synthetic */ int[] O0OoOO0OOOOO;
     public /* synthetic */ int eQJ;
     public static /* synthetic */ String[] oO00O0OO0ooO;
     public /* synthetic */ String eQI;
     public /* synthetic */ String eQK;
-    public static /* synthetic */ Object[] 0OOOoo00o0;
+    public static /* synthetic */ Object[] q0OOOoo00o0;
     public static /* synthetic */ Object[] o0Oo000O0oO;
     private static /* synthetic */ int ooo00oo0Ooo0;
     private static /* synthetic */ boolean o0o000o0O0o0;
@@ -65,7 +65,7 @@ extends rip.vantage.commons.packet.api.abstracts.b {
         block8: while (true) {
             switch (n3) {
                 default: {
-                    b.0OOOoo00o0();
+                    b.q0OOOoo00o0();
                     n3 = 238757029;
                     continue block8;
                 }
@@ -73,7 +73,7 @@ extends rip.vantage.commons.packet.api.abstracts.b {
             }
             break;
         }
-        0oOOoOo0O00O = new String[O0OoOO0OOOOO[42]];
+        q0oOOoOo0O00O = new String[O0OoOO0OOOOO[42]];
         oO00O0OO0ooO = new String[O0OoOO0OOOOO[43]];
         int n4 = O0OoOO0OOOOO[44];
         int n5 = (n4 >>> O0OoOO0OOOOO[45] | n4 << O0OoOO0OOOOO[46]) * O0OoOO0OOOOO[47] ^ O0OoOO0OOOOO[48];
@@ -87,7 +87,7 @@ extends rip.vantage.commons.packet.api.abstracts.b {
         String string = oO00O0OO0ooO[O0OoOO0OOOOO[66]];
         if (string == null) {
             int n9 = O0OoOO0OOOOO[67];
-            String string2 = 0oOOoOo0O00O[O0OoOO0OOOOO[68]];
+            String string2 = q0oOOoOo0O00O[O0OoOO0OOOOO[68]];
             if (string2 == null) {
                 objectArray[14] = "\u4502\u8e91\u7320\u25af\u8b3e\u0ccd\u195c\u71eb\u117a\u7309\u5998\u5a27\u6bb6\ua745\ub1d4\u7063\u39f2\u4f81\u5e10\u429f\u6a2e\u2fbd\u6c4c\u24db\u4e6a\u99f9\u3a88\u5717\u36a6\u5e35\uc4c4\uc553\uc0e2\u7471\u5b00\u898f\u511e\u80ad\u973c\u4bcb\u4d5a\u5ae9\ueb78\u5c07\ue996\u5325\u51b4\ue843\uc9d2\u8761\u99f0\uc27f\ue00e\u879d\uca2c\uaebb\ua24a\u93d9\uee68\ueaf7\u7e86\ud815\ud0a4\u7533\uf4c2\ua851\ub8e0\uf96f\ua6fe\ue28d\u711c\uffab\ud73a\uc8c9\u2159\u79e7\ue376\ud105\uc394\ube23\u9bb2\u9941\ubbd0\uee5f\ud1ee\uf97d\u2c0d\u2a9c".toCharArray();
                 lArray[3] = l2 = (long)O0OoOO0OOOOO[69];
@@ -100,7 +100,7 @@ extends rip.vantage.commons.packet.api.abstracts.b {
                     cArray[n10] = (char)((char)((char)(c4 << O0OoOO0OOOOO[75] | c4 >>> O0OoOO0OOOOO[76]) + n10) - O0OoOO0OOOOO[77]);
                     lArray[3] = l2 = (long)((int)lArray[3] + 1);
                 }
-                string2 = b.0oOOoOo0O00O[b.O0OoOO0OOOOO[78]] = new String((char[])objectArray[14]);
+                string2 = b.q0oOOoOo0O00O[b.O0OoOO0OOOOO[78]] = new String((char[])objectArray[14]);
             }
             string = b.o0Oo000O0oO(n9, string2);
         }
@@ -198,262 +198,14 @@ extends rip.vantage.commons.packet.api.abstracts.b {
      * Unable to fully structure code
      * Enabled aggressive block sorting
      */
-    public static /* bridge */ strictfp /* synthetic */ String o0Oo000O0oO(int var0, String var1_1) {
-        block35: {
-            block36: {
-                var34_2 = -127142574;
-                if (var34_2 != var34_2) {
-                    50 + 6;
-                }
-                if ((var34_2 = 83087313) != var34_2) {
-                    b.ooo00oo0Ooo0 = var34_2 = 341230074;
-                }
-                if ((var34_2 = -97923494) != var34_2) {
-                    45 & 1;
-                }
-                if ((var34_2 = -2089401296) != var34_2) {
-                }
-                var29_6 = new Object[27];
-                var30_7 = new long[27];
-                var22_3 = 1986485527;
-                v0 = b.0OOOoo00o0;
-                if (b.0OOOoo00o0 == null) {
-                    v1 = new Object[b.O0OoOO0OOOOO[192]];
-                    b.0OOOoo00o0 = v1;
-                    v0 = v1;
-                    var29_6[9] = new byte[b.O0OoOO0OOOOO[194] ^ b.O0OoOO0OOOOO[195]];
-                    ((byte[])var29_6[9])[b.O0OoOO0OOOOO[196] ^ b.O0OoOO0OOOOO[197]] = b.O0OoOO0OOOOO[198] ^ b.O0OoOO0OOOOO[199];
-                    ((byte[])var29_6[9])[b.O0OoOO0OOOOO[200] ^ b.O0OoOO0OOOOO[201]] = b.O0OoOO0OOOOO[202] ^ b.O0OoOO0OOOOO[203];
-                    ((byte[])var29_6[9])[b.O0OoOO0OOOOO[204] ^ b.O0OoOO0OOOOO[205]] = b.O0OoOO0OOOOO[206] ^ b.O0OoOO0OOOOO[207];
-                    ((byte[])var29_6[9])[b.O0OoOO0OOOOO[208] ^ b.O0OoOO0OOOOO[209]] = b.O0OoOO0OOOOO[210] ^ b.O0OoOO0OOOOO[211];
-                    ((byte[])var29_6[9])[b.O0OoOO0OOOOO[212] ^ b.O0OoOO0OOOOO[213]] = b.O0OoOO0OOOOO[214] ^ b.O0OoOO0OOOOO[215];
-                    ((byte[])var29_6[9])[b.O0OoOO0OOOOO[216] ^ b.O0OoOO0OOOOO[217]] = b.O0OoOO0OOOOO[218] ^ b.O0OoOO0OOOOO[219];
-                    ((byte[])var29_6[9])[b.O0OoOO0OOOOO[220] ^ b.O0OoOO0OOOOO[221]] = b.O0OoOO0OOOOO[222] ^ b.O0OoOO0OOOOO[223];
-                    ((byte[])var29_6[9])[b.O0OoOO0OOOOO[224] ^ b.O0OoOO0OOOOO[225]] = b.O0OoOO0OOOOO[226] ^ b.O0OoOO0OOOOO[227];
-                    ((byte[])var29_6[9])[b.O0OoOO0OOOOO[228] ^ b.O0OoOO0OOOOO[229]] = b.O0OoOO0OOOOO[230] ^ b.O0OoOO0OOOOO[231];
-                    ((byte[])var29_6[9])[b.O0OoOO0OOOOO[232] ^ b.O0OoOO0OOOOO[233]] = b.O0OoOO0OOOOO[234] ^ b.O0OoOO0OOOOO[235];
-                    ((byte[])var29_6[9])[b.O0OoOO0OOOOO[236] ^ b.O0OoOO0OOOOO[237]] = b.O0OoOO0OOOOO[238] ^ b.O0OoOO0OOOOO[239];
-                    ((byte[])var29_6[9])[b.O0OoOO0OOOOO[240] ^ b.O0OoOO0OOOOO[241]] = b.O0OoOO0OOOOO[242] ^ b.O0OoOO0OOOOO[243];
-                    ((byte[])var29_6[9])[b.O0OoOO0OOOOO[244] ^ b.O0OoOO0OOOOO[245]] = b.O0OoOO0OOOOO[246] ^ b.O0OoOO0OOOOO[247];
-                    ((byte[])var29_6[9])[b.O0OoOO0OOOOO[248] ^ b.O0OoOO0OOOOO[249]] = b.O0OoOO0OOOOO[250] ^ b.O0OoOO0OOOOO[251];
-                    ((byte[])var29_6[9])[b.O0OoOO0OOOOO[252] ^ b.O0OoOO0OOOOO[253]] = b.O0OoOO0OOOOO[254] ^ b.O0OoOO0OOOOO[255];
-                    ((byte[])var29_6[9])[b.O0OoOO0OOOOO[256] ^ b.O0OoOO0OOOOO[257]] = b.O0OoOO0OOOOO[258] ^ b.O0OoOO0OOOOO[259];
-                    v1[b.O0OoOO0OOOOO[193]] = (byte[])var29_6[9];
-                }
-                var29_6[2] = (byte[])v0[b.O0OoOO0OOOOO[260]];
-                var23_4 = -1168196099;
-                if (b.Oo0o00000O00 != null) ** GOTO lbl55
-                var29_6[5] = new byte[b.O0OoOO0OOOOO[261] ^ b.O0OoOO0OOOOO[262]];
-                ((byte[])var29_6[5])[b.O0OoOO0OOOOO[263] ^ b.O0OoOO0OOOOO[264]] = b.O0OoOO0OOOOO[265] ^ b.O0OoOO0OOOOO[266];
-                ((byte[])var29_6[5])[b.O0OoOO0OOOOO[267] ^ b.O0OoOO0OOOOO[268]] = b.O0OoOO0OOOOO[269] ^ b.O0OoOO0OOOOO[270];
-                ((byte[])var29_6[5])[b.O0OoOO0OOOOO[271] ^ b.O0OoOO0OOOOO[272]] = b.O0OoOO0OOOOO[273] ^ b.O0OoOO0OOOOO[274];
-                var24_5 = 56507422;
-                break block36;
-                while (true) {
-                    v2 = new String((char[])var29_6[16]);
-lbl49:
-                    // 2 sources
-
-                    while (true) {
-                        break block35;
-                        break;
-                    }
-                    break;
-                }
-                while (true) {
-                    v3 = new String((char[])var29_6[16]);
-lbl53:
-                    // 2 sources
-
-                    while (true) {
-                        b.Oo0o00000O00 = new SecretKeySpec(v4, v3);
-lbl55:
-                        // 2 sources
-
-                        var29_6[12] = Base64.getDecoder().decode(var1_1);
-                        var29_6[11] = Arrays.copyOfRange((byte[])var29_6[12], 0, 16);
-                        var29_6[21] = Arrays.copyOfRange((byte[])var29_6[12], 16, ((byte[])var29_6[12]).length);
-                        v5 = b.0oOOoOo0O00O[3];
-                        if (v5 == null) {
-                            var29_6[16] = "\ua0d9\ua15d\ua1af\ua1cb\ua6df\ua75e\ua7df\ua7cb\ua4a8\ua557\ua5df\u9a2f\u9a4d\u9b28\u9bb9\u983c\u98bc\u9931\u998a\u9e33".toCharArray();
-                            var30_7[20] = var31_10 = (long)0;
-                            while ((int)var30_7[20] < ((char[])var29_6[16]).length) {
-                                v6 = (char[])var29_6[16];
-                                v7 = (int)var30_7[20];
-                                v8 = (char)((char)(v6[v7] ^ 11974) ^ 43795);
-                                v9 = (char)(v8 >>> 12 | v8 << 4);
-                                v10 = (char)((char)(-((char)((char)(v9 << 5 | v9 >>> 11) + v7))) - 53628);
-                                v11 = (char)((char)(v10 >>> 5 | v10 << 11) - 52385);
-                                v6[v7] = (char)(v11 << 12 | v11 >>> 4);
-                                var30_7[20] = var31_10 = (long)((int)var30_7[20] + 1);
-                            }
-                            v5 = new String((char[])var29_6[16]);
-                        }
-                        var29_6[3] = Cipher.getInstance(v5);
-                        ((Cipher)var29_6[3]).init(2, (Key)((SecretKey)b.Oo0o00000O00), new IvParameterSpec((byte[])var29_6[11]));
-                        var29_6[10] = ((Cipher)var29_6[3]).doFinal((byte[])var29_6[21]);
-                        b.oO00O0OO0ooO[var0] = new String((byte[])var29_6[10], StandardCharsets.UTF_8);
-                        return b.oO00O0OO0ooO[var0];
-                    }
-                    break;
-                }
-            }
-            block24: while (true) {
-                switch (var24_5) {
-                    case 697183776: {
-                        ((byte[])var29_6[5])[b.O0OoOO0OOOOO[339] ^ b.O0OoOO0OOOOO[340]] = b.O0OoOO0OOOOO[341] ^ b.O0OoOO0OOOOO[342];
-                        var24_5 = 1810460584;
-                        continue block24;
-                    }
-                    case 1810460584: {
-                        ((byte[])var29_6[5])[b.O0OoOO0OOOOO[343] ^ b.O0OoOO0OOOOO[344]] = b.O0OoOO0OOOOO[345] ^ b.O0OoOO0OOOOO[346];
-                        ((byte[])var29_6[5])[b.O0OoOO0OOOOO[347] ^ b.O0OoOO0OOOOO[348]] = b.O0OoOO0OOOOO[349] ^ b.O0OoOO0OOOOO[350];
-                        ((byte[])var29_6[5])[b.O0OoOO0OOOOO[351] ^ b.O0OoOO0OOOOO[352]] = b.O0OoOO0OOOOO[353] ^ b.O0OoOO0OOOOO[354];
-                        ((byte[])var29_6[5])[b.O0OoOO0OOOOO[355] ^ b.O0OoOO0OOOOO[356]] = b.O0OoOO0OOOOO[357] ^ b.O0OoOO0OOOOO[358];
-                        ((byte[])var29_6[5])[b.O0OoOO0OOOOO[359] ^ b.O0OoOO0OOOOO[360]] = b.O0OoOO0OOOOO[361] ^ b.O0OoOO0OOOOO[362];
-                        ((byte[])var29_6[5])[b.O0OoOO0OOOOO[363] ^ b.O0OoOO0OOOOO[364]] = b.O0OoOO0OOOOO[365] ^ b.O0OoOO0OOOOO[366];
-                        ((byte[])var29_6[5])[b.O0OoOO0OOOOO[367] ^ b.O0OoOO0OOOOO[368]] = b.O0OoOO0OOOOO[369] ^ b.O0OoOO0OOOOO[370];
-                        ((byte[])var29_6[5])[b.O0OoOO0OOOOO[371] ^ b.O0OoOO0OOOOO[372]] = b.O0OoOO0OOOOO[373] ^ b.O0OoOO0OOOOO[374];
-                        ((byte[])var29_6[5])[b.O0OoOO0OOOOO[375] ^ b.O0OoOO0OOOOO[376]] = b.O0OoOO0OOOOO[377] ^ b.O0OoOO0OOOOO[378];
-                        ((byte[])var29_6[5])[b.O0OoOO0OOOOO[379] ^ b.O0OoOO0OOOOO[380]] = b.O0OoOO0OOOOO[381] ^ b.O0OoOO0OOOOO[382];
-                        ((byte[])var29_6[5])[b.O0OoOO0OOOOO[383] ^ b.O0OoOO0OOOOO[384]] = b.O0OoOO0OOOOO[385] ^ b.O0OoOO0OOOOO[386];
-                        ((byte[])var29_6[5])[b.O0OoOO0OOOOO[387] ^ b.O0OoOO0OOOOO[388]] = b.O0OoOO0OOOOO[389] ^ b.O0OoOO0OOOOO[390];
-                        var29_6[26] = new byte[((byte[])var29_6[2]).length + ((byte[])var29_6[5]).length];
-                        var25_8 = 2003347410;
-                        break block24;
-                    }
-                    default: {
-                        ((byte[])var29_6[5])[b.O0OoOO0OOOOO[275] ^ b.O0OoOO0OOOOO[276]] = b.O0OoOO0OOOOO[277] ^ b.O0OoOO0OOOOO[278];
-                        ((byte[])var29_6[5])[b.O0OoOO0OOOOO[279] ^ b.O0OoOO0OOOOO[280]] = b.O0OoOO0OOOOO[281] ^ b.O0OoOO0OOOOO[282];
-                        ((byte[])var29_6[5])[b.O0OoOO0OOOOO[283] ^ b.O0OoOO0OOOOO[284]] = b.O0OoOO0OOOOO[285] ^ b.O0OoOO0OOOOO[286];
-                        ((byte[])var29_6[5])[b.O0OoOO0OOOOO[287] ^ b.O0OoOO0OOOOO[288]] = b.O0OoOO0OOOOO[289] ^ b.O0OoOO0OOOOO[290];
-                        var24_5 = -812165979;
-                        continue block24;
-                    }
-                    case -812165979: {
-                        ((byte[])var29_6[5])[b.O0OoOO0OOOOO[291] ^ b.O0OoOO0OOOOO[292]] = b.O0OoOO0OOOOO[293] ^ b.O0OoOO0OOOOO[294];
-                        ((byte[])var29_6[5])[b.O0OoOO0OOOOO[295] ^ b.O0OoOO0OOOOO[296]] = b.O0OoOO0OOOOO[297] ^ b.O0OoOO0OOOOO[298];
-                        ((byte[])var29_6[5])[b.O0OoOO0OOOOO[299] ^ b.O0OoOO0OOOOO[300]] = b.O0OoOO0OOOOO[301] ^ b.O0OoOO0OOOOO[302];
-                        ((byte[])var29_6[5])[b.O0OoOO0OOOOO[303] ^ b.O0OoOO0OOOOO[304]] = b.O0OoOO0OOOOO[305] ^ b.O0OoOO0OOOOO[306];
-                        ((byte[])var29_6[5])[b.O0OoOO0OOOOO[307] ^ b.O0OoOO0OOOOO[308]] = b.O0OoOO0OOOOO[309] ^ b.O0OoOO0OOOOO[310];
-                        ((byte[])var29_6[5])[b.O0OoOO0OOOOO[311] ^ b.O0OoOO0OOOOO[312]] = b.O0OoOO0OOOOO[313] ^ b.O0OoOO0OOOOO[314];
-                        ((byte[])var29_6[5])[b.O0OoOO0OOOOO[315] ^ b.O0OoOO0OOOOO[316]] = b.O0OoOO0OOOOO[317] ^ b.O0OoOO0OOOOO[318];
-                        var24_5 = -1676947314;
-                        continue block24;
-                    }
-                    case -1676947314: {
-                        ((byte[])var29_6[5])[b.O0OoOO0OOOOO[319] ^ b.O0OoOO0OOOOO[320]] = b.O0OoOO0OOOOO[321] ^ b.O0OoOO0OOOOO[322];
-                        var24_5 = 1916191383;
-                        continue block24;
-                    }
-                    case 1916191383: {
-                        ((byte[])var29_6[5])[b.O0OoOO0OOOOO[323] ^ b.O0OoOO0OOOOO[324]] = b.O0OoOO0OOOOO[325] ^ b.O0OoOO0OOOOO[326];
-                        ((byte[])var29_6[5])[b.O0OoOO0OOOOO[327] ^ b.O0OoOO0OOOOO[328]] = b.O0OoOO0OOOOO[329] ^ b.O0OoOO0OOOOO[330];
-                        var24_5 = 667006801;
-                        continue block24;
-                    }
-                    case 667006801: {
-                        ((byte[])var29_6[5])[b.O0OoOO0OOOOO[331] ^ b.O0OoOO0OOOOO[332]] = b.O0OoOO0OOOOO[333] ^ b.O0OoOO0OOOOO[334];
-                        ((byte[])var29_6[5])[b.O0OoOO0OOOOO[335] ^ b.O0OoOO0OOOOO[336]] = b.O0OoOO0OOOOO[337] ^ b.O0OoOO0OOOOO[338];
-                        var24_5 = 697183776;
-                        continue block24;
-                    }
-                }
-                break;
-            }
-            block25: while (true) {
-                switch (var25_8) {
-                    default: {
-                        System.arraycopy((byte[])var29_6[2], b.O0OoOO0OOOOO[391], (byte[])var29_6[26], b.O0OoOO0OOOOO[392], ((byte[])var29_6[2]).length);
-                        System.arraycopy((byte[])var29_6[5], b.O0OoOO0OOOOO[393], (byte[])var29_6[26], ((byte[])var29_6[2]).length, ((byte[])var29_6[5]).length);
-                        var25_8 = 32814128;
-                        continue block25;
-                    }
-                    case 32814128: 
-                }
-                break;
-            }
-            ** while ((v2 = b.0oOOoOo0O00O[b.O0OoOO0OOOOO[394]]) != null)
-lbl141:
-            // 1 sources
-
-            var29_6[16] = "\ud30a\udb9b\ud9fd\uda93\ud514\ud5a7\ud46d\ud4de\ud75e\ud7d9\ud5f8\ud6d6\ud171\ud1ea\ucff9\ud073\ucb0d\ud39c".toCharArray();
-            var26_9 = -521970130;
-            var30_7[20] = var31_10 = (long)b.O0OoOO0OOOOO[395];
-            while (true) {
-                if ((int)var30_7[20] >= ((char[])var29_6[16]).length) ** continue;
-                v12 = (char[])var29_6[16];
-                v13 = (int)var30_7[20];
-                v14 = (char)((char)(v12[v13] + v13) ^ b.O0OoOO0OOOOO[396]);
-                v15 = (char)((char)(~((char)((char)(-((char)(v14 >>> b.O0OoOO0OOOOO[397] | v14 << b.O0OoOO0OOOOO[398]))) ^ b.O0OoOO0OOOOO[399]))) - 31548);
-                v16 = (char)((char)((char)(v15 << 6 | v15 >>> 10) - 33890) + 38440);
-                v17 = (char)(v16 << 13 | v16 >>> 3);
-                v18 = (char)(v17 << 3 | v17 >>> 13);
-                v19 = (char)((char)(v18 >>> 12 | v18 << 4) - v13);
-                v12[v13] = (char)(v19 >>> 9 | v19 << 7);
-                var30_7[20] = var31_10 = (long)((int)var30_7[20] + 1);
-            }
-        }
-        var29_6[22] = SecretKeyFactory.getInstance(v2);
-        var29_6[23] = new byte[16];
-        ((byte[])var29_6[23])[4] = 54;
-        ((byte[])var29_6[23])[3] = -50;
-        ((byte[])var29_6[23])[7] = -104;
-        var28_11 = 817949625;
-        block27: while (true) {
-            switch (var28_11) {
-                default: {
-                    ((byte[])var29_6[23])[10] = -62;
-                    ((byte[])var29_6[23])[5] = -128;
-                    var28_11 = -529347270;
-                    continue block27;
-                }
-                case -529347270: {
-                    ((byte[])var29_6[23])[9] = 125;
-                    ((byte[])var29_6[23])[14] = 80;
-                    ((byte[])var29_6[23])[12] = -124;
-                    var28_11 = 174990459;
-                    continue block27;
-                }
-                case 174990459: {
-                    ((byte[])var29_6[23])[0] = -11;
-                    ((byte[])var29_6[23])[1] = -69;
-                    ((byte[])var29_6[23])[8] = -9;
-                    ((byte[])var29_6[23])[13] = 51;
-                    ((byte[])var29_6[23])[11] = -16;
-                    var28_11 = -728415625;
-                    continue block27;
-                }
-                case -728415625: 
-            }
-            break;
-        }
-        ((byte[])var29_6[23])[15] = 90;
-        ((byte[])var29_6[23])[2] = 102;
-        ((byte[])var29_6[23])[6] = 52;
-        var7_12 = new PBEKeySpec(new String((byte[])var29_6[26], StandardCharsets.UTF_8).toCharArray(), (byte[])var29_6[23], 5, 256);
-        var29_6[17] = ((SecretKeyFactory)var29_6[22]).generateSecret(var7_12).getEncoded();
-        v4 = (byte[])var29_6[17];
-        ** while ((v3 = b.0oOOoOo0O00O[2]) != null)
-lbl193:
-        // 1 sources
-
-        var29_6[16] = "\u824f\ua24d\u1248".toCharArray();
-        var30_7[20] = var31_10 = (long)0;
-        while (true) {
-            if ((int)var30_7[20] >= ((char[])var29_6[16]).length) ** continue;
-            v20 = (char[])var29_6[16];
-            v21 = (int)var30_7[20];
-            v22 = ~((char)((char)((char)((char)((char)((char)((char)((char)((char)((char)(v20[v21] ^ v21) + v21) + 39523) ^ v21) + 38490) - 60853) - 42736) ^ 9096) ^ 55552) ^ v21));
-            v20[v21] = (char)((char)((char)(v22 << 5 | v22 >>> 11) ^ 14449) + 42447);
-            var30_7[20] = var31_10 = (long)((int)var30_7[20] + 1);
-        }
+    public static /* bridge */ strictfp /* synthetic */ String o0Oo000O0oO(int var0, String var1_1) { /* RISE-PORT STUB: original CFR body unrestored (GOTO/orphan); feature impact documented in PORTING_NOTES.md */
+        return null;
     }
 
     /*
      * Enabled aggressive block sorting
      */
-    private static /* synthetic */ void 0OOOoo00o0() {
+    private static /* synthetic */ void q0OOOoo00o0() {
         int n2 = -82592669;
         if (n2 != n2) {
             ooo00oo0Ooo0 = n2 = -367195697;

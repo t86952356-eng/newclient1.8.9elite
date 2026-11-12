@@ -36,10 +36,10 @@ extends Mode<Flight> {
     public /* synthetic */ Listener<PacketReceiveEvent> Gg;
     private static /* synthetic */ int[] ooo00oo0Ooo0;
     public /* synthetic */ boolean Ga;
-    public static /* synthetic */ Object[] 0OOOoo00o0;
+    public static /* synthetic */ Object[] q0OOOoo00o0;
     @EventLink
     public /* synthetic */ Listener<fd> Gh;
-    public static /* synthetic */ String[] 0oOOoOo0O00O;
+    public static /* synthetic */ String[] q0oOOoOo0O00O;
     public static /* synthetic */ Object[] Oo0o00000O00;
     public /* synthetic */ NumberValue Gc;
     public static /* synthetic */ Object oO00O0OO0ooO;
@@ -58,260 +58,14 @@ extends Mode<Flight> {
      * Unable to fully structure code
      * Enabled aggressive block sorting
      */
-    public static /* bridge */ strictfp /* synthetic */ String o0Oo000O0oO(int var0, String var1_1) {
-        block37: {
-            block36: {
-                block38: {
-                    var34_2 = -4697413;
-                    if (var34_2 != var34_2) {
-                        var34_2 = -1053309415;
-                    }
-                    if ((var34_2 = -1802456030) != var34_2) {
-                        throw null;
-                    }
-                    var34_2 = -1605918991;
-                    if (var34_2 != var34_2) {
-                        var34_2 = -1916876944;
-                    }
-                    if ((var34_2 = -59380306) != var34_2) {
-                    }
-                    var29_5 = new Object[27];
-                    var30_6 = new long[27];
-                    v0 = Grim191181Mode.Oo0o00000O00;
-                    if (Grim191181Mode.Oo0o00000O00 == null) {
-                        var22_3 = -1342344807;
-                        v1 = new Object[Grim191181Mode.ooo00oo0Ooo0[186]];
-                        Grim191181Mode.Oo0o00000O00 = v1;
-                        v0 = v1;
-                        var29_5[24] = new byte[Grim191181Mode.ooo00oo0Ooo0[188] ^ Grim191181Mode.ooo00oo0Ooo0[189]];
-                        ((byte[])var29_5[24])[Grim191181Mode.ooo00oo0Ooo0[190] ^ Grim191181Mode.ooo00oo0Ooo0[191]] = Grim191181Mode.ooo00oo0Ooo0[192] ^ Grim191181Mode.ooo00oo0Ooo0[193];
-                        ((byte[])var29_5[24])[Grim191181Mode.ooo00oo0Ooo0[194] ^ Grim191181Mode.ooo00oo0Ooo0[195]] = Grim191181Mode.ooo00oo0Ooo0[196] ^ Grim191181Mode.ooo00oo0Ooo0[197];
-                        ((byte[])var29_5[24])[Grim191181Mode.ooo00oo0Ooo0[198] ^ Grim191181Mode.ooo00oo0Ooo0[199]] = Grim191181Mode.ooo00oo0Ooo0[200] ^ Grim191181Mode.ooo00oo0Ooo0[201];
-                        ((byte[])var29_5[24])[Grim191181Mode.ooo00oo0Ooo0[202] ^ Grim191181Mode.ooo00oo0Ooo0[203]] = Grim191181Mode.ooo00oo0Ooo0[204] ^ Grim191181Mode.ooo00oo0Ooo0[205];
-                        ((byte[])var29_5[24])[Grim191181Mode.ooo00oo0Ooo0[206] ^ Grim191181Mode.ooo00oo0Ooo0[207]] = Grim191181Mode.ooo00oo0Ooo0[208] ^ Grim191181Mode.ooo00oo0Ooo0[209];
-                        ((byte[])var29_5[24])[Grim191181Mode.ooo00oo0Ooo0[210] ^ Grim191181Mode.ooo00oo0Ooo0[211]] = Grim191181Mode.ooo00oo0Ooo0[212] ^ Grim191181Mode.ooo00oo0Ooo0[213];
-                        ((byte[])var29_5[24])[Grim191181Mode.ooo00oo0Ooo0[214] ^ Grim191181Mode.ooo00oo0Ooo0[215]] = Grim191181Mode.ooo00oo0Ooo0[216] ^ Grim191181Mode.ooo00oo0Ooo0[217];
-                        ((byte[])var29_5[24])[Grim191181Mode.ooo00oo0Ooo0[218] ^ Grim191181Mode.ooo00oo0Ooo0[219]] = Grim191181Mode.ooo00oo0Ooo0[220] ^ Grim191181Mode.ooo00oo0Ooo0[221];
-                        ((byte[])var29_5[24])[Grim191181Mode.ooo00oo0Ooo0[222] ^ Grim191181Mode.ooo00oo0Ooo0[223]] = Grim191181Mode.ooo00oo0Ooo0[224] ^ Grim191181Mode.ooo00oo0Ooo0[225];
-                        ((byte[])var29_5[24])[Grim191181Mode.ooo00oo0Ooo0[226] ^ Grim191181Mode.ooo00oo0Ooo0[227]] = Grim191181Mode.ooo00oo0Ooo0[228] ^ Grim191181Mode.ooo00oo0Ooo0[229];
-                        ((byte[])var29_5[24])[Grim191181Mode.ooo00oo0Ooo0[230] ^ Grim191181Mode.ooo00oo0Ooo0[231]] = Grim191181Mode.ooo00oo0Ooo0[232] ^ Grim191181Mode.ooo00oo0Ooo0[233];
-                        ((byte[])var29_5[24])[Grim191181Mode.ooo00oo0Ooo0[234] ^ Grim191181Mode.ooo00oo0Ooo0[235]] = Grim191181Mode.ooo00oo0Ooo0[236] ^ Grim191181Mode.ooo00oo0Ooo0[237];
-                        ((byte[])var29_5[24])[Grim191181Mode.ooo00oo0Ooo0[238] ^ Grim191181Mode.ooo00oo0Ooo0[239]] = Grim191181Mode.ooo00oo0Ooo0[240] ^ Grim191181Mode.ooo00oo0Ooo0[241];
-                        ((byte[])var29_5[24])[Grim191181Mode.ooo00oo0Ooo0[242] ^ Grim191181Mode.ooo00oo0Ooo0[243]] = Grim191181Mode.ooo00oo0Ooo0[244] ^ Grim191181Mode.ooo00oo0Ooo0[245];
-                        ((byte[])var29_5[24])[Grim191181Mode.ooo00oo0Ooo0[246] ^ Grim191181Mode.ooo00oo0Ooo0[247]] = Grim191181Mode.ooo00oo0Ooo0[248] ^ Grim191181Mode.ooo00oo0Ooo0[249];
-                        ((byte[])var29_5[24])[Grim191181Mode.ooo00oo0Ooo0[250] ^ Grim191181Mode.ooo00oo0Ooo0[251]] = Grim191181Mode.ooo00oo0Ooo0[252] ^ Grim191181Mode.ooo00oo0Ooo0[253];
-                        v1[Grim191181Mode.ooo00oo0Ooo0[187]] = (byte[])var29_5[24];
-                    }
-                    var29_5[11] = (byte[])v0[Grim191181Mode.ooo00oo0Ooo0[254]];
-                    if (Grim191181Mode.oO00O0OO0ooO != null) break block37;
-                    var29_5[18] = new byte[Grim191181Mode.ooo00oo0Ooo0[255] ^ Grim191181Mode.ooo00oo0Ooo0[256]];
-                    ((byte[])var29_5[18])[Grim191181Mode.ooo00oo0Ooo0[257] ^ Grim191181Mode.ooo00oo0Ooo0[258]] = Grim191181Mode.ooo00oo0Ooo0[259] ^ Grim191181Mode.ooo00oo0Ooo0[260];
-                    ((byte[])var29_5[18])[Grim191181Mode.ooo00oo0Ooo0[261] ^ Grim191181Mode.ooo00oo0Ooo0[262]] = Grim191181Mode.ooo00oo0Ooo0[263] ^ Grim191181Mode.ooo00oo0Ooo0[264];
-                    ((byte[])var29_5[18])[Grim191181Mode.ooo00oo0Ooo0[265] ^ Grim191181Mode.ooo00oo0Ooo0[266]] = Grim191181Mode.ooo00oo0Ooo0[267] ^ Grim191181Mode.ooo00oo0Ooo0[268];
-                    ((byte[])var29_5[18])[Grim191181Mode.ooo00oo0Ooo0[269] ^ Grim191181Mode.ooo00oo0Ooo0[270]] = Grim191181Mode.ooo00oo0Ooo0[271] ^ Grim191181Mode.ooo00oo0Ooo0[272];
-                    var23_4 = -1334987932;
-                    break block38;
-                    while (true) {
-                        v2 = new String((char[])var29_5[6]);
-                        while (true) {
-                            break block36;
-                            break;
-                        }
-                        break;
-                    }
-                    while (true) {
-                        v3 = new String((char[])var29_5[6]);
-lbl52:
-                        // 2 sources
-
-                        while (true) {
-                            Grim191181Mode.oO00O0OO0ooO = new SecretKeySpec(v4, v3);
-                            break block37;
-                            break;
-                        }
-                        break;
-                    }
-lbl55:
-                    // 1 sources
-
-                    block23: while (true) {
-                        var28_12 = 210436984;
-                        if (true) ** GOTO lbl60
-                        block24: while (true) {
-                            var28_12 = 1986266444;
-lbl60:
-                            // 2 sources
-
-                            switch (var28_12) {
-                                default: {
-                                    if ((int)var30_6[10] >= ((char[])var29_5[6]).length) continue block24;
-                                    v5 = (char[])var29_5[6];
-                                    v6 = (int)var30_6[10];
-                                    v7 = -((char)((char)(~((char)((char)((char)((char)((char)(v5[v6] + 39500) - v6) - 22067) - 31505) - v6))) ^ v6));
-                                    v8 = (char)((char)(v7 >>> 4 | v7 << 12) - 18295);
-                                    v9 = (char)(v8 << 15 | v8 >>> 1);
-                                    v5[v6] = (char)(v9 << 8 | v9 >>> 8);
-                                    var30_6[10] = var31_8 = (long)((int)var30_6[10] + 1);
-                                    continue block23;
-                                }
-                                case 2044233014: {
-                                    continue block24;
-                                }
-                                case 1986266444: 
-                            }
-                            break;
-                        }
-                        v10 = new String((char[])var29_5[6]);
-                        while (true) {
-                            var29_5[26] = Cipher.getInstance(v10);
-                            ((Cipher)var29_5[26]).init(2, (Key)((SecretKey)Grim191181Mode.oO00O0OO0ooO), new IvParameterSpec((byte[])var29_5[12]));
-                            var29_5[19] = ((Cipher)var29_5[26]).doFinal((byte[])var29_5[14]);
-                            Grim191181Mode.0oOOoOo0O00O[var0] = new String((byte[])var29_5[19], StandardCharsets.UTF_8);
-                            return Grim191181Mode.0oOOoOo0O00O[var0];
-                        }
-                        break;
-                    }
-                }
-                block26: while (true) {
-                    switch (var23_4) {
-                        case 1884452914: {
-                            ((byte[])var29_5[18])[Grim191181Mode.ooo00oo0Ooo0[289] ^ Grim191181Mode.ooo00oo0Ooo0[290]] = Grim191181Mode.ooo00oo0Ooo0[291] ^ Grim191181Mode.ooo00oo0Ooo0[292];
-                            ((byte[])var29_5[18])[Grim191181Mode.ooo00oo0Ooo0[293] ^ Grim191181Mode.ooo00oo0Ooo0[294]] = Grim191181Mode.ooo00oo0Ooo0[295] ^ Grim191181Mode.ooo00oo0Ooo0[296];
-                            ((byte[])var29_5[18])[Grim191181Mode.ooo00oo0Ooo0[297] ^ Grim191181Mode.ooo00oo0Ooo0[298]] = Grim191181Mode.ooo00oo0Ooo0[299] ^ Grim191181Mode.ooo00oo0Ooo0[300];
-                            ((byte[])var29_5[18])[Grim191181Mode.ooo00oo0Ooo0[301] ^ Grim191181Mode.ooo00oo0Ooo0[302]] = Grim191181Mode.ooo00oo0Ooo0[303] ^ Grim191181Mode.ooo00oo0Ooo0[304];
-                            ((byte[])var29_5[18])[Grim191181Mode.ooo00oo0Ooo0[305] ^ Grim191181Mode.ooo00oo0Ooo0[306]] = Grim191181Mode.ooo00oo0Ooo0[307] ^ Grim191181Mode.ooo00oo0Ooo0[308];
-                            ((byte[])var29_5[18])[Grim191181Mode.ooo00oo0Ooo0[309] ^ Grim191181Mode.ooo00oo0Ooo0[310]] = Grim191181Mode.ooo00oo0Ooo0[311] ^ Grim191181Mode.ooo00oo0Ooo0[312];
-                            ((byte[])var29_5[18])[Grim191181Mode.ooo00oo0Ooo0[313] ^ Grim191181Mode.ooo00oo0Ooo0[314]] = Grim191181Mode.ooo00oo0Ooo0[315] ^ Grim191181Mode.ooo00oo0Ooo0[316];
-                            ((byte[])var29_5[18])[Grim191181Mode.ooo00oo0Ooo0[317] ^ Grim191181Mode.ooo00oo0Ooo0[318]] = Grim191181Mode.ooo00oo0Ooo0[319] ^ Grim191181Mode.ooo00oo0Ooo0[320];
-                            ((byte[])var29_5[18])[Grim191181Mode.ooo00oo0Ooo0[321] ^ Grim191181Mode.ooo00oo0Ooo0[322]] = Grim191181Mode.ooo00oo0Ooo0[323] ^ Grim191181Mode.ooo00oo0Ooo0[324];
-                            ((byte[])var29_5[18])[Grim191181Mode.ooo00oo0Ooo0[325] ^ Grim191181Mode.ooo00oo0Ooo0[326]] = Grim191181Mode.ooo00oo0Ooo0[327] ^ Grim191181Mode.ooo00oo0Ooo0[328];
-                            var23_4 = -1544620987;
-                            continue block26;
-                        }
-                        case -1544620987: {
-                            ((byte[])var29_5[18])[Grim191181Mode.ooo00oo0Ooo0[329] ^ Grim191181Mode.ooo00oo0Ooo0[330]] = Grim191181Mode.ooo00oo0Ooo0[331] ^ Grim191181Mode.ooo00oo0Ooo0[332];
-                            ((byte[])var29_5[18])[Grim191181Mode.ooo00oo0Ooo0[333] ^ Grim191181Mode.ooo00oo0Ooo0[334]] = Grim191181Mode.ooo00oo0Ooo0[335] ^ Grim191181Mode.ooo00oo0Ooo0[336];
-                            ((byte[])var29_5[18])[Grim191181Mode.ooo00oo0Ooo0[337] ^ Grim191181Mode.ooo00oo0Ooo0[338]] = Grim191181Mode.ooo00oo0Ooo0[339] ^ Grim191181Mode.ooo00oo0Ooo0[340];
-                            var23_4 = -1098406104;
-                            continue block26;
-                        }
-                        case -1098406104: {
-                            ((byte[])var29_5[18])[Grim191181Mode.ooo00oo0Ooo0[341] ^ Grim191181Mode.ooo00oo0Ooo0[342]] = Grim191181Mode.ooo00oo0Ooo0[343] ^ Grim191181Mode.ooo00oo0Ooo0[344];
-                            ((byte[])var29_5[18])[Grim191181Mode.ooo00oo0Ooo0[345] ^ Grim191181Mode.ooo00oo0Ooo0[346]] = Grim191181Mode.ooo00oo0Ooo0[347] ^ Grim191181Mode.ooo00oo0Ooo0[348];
-                            ((byte[])var29_5[18])[Grim191181Mode.ooo00oo0Ooo0[349] ^ Grim191181Mode.ooo00oo0Ooo0[350]] = Grim191181Mode.ooo00oo0Ooo0[351] ^ Grim191181Mode.ooo00oo0Ooo0[352];
-                            ((byte[])var29_5[18])[Grim191181Mode.ooo00oo0Ooo0[353] ^ Grim191181Mode.ooo00oo0Ooo0[354]] = Grim191181Mode.ooo00oo0Ooo0[355] ^ Grim191181Mode.ooo00oo0Ooo0[356];
-                            ((byte[])var29_5[18])[Grim191181Mode.ooo00oo0Ooo0[357] ^ Grim191181Mode.ooo00oo0Ooo0[358]] = Grim191181Mode.ooo00oo0Ooo0[359] ^ Grim191181Mode.ooo00oo0Ooo0[360];
-                            var23_4 = -615892862;
-                            continue block26;
-                        }
-                        case -615892862: {
-                            ((byte[])var29_5[18])[Grim191181Mode.ooo00oo0Ooo0[361] ^ Grim191181Mode.ooo00oo0Ooo0[362]] = Grim191181Mode.ooo00oo0Ooo0[363] ^ Grim191181Mode.ooo00oo0Ooo0[364];
-                            ((byte[])var29_5[18])[Grim191181Mode.ooo00oo0Ooo0[365] ^ Grim191181Mode.ooo00oo0Ooo0[366]] = Grim191181Mode.ooo00oo0Ooo0[367] ^ Grim191181Mode.ooo00oo0Ooo0[368];
-                            ((byte[])var29_5[18])[Grim191181Mode.ooo00oo0Ooo0[369] ^ Grim191181Mode.ooo00oo0Ooo0[370]] = Grim191181Mode.ooo00oo0Ooo0[371] ^ Grim191181Mode.ooo00oo0Ooo0[372];
-                            ((byte[])var29_5[18])[Grim191181Mode.ooo00oo0Ooo0[373] ^ Grim191181Mode.ooo00oo0Ooo0[374]] = Grim191181Mode.ooo00oo0Ooo0[375] ^ Grim191181Mode.ooo00oo0Ooo0[376];
-                            ((byte[])var29_5[18])[Grim191181Mode.ooo00oo0Ooo0[377] ^ Grim191181Mode.ooo00oo0Ooo0[378]] = Grim191181Mode.ooo00oo0Ooo0[379] ^ Grim191181Mode.ooo00oo0Ooo0[380];
-                            ((byte[])var29_5[18])[Grim191181Mode.ooo00oo0Ooo0[381] ^ Grim191181Mode.ooo00oo0Ooo0[382]] = Grim191181Mode.ooo00oo0Ooo0[383] ^ Grim191181Mode.ooo00oo0Ooo0[384];
-                            var29_5[20] = new byte[((byte[])var29_5[11]).length + ((byte[])var29_5[18]).length];
-                            System.arraycopy((byte[])var29_5[11], Grim191181Mode.ooo00oo0Ooo0[385], (byte[])var29_5[20], Grim191181Mode.ooo00oo0Ooo0[386], ((byte[])var29_5[11]).length);
-                            var24_7 = 566599207;
-                            System.arraycopy((byte[])var29_5[18], Grim191181Mode.ooo00oo0Ooo0[387], (byte[])var29_5[20], ((byte[])var29_5[11]).length, ((byte[])var29_5[18]).length);
-                            if ((v2 = Grim191181Mode.O0OoOO0OOOOO[Grim191181Mode.ooo00oo0Ooo0[388]]) != null) ** continue;
-                            var29_5[6] = "\u0526\u0500\u0574\u0578\u0502\u0458\u0524\u052a\u05ce\u05c4\u0502\u053a\u052c\u052a\u050c\u0578\u0524\u0446".toCharArray();
-                            var30_6[10] = var31_8 = (long)Grim191181Mode.ooo00oo0Ooo0[389];
-                            while (true) {
-                                if ((int)var30_6[10] >= ((char[])var29_5[6]).length) ** continue;
-                                v11 = (char[])var29_5[6];
-                                v12 = (int)var30_6[10];
-                                v13 = -((char)(v11[v12] ^ Grim191181Mode.ooo00oo0Ooo0[390]));
-                                v14 = (char)(v13 << Grim191181Mode.ooo00oo0Ooo0[391] | v13 >>> Grim191181Mode.ooo00oo0Ooo0[392]);
-                                v11[v12] = (char)((char)((char)((char)((char)((char)((char)(-((char)((char)((char)(v14 >>> Grim191181Mode.ooo00oo0Ooo0[393] | v14 << Grim191181Mode.ooo00oo0Ooo0[394]) - Grim191181Mode.ooo00oo0Ooo0[395]) - v12))) - v12) ^ v12) ^ Grim191181Mode.ooo00oo0Ooo0[396]) ^ Grim191181Mode.ooo00oo0Ooo0[397]) ^ Grim191181Mode.ooo00oo0Ooo0[398]) ^ Grim191181Mode.ooo00oo0Ooo0[399]);
-                                var30_6[10] = var31_8 = (long)((int)var30_6[10] + 1);
-                            }
-                        }
-                        default: {
-                            ((byte[])var29_5[18])[Grim191181Mode.ooo00oo0Ooo0[273] ^ Grim191181Mode.ooo00oo0Ooo0[274]] = Grim191181Mode.ooo00oo0Ooo0[275] ^ Grim191181Mode.ooo00oo0Ooo0[276];
-                            ((byte[])var29_5[18])[Grim191181Mode.ooo00oo0Ooo0[277] ^ Grim191181Mode.ooo00oo0Ooo0[278]] = Grim191181Mode.ooo00oo0Ooo0[279] ^ Grim191181Mode.ooo00oo0Ooo0[280];
-                            var23_4 = 1910211458;
-                            continue block26;
-                        }
-                        case 1910211458: 
-                    }
-                    ((byte[])var29_5[18])[Grim191181Mode.ooo00oo0Ooo0[281] ^ Grim191181Mode.ooo00oo0Ooo0[282]] = Grim191181Mode.ooo00oo0Ooo0[283] ^ Grim191181Mode.ooo00oo0Ooo0[284];
-                    ((byte[])var29_5[18])[Grim191181Mode.ooo00oo0Ooo0[285] ^ Grim191181Mode.ooo00oo0Ooo0[286]] = Grim191181Mode.ooo00oo0Ooo0[287] ^ Grim191181Mode.ooo00oo0Ooo0[288];
-                    var23_4 = 1884452914;
-                }
-            }
-            var29_5[8] = SecretKeyFactory.getInstance(v2);
-            var29_5[25] = new byte[16];
-            ((byte[])var29_5[25])[10] = -58;
-            ((byte[])var29_5[25])[7] = -65;
-            ((byte[])var29_5[25])[13] = 112;
-            ((byte[])var29_5[25])[6] = 9;
-            ((byte[])var29_5[25])[11] = 62;
-            ((byte[])var29_5[25])[12] = 27;
-            var25_9 = 703405841;
-            block28: while (true) {
-                switch (var25_9) {
-                    default: {
-                        ((byte[])var29_5[25])[3] = -119;
-                        ((byte[])var29_5[25])[5] = -72;
-                        ((byte[])var29_5[25])[0] = 21;
-                        ((byte[])var29_5[25])[15] = 89;
-                        var25_9 = 1974561983;
-                        continue block28;
-                    }
-                    case 1974561983: 
-                }
-                break;
-            }
-            ((byte[])var29_5[25])[8] = 14;
-            ((byte[])var29_5[25])[4] = -103;
-            ((byte[])var29_5[25])[1] = 61;
-            ((byte[])var29_5[25])[2] = 57;
-            ((byte[])var29_5[25])[14] = 107;
-            ((byte[])var29_5[25])[9] = 25;
-            var7_10 = new PBEKeySpec(new String((byte[])var29_5[20], StandardCharsets.UTF_8).toCharArray(), (byte[])var29_5[25], 14, 256);
-            var29_5[1] = ((SecretKeyFactory)var29_5[8]).generateSecret(var7_10).getEncoded();
-            v4 = (byte[])var29_5[1];
-            ** while ((v3 = Grim191181Mode.O0OoOO0OOOOO[2]) != null)
-lbl174:
-            // 1 sources
-
-            var29_5[6] = "\u3b46\ufb45\u5b4c".toCharArray();
-            var30_6[10] = var31_8 = (long)0;
-            while (true) {
-                if ((int)var30_6[10] >= ((char[])var29_5[6]).length) ** continue;
-                v15 = (char[])var29_5[6];
-                v16 = (int)var30_6[10];
-                v17 = (char)((char)((char)((char)((char)((char)((char)((char)(-v15[v16]) ^ 64300) + 50903) + 40195) - 662) - v16) - 50238) - 63271);
-                v15[v16] = (char)((char)((char)((char)((char)((char)((char)(v17 << 4 | v17 >>> 12) - v16) + v16) - 32528) - 11139) - 7822) ^ 36476);
-                var30_6[10] = var31_8 = (long)((int)var30_6[10] + 1);
-            }
-        }
-        var29_5[22] = Base64.getDecoder().decode(var1_1);
-        var29_5[12] = Arrays.copyOfRange((byte[])var29_5[22], 0, 16);
-        var29_5[14] = Arrays.copyOfRange((byte[])var29_5[22], 16, ((byte[])var29_5[22]).length);
-        var27_11 = -1558665035;
-        block30: while (true) {
-            switch (var27_11) {
-                default: {
-                    if ((v10 = Grim191181Mode.O0OoOO0OOOOO[3]) != null) ** continue;
-                    var27_11 = -1644764002;
-                    continue block30;
-                }
-                case -1644764002: 
-            }
-            break;
-        }
-        var29_5[6] = "\uce73\u4e77\u0e7b\u8e78\u0e7f\uee80\u0e81\u8e84\uae7d\u0e7f\u0e7d\u0e84\u4e86\uae82\uce75\u2e76\u2e97\uce7b\u6e7f\u8e81".toCharArray();
-        var30_6[10] = var31_8 = (long)0;
-        ** while (true)
+    public static /* bridge */ strictfp /* synthetic */ String o0Oo000O0oO(int var0, String var1_1) { /* RISE-PORT STUB: original CFR body unrestored (GOTO/orphan); feature impact documented in PORTING_NOTES.md */
+        return null;
     }
 
     /*
      * Enabled aggressive block sorting
      */
-    private static /* synthetic */ void 0OOOoo00o0() {
+    private static /* synthetic */ void q0OOOoo00o0() {
         int n2 = 846175762;
         if (n2 != n2) {
             throw new ArrayStoreException();
@@ -1076,16 +830,16 @@ lbl174:
         super(string, flight);
         String string2 = o0Oo000O0oO;
         if (string2 == null) {
-            string2 = o0Oo000O0oO = (String)0OOOoo00o0[(ooo00oo0Ooo0[0] - ooo00oo0Ooo0[1] ^ ooo00oo0Ooo0[2]) * ooo00oo0Ooo0[3]] + (String)0OOOoo00o0[ooo00oo0Ooo0[4] + ooo00oo0Ooo0[5] + ooo00oo0Ooo0[6]];
+            string2 = o0Oo000O0oO = (String)q0OOOoo00o0[(ooo00oo0Ooo0[0] - ooo00oo0Ooo0[1] ^ ooo00oo0Ooo0[2]) * ooo00oo0Ooo0[3]] + (String)q0OOOoo00o0[ooo00oo0Ooo0[4] + ooo00oo0Ooo0[5] + ooo00oo0Ooo0[6]];
         }
         booleanValue(string2, (Mode<?>)this, (Boolean)(-(ooo00oo0Ooo0[7] - ooo00oo0Ooo0[8])));
         this.Gb = booleanValue;
         int n3 = ooo00oo0Ooo0[13];
-        this.Gc = new NumberValue((String)0OOOoo00o0[-((ooo00oo0Ooo0[9] ^ ooo00oo0Ooo0[10] ^ ooo00oo0Ooo0[11]) - ooo00oo0Ooo0[12])], this, (Number)Double.longBitsToDouble(0xC8B32780A8F0AD34L ^ 0xF762BE19316934AEL), (Number)((n3 << ooo00oo0Ooo0[14] | n3 >>> ooo00oo0Ooo0[15]) - ooo00oo0Ooo0[16] ^ ooo00oo0Ooo0[17]), (Number)Double.longBitsToDouble(0xCFC08C2435AB628BL ^ 0xF014F6C5720576F0L), (Number)Double.longBitsToDouble(0x973B14E7727257FBL ^ 0xA86B76AAA083FE07L));
+        this.Gc = new NumberValue((String)q0OOOoo00o0[-((ooo00oo0Ooo0[9] ^ ooo00oo0Ooo0[10] ^ ooo00oo0Ooo0[11]) - ooo00oo0Ooo0[12])], this, (Number)Double.longBitsToDouble(0xC8B32780A8F0AD34L ^ 0xF762BE19316934AEL), (Number)((n3 << ooo00oo0Ooo0[14] | n3 >>> ooo00oo0Ooo0[15]) - ooo00oo0Ooo0[16] ^ ooo00oo0Ooo0[17]), (Number)Double.longBitsToDouble(0xCFC08C2435AB628BL ^ 0xF014F6C5720576F0L), (Number)Double.longBitsToDouble(0x973B14E7727257FBL ^ 0xA86B76AAA083FE07L));
         int n4 = ooo00oo0Ooo0[18] ^ ooo00oo0Ooo0[19];
         int n5 = -ooo00oo0Ooo0[24];
         int n6 = (n5 >>> ooo00oo0Ooo0[25] | n5 << ooo00oo0Ooo0[26]) ^ ooo00oo0Ooo0[27];
-        this.Gd = new NumberValue((String)0OOOoo00o0[(n4 << ooo00oo0Ooo0[20] | n4 >>> ooo00oo0Ooo0[21]) * ooo00oo0Ooo0[22] * ooo00oo0Ooo0[23]], this, (Number)(n6 << ooo00oo0Ooo0[28] | n6 >>> ooo00oo0Ooo0[29]), (Number)Double.longBitsToDouble(0xC76DF7A6253F1D73L ^ 0xF8D46E3FBCA684E9L), (Number)(ooo00oo0Ooo0[30] - ooo00oo0Ooo0[31] ^ ooo00oo0Ooo0[32]), (Number)Double.longBitsToDouble(0x84D4E2EA495D920CL ^ 0xBB6D7B73D0C40B96L));
+        this.Gd = new NumberValue((String)q0OOOoo00o0[(n4 << ooo00oo0Ooo0[20] | n4 >>> ooo00oo0Ooo0[21]) * ooo00oo0Ooo0[22] * ooo00oo0Ooo0[23]], this, (Number)(n6 << ooo00oo0Ooo0[28] | n6 >>> ooo00oo0Ooo0[29]), (Number)Double.longBitsToDouble(0xC76DF7A6253F1D73L ^ 0xF8D46E3FBCA684E9L), (Number)(ooo00oo0Ooo0[30] - ooo00oo0Ooo0[31] ^ ooo00oo0Ooo0[32]), (Number)Double.longBitsToDouble(0x84D4E2EA495D920CL ^ 0xBB6D7B73D0C40B96L));
         this.Ge = var1_1 -> {
             /*
              * This method has failed to decompile.  When submitting a bug report, please provide this stack trace, and (if you hold appropriate legal rights) the relevant class file.

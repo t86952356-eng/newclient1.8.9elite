@@ -203,38 +203,8 @@ extends BlockBreakable {
     /*
      * WARNING - void declaration
      */
-    public BlockPattern$PatternHelper M(w w2, b b2) {
-        void var9_11;
-        ap ap2 = ap.dwJ;
-        BlockPortal$Size blockPortal$Size = new BlockPortal$Size(w2, b2, ap.dwH);
-        LoadingCache<b, BlockWorldState> loadingCache = BlockPattern.a(w2, true);
-        if (!blockPortal$Size.yG()) {
-            ap2 = ap.dwH;
-            blockPortal$Size = new BlockPortal$Size(w2, b2, ap.dwJ);
-        }
-        if (!blockPortal$Size.yG()) {
-            return new BlockPattern$PatternHelper(b2, ao.dws, ao.dwr, loadingCache, 1, 1, 1);
-        }
-        int[] nArray = new int[aq.values().length];
-        ao ao2 = blockPortal$Size.aXY.asG();
-        b b3 = blockPortal$Size.aYb.hq(blockPortal$Size.yD() - 1);
-        for (aq aq2 : aq.values()) {
-            Object object = new BlockPattern$PatternHelper(ao2.asB() == aq2 ? b3 : b3.d(blockPortal$Size.aXY, blockPortal$Size.yE() - 1), ao.a(aq2, ap2), ao.dwr, loadingCache, blockPortal$Size.yE(), blockPortal$Size.yD(), 1);
-            for (int i2 = 0; i2 < blockPortal$Size.yE(); ++i2) {
-                for (int i3 = 0; i3 < blockPortal$Size.yD(); ++i3) {
-                    BlockWorldState blockWorldState = ((BlockPattern$PatternHelper)object).n(i2, i3, 1);
-                    if (blockWorldState.yU() == null || blockWorldState.yU().df().xb() == Material.beo) continue;
-                    int n2 = aq2.ordinal();
-                    nArray[n2] = nArray[n2] + 1;
-                }
-            }
-        }
-        aq aq3 = aq.dwO;
-        for (Object object : aq.values()) {
-            if (nArray[object.ordinal()] >= nArray[var9_11.ordinal()]) continue;
-            aq aq4 = object;
-        }
-        return new BlockPattern$PatternHelper(ao2.asB() == var9_11 ? b3 : b3.d(blockPortal$Size.aXY, blockPortal$Size.yE() - 1), ao.a((aq)var9_11, ap2), ao.dwr, loadingCache, blockPortal$Size.yE(), blockPortal$Size.yD(), 1);
+    public BlockPattern$PatternHelper M(w w2, b b2) { /* RISE-PORT STUB: original CFR body unrestored (GOTO/orphan); feature impact documented in PORTING_NOTES.md */
+        return null;
     }
 }
 

@@ -38,7 +38,7 @@ extends Module {
     public /* synthetic */ BooleanValue qB;
     public /* synthetic */ NumberValue qu;
     public /* synthetic */ int qI;
-    public static /* synthetic */ String[] 0oOOoOo0O00O;
+    public static /* synthetic */ String[] q0oOOoOo0O00O;
     public static /* synthetic */ Object[] Oo0o00000O00;
     public /* synthetic */ boolean qJ;
     public /* synthetic */ NumberValue qv;
@@ -51,7 +51,7 @@ extends Module {
     public static /* synthetic */ String o0Oo000O0oO;
     public /* synthetic */ NumberValue qw;
     public static /* synthetic */ Object oO00O0OO0ooO;
-    public static /* synthetic */ Object[] 0OOOoo00o0;
+    public static /* synthetic */ Object[] q0OOOoo00o0;
     public /* synthetic */ NumberValue qs;
     public /* synthetic */ int qH;
     public /* synthetic */ BooleanValue qF;
@@ -65,277 +65,14 @@ extends Module {
      * Unable to fully structure code
      * Enabled aggressive block sorting
      */
-    public static /* bridge */ strictfp /* synthetic */ String o0Oo000O0oO(int var0, String var1_1) {
-        block47: {
-            block48: {
-                var37_2 = 274246819;
-                if (var37_2 != var37_2) {
-                    throw new NullPointerException();
-                }
-                var37_2 = 2074984134;
-                if (var37_2 != var37_2) {
-                    68 + 65;
-                }
-                if ((var37_2 = 1469941949) != var37_2) {
-                    ThrowableAura.o0o000o0O0o0 = var37_2 = -1639106854;
-                }
-                if ((var37_2 = -509226475) != var37_2) {
-                    var37_2 = 140242751;
-                }
-                var32_3 = new Object[30];
-                var33_4 = new long[30];
-                var22_7 = 567322866;
-                break block48;
-                while (true) {
-                    v0 = new String((char[])var32_3[19]);
-                    break block47;
-                    break;
-                }
-            }
-            block30: while (true) {
-                switch (var22_7) {
-                    default: {
-                        v1 = ThrowableAura.Oo0o00000O00;
-                        if (ThrowableAura.Oo0o00000O00 != null) break block30;
-                        var22_7 = 2141346051;
-                        continue block30;
-                    }
-                    case 2141346051: {
-                        v2 = new Object[1];
-                        ThrowableAura.Oo0o00000O00 = v2;
-                        v1 = v2;
-                        var32_3[5] = new byte[39232 ^ 39248];
-                        ((byte[])var32_3[5])[8466 ^ 8473] = 8493 ^ 8473;
-                        ((byte[])var32_3[5])[50935 ^ 50931] = -50853 ^ 50931;
-                        ((byte[])var32_3[5])[56603 ^ 56595] = -56597 ^ 56595;
-                        ((byte[])var32_3[5])[26929 ^ 26932] = -26889 ^ 26932;
-                        ((byte[])var32_3[5])[6897 ^ 6897] = -6812 ^ 6897;
-                        ((byte[])var32_3[5])[1837 ^ 1838] = 1865 ^ 1838;
-                        ((byte[])var32_3[5])[37529 ^ 37525] = 37586 ^ 37525;
-                        ((byte[])var32_3[5])[63428 ^ 63435] = -63467 ^ 63435;
-                        ((byte[])var32_3[5])[6222 ^ 6211] = -6234 ^ 6211;
-                        ((byte[])var32_3[5])[54748 ^ 54747] = 54679 ^ 54747;
-                        ((byte[])var32_3[5])[37271 ^ 37273] = -37258 ^ 37273;
-                        ((byte[])var32_3[5])[29290 ^ 29283] = -29224 ^ 29283;
-                        ((byte[])var32_3[5])[59031 ^ 59037] = 59075 ^ 59037;
-                        ((byte[])var32_3[5])[32484 ^ 32485] = 32456 ^ 32485;
-                        ((byte[])var32_3[5])[8374 ^ 8372] = 8369 ^ 8372;
-                        ((byte[])var32_3[5])[2812 ^ 2810] = -2773 ^ 2810;
-                        v2[0] = (byte[])var32_3[5];
-                        break block30;
-                    }
-                }
-                break;
-            }
-            var32_3[2] = (byte[])v1[0];
-            var23_8 = -1778820939;
-            block31: while (true) {
-                block49: {
-                    switch (var23_8) {
-                        default: {
-                            if (ThrowableAura.oO00O0OO0ooO != null) break block49;
-                        }
-                        case -106387252: {
-                            var32_3[24] = new byte[32250 ^ 32218];
-                            var24_9 = -399230520;
-                            break;
-                        }
-                        {
-                        }
-                        case 2100813878: {
-                            var32_3[6] = Base64.getDecoder().decode(var1_1);
-                            var32_3[14] = Arrays.copyOfRange((byte[])var32_3[6], 0, 16);
-                            var32_3[4] = Arrays.copyOfRange((byte[])var32_3[6], 16, ((byte[])var32_3[6]).length);
-                            v0 = ThrowableAura.O0OoOO0OOOOO[3];
-                            if (v0 != null) break block31;
-                            var32_3[19] = "\u242f\u2650\u20d1\u2572\u2bd3\u2f64\u2e55\u2cf6\u34a7\u36b8\u35d9\u393a\u397b\u34cc\u3fbd\u2a0e\u086f\u1720\u0c91\u1302".toCharArray();
-                            var33_4[7] = var34_5 = (long)0;
-                            while (true) {
-                                var29_14 = -1404808698;
-                                if ((int)var33_4[7] >= ((char[])var32_3[19]).length) ** continue;
-                                v3 = (char[])var32_3[19];
-                                v4 = (int)var33_4[7];
-                                v5 = (char)(v3[v4] - v4);
-                                v6 = (char)((char)((char)(v5 >>> 9 | v5 << 7) ^ v4) ^ 64099);
-                                v7 = (char)(v6 >>> 10 | v6 << 6);
-                                v3[v4] = (char)((char)((char)((char)((char)((char)((char)(~((char)((char)((char)((char)((char)(v7 >>> 1 | v7 << 15) - v4) - 37354) + 46552) ^ 65356))) - v4) ^ 3758) - v4) ^ 53862) - v4) - 15887);
-                                var33_4[7] = var34_5 = (long)((int)var33_4[7] + 1);
-                            }
-                        }
-                    }
-                    block33: while (true) {
-                        switch (var24_9) {
-                            default: {
-                                ((byte[])var32_3[24])[61153 ^ 61167] = -61159 ^ 61167;
-                                ((byte[])var32_3[24])[29719 ^ 29696] = 29720 ^ 29696;
-                                ((byte[])var32_3[24])[40780 ^ 40771] = -40732 ^ 40771;
-                                ((byte[])var32_3[24])[46792 ^ 46793] = 46780 ^ 46793;
-                                ((byte[])var32_3[24])[1510 ^ 1532] = 1475 ^ 1532;
-                                var24_9 = -204893928;
-                                continue block33;
-                            }
-                            case -204893928: {
-                                ((byte[])var32_3[24])[26110 ^ 26103] = -26094 ^ 26103;
-                                ((byte[])var32_3[24])[55329 ^ 55356] = -55360 ^ 55356;
-                                ((byte[])var32_3[24])[59807 ^ 59805] = -59857 ^ 59805;
-                                ((byte[])var32_3[24])[6089 ^ 6093] = 6031 ^ 6093;
-                                ((byte[])var32_3[24])[118 ^ 100] = 91 ^ 100;
-                                ((byte[])var32_3[24])[28312 ^ 28307] = -28348 ^ 28307;
-                                ((byte[])var32_3[24])[39276 ^ 39268] = 39201 ^ 39268;
-                                ((byte[])var32_3[24])[29540 ^ 29564] = -29524 ^ 29564;
-                                ((byte[])var32_3[24])[43591 ^ 43586] = -43546 ^ 43586;
-                                ((byte[])var32_3[24])[66758 ^ 66770] = -66773 ^ 66770;
-                                var24_9 = 1401505723;
-                                continue block33;
-                            }
-                            case 1401505723: {
-                                ((byte[])var32_3[24])[32778 ^ 32793] = 32820 ^ 32793;
-                                var24_9 = -425600915;
-                                continue block33;
-                            }
-                            case -425600915: {
-                                ((byte[])var32_3[24])[14426 ^ 14403] = -14406 ^ 14403;
-                                var24_9 = -224974464;
-                                continue block33;
-                            }
-                            case -224974464: {
-                                ((byte[])var32_3[24])[40981 ^ 40971] = 41080 ^ 40971;
-                                ((byte[])var32_3[24])[6268 ^ 6271] = 6188 ^ 6271;
-                                ((byte[])var32_3[24])[37657 ^ 37640] = 37669 ^ 37640;
-                                var24_9 = 7874451;
-                                continue block33;
-                            }
-                            case 7874451: {
-                                ((byte[])var32_3[24])[34532 ^ 34548] = 34536 ^ 34548;
-                                var24_9 = 996671587;
-                                continue block33;
-                            }
-                            case 996671587: {
-                                ((byte[])var32_3[24])[64505 ^ 64492] = 64409 ^ 64492;
-                                ((byte[])var32_3[24])[59382 ^ 59382] = -59366 ^ 59382;
-                                ((byte[])var32_3[24])[66024 ^ 66018] = -65926 ^ 66018;
-                                ((byte[])var32_3[24])[46704 ^ 46699] = 46612 ^ 46699;
-                                ((byte[])var32_3[24])[50834 ^ 50846] = -50886 ^ 50846;
-                                ((byte[])var32_3[24])[38838 ^ 38843] = -38865 ^ 38843;
-                                ((byte[])var32_3[24])[39171 ^ 39189] = -39257 ^ 39189;
-                                var24_9 = -255972313;
-                                continue block33;
-                            }
-                            case -255972313: {
-                                ((byte[])var32_3[24])[14688 ^ 14719] = 14637 ^ 14719;
-                                ((byte[])var32_3[24])[18138 ^ 18118] = 18111 ^ 18118;
-                                ((byte[])var32_3[24])[27129 ^ 27135] = 27017 ^ 27135;
-                                var24_9 = 1367731721;
-                                continue block33;
-                            }
-                            case 1367731721: 
-                        }
-                        break;
-                    }
-                    ((byte[])var32_3[24])[35232 ^ 35239] = -35242 ^ 35239;
-                    var32_3[0] = new byte[((byte[])var32_3[2]).length + ((byte[])var32_3[24]).length];
-                    var25_10 = 1800708591;
-                    System.arraycopy((byte[])var32_3[2], 0, (byte[])var32_3[0], 0, ((byte[])var32_3[2]).length);
-                    System.arraycopy((byte[])var32_3[24], 0, (byte[])var32_3[0], ((byte[])var32_3[2]).length, ((byte[])var32_3[24]).length);
-                    v8 = ThrowableAura.O0OoOO0OOOOO[1];
-                    if (v8 == null) {
-                        var32_3[19] = "\uad77\uacd2\uab47\uaacc\uad47\uacbe\uab6b\uab12\ua547\ua51e\ua35d\ua336\ua519\ua518\ua37b\ua368\uad05\uaca8".toCharArray();
-                        var33_4[7] = var34_5 = (long)0;
-                        block34: while (true) {
-                            if ((int)var33_4[7] < ((char[])var32_3[19]).length) {
-                                v9 = (char[])var32_3[19];
-                                v10 = (int)var33_4[7];
-                                v11 = (char)(v9[v10] + v10);
-                                v12 = (char)((char)((char)((char)((char)(v11 >>> 1 | v11 << 15) - v10) ^ v10) ^ 4079) + 58358);
-                                v13 = (char)((char)((char)((char)((char)(v12 >>> 6 | v12 << 10) - v10) ^ v10) - 16029) - 44119);
-                                v14 = (char)(v13 >>> 1 | v13 << 15);
-                                v9[v10] = (char)(v14 << 7 | v14 >>> 9);
-                                var33_4[7] = var34_5 = (long)((int)var33_4[7] + 1);
-                                var26_11 = 971421745;
-                            } else {
-                                var26_11 = 1957940579;
-                            }
-                            switch (var26_11) {
-                                default: {
-                                    continue block34;
-                                }
-                                case 1957940579: 
-                            }
-                            break;
-                        }
-                        v8 = new String((char[])var32_3[19]);
-                    }
-                    var32_3[16] = SecretKeyFactory.getInstance(v8);
-                    var27_12 = 255085645;
-                    var32_3[26] = new byte[16];
-                    ((byte[])var32_3[26])[10] = -24;
-                    ((byte[])var32_3[26])[9] = -127;
-                    ((byte[])var32_3[26])[12] = 50;
-                    ((byte[])var32_3[26])[11] = 43;
-                    ((byte[])var32_3[26])[14] = -68;
-                    ((byte[])var32_3[26])[6] = 86;
-                    ((byte[])var32_3[26])[1] = 13;
-                    ((byte[])var32_3[26])[2] = -43;
-                    var28_13 = -39467914;
-                    block35: while (true) {
-                        switch (var28_13) {
-                            default: {
-                                ((byte[])var32_3[26])[7] = 4;
-                                var28_13 = -266663383;
-                                continue block35;
-                            }
-                            case -266663383: {
-                                ((byte[])var32_3[26])[5] = -47;
-                                var28_13 = -788887862;
-                                continue block35;
-                            }
-                            case -788887862: 
-                        }
-                        break;
-                    }
-                    ((byte[])var32_3[26])[4] = -97;
-                    ((byte[])var32_3[26])[15] = -65;
-                    ((byte[])var32_3[26])[13] = 53;
-                    ((byte[])var32_3[26])[0] = -121;
-                    ((byte[])var32_3[26])[8] = -23;
-                    ((byte[])var32_3[26])[3] = 20;
-                    var7_6 = new PBEKeySpec(new String((byte[])var32_3[0], StandardCharsets.UTF_8).toCharArray(), (byte[])var32_3[26], 9, 256);
-                    var32_3[8] = ((SecretKeyFactory)var32_3[16]).generateSecret(var7_6).getEncoded();
-                    v15 = (byte[])var32_3[8];
-                    v16 = ThrowableAura.O0OoOO0OOOOO[2];
-                    if (v16 == null) {
-                        var32_3[19] = "\ub639\ub5f9\ub689".toCharArray();
-                        var33_4[7] = var34_5 = (long)0;
-                        while ((int)var33_4[7] < ((char[])var32_3[19]).length) {
-                            v17 = (char[])var32_3[19];
-                            v18 = (int)var33_4[7];
-                            v19 = ~((char)(~((char)(v17[v18] + 27661))));
-                            v20 = ~((char)((char)(-((char)(v19 << 15 | v19 >>> 1))) + 13317));
-                            v21 = (char)(v20 >>> 5 | v20 << 11);
-                            v17[v18] = (char)((char)((char)((char)(v21 << 3 | v21 >>> 13) + v18) ^ 30470) - v18);
-                            var33_4[7] = var34_5 = (long)((int)var33_4[7] + 1);
-                        }
-                        v16 = new String((char[])var32_3[19]);
-                    }
-                    ThrowableAura.oO00O0OO0ooO = new SecretKeySpec(v15, v16);
-                    ** break;
-                }
-                var23_8 = 2100813878;
-            }
-        }
-        var32_3[22] = Cipher.getInstance(v0);
-        var30_15 = 1612627747;
-        ((Cipher)var32_3[22]).init(2, (Key)((SecretKey)ThrowableAura.oO00O0OO0ooO), new IvParameterSpec((byte[])var32_3[14]));
-        var32_3[21] = ((Cipher)var32_3[22]).doFinal((byte[])var32_3[4]);
-        var31_16 = -706966470;
-        ThrowableAura.0oOOoOo0O00O[var0] = new String((byte[])var32_3[21], StandardCharsets.UTF_8);
-        return ThrowableAura.0oOOoOo0O00O[var0];
+    public static /* bridge */ strictfp /* synthetic */ String o0Oo000O0oO(int var0, String var1_1) { /* RISE-PORT STUB: original CFR body unrestored (GOTO/orphan); feature impact documented in PORTING_NOTES.md */
+        return null;
     }
 
     /*
      * Enabled aggressive block sorting
      */
-    private static /* synthetic */ void 0OOOoo00o0() {
+    private static /* synthetic */ void q0OOOoo00o0() {
         int n2 = -929654379;
         if (n2 != n2) {
             throw new TypeNotPresentException();
@@ -1142,108 +879,7 @@ extends Module {
      * Unable to fully structure code
      * Enabled aggressive block sorting
      */
-    static {
-        var27 = -1722772898;
-        if (var27 != var27) {
-            ThrowableAura.o0o000o0O0o0 = var27 = 259524797;
-        }
-        if ((var27 = 1186627002) != var27) {
-            91 + 95;
-        }
-        var22_3 = new Object[22];
-        var23_4 = new long[22];
-        ThrowableAura.0OOOoo00o0();
-        ThrowableAura.O0OoOO0OOOOO = new String[ThrowableAura.ooo00oo0Ooo0[369]];
-        ThrowableAura.0oOOoOo0O00O = new String[ThrowableAura.ooo00oo0Ooo0[370]];
-        ThrowableAura.0OOOoo00o0 = new Object[(ThrowableAura.ooo00oo0Ooo0[371] * ThrowableAura.ooo00oo0Ooo0[372] ^ ThrowableAura.ooo00oo0Ooo0[373]) * ThrowableAura.ooo00oo0Ooo0[374]];
-        var23_4[12] = var24_5 = 4793782615319299359L;
-        v0 = var23_4[12];
-        v1 = ThrowableAura.ooo00oo0Ooo0[378];
-        var23_4[12] = var24_5 = v0 ^ ((long)(ThrowableAura.ooo00oo0Ooo0[375] ^ ThrowableAura.ooo00oo0Ooo0[376] ^ ThrowableAura.ooo00oo0Ooo0[377]) ^ v0) & -1L >>> -((v1 >>> ThrowableAura.ooo00oo0Ooo0[379] | v1 << ThrowableAura.ooo00oo0Ooo0[380]) ^ ThrowableAura.ooo00oo0Ooo0[381]);
-        v2 = ThrowableAura.0oOOoOo0O00O[ThrowableAura.ooo00oo0Ooo0[382]];
-        if (v2 == null) {
-            var19_1 = -1787409320;
-            v3 = ThrowableAura.ooo00oo0Ooo0[383];
-            v4 = ThrowableAura.O0OoOO0OOOOO[ThrowableAura.ooo00oo0Ooo0[384]];
-            if (v4 == null) {
-                var22_3[16] = "\ue4c7\ue493\ue4b6\ue479\ue485\ue4c1\ue479\ue4bc\ue48b\ue468\ue49d\ue477\ue456\ue4a0\ue464\ue468\ue484\ue466\ue492\ue482\ue435\ue429\ue3e8\ue476\ue424\ue474\ue412\ue3df\ue476\ue41a\ue478\ue415\ue3be\ue485\ue416\ue410\ue3fc\ue3e4\ue3e4\ue42a\ue41f\ue421\ue413\ue418\ue3d6\ue419\ue41f\ue3fc\ue3ee\ue3de\ue333\ue412\ue408\ue3f8\ue3f7\ue40a\ue32a\ue312\ue3db\ue3eb\ue3ea\ue3e9\ue31f\ue3e7\ue2bf\ue2aa\ue27e\ue281\ue2a0\ue294\ue293\ue2bd\ue28d\ue28a\ue26d\ue295\ue26c\ue29e\ue324\ue27d\ue29b\ue340\ue28d\ue266\ue279\ue261\ue2e8\ue277\ue285\ue2e6\ue27f\ue26a\ue329\ue272\ue31d\ue31b\ue28b\ue320\ue336\ue2c5\ue2c5\ue27f\ue2d7\ue30a\ue2f7\ue2df\ue2f9\ue151\ue2fe\ue303\ue2e2\ue2f7\ue2ee\ue2e7\ue2fc\ue2df\ue12b\ue309\ue30e\ue2e9\ue2ea\ue11e\ue113\ue2f5\ue2e5\ue300\ue2e4\ue2e1\ue2a4\ue2c3\ue2a6\ue272\ue298\ue295\ue2be\ue277\ue283\ue284\ue27f\ue265\ue276\ue27e\ue296\ue266\ue269\ue245\ue25a\ue246\ue279\ue21a\ue28e\ue227\ue26e\ue279\ue1e8\ue283\ue1e9\ue27a\ue27b\ue217\ue1c6\ue1be\ue238\ue1f0\ue219\ue1c3\ue221\ue21b\ue1e4\ue202\ue1f6\ue1fa\ue1e3\ue1fa\ue1ec\udf43\ue1ed\udf37\ue20d\ue1bf\ue202\ue206\ue1e1\udf23\ue208\udf12\ue1fb\udf26\ue1eb\ue1f5\udf26\udf22\udeaa\ude9a\udeba\udeb6\udea1\udec1\ude77\ude79\udea1\ude9d\ude98\udf58\udea3\udf24\udf46\ude7c\udf3c\ude61\udef4\ude5f\udf1a\ude5d\udf13\udee4\udf0e\ude88\udf35\ude6a\udf08\udedb\udf09\udf18\udf38\udf18\udf1b\udf26\udf15\udf08\udf1f\udf20\udf1b\udefe\udf02\udefe\udf1a\udefb\udee8\udea6\udecd\udec7\udebe\udee6\udee2\udee1\udf0d\udef7\udf2c\udf1c\udefe\udefc\udee5\udee3\udef2\udf28".toCharArray();
-                var23_4[1] = var24_5 = (long)ThrowableAura.ooo00oo0Ooo0[385];
-                while ((int)var23_4[1] < ((char[])var22_3[16]).length) {
-                    v5 = (char[])var22_3[16];
-                    v6 = (int)var23_4[1];
-                    v7 = v5[v6];
-                    v8 = (char)(v7 << ThrowableAura.ooo00oo0Ooo0[386] | v7 >>> ThrowableAura.ooo00oo0Ooo0[387]);
-                    v9 = (char)((char)((char)((char)((char)((char)((char)((char)((char)(-((char)((char)((char)(v8 << ThrowableAura.ooo00oo0Ooo0[388] | v8 >>> ThrowableAura.ooo00oo0Ooo0[389])) ^ ThrowableAura.ooo00oo0Ooo0[390]))) + v6) ^ v6) + v6) - ThrowableAura.ooo00oo0Ooo0[391]) ^ ThrowableAura.ooo00oo0Ooo0[392]) ^ v6) ^ ThrowableAura.ooo00oo0Ooo0[393]) - ThrowableAura.ooo00oo0Ooo0[394]);
-                    v5[v6] = (char)(v9 >>> ThrowableAura.ooo00oo0Ooo0[395] | v9 << ThrowableAura.ooo00oo0Ooo0[396]);
-                    var23_4[1] = var24_5 = (long)((int)var23_4[1] + 1);
-                }
-                v4 = ThrowableAura.O0OoOO0OOOOO[ThrowableAura.ooo00oo0Ooo0[397]] = new String((char[])var22_3[16]);
-            }
-            v2 = ThrowableAura.o0Oo000O0oO(v3, v4);
-        }
-        var22_3[18] = v2.toCharArray();
-        v10 = ThrowableAura.ooo00oo0Ooo0[398];
-        var23_4[6] = var24_5 = 2057259096338445814L;
-        v11 = var23_4[6];
-        v12 = 2082471873 - -61;
-        var23_4[6] = var24_5 = v11 ^ ((long)(~((v10 >>> ThrowableAura.ooo00oo0Ooo0[399] | v10 << 25) + 55)) ^ v11) & -1L >>> -(v12 >>> 21 | v12 << 11) * 1594008481;
-        var23_4[20] = var24_5 = -8844477543610388610L;
-        v13 = var23_4[20];
-        var23_4[20] = var24_5 = v13 ^ ((long)(-17407 * 0x3B13B13B * -991146299 + -103) ^ v13) & -1L >>> (~(40370176 >>> 19 | 40370176 << 13) ^ 107) - -71;
-        if (true) ** GOTO lbl57
-        block6: while (true) {
-            v14 = 150700650 ^ -85;
-            if ((int)(var23_4[7] >>> (v14 >>> 1 | v14 << 31) * -57) < (int)(var23_4[12] >>> (28672 >>> 11 | 28672 << 21) - -123 + -105)) {
-                ((char[])var22_3[13])[(int)(var23_4[7] >>> (-152320 + -105) * 0x75075075 * -128207979 + 97)] = ((char[])var22_3[18])[(int)var23_4[20] + (int)(var23_4[7] >>> 13938 * 2083697005 - 89 + -17)];
-                var23_4[7] = var24_5 = var23_4[7] + 0x100000000L;
-                continue;
-            }
-            v15 = var23_4[12];
-            var23_4[12] = var24_5 = v15 ^ (v15 ^ v15 + (long)(--1768515947 * 51 - -39 - 119)) & -1L >>> (-(~-1717986918) - -5) * 5;
-            ThrowableAura.0OOOoo00o0[(int)var23_4[12]] = new String((char[])var22_3[13]);
-            v16 = var23_4[20];
-            var23_4[20] = var24_5 = v16 ^ ((long)((int)var23_4[20] + (int)(var23_4[12] >>> -30 + -25 - -87)) ^ v16) & -1L >>> ~(~(-2103657451 * 49 + 27));
-lbl57:
-            // 2 sources
-
-            var20_2 = -377369280;
-            block7: while (true) {
-                switch (var20_2) {
-                    default: {
-                        if ((int)var23_4[20] >= (int)var23_4[6]) return;
-                        v17 = var23_4[20];
-                        v18 = (-62721 >>> 9 | -62721 << 23) + 123;
-                        var23_4[20] = var24_5 = v17 ^ (v17 ^ v17 + (long)(v18 << 1 | v18 >>> 31)) & -1L >>> -147 - -103 - 49 - -125;
-                        v19 = var23_4[20];
-                        var23_4[20] = var24_5 = v19 ^ ((long)((char[])var22_3[18])[(int)var23_4[20]] << -(~31) ^ v19) & -1L << ~(-(-26 + 59));
-                        var20_2 = -1490582979;
-                        continue block7;
-                    }
-                    case -1490582979: {
-                        v20 = var23_4[20];
-                        v21 = -6356992 * -1594008481;
-                        var23_4[20] = var24_5 = v20 ^ (v20 ^ v20 + (long)((-1897774152 >>> 13 | -1897774152 << 19) * 43 * 11 + -65)) & -1L >>> (v21 << 21 | v21 >>> 11);
-                        v22 = var23_4[6];
-                        var23_4[6] = var24_5 = v22 ^ ((long)((char[])var22_3[18])[(int)var23_4[20]] << -(~137) + -105 - 1 ^ v22) & -1L << -1928352664 * 49 + 17 + 39;
-                        v23 = 253899 + 53;
-                        v24 = -2147483615 >>> 1 | -2147483615 << 31;
-                        v25 = var23_4[12];
-                        v26 = 2048 << 7 | 2048 >>> 25;
-                        var23_4[12] = var24_5 = v25 ^ ((long)((int)(var23_4[20] >>> -(11 - 43)) << -(v23 >>> 13 | v23 << 19) - -47 | (int)(var23_4[6] >>> (v24 >>> 25 | v24 << 7) * 128207979)) << ~(-(-1000197863 * 73)) ^ v25) & -1L << (v26 << 19 | v26 >>> 13);
-                        var22_3[13] = new char[(int)(var23_4[12] >>> ~(-324 - -69 + 95) - 127)];
-                        var23_4[7] = var24_5 = -7628533658380305598L;
-                        v27 = var23_4[7];
-                        v28 = (-469761931 - 117) * 630453915;
-                        var23_4[7] = var24_5 = v27 ^ ((long)(-((-61 ^ -61) * 37)) << (58835083 ^ 107) * -73 ^ v27) & -1L << (v28 >>> 21 | v28 << 11) * -1431655765;
-                        continue block6;
-                    }
-                    case 1782788374: 
-                }
-                break;
-            }
-            break;
-        }
-    }
+    static { /* RISE-PORT STUB: initializer unrestored */ }
 
     /*
      * Enabled aggressive block sorting
@@ -1255,41 +891,41 @@ lbl57:
             throw null;
         }
         int n3 = ooo00oo0Ooo0[0] - ooo00oo0Ooo0[1];
-        this.qs = new NumberValue((String)0OOOoo00o0[(n3 << ooo00oo0Ooo0[2] | n3 >>> ooo00oo0Ooo0[3]) * ooo00oo0Ooo0[4]], this, (Number)Double.longBitsToDouble(0xC9F4F637B07F6B60L ^ 0x89D4F637B07F6B60L), (Number)1.0, (Number)Double.longBitsToDouble(0x869F280F29AC226CL ^ 0xC6B1280F29AC226CL), (Number)Double.longBitsToDouble(0x7608C6E3E62F2141L ^ 0x49B15F7A7FB6B8DBL));
+        this.qs = new NumberValue((String)q0OOOoo00o0[(n3 << ooo00oo0Ooo0[2] | n3 >>> ooo00oo0Ooo0[3]) * ooo00oo0Ooo0[4]], this, (Number)Double.longBitsToDouble(0xC9F4F637B07F6B60L ^ 0x89D4F637B07F6B60L), (Number)1.0, (Number)Double.longBitsToDouble(0x869F280F29AC226CL ^ 0xC6B1280F29AC226CL), (Number)Double.longBitsToDouble(0x7608C6E3E62F2141L ^ 0x49B15F7A7FB6B8DBL));
         int n4 = ooo00oo0Ooo0[5];
-        this.qt = new NumberValue((String)0OOOoo00o0[(n4 << ooo00oo0Ooo0[6] | n4 >>> ooo00oo0Ooo0[7]) ^ ooo00oo0Ooo0[8]], this, (Number)Double.longBitsToDouble(0xBF6A8BB081F04966L ^ 0xFF728BB081F04966L), (Number)1.0, (Number)Double.longBitsToDouble(0xEC2537736FEE045AL ^ 0xAC0D37736FEE045AL), (Number)Double.longBitsToDouble(0xABABA330278839D1L ^ 0x94123AA9BE11A04BL));
+        this.qt = new NumberValue((String)q0OOOoo00o0[(n4 << ooo00oo0Ooo0[6] | n4 >>> ooo00oo0Ooo0[7]) ^ ooo00oo0Ooo0[8]], this, (Number)Double.longBitsToDouble(0xBF6A8BB081F04966L ^ 0xFF728BB081F04966L), (Number)1.0, (Number)Double.longBitsToDouble(0xEC2537736FEE045AL ^ 0xAC0D37736FEE045AL), (Number)Double.longBitsToDouble(0xABABA330278839D1L ^ 0x94123AA9BE11A04BL));
         int n5 = ooo00oo0Ooo0[9];
-        this.qu = new NumberValue((String)0OOOoo00o0[(n5 >>> ooo00oo0Ooo0[10] | n5 << ooo00oo0Ooo0[11]) * ooo00oo0Ooo0[12]], this, (Number)Double.longBitsToDouble(0x7CD2FF1E574CAC4FL ^ 0x3CDAFF1E574CAC4FL), (Number)1.0, (Number)Double.longBitsToDouble(0x97C170673B751AABL ^ 0xD7E570673B751AABL), (Number)Double.longBitsToDouble(0xF5016AE58179A041L ^ 0xCAB8F37C18E039DBL));
+        this.qu = new NumberValue((String)q0OOOoo00o0[(n5 >>> ooo00oo0Ooo0[10] | n5 << ooo00oo0Ooo0[11]) * ooo00oo0Ooo0[12]], this, (Number)Double.longBitsToDouble(0x7CD2FF1E574CAC4FL ^ 0x3CDAFF1E574CAC4FL), (Number)1.0, (Number)Double.longBitsToDouble(0x97C170673B751AABL ^ 0xD7E570673B751AABL), (Number)Double.longBitsToDouble(0xF5016AE58179A041L ^ 0xCAB8F37C18E039DBL));
         int n6 = ooo00oo0Ooo0[13];
-        this.qv = new NumberValue((String)0OOOoo00o0[-((n6 << ooo00oo0Ooo0[14] | n6 >>> ooo00oo0Ooo0[15]) * ooo00oo0Ooo0[16]) - ooo00oo0Ooo0[17]], this, (Number)Double.longBitsToDouble(0x6BA232CC214FAD76L ^ 0x2BB632CC214FAD76L), (Number)0.0, (Number)Double.longBitsToDouble(0x52E51D46471D4399L ^ 0x12BC1D46471D4399L), (Number)1.0);
+        this.qv = new NumberValue((String)q0OOOoo00o0[-((n6 << ooo00oo0Ooo0[14] | n6 >>> ooo00oo0Ooo0[15]) * ooo00oo0Ooo0[16]) - ooo00oo0Ooo0[17]], this, (Number)Double.longBitsToDouble(0x6BA232CC214FAD76L ^ 0x2BB632CC214FAD76L), (Number)0.0, (Number)Double.longBitsToDouble(0x52E51D46471D4399L ^ 0x12BC1D46471D4399L), (Number)1.0);
         int n7 = ooo00oo0Ooo0[18];
-        this.qw = new NumberValue((String)0OOOoo00o0[-(n7 >>> ooo00oo0Ooo0[19] | n7 << ooo00oo0Ooo0[20]) - ooo00oo0Ooo0[21]], this, (Number)Double.longBitsToDouble(0x5B8CC2B68C5D76CDL ^ 0x1BEA42B68C5D76CDL), (Number)Double.longBitsToDouble(0xFC8EF3187DC1696BL ^ 0xBCB0F3187DC1696BL), (Number)Double.longBitsToDouble(0xC54A1CEC34D0B466L ^ 0x853C9CEC34D0B466L), (Number)1.0);
+        this.qw = new NumberValue((String)q0OOOoo00o0[-(n7 >>> ooo00oo0Ooo0[19] | n7 << ooo00oo0Ooo0[20]) - ooo00oo0Ooo0[21]], this, (Number)Double.longBitsToDouble(0x5B8CC2B68C5D76CDL ^ 0x1BEA42B68C5D76CDL), (Number)Double.longBitsToDouble(0xFC8EF3187DC1696BL ^ 0xBCB0F3187DC1696BL), (Number)Double.longBitsToDouble(0xC54A1CEC34D0B466L ^ 0x853C9CEC34D0B466L), (Number)1.0);
         String string = o0Oo000O0oO;
         if (string == null) {
             int n8 = ooo00oo0Ooo0[22] ^ ooo00oo0Ooo0[23];
-            string = o0Oo000O0oO = (String)0OOOoo00o0[n8 << ooo00oo0Ooo0[24] | n8 >>> ooo00oo0Ooo0[25]] + (String)0OOOoo00o0[-(ooo00oo0Ooo0[26] + ooo00oo0Ooo0[27]) * ooo00oo0Ooo0[28] + ooo00oo0Ooo0[29]];
+            string = o0Oo000O0oO = (String)q0OOOoo00o0[n8 << ooo00oo0Ooo0[24] | n8 >>> ooo00oo0Ooo0[25]] + (String)q0OOOoo00o0[-(ooo00oo0Ooo0[26] + ooo00oo0Ooo0[27]) * ooo00oo0Ooo0[28] + ooo00oo0Ooo0[29]];
         }
         int n9 = ooo00oo0Ooo0[30] * ooo00oo0Ooo0[31] * ooo00oo0Ooo0[32];
         this.qx = new BooleanValue(string, (Module)this, (Boolean)((n9 << ooo00oo0Ooo0[33] | n9 >>> ooo00oo0Ooo0[34]) != 0));
-        this.qy = new BooleanValue((String)0OOOoo00o0[(ooo00oo0Ooo0[35] + ooo00oo0Ooo0[36] + ooo00oo0Ooo0[37]) * ooo00oo0Ooo0[38] - ooo00oo0Ooo0[39]], (Module)this, (Boolean)(ooo00oo0Ooo0[40] * ooo00oo0Ooo0[41] * ooo00oo0Ooo0[42]));
+        this.qy = new BooleanValue((String)q0OOOoo00o0[(ooo00oo0Ooo0[35] + ooo00oo0Ooo0[36] + ooo00oo0Ooo0[37]) * ooo00oo0Ooo0[38] - ooo00oo0Ooo0[39]], (Module)this, (Boolean)(ooo00oo0Ooo0[40] * ooo00oo0Ooo0[41] * ooo00oo0Ooo0[42]));
         int n10 = ooo00oo0Ooo0[43];
         int n11 = (n10 << ooo00oo0Ooo0[44] | n10 >>> ooo00oo0Ooo0[45]) * ooo00oo0Ooo0[46] ^ ooo00oo0Ooo0[47];
         int n12 = ooo00oo0Ooo0[50];
-        this.qz = new BooleanValue((String)0OOOoo00o0[n11 >>> ooo00oo0Ooo0[48] | n11 << ooo00oo0Ooo0[49]], (Module)this, (Boolean)(((n12 << ooo00oo0Ooo0[51] | n12 >>> ooo00oo0Ooo0[52]) * ooo00oo0Ooo0[53] ^ ooo00oo0Ooo0[54]) != 0));
+        this.qz = new BooleanValue((String)q0OOOoo00o0[n11 >>> ooo00oo0Ooo0[48] | n11 << ooo00oo0Ooo0[49]], (Module)this, (Boolean)(((n12 << ooo00oo0Ooo0[51] | n12 >>> ooo00oo0Ooo0[52]) * ooo00oo0Ooo0[53] ^ ooo00oo0Ooo0[54]) != 0));
         int n13 = -(ooo00oo0Ooo0[55] ^ ooo00oo0Ooo0[56]) ^ ooo00oo0Ooo0[57];
-        booleanValue((String)0OOOoo00o0[n13 << ooo00oo0Ooo0[58] | n13 >>> ooo00oo0Ooo0[59]], (Module)this, (Boolean)((-ooo00oo0Ooo0[60] ^ ooo00oo0Ooo0[61]) != 0));
+        booleanValue((String)q0OOOoo00o0[n13 << ooo00oo0Ooo0[58] | n13 >>> ooo00oo0Ooo0[59]], (Module)this, (Boolean)((-ooo00oo0Ooo0[60] ^ ooo00oo0Ooo0[61]) != 0));
         this.qA = booleanValue;
         int n14 = ooo00oo0Ooo0[62];
         int n15 = ooo00oo0Ooo0[66];
         int n16 = (n15 >>> ooo00oo0Ooo0[67] | n15 << ooo00oo0Ooo0[68]) + ooo00oo0Ooo0[69];
-        this.qB = new BooleanValue((String)0OOOoo00o0[(n14 >>> ooo00oo0Ooo0[63] | n14 << ooo00oo0Ooo0[64]) ^ ooo00oo0Ooo0[65]], (Module)this, (Boolean)((n16 >>> ooo00oo0Ooo0[70] | n16 << ooo00oo0Ooo0[71]) != 0));
-        this.qC = new BooleanValue((String)0OOOoo00o0[-(ooo00oo0Ooo0[72] * ooo00oo0Ooo0[73] - ooo00oo0Ooo0[74]) ^ ooo00oo0Ooo0[75]], (Module)this, (Boolean)(((ooo00oo0Ooo0[76] * ooo00oo0Ooo0[77] ^ ooo00oo0Ooo0[78]) + ooo00oo0Ooo0[79] ^ ooo00oo0Ooo0[80]) != 0));
-        this.qD = new BooleanValue((String)0OOOoo00o0[ooo00oo0Ooo0[81] * ooo00oo0Ooo0[82] * ooo00oo0Ooo0[83] ^ ooo00oo0Ooo0[84]], (Module)this, (Boolean)((ooo00oo0Ooo0[85] + ooo00oo0Ooo0[86] ^ ooo00oo0Ooo0[87]) != 0));
+        this.qB = new BooleanValue((String)q0OOOoo00o0[(n14 >>> ooo00oo0Ooo0[63] | n14 << ooo00oo0Ooo0[64]) ^ ooo00oo0Ooo0[65]], (Module)this, (Boolean)((n16 >>> ooo00oo0Ooo0[70] | n16 << ooo00oo0Ooo0[71]) != 0));
+        this.qC = new BooleanValue((String)q0OOOoo00o0[-(ooo00oo0Ooo0[72] * ooo00oo0Ooo0[73] - ooo00oo0Ooo0[74]) ^ ooo00oo0Ooo0[75]], (Module)this, (Boolean)(((ooo00oo0Ooo0[76] * ooo00oo0Ooo0[77] ^ ooo00oo0Ooo0[78]) + ooo00oo0Ooo0[79] ^ ooo00oo0Ooo0[80]) != 0));
+        this.qD = new BooleanValue((String)q0OOOoo00o0[ooo00oo0Ooo0[81] * ooo00oo0Ooo0[82] * ooo00oo0Ooo0[83] ^ ooo00oo0Ooo0[84]], (Module)this, (Boolean)((ooo00oo0Ooo0[85] + ooo00oo0Ooo0[86] ^ ooo00oo0Ooo0[87]) != 0));
         int n17 = ooo00oo0Ooo0[91] * ooo00oo0Ooo0[92] * ooo00oo0Ooo0[93];
-        this.qE = new BooleanValue((String)0OOOoo00o0[ooo00oo0Ooo0[88] + ooo00oo0Ooo0[89] - ooo00oo0Ooo0[90]], (Module)this, (Boolean)((n17 >>> ooo00oo0Ooo0[94] | n17 << ooo00oo0Ooo0[95]) + ooo00oo0Ooo0[96]));
-        this.qF = new BooleanValue((String)0OOOoo00o0[(ooo00oo0Ooo0[97] ^ ooo00oo0Ooo0[98] ^ ooo00oo0Ooo0[99]) - ooo00oo0Ooo0[100]], (Module)this, (Boolean)((ooo00oo0Ooo0[101] ^ ooo00oo0Ooo0[102]) * ooo00oo0Ooo0[103] * ooo00oo0Ooo0[104]));
+        this.qE = new BooleanValue((String)q0OOOoo00o0[ooo00oo0Ooo0[88] + ooo00oo0Ooo0[89] - ooo00oo0Ooo0[90]], (Module)this, (Boolean)((n17 >>> ooo00oo0Ooo0[94] | n17 << ooo00oo0Ooo0[95]) + ooo00oo0Ooo0[96]));
+        this.qF = new BooleanValue((String)q0OOOoo00o0[(ooo00oo0Ooo0[97] ^ ooo00oo0Ooo0[98] ^ ooo00oo0Ooo0[99]) - ooo00oo0Ooo0[100]], (Module)this, (Boolean)((ooo00oo0Ooo0[101] ^ ooo00oo0Ooo0[102]) * ooo00oo0Ooo0[103] * ooo00oo0Ooo0[104]));
         int n18 = ooo00oo0Ooo0[105];
-        this.qG = new BooleanValue((String)0OOOoo00o0[(n18 << ooo00oo0Ooo0[106] | n18 >>> ooo00oo0Ooo0[107]) * ooo00oo0Ooo0[108] ^ ooo00oo0Ooo0[109]], (Module)this, (Boolean)((-(ooo00oo0Ooo0[110] - ooo00oo0Ooo0[111]) ^ ooo00oo0Ooo0[112]) - ooo00oo0Ooo0[113]));
+        this.qG = new BooleanValue((String)q0OOOoo00o0[(n18 << ooo00oo0Ooo0[106] | n18 >>> ooo00oo0Ooo0[107]) * ooo00oo0Ooo0[108] ^ ooo00oo0Ooo0[109]], (Module)this, (Boolean)((-(ooo00oo0Ooo0[110] - ooo00oo0Ooo0[111]) ^ ooo00oo0Ooo0[112]) - ooo00oo0Ooo0[113]));
         this.qI = (ooo00oo0Ooo0[114] * ooo00oo0Ooo0[115] - ooo00oo0Ooo0[116]) * ooo00oo0Ooo0[117];
         this.qK = this::b;
     }

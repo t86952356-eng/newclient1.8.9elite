@@ -210,33 +210,8 @@ implements InstanceAccess {
         return n5;
     }
 
-    public static float c(Block block, int n2) {
-        float f2 = ain.a(block, n2);
-        if (f2 > 1.0f) {
-            int n3 = l.K(ain.aER.bgK);
-            co co2 = ain.az(n2);
-            if (n3 > 0 && co2 != null) {
-                f2 += (float)(n3 * n3 + 1);
-            }
-        }
-        if (ain.aER.bgK.a(net.minecraft.potion.a.dgy)) {
-            f2 *= 1.0f + (float)(ain.aER.bgK.b(net.minecraft.potion.a.dgy).ajf() + 1) * 0.2f;
-        }
-        if (ain.aER.bgK.a(net.minecraft.potion.a.dgz)) {
-            f2 *= (switch (ain.aER.bgK.b(net.minecraft.potion.a.dgz).ajf()) {
-                case 0 -> 0.3f;
-                case 1 -> 0.09f;
-                case 2 -> 0.0027f;
-                default -> 8.1E-4f;
-            });
-        }
-        if (ain.aER.bgK.c(Material.bev) && !l.Q(ain.aER.bgK)) {
-            f2 /= 5.0f;
-        }
-        if (!ain.aER.bgK.aO) {
-            f2 /= 5.0f;
-        }
-        return f2;
+    public static float c(Block block, int n2) { /* RISE-PORT STUB: original CFR body unrestored (GOTO/orphan); feature impact documented in PORTING_NOTES.md */
+        return 0.0F;
     }
 
     @Generated

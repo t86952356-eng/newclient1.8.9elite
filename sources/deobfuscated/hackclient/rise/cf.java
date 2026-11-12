@@ -33,7 +33,7 @@ extends am {
             return;
         }
         for (cm cm2 : hc) {
-            cm2.a(ff2.do(), ff2.dp());
+            cm2.a(ff2.j_do(), ff2.dp());
         }
     };
     @EventLink(cH=4)

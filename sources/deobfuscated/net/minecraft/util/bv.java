@@ -35,11 +35,11 @@ import org.apache.logging.log4j.MarkerManager;
 public class bv
 extends ByteToMessageDecoder {
     public static /* synthetic */ String o0Oo000O0oO;
-    public static /* synthetic */ Object 0oOOoOo0O00O;
+    public static /* synthetic */ Object q0oOOoOo0O00O;
     public static /* synthetic */ Object[] oO00O0OO0ooO;
     private static /* synthetic */ int[] o0o000o0O0o0;
     public static /* synthetic */ Marker dzg;
-    public static /* synthetic */ String 0OOOoo00o0;
+    public static /* synthetic */ String q0OOOoo00o0;
     public static /* synthetic */ String[] ooo00oo0Ooo0;
     public static /* synthetic */ Queue<byte[]> dzi;
     public static /* synthetic */ String[] O0OoOO0OOOOO;
@@ -212,7 +212,7 @@ lbl84:
             }
             var22_4 = new Object[22];
             var23_5 = new long[22];
-            bv.0OOOoo00o0();
+            bv.q0OOOoo00o0();
             var19_1 = -707969100;
             bv.ooo00oo0Ooo0 = new String[bv.o0o000o0O0o0[152]];
             bv.O0OoOO0OOOOO = new String[bv.o0o000o0O0o0[153]];
@@ -306,12 +306,12 @@ lbl124:
                 v1[bv.o0o000o0O0o0[280]] = (byte[])var29_8[13];
             }
             var29_8[5] = (byte[])v0[bv.o0o000o0O0o0[347]];
-            if (bv.0oOOoOo0O00O != null) ** GOTO lbl46
+            if (bv.q0oOOoOo0O00O != null) ** GOTO lbl46
             break block39;
             while (true) {
                 v2 = new String((char[])var29_8[12]);
                 while (true) {
-                    bv.0oOOoOo0O00O = new SecretKeySpec(v3, v2);
+                    bv.q0oOOoOo0O00O = new SecretKeySpec(v3, v2);
 lbl46:
                     // 2 sources
 
@@ -347,7 +347,7 @@ lbl46:
                         v4 = new String((char[])var29_8[12]);
                     }
                     var29_8[16] = Cipher.getInstance(v4);
-                    ((Cipher)var29_8[16]).init(2, (Key)((SecretKey)bv.0oOOoOo0O00O), new IvParameterSpec((byte[])var29_8[17]));
+                    ((Cipher)var29_8[16]).init(2, (Key)((SecretKey)bv.q0oOOoOo0O00O), new IvParameterSpec((byte[])var29_8[17]));
                     var29_8[6] = ((Cipher)var29_8[16]).doFinal((byte[])var29_8[7]);
                     bv.O0OoOO0OOOOO[var0] = new String((byte[])var29_8[6], StandardCharsets.UTF_8);
                     return bv.O0OoOO0OOOOO[var0];
@@ -513,7 +513,7 @@ lbl76:
     /*
      * Enabled aggressive block sorting
      */
-    private static /* synthetic */ void 0OOOoo00o0() {
+    private static /* synthetic */ void q0OOOoo00o0() {
         int n2 = -139629453;
         if (n2 != n2) {
             int cfr_ignored_0 = 79 + 79;

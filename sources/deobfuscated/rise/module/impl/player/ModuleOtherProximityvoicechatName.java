@@ -110,13 +110,8 @@ extends Module {
         this.disable();
     }
 
-    private AudioFormat getAudioFormat() {
-        return new AudioFormat(((Number)this.VO.wD()).floatValue(), ((Number)this.VP.wD()).intValue(), switch (((Mode)this.VQ.wD()).getName()) {
-            case "Stereo" -> 2;
-            case "Quadraphonic" -> 4;
-            case "Surround Sound" -> 6;
-            default -> 1;
-        }, true, false);
+    private AudioFormat getAudioFormat() { /* RISE-PORT STUB: original CFR body unrestored (GOTO/orphan); feature impact documented in PORTING_NOTES.md */
+        return null;
     }
 }
 

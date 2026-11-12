@@ -60,7 +60,7 @@ extends b {
         }
         if (this.cBA >= 0) {
             if (this.baU.dDw) {
-                this.baU.if(2);
+                this.baU.j_if(2);
             } else {
                 double d2 = 3.0;
                 List<c> list = this.baU.b(this, new net.minecraft.util.a(this.gW - 3.0, this.gX - 3.0, this.gY - 3.0, this.gW + 3.0, this.gX + 6.0 + 3.0, this.gY + 3.0));

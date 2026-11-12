@@ -76,57 +76,8 @@ implements InstanceAccess {
         });
     }
 
-    private void vc() {
-        try {
-            if (this.isEmpty()) {
-                ahu ahu3 = new ahu();
-                ahu3.add(this.aOg);
-                this.add(ahu3);
-            } else {
-                ArrayList<ahu> arrayList = new ArrayList<ahu>();
-                ArrayList<ahu> arrayList2 = new ArrayList<ahu>();
-                ahw[] ahwArray = new ahw[]{ahw.aOs, ahw.aOt};
-                for (ahu ahu4 : this) {
-                    ahu ahu5;
-                    int n2;
-                    int n3 = 1;
-                    for (n2 = -n3; n2 <= n3; n2 += n3 * 2) {
-                        ahu5 = this.a(ahu4, n2, 0, 0);
-                        if (ahu5 == null || !ahw.a(ahu5, this, ahwArray)) continue;
-                        arrayList.add(ahu5);
-                    }
-                    for (n2 = -n3; n2 <= n3; n2 += n3 * 2) {
-                        ahu5 = this.a(ahu4, 0, n2, 0);
-                        if (ahu5 == null || !ahw.a(ahu5, this, ahwArray)) continue;
-                        arrayList.add(ahu5);
-                    }
-                    for (n2 = -n3; n2 <= n3; n2 += n3 * 2) {
-                        ahu5 = this.a(ahu4, 0, 0, n2);
-                        if (ahu5 == null || !ahw.a(ahu5, this, ahwArray)) continue;
-                        arrayList.add(ahu5);
-                    }
-                    arrayList2.add(ahu4);
-                }
-                this.removeAll(arrayList2);
-                this.addAll(arrayList);
-                arrayList.forEach((? super T ahu2) -> {
-                    if (((ahv)ahu2.get(ahu2.size() - 1)).equals(this.aOh)) {
-                        this.aOk = ahu2;
-                    }
-                });
-                this.sort(Comparator.comparingDouble(ahu2 -> (int)((ahv)ahu2.get(ahu2.size() - 1)).j(this.aOh)));
-                int n4 = (int)((ahv)((ahu)this.get(0)).get(((ahu)this.get(0)).size() - 1)).j(this.aOh);
-                this.removeRange(Math.max(1, Math.min(25, this.size() - 1)), this.size());
-                if (n4 < this.aOm) {
-                    this.aOm = n4;
-                }
-            }
-        }
-        catch (Exception exception) {
-            afl.c("Exception in Console", new Object[0]);
-            exception.printStackTrace();
-            this.clear();
-        }
+    private void vc() { /* RISE-PORT STUB: original CFR body unrestored (GOTO/orphan); feature impact documented in PORTING_NOTES.md */
+        
     }
 
     private ahu a(ahu ahu2, int n2, int n3, int n4) {

@@ -477,35 +477,8 @@ extends Block {
      * WARNING - void declaration
      */
     @Override
-    public ce a(w w2, b b2, da da2, da da3) {
-        void var10_14;
-        void object;
-        ce[] ceArray = new ce[8];
-        IBlockState iBlockState = w2.L(b2);
-        int n2 = iBlockState.b(baZ).asA();
-        boolean bl2 = iBlockState.b(bba) == BlockStairs$EnumHalf.bbh;
-        int[] nArray = bbc[n2 + (bl2 ? 4 : 0)];
-        this.bbf = true;
-        boolean i2 = false;
-        while (object < 8) {
-            this.bbg = object;
-            if (Arrays.binarySearch(nArray, (int)object) < 0) {
-                ceArray[object] = super.a(w2, b2, da2, da3);
-            }
-            ++object;
-        }
-        for (int n3 : nArray) {
-            ceArray[n3] = null;
-        }
-        Object var10_13 = null;
-        double d2 = 0.0;
-        for (ce ce2 : ceArray) {
-            double d3;
-            if (ce2 == null || !((d3 = ce2.daS.y(da3)) > d2)) continue;
-            ce ce3 = ce2;
-            d2 = d3;
-        }
-        return var10_14;
+    public ce a(w w2, b b2, da da2, da da3) { /* RISE-PORT STUB: original CFR body unrestored (GOTO/orphan); feature impact documented in PORTING_NOTES.md */
+        return null;
     }
 
     @Override

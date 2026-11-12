@@ -1,7 +1,7 @@
 /*
  * Decompiled with CFR 0.152.
  */
-package rise.module.impl.render.interface;
+package rise.module.impl.render.guimode;
 
 import hackclient.rise.ady;
 import hackclient.rise.agf;

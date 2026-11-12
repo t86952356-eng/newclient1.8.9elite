@@ -23,8 +23,8 @@ import rise.value.NumberValue;
  */
 public class GrimReduceMode
 extends Mode<Velocity> {
-    public static /* synthetic */ String 0OOOoo00o0;
-    public static /* synthetic */ Object[] 0oOOoOo0O00O;
+    public static /* synthetic */ String q0OOOoo00o0;
+    public static /* synthetic */ Object[] q0oOOoOo0O00O;
     public static /* synthetic */ float jq;
     public static /* synthetic */ Object O0OoOO0OOOOO;
     public static /* synthetic */ float jp;
@@ -136,7 +136,7 @@ extends Mode<Velocity> {
     /*
      * Enabled aggressive block sorting
      */
-    private static /* synthetic */ void 0OOOoo00o0() {
+    private static /* synthetic */ void q0OOOoo00o0() {
         int n2 = -404051446;
         if (n2 != n2) {
             n2 = -1769883418;
@@ -882,159 +882,7 @@ extends Mode<Velocity> {
      * Unable to fully structure code
      * Enabled aggressive block sorting
      */
-    static {
-        block23: {
-            block24: {
-                block22: {
-                    var27 = -121665770;
-                    if (var27 != var27) {
-                    }
-                    if ((var27 = 729934076) != var27) {
-                        var27 = 1139904164;
-                    }
-                    var22_1 = new Object[22];
-                    var23_2 = new long[22];
-                    GrimReduceMode.0OOOoo00o0();
-                    GrimReduceMode.o0o000o0O0o0 = new String[GrimReduceMode.oOo00Oo0OOo0[330]];
-                    GrimReduceMode.ooo00oo0Ooo0 = new String[GrimReduceMode.oOo00Oo0OOo0[331]];
-                    v0 = GrimReduceMode.oOo00Oo0OOo0[332];
-                    v1 = v0 >>> GrimReduceMode.oOo00Oo0OOo0[333] | v0 << GrimReduceMode.oOo00Oo0OOo0[334];
-                    GrimReduceMode.oO00O0OO0ooO = new Object[(v1 >>> GrimReduceMode.oOo00Oo0OOo0[335] | v1 << GrimReduceMode.oOo00Oo0OOo0[336]) ^ GrimReduceMode.oOo00Oo0OOo0[337]];
-                    v2 = GrimReduceMode.oOo00Oo0OOo0[338] - GrimReduceMode.oOo00Oo0OOo0[339] ^ GrimReduceMode.oOo00Oo0OOo0[340];
-                    var23_2[1] = var24_3 = 2674799521684719443L;
-                    v3 = GrimReduceMode.oOo00Oo0OOo0[344] + GrimReduceMode.oOo00Oo0OOo0[345];
-                    v4 = -(v3 << GrimReduceMode.oOo00Oo0OOo0[346] | v3 >>> GrimReduceMode.oOo00Oo0OOo0[347]);
-                    v5 = var23_2[1];
-                    v6 = GrimReduceMode.oOo00Oo0OOo0[350];
-                    var23_2[1] = var24_3 = v5 ^ ((long)((v2 >>> GrimReduceMode.oOo00Oo0OOo0[341] | v2 << GrimReduceMode.oOo00Oo0OOo0[342]) * GrimReduceMode.oOo00Oo0OOo0[343]) << (v4 >>> GrimReduceMode.oOo00Oo0OOo0[348] | v4 << GrimReduceMode.oOo00Oo0OOo0[349]) ^ v5) & -1L << -((v6 >>> GrimReduceMode.oOo00Oo0OOo0[351] | v6 << GrimReduceMode.oOo00Oo0OOo0[352]) * GrimReduceMode.oOo00Oo0OOo0[353]);
-                    v7 = GrimReduceMode.ooo00oo0Ooo0[GrimReduceMode.oOo00Oo0OOo0[354]];
-                    if (v7 == null) {
-                        v8 = GrimReduceMode.oOo00Oo0OOo0[355];
-                        v9 = GrimReduceMode.o0o000o0O0o0[GrimReduceMode.oOo00Oo0OOo0[356]];
-                        if (v9 == null) {
-                            var22_1[2] = "\uc307\ua607\u8f07\ubb07\ua507\u6407\u6507\u5b07\u6507\u9307\u6207\u8307\u5207\u5607\u2507\u1c07\u2307\u3507\u1207\u0907\u1c07\uf606\ued06\ufb06\uf006\ue906\uee06\u0307\uc706\uab06\ua206\ud506\ub806\ua506\uc106\uc706\u7306\u7906\u6306\u7906\u8c06\u6b06\u6a06\u7b06\u5e06\u5d06\u3006\u1a06\u2e06\u2806\u0206\ufe05\u1906\uf305\u0b06\ude05\uf005\udb05\ue505\uc005\ucc05\uc905\ucc05\ua805\ubc05\u9705\u8e05\u9a05\u7f05\u9105\u6e05\u7a05\u5c05\u4f05\u4f05\u5b05\u6505\u6405\u4105\u2f05\u5205\u0e05\u2105\uf504\u1705\u2b05\u2605\ue504\ud104\uc904\uef04\ueb04\uff04\ueb04\ud104\ud504\u9b04\ud704\ua604\u7904\u7104\ua504\u7604\u5b04\u7104\u6404\u7c04\u5604\u3804\u6c04\u2304\u3e04\u4504\u3504\u4704\u1f04\uf703\u1904\ue603\u1b04\ufe03\uca03\uf103\udd03\uc503\uae03\ue503\ue303\ud403\ubb03\ucb03\ub503\u9d03\u8503\u9d03\u7403\u6c03\u6403\u4703\u6703\u3603\u6a03\u3c03\u5e03\u1c03\u0603\u4503\u1803\uf002\u2a03\ue902\udd02\ud402\ue402\uc602\uc702\ued02\uac02\ua702\uc102\ud202\uab02\u8502\ua702\ub102\u6602\u8402\u9402\u6d02\u7b02\u6b02\u4002\u5d02\u4502\u4f02\u5d02\u1402\u2d02\u1002\u3802\u0702\u2802\uec01\uf801\uf501\ufe01\u0b02\uc401\ud201\ubd01\udd01\uda01\uac01\uab01\ub201\uaf01\u9601\u9401\u9101\u6501\u7a01\u4901\u4f01\u4d01\u3301\u5f01\u4901\u5e01\u1c01\u3f01\u4b01\uff00\u0701\ue900\u2201\udf00\uff00\u0801\ue100\uce00\uc100\uee00\ud300\ua500\uac00\ucb00\ub000\u8e00\u9500\u7a00\ua700\u8e00\u9500\u4e00\u8400\u7100".toCharArray();
-                            var23_2[12] = var24_3 = (long)GrimReduceMode.oOo00Oo0OOo0[357];
-                            while ((int)var23_2[12] < ((char[])var22_1[2]).length) {
-                                v10 = (char[])var22_1[2];
-                                v11 = (int)var23_2[12];
-                                v12 = v10[v11];
-                                v13 = (char)((char)((char)(-((char)((char)((char)(v12 << GrimReduceMode.oOo00Oo0OOo0[358] | v12 >>> GrimReduceMode.oOo00Oo0OOo0[359]) + v11) - v11))) - v11) ^ GrimReduceMode.oOo00Oo0OOo0[360]);
-                                v14 = (char)(v13 >>> GrimReduceMode.oOo00Oo0OOo0[361] | v13 << GrimReduceMode.oOo00Oo0OOo0[362]);
-                                v10[v11] = (char)((char)((char)(v14 << GrimReduceMode.oOo00Oo0OOo0[363] | v14 >>> GrimReduceMode.oOo00Oo0OOo0[364]) - v11) + v11);
-                                var23_2[12] = var24_3 = (long)((int)var23_2[12] + 1);
-                            }
-                            v9 = GrimReduceMode.o0o000o0O0o0[GrimReduceMode.oOo00Oo0OOo0[365]] = new String((char[])var22_1[2]);
-                        }
-                        v7 = GrimReduceMode.o0Oo000O0oO(v8, v9);
-                    }
-                    var22_1[16] = v7.toCharArray();
-                    v15 = GrimReduceMode.oOo00Oo0OOo0[366];
-                    v16 = (v15 >>> GrimReduceMode.oOo00Oo0OOo0[367] | v15 << GrimReduceMode.oOo00Oo0OOo0[368]) * GrimReduceMode.oOo00Oo0OOo0[369];
-                    var23_2[20] = var24_3 = 4985767898962240419L;
-                    v17 = var23_2[20];
-                    v18 = GrimReduceMode.oOo00Oo0OOo0[372];
-                    var23_2[20] = var24_3 = v17 ^ ((long)(v16 >>> GrimReduceMode.oOo00Oo0OOo0[370] | v16 << GrimReduceMode.oOo00Oo0OOo0[371]) ^ v17) & -1L >>> -(v18 >>> GrimReduceMode.oOo00Oo0OOo0[373] | v18 << GrimReduceMode.oOo00Oo0OOo0[374]);
-                    var23_2[19] = var24_3 = -2379549212075754019L;
-                    v19 = var23_2[19];
-                    v20 = GrimReduceMode.oOo00Oo0OOo0[380] * GrimReduceMode.oOo00Oo0OOo0[381];
-                    v21 = v20 >>> GrimReduceMode.oOo00Oo0OOo0[382] | v20 << GrimReduceMode.oOo00Oo0OOo0[383];
-                    var23_2[19] = var24_3 = v19 ^ ((long)((GrimReduceMode.oOo00Oo0OOo0[375] ^ GrimReduceMode.oOo00Oo0OOo0[376] ^ GrimReduceMode.oOo00Oo0OOo0[377]) * GrimReduceMode.oOo00Oo0OOo0[378] ^ GrimReduceMode.oOo00Oo0OOo0[379]) ^ v19) & -1L >>> (v21 >>> GrimReduceMode.oOo00Oo0OOo0[384] | v21 << GrimReduceMode.oOo00Oo0OOo0[385]) - GrimReduceMode.oOo00Oo0OOo0[386];
-lbl51:
-                    // 2 sources
-
-                    while (true) {
-                        var19_4 = 14855837;
-                        break block22;
-                        break;
-                    }
-lbl54:
-                    // 2 sources
-
-                    while (true) {
-                        var21_6 = 1554898993;
-                        break block23;
-                        while (true) {
-                            var23_2[1] = var24_3 = var23_2[1] + 0x100000000L;
-                            GrimReduceMode.oO00O0OO0ooO[(int)(var23_2[1] >>> (-343607810 * 2014922929 - -115 + 15) * 25)] = new String((char[])var22_1[9]);
-                            v22 = var23_2[19];
-                            var23_2[19] = var24_3 = v22 ^ ((long)((int)var23_2[19] + (int)var23_2[1]) ^ v22) & -1L >>> (-(-2032027540 + 3) * -93 ^ 115);
-                            ** continue;
-                            break;
-                        }
-                        break;
-                    }
-                }
-                block15: while (true) {
-                    switch (var19_4) {
-                        default: {
-                            if ((int)var23_2[19] >= (int)var23_2[20]) break block15;
-                            var19_4 = -1875031570;
-                            continue block15;
-                        }
-                        case -1875031570: {
-                            v23 = var23_2[19];
-                            v24 = GrimReduceMode.oOo00Oo0OOo0[387] * GrimReduceMode.oOo00Oo0OOo0[388] ^ GrimReduceMode.oOo00Oo0OOo0[389] ^ GrimReduceMode.oOo00Oo0OOo0[390];
-                            var23_2[19] = var24_3 = v23 ^ (v23 ^ v23 + (long)(v24 << GrimReduceMode.oOo00Oo0OOo0[391] | v24 >>> GrimReduceMode.oOo00Oo0OOo0[392])) & -1L >>> -(GrimReduceMode.oOo00Oo0OOo0[393] - GrimReduceMode.oOo00Oo0OOo0[394] ^ GrimReduceMode.oOo00Oo0OOo0[395] ^ GrimReduceMode.oOo00Oo0OOo0[396]);
-                            var23_2[6] = var24_3 = -1154092220000234981L;
-                            v25 = var23_2[6];
-                            var23_2[6] = var24_3 = v25 ^ ((long)((char[])var22_1[16])[(int)var23_2[19]] << (GrimReduceMode.oOo00Oo0OOo0[397] ^ GrimReduceMode.oOo00Oo0OOo0[398] ^ GrimReduceMode.oOo00Oo0OOo0[399]) - -93 ^ v25) & -1L << (-505290325 - -53) * -17;
-                            var20_5 = 990663764;
-                            break block24;
-                        }
-                        case -276894662: 
-                    }
-                    break;
-                }
-                v26 = 0 * 0x69069069 * -1084587701;
-                GrimReduceMode.dj = v26 << 21 | v26 >>> 11;
-                return;
-            }
-            block16: while (true) {
-                switch (var20_5) {
-                    default: {
-                        v27 = var23_2[19];
-                        v28 = --16777216;
-                        var23_2[19] = var24_3 = v27 ^ (v27 ^ v27 + (long)(~((65536 >>> 15 | 65536 << 17) * -1))) & -1L >>> (v28 << 13 | v28 >>> 19);
-                        v29 = 69655 - 23;
-                        v30 = var23_2[19];
-                        v31 = -46080 * 0x5B05B05B;
-                        var23_2[19] = var24_3 = v30 ^ ((long)((char[])var22_1[16])[(int)var23_2[19]] << (v29 >>> 7 | v29 << 25) * -252645135 ^ v30) & -1L << (v31 << 27 | v31 >>> 5);
-                        v32 = (37 << 17 | 37 >>> 15) * -1857283155;
-                        v33 = var23_2[1];
-                        v34 = -536870808 + -73;
-                        v35 = -(v34 << 27 | v34 >>> 5);
-                        var23_2[1] = var24_3 = v33 ^ ((long)((int)(var23_2[6] >>> -(-531757880 + -21 + 45) * 105) << (v32 >>> 13 | v32 << 19) | (int)(var23_2[19] >>> (-277 ^ -19) + -125 - 105)) ^ v33) & -1L >>> (v35 << 13 | v35 >>> 19);
-                        var20_5 = -1415819966;
-                        continue block16;
-                    }
-                    case -1415819966: 
-                }
-                break;
-            }
-            var22_1[9] = new char[(int)var23_2[1]];
-            var21_6 = -162843129;
-        }
-        block17: while (true) {
-            switch (var21_6) {
-                default: {
-                    v36 = var23_2[20];
-                    var23_2[20] = var24_3 = v36 ^ (0L ^ v36) & -1L << -((1600 >>> 3 | 1600 << 29) + -117 ^ -77);
-                    ** GOTO lbl54
-                }
-                case 1554898993: {
-                    if ((int)(var23_2[20] >>> ~(~45 ^ 13)) >= (int)var23_2[1]) ** continue;
-                    v37 = ~62 + 79;
-                    ((char[])var22_1[9])[(int)(var23_2[20] >>> (v37 >>> 31 | v37 << 1))] = ((char[])var22_1[16])[(int)var23_2[19] + (int)(var23_2[20] >>> ((-1227133592 + 89) * 7 ^ 103))];
-                    var23_2[20] = var24_3 = var23_2[20] + 0x100000000L;
-                    var21_6 = 1606789486;
-                    continue block17;
-                }
-                case 1606789486: 
-            }
-            break;
-        }
-        ** while (true)
-    }
+    static { /* RISE-PORT STUB: initializer unrestored */ }
 
     /*
      * Enabled aggressive block sorting
@@ -1058,9 +906,9 @@ lbl54:
         int n6 = oOo00Oo0OOo0[20];
         int n7 = oOo00Oo0OOo0[30] ^ oOo00Oo0OOo0[31];
         this.ty = new NumberValue((String)oO00O0OO0ooO[-((n6 << oOo00Oo0OOo0[21] | n6 >>> oOo00Oo0OOo0[22]) ^ oOo00Oo0OOo0[23]) + oOo00Oo0OOo0[24]], this, (Number)((oOo00Oo0OOo0[25] - oOo00Oo0OOo0[26]) * oOo00Oo0OOo0[27] ^ oOo00Oo0OOo0[28] ^ oOo00Oo0OOo0[29]), (Number)(n7 >>> oOo00Oo0OOo0[32] | n7 << oOo00Oo0OOo0[33]), (Number)(-oOo00Oo0OOo0[34] - oOo00Oo0OOo0[35] ^ oOo00Oo0OOo0[36] ^ oOo00Oo0OOo0[37]), (Number)(-oOo00Oo0OOo0[38] * oOo00Oo0OOo0[39] ^ oOo00Oo0OOo0[40]));
-        String string3 = 0OOOoo00o0;
+        String string3 = q0OOOoo00o0;
         if (string3 == null) {
-            string3 = 0OOOoo00o0 = (String)oO00O0OO0ooO[-oOo00Oo0OOo0[41] * oOo00Oo0OOo0[42]] + (String)oO00O0OO0ooO[((oOo00Oo0OOo0[43] - oOo00Oo0OOo0[44] ^ oOo00Oo0OOo0[45]) + oOo00Oo0OOo0[46]) * oOo00Oo0OOo0[47]];
+            string3 = q0OOOoo00o0 = (String)oO00O0OO0ooO[-oOo00Oo0OOo0[41] * oOo00Oo0OOo0[42]] + (String)oO00O0OO0ooO[((oOo00Oo0OOo0[43] - oOo00Oo0OOo0[44] ^ oOo00Oo0OOo0[45]) + oOo00Oo0OOo0[46]) * oOo00Oo0OOo0[47]];
         }
         this.tz = new NumberValue(string3, this, (Number)((oOo00Oo0OOo0[48] ^ oOo00Oo0OOo0[49]) * oOo00Oo0OOo0[50]), (Number)(-((oOo00Oo0OOo0[51] + oOo00Oo0OOo0[52] ^ oOo00Oo0OOo0[53]) * oOo00Oo0OOo0[54])), (Number)(-((oOo00Oo0OOo0[55] ^ oOo00Oo0OOo0[56] ^ oOo00Oo0OOo0[57]) + oOo00Oo0OOo0[58])), (Number)(-oOo00Oo0OOo0[59] * oOo00Oo0OOo0[60]));
         String string4 = Oo0o00000O00;

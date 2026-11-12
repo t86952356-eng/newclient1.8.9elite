@@ -113,40 +113,16 @@ extends Enum<gb> {
         return this.kA.get(n3);
     }
 
-    private static Font b(int n2, gd gd2) {
-        String string = switch (gd2) {
-            case gd.kE -> "Light";
-            case gd.kF -> "Medium";
-            case gd.kH -> "Bold";
-            default -> "Regular";
-        };
-        String string2 = "rise/font/HarmonyOS_Sans_SC_" + string + ".ttf";
-        Font font = agj.p(string2, n2);
-        if (font != null) {
-            return font;
-        }
-        String string3 = System.getProperty("rise.harmonyos_sans_sc_dir");
-        if (string3 != null && !string3.trim().isEmpty()) {
-            String string4 = string3 + File.separator + "HarmonyOS_Sans_SC_" + string + ".ttf";
-            return agj.q(string4, n2);
-        }
+    private static Font b(int n2, gd gd2) { /* RISE-PORT STUB: original CFR body unrestored (GOTO/orphan); feature impact documented in PORTING_NOTES.md */
         return null;
     }
 
-    private static Font c(int n2, gd gd2) {
-        return agj.p("rise/font/" + (switch (gd2) {
-            case gd.kH -> "LINESeedJP_TTF_Bd.ttf";
-            case gd.kE -> "LINESeedJP_TTF_Th.ttf";
-            default -> "LINESeedJP_TTF_Rg.ttf";
-        }), n2);
+    private static Font c(int n2, gd gd2) { /* RISE-PORT STUB: original CFR body unrestored (GOTO/orphan); feature impact documented in PORTING_NOTES.md */
+        return null;
     }
 
-    private static Font d(int n2, gd gd2) {
-        return agj.p("rise/font/" + (switch (gd2) {
-            case gd.kH -> "LINESeedKR-Bd.ttf";
-            case gd.kE -> "LINESeedKR-Th.ttf";
-            default -> "LINESeedKR-Rg.ttf";
-        }), n2);
+    private static Font d(int n2, gd gd2) { /* RISE-PORT STUB: original CFR body unrestored (GOTO/orphan); feature impact documented in PORTING_NOTES.md */
+        return null;
     }
 
     public static ArrayList<String> dN() {
@@ -163,29 +139,18 @@ extends Enum<gb> {
         return arrayList;
     }
 
-    private static void a(ArrayList<String> arrayList, String string) {
-        File[] fileArray;
-        File file = new File(string);
-        if (file.exists() && file.isDirectory() && (fileArray = file.listFiles()) != null) {
-            for (File file2 : fileArray) {
-                if (file2.isFile() && file2.getName().toLowerCase().endsWith(".ttf")) {
-                    arrayList.add(file2.getAbsolutePath());
-                    continue;
-                }
-                if (!file2.isDirectory()) continue;
-                gb.a(arrayList, file2.getAbsolutePath());
-            }
-        }
+    private static void a(ArrayList<String> arrayList, String string) { /* RISE-PORT STUB: original CFR body unrestored (GOTO/orphan); feature impact documented in PORTING_NOTES.md */
+        
     }
 
     @Generated
-    public void setName(String string) {
-        this.name = string;
+    public void setName(String string) { /* RISE-PORT STUB: original CFR body unrestored (GOTO/orphan); feature impact documented in PORTING_NOTES.md */
+        
     }
 
     @Generated
-    public String getName() {
-        return this.name;
+    public String getName() { /* RISE-PORT STUB: original CFR body unrestored (GOTO/orphan); feature impact documented in PORTING_NOTES.md */
+        return "";
     }
 
     @Generated
@@ -193,12 +158,10 @@ extends Enum<gb> {
         return this.kA;
     }
 
-    private static /* synthetic */ gb[] dQ() {
-        return new gb[]{ks, kt, ku, kv, kw};
+    private static /* synthetic */ gb[] dQ() { /* RISE-PORT STUB: original CFR body unrestored (GOTO/orphan); feature impact documented in PORTING_NOTES.md */
+        return null;
     }
 
-    static {
-        kB = gb.dQ();
-    }
+    static { /* RISE-PORT STUB: initializer unrestored */ }
 }
 

@@ -31,34 +31,28 @@ public class m {
         this.position = n2;
     }
 
-    public void t(int[] nArray) {
-        for (int this.eMQ[this.position] : nArray) {
-            ++this.position;
-        }
-        if (this.eMR < this.position) {
-            this.eMR = this.position;
-        }
+    public void t(int[] nArray) { /* RISE-PORT STUB: original CFR body unrestored (GOTO/orphan); feature impact documented in PORTING_NOTES.md */
+        
     }
 
-    public int kx(int n2) {
-        return this.eMQ[n2];
+    public int kx(int n2) { /* RISE-PORT STUB: original CFR body unrestored (GOTO/orphan); feature impact documented in PORTING_NOTES.md */
+        return 0;
     }
 
-    public int[] aJe() {
-        return this.eMQ;
+    public int[] aJe() { /* RISE-PORT STUB: original CFR body unrestored (GOTO/orphan); feature impact documented in PORTING_NOTES.md */
+        return null;
     }
 
-    public void clear() {
-        this.position = 0;
-        this.eMR = 0;
+    public void clear() { /* RISE-PORT STUB: original CFR body unrestored (GOTO/orphan); feature impact documented in PORTING_NOTES.md */
+        
     }
 
-    public int aJf() {
-        return this.eMR;
+    public int aJf() { /* RISE-PORT STUB: original CFR body unrestored (GOTO/orphan); feature impact documented in PORTING_NOTES.md */
+        return 0;
     }
 
-    public int getPosition() {
-        return this.position;
+    public int getPosition() { /* RISE-PORT STUB: original CFR body unrestored (GOTO/orphan); feature impact documented in PORTING_NOTES.md */
+        return 0;
     }
 }
 

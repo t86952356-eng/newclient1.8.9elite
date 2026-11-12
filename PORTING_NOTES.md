@@ -108,3 +108,66 @@ The account manager remains reachable from its other in-game entry points
   redaction in §5).
 - Authentication: the port uses the launching launcher's official session;
   no DRM/login bypass was added anywhere.
+
+## 7. Session 6.9.9-android.2 — source-build port (owner ordered: "build the
+## client by any means, even with heavy modification"; the original compiled
+## JAR `client-restored.jar` does not exist and will never be provided)
+
+Everything below was applied to `sources/deobfuscated/` (the compilable tree)
+and is reproducible with the tools in this session's toolchain (see
+AI_AGENT_GUIDE §2b).
+
+### 7.1 Mechanical repairs (scripted, deterministic)
+
+| Change | Files | Tool |
+|---|---|---|
+| Illegal digit-led identifiers (`0OOOoo00o0`, `0o0o0Oo0o0`, … 72 distinct tokens, 2193 sites) renamed to `q<token>` — context-aware (skips numeric literals, strings, comments; scientific literals like `4.8828125E-4f` preserved) | 77 | `fix_illegal_identifiers.py` phase A |
+| Keyword-named members (`do`, `if`, `switch` as method/ctor names — CFR artifact) renamed to `j_<kw>` + all dotted call sites | 8 decl + 6 call files | same, phase B |
+| Package `rise.module.impl.render.interface` (a Java keyword as package name — illegal in source) renamed to `rise.module.impl.render.guimode`; all imports rewritten | 12 files + dir rename | inline script |
+| **String-decryptor ported to pure Java** — the JNI native `o0Oo000O0oO(int,String)` (25 classes, registered via `nl/Loader` against natives that are not in this package) replaced by a new `nl/StringDecryptor` (AES-128*/CBC/PKCS5Padding; Base64 input; 16-byte IV prefix). Constants extracted mechanically from the decompiled Java copy in `net.minecraft.network.r` (CFR output): password = 48 bytes `d24f2191…494688` (part1[16] ‖ part2[32] from the literal XOR cascades), salt = `253439444b03e566c0f28b63f980b65c`, PBKDF2 iterations 19, key 256-bit. The 25 native declarations became 1-line delegators; `Loader.registerNativesForClass(...)` statements removed; `r.java`'s mangled method body replaced by a delegator (region lines 1035–1289, first member-level close after the last `** GOTO`). **This kills BLOCKER-2 at compile time.** | 30 files + new `nl/StringDecryptor.java` | `patch_decryptor.py` |
+| Damaged method bodies (GOTO/orphaned switch/try) replaced by typed-default stubs marked `/* RISE-PORT STUB */` — signatures kept so the class graph links. | ~100 methods / ~60 files | `stub_broken_methods.py` |
+| Files whose damage survived stubbing rewritten as compilable skeletons (signatures + fields kept, bodies stubbed) — **the skeleton emitter still needs manual cleanup on several of them (they compile worse than intended); see §7.3** | 29 files | `skeleton_rewrite.py` |
+| `net/minecraft/client/gui/aa|au|cd|cn.java`: the `** GOTO lbl-1000` idiom hand-restructured to plain if/else (semantics preserved, noted inline); untyped CFR locals typed (`int var1_1`, `boolean v0`, …) | 4 files | hand edits |
+
+### 7.2 Build system
+
+- `build.sh`: new primary stage `stage_client_source` — compiles the whole
+  `sources/deobfuscated` tree (classpath: the official 1.8.9 library set from
+  `libraries.minecraft.net` + Via stack from `repo.viaversion.com` + vendored
+  org.json). On javac failure it logs honestly and the release is packaged
+  INCOMPLETE (never faked). Binary patch mode (`artifacts/client-restored.jar`)
+  is kept only as a fallback that will never trigger.
+- `scripts/generate_version_json.py`: the version manifest now also carries the
+  Via stack as runtime libraries (viaversion 5.12.2, viabackwards 5.12.2,
+  viarewind 4.2.0 — pinned, sha1/size embedded) so FCL/Pojav download them
+  into `libraries/` automatically.
+
+### 7.3 Known remaining work (compile not yet green — last full compile: 12
+### rounds, ~1545 javac errors)
+
+Hand-repair pending (protected files, must stay REAL — never stub them):
+
+| File | Damage | Needed |
+|---|---|---|
+| `net/minecraft/client/gui/bl.java` | 1 GOTO (`if (cTE < 40) ** GOTO lbl-1000` with the label block missing) + untyped locals (var3_3/var4_4/var5_5 int/boolean/String) | restructure + type locals |
+| `net/minecraft/client/gui/s.java` | 1 GOTO + many untyped locals (var14_14…var23_23) | same |
+| `net/minecraft/client/Minecraft.java` | 1 construct: `void var13_18;` (line ~1015) + its uses | drop the void local, keep flow |
+| `rise/Client.java` | 1 GOTO in static init (24 errors) | restructure |
+| `rise/module/ModuleManager.java` | 10 GOTOs across ~3 methods (97 errors) | restructure (Rise boot core) |
+| `net/minecraft/client/multiplayer/b.java` | 3 GOTOs (44 errors) | restructure |
+| `net/minecraft/util/bv.java` | 2 `** continue` (57 errors) | restructure |
+| `net/minecraft/entity/item/a.java` | 1 GOTO (5 errors) | restructure |
+| `net/minecraft/client/audio/SoundHandler.java` | orphaned case/catch (29 errors) | restructure |
+
+Skeleton-emitter cleanup pending (my `skeleton_rewrite.py` output compiles
+worse than the damage it replaced on these — rewrite them as clean minimal
+classes by hand or improve the emitter): `ahm`, `yi`, `ak`, `bg`, `cx`,
+`Scaffold`, `Spotify`, `ChannelMode`, `monitoring/f`, plus re-check `abs`,
+`do`, `BlockPart`, the `RenderItem$1..4`/`TextureMap$1..3` anonymous classes,
+`SkinManager$2`, `RenderGlobal$1`, `Bootstrap$5$1`, `network/a`,
+`BlockSilverfish$EnumType` (enum), `Clipper`, `SafeWalk`.
+
+After all files parse: an attribution round will surface missing-symbol errors
+(via API drift etc.) — resolve by classpath/code, then the smoke test
+(decrypt a real ciphertext constant through `nl.StringDecryptor`; PKCS#5
+padding success on a multi-block payload proves key+algorithm), then package.

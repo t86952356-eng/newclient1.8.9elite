@@ -63,18 +63,15 @@ implements cv {
                 var2_2 /* !! */  = au.aER.bgF.agm();
                 this.bqj = new c(108, this.width / 2 - 155 + var1_1 % 2 * 160, this.height / 6 - 12 + 24 * (var1_1 >> 1), 150, 20, this.a((f)var2_2 /* !! */ ));
                 this.buttonList.add(this.bqj);
-                if (!au.aER.isSingleplayer()) ** GOTO lbl-1000
-                if (!au.aER.bgF.avH().azv()) {
+                /* ANDROID/VANILLA PORT NOTE: CFR GOTO lbl-1000 restructured. */
+                if (au.aER.isSingleplayer() && !au.aER.bgF.avH().azv()) {
                     this.bqj.setWidth(this.bqj.getButtonWidth() - 20);
                     this.bqk = new ak(109, this.bqj.xPosition + this.bqj.getButtonWidth(), this.bqj.yPosition);
                     this.buttonList.add(this.bqk);
                     this.bqk.ab(au.aER.bgF.avH().isDifficultyLocked());
                     this.bqk.enabled = this.bqk.EG() == false;
                     this.bqj.enabled = this.bqk.EG() == false;
-                } else lbl-1000:
-                // 2 sources
-
-                {
+                } else {
                     this.bqj.enabled = false;
                 }
                 break block6;

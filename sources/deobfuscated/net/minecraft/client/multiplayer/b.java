@@ -32,10 +32,10 @@ extends GuiScreen {
     public static /* synthetic */ AtomicInteger bDl;
     public static /* synthetic */ String[] ooo00oo0Ooo0;
     public /* synthetic */ boolean bDn;
-    public static /* synthetic */ Object[] 0oOOoOo0O00O;
+    public static /* synthetic */ Object[] q0oOOoOo0O00O;
     public /* synthetic */ GuiScreen bDo;
     public /* synthetic */ r jS;
-    public static /* synthetic */ String 0OOOoo00o0;
+    public static /* synthetic */ String q0OOOoo00o0;
     private static /* synthetic */ int[] oOo00Oo0OOo0;
     public static /* synthetic */ Object[] oO00O0OO0ooO;
     public static /* synthetic */ String o0Oo000O0oO;
@@ -48,7 +48,7 @@ extends GuiScreen {
     /*
      * Enabled aggressive block sorting
      */
-    private static /* synthetic */ void 0OOOoo00o0() {
+    private static /* synthetic */ void q0OOOoo00o0() {
         int n2 = 1580711683;
         if (n2 != n2) {
             throw null;
@@ -866,7 +866,7 @@ lbl10:
                             while (true) {
                                 var23_2 = new Object[23];
                                 var24_3 = new long[23];
-                                b.0OOOoo00o0();
+                                b.q0OOOoo00o0();
                                 b.o0o000o0O0o0 = new String[b.oOo00Oo0OOo0[129]];
                                 b.ooo00oo0Ooo0 = new String[b.oOo00Oo0OOo0[130]];
                                 v1 = b.oOo00Oo0OOo0[131];
@@ -1021,10 +1021,10 @@ lbl107:
             var30_8 = new Object[28];
             var31_9 = new long[28];
             var22_4 = 1772778110;
-            v0 = b.0oOOoOo0O00O;
-            if (b.0oOOoOo0O00O == null) {
+            v0 = b.q0oOOoOo0O00O;
+            if (b.q0oOOoOo0O00O == null) {
                 v1 = new Object[b.oOo00Oo0OOo0[276]];
-                b.0oOOoOo0O00O = v1;
+                b.q0oOOoOo0O00O = v1;
                 v0 = v1;
                 var30_8[16] = new byte[b.oOo00Oo0OOo0[278] ^ b.oOo00Oo0OOo0[279]];
                 ((byte[])var30_8[16])[b.oOo00Oo0OOo0[280] ^ b.oOo00Oo0OOo0[281]] = b.oOo00Oo0OOo0[282] ^ b.oOo00Oo0OOo0[283];

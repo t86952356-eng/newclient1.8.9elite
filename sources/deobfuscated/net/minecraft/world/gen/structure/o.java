@@ -101,41 +101,7 @@ extends m {
     /*
      * WARNING - void declaration
      */
-    public net.minecraft.util.b am(net.minecraft.world.w w2, net.minecraft.util.b b2) {
-        double d2;
-        this.baU = w2;
-        this.q(w2);
-        this.ta.setSeed(w2.avD());
-        long l2 = this.ta.nextLong();
-        long l3 = this.ta.nextLong();
-        long l4 = (long)(b2.wt() >> 4) * l2;
-        long l5 = (long)(b2.wx() >> 4) * l3;
-        this.ta.setSeed(l4 ^ l5 ^ w2.avD());
-        this.a(w2, b2.wt() >> 4, b2.wx() >> 4, 0, 0, null);
-        double d3 = Double.MAX_VALUE;
-        net.minecraft.util.b b3 = null;
-        for (cb object : this.dQk.values()) {
-            Object object2;
-            net.minecraft.util.b b4;
-            if (!object.ayI() || !((d2 = (b4 = ((y)(object2 = object.azc().get(0))).ayT()).i(b2)) < d3)) continue;
-            d3 = d2;
-            b3 = b4;
-        }
-        if (b3 != null) {
-            return b3;
-        }
-        List<net.minecraft.util.b> list = this.ayH();
-        if (list != null) {
-            void var15_12;
-            Object var15_11 = null;
-            for (net.minecraft.util.b b4 : list) {
-                d2 = b4.i(b2);
-                if (!(d2 < d3)) continue;
-                d3 = d2;
-                net.minecraft.util.b b5 = b4;
-            }
-            return var15_12;
-        }
+    public net.minecraft.util.b am(net.minecraft.world.w w2, net.minecraft.util.b b2) { /* RISE-PORT STUB: original CFR body unrestored (GOTO/orphan); feature impact documented in PORTING_NOTES.md */
         return null;
     }
 

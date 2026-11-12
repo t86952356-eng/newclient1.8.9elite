@@ -15,8 +15,8 @@ import rip.vantage.commons.packet.api.abstracts.b;
  */
 public class a
 extends b {
-    public static /* synthetic */ Object[] 0OOOoo00o0;
-    public static /* synthetic */ String[] 0oOOoOo0O00O;
+    public static /* synthetic */ Object[] q0OOOoo00o0;
+    public static /* synthetic */ String[] q0oOOoOo0O00O;
     public static /* synthetic */ Object Oo0o00000O00;
     public static /* synthetic */ String[] oO00O0OO0ooO;
     public /* synthetic */ int eQH;
@@ -29,7 +29,7 @@ extends b {
     /*
      * Enabled aggressive block sorting
      */
-    private static /* synthetic */ void 0OOOoo00o0() {
+    private static /* synthetic */ void q0OOOoo00o0() {
         int n2 = 737539731;
         if (n2 != n2) {
             n2 = -1713894222;
@@ -943,8 +943,8 @@ extends b {
         Object[] objectArray = new Object[22];
         long[] lArray = new long[22];
         int n3 = -1645588734;
-        a.0OOOoo00o0();
-        0oOOoOo0O00O = new String[O0OoOO0OOOOO[31]];
+        a.q0OOOoo00o0();
+        q0oOOoOo0O00O = new String[O0OoOO0OOOOO[31]];
         oO00O0OO0ooO = new String[O0OoOO0OOOOO[32]];
         o0Oo000O0oO = new Object[(O0OoOO0OOOOO[33] * O0OoOO0OOOOO[34] * O0OoOO0OOOOO[35] ^ O0OoOO0OOOOO[36]) * O0OoOO0OOOOO[37]];
         lArray[8] = l2 = 6108942957631829057L;
@@ -955,7 +955,7 @@ extends b {
         String string = oO00O0OO0ooO[O0OoOO0OOOOO[44]];
         if (string == null) {
             int n6 = O0OoOO0OOOOO[45];
-            String string2 = 0oOOoOo0O00O[O0OoOO0OOOOO[46]];
+            String string2 = q0oOOoOo0O00O[O0OoOO0OOOOO[46]];
             if (string2 == null) {
                 objectArray[4] = "\u49fd\uca02\u49e0\uc9d5\u49cd\uca28\u4a18\uca13\u4a2f\uc9cc\u49ca\uc9d5\u49e7\uc9ce\u49ec\uca41\u4a0f\uca02\u4a04\uca7d\u4a37\uca70\u4a04\uc9c1\u4a5f\uca26\u4a14\uca59\u49df\uca1e\u4a04\uca11\u4a13\uc9ec\u49e6\uc9b3\u4aa1\uca1c\u4a14\ucaab\u49fb\uc9e2\u49e0\ucac9\u4a43\uca72\u4a12\uc9ef\u4a29\uca04\u49dc\uca4d\u4a2d\uc9be\u4a18\uc9e9\u4a0d\uca2c\u4a2a\uca4f\u49dd\uc9ea\u4a12\uc9ef".toCharArray();
                 lArray[18] = l2 = (long)O0OoOO0OOOOO[47];
@@ -968,7 +968,7 @@ extends b {
                     cArray[n7] = (char)((char)(c4 >>> O0OoOO0OOOOO[57] | c4 << O0OoOO0OOOOO[58]) ^ n7);
                     lArray[18] = l2 = (long)((int)lArray[18] + 1);
                 }
-                string2 = a.0oOOoOo0O00O[a.O0OoOO0OOOOO[59]] = new String((char[])objectArray[4]);
+                string2 = a.q0oOOoOo0O00O[a.O0OoOO0OOOOO[59]] = new String((char[])objectArray[4]);
             }
             string = a.o0Oo000O0oO(n6, string2);
         }

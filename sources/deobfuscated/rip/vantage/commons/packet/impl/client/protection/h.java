@@ -15,10 +15,10 @@ import rip.vantage.commons.packet.api.abstracts.a;
  */
 public class h
 extends a {
-    public static /* synthetic */ Object[] 0OOOoo00o0;
+    public static /* synthetic */ Object[] q0OOOoo00o0;
     public /* synthetic */ long eQj;
     public static /* synthetic */ Object[] o0Oo000O0oO;
-    public static /* synthetic */ String[] 0oOOoOo0O00O;
+    public static /* synthetic */ String[] q0oOOoOo0O00O;
     private static /* synthetic */ int[] O0OoOO0OOOOO;
     public /* synthetic */ byte[] eQi;
     public static /* synthetic */ String[] oO00O0OO0ooO;
@@ -47,124 +47,7 @@ extends a {
     /*
      * Unable to fully structure code
      */
-    static {
-        block15: {
-            block14: {
-                block13: {
-                    var28 = -758981827;
-                    if (var28 == var28) break block13;
-                    var28 = 849492571;
-                    break block13;
-lbl5:
-                    // 1 sources
-
-                    while (true) {
-                        continue;
-                        break;
-                    }
-                }
-                if ((var28 = -1706860379) == var28) break block14;
-                h.ooo00oo0Ooo0 = var28 = 2021530755;
-                break block14;
-                v0 = h.O0OoOO0OOOOO[108] + h.O0OoOO0OOOOO[109] ^ h.O0OoOO0OOOOO[110];
-                var24_5[13] = var25_6 = var24_5[13] + 0x100000000L;
-                var24_5[8] = var25_6 = -333169414306893906L;
-                v1 = var24_5[8];
-                var24_5[8] = var25_6 = v1 ^ ((long)((char[])var23_4[11])[(int)(var24_5[13] >>> ((v0 >>> h.O0OoOO0OOOOO[111] | v0 << h.O0OoOO0OOOOO[112]) ^ h.O0OoOO0OOOOO[113]))] ^ v1) & -1L >>> (h.O0OoOO0OOOOO[114] * h.O0OoOO0OOOOO[115] ^ h.O0OoOO0OOOOO[116]) + h.O0OoOO0OOOOO[117];
-                var21_3 = 1738097953;
-                v2 = var24_5[8];
-                v3 = h.O0OoOO0OOOOO[131];
-                var24_5[8] = var25_6 = v2 ^ ((long)((int)(var24_5[6] >>> (h.O0OoOO0OOOOO[118] + h.O0OoOO0OOOOO[119] + h.O0OoOO0OOOOO[120] ^ h.O0OoOO0OOOOO[121]) + h.O0OoOO0OOOOO[122]) << (h.O0OoOO0OOOOO[123] * h.O0OoOO0OOOOO[124] + h.O0OoOO0OOOOO[125] - h.O0OoOO0OOOOO[126]) * h.O0OoOO0OOOOO[127] | (int)var24_5[8]) << -(h.O0OoOO0OOOOO[128] * h.O0OoOO0OOOOO[129]) * h.O0OoOO0OOOOO[130] ^ v2) & -1L << -(v3 << h.O0OoOO0OOOOO[132] | v3 >>> h.O0OoOO0OOOOO[133]);
-                v4 = h.O0OoOO0OOOOO[134] * h.O0OoOO0OOOOO[135];
-                var23_4[17] = new char[(int)(var24_5[8] >>> ((v4 << h.O0OoOO0OOOOO[136] | v4 >>> h.O0OoOO0OOOOO[137]) ^ h.O0OoOO0OOOOO[138]))];
-                v5 = var24_5[6];
-                var24_5[6] = var25_6 = v5 ^ (0L ^ v5) & -1L >>> -((h.O0OoOO0OOOOO[139] ^ h.O0OoOO0OOOOO[140]) + h.O0OoOO0OOOOO[141]);
-                while ((int)var24_5[6] < (int)(var24_5[8] >>> (-h.O0OoOO0OOOOO[142] ^ h.O0OoOO0OOOOO[143]))) {
-                    ((char[])var23_4[17])[(int)var24_5[6]] = ((char[])var23_4[11])[(int)(var24_5[13] >>> (h.O0OoOO0OOOOO[144] - h.O0OoOO0OOOOO[145]) * h.O0OoOO0OOOOO[146]) + (int)var24_5[6]];
-                    v6 = var24_5[6];
-                    v7 = h.O0OoOO0OOOOO[147];
-                    v8 = (v7 >>> h.O0OoOO0OOOOO[148] | v7 << h.O0OoOO0OOOOO[149]) * h.O0OoOO0OOOOO[150];
-                    v9 = h.O0OoOO0OOOOO[153];
-                    var24_5[6] = var25_6 = v6 ^ (v6 ^ v6 + (long)(v8 << h.O0OoOO0OOOOO[151] | v8 >>> h.O0OoOO0OOOOO[152])) & -1L >>> (v9 >>> h.O0OoOO0OOOOO[154] | v9 << h.O0OoOO0OOOOO[155]) * h.O0OoOO0OOOOO[156];
-                }
-                var24_5[1] = var25_6 = var24_5[1] + 0x100000000L;
-                h.o0Oo000O0oO[(int)(var24_5[1] >>> (h.O0OoOO0OOOOO[157] + h.O0OoOO0OOOOO[158] ^ h.O0OoOO0OOOOO[159]))] = new String((char[])var23_4[17]);
-                v10 = h.O0OoOO0OOOOO[163] * h.O0OoOO0OOOOO[164];
-                v11 = v10 >>> h.O0OoOO0OOOOO[165] | v10 << h.O0OoOO0OOOOO[166];
-                v12 = var24_5[13];
-                var24_5[13] = var25_6 = v12 ^ ((long)((int)(var24_5[13] >>> (h.O0OoOO0OOOOO[160] ^ h.O0OoOO0OOOOO[161]) + h.O0OoOO0OOOOO[162]) + (int)(var24_5[8] >>> (v11 >>> h.O0OoOO0OOOOO[167] | v11 << h.O0OoOO0OOOOO[168]) + h.O0OoOO0OOOOO[169])) << ((h.O0OoOO0OOOOO[170] - h.O0OoOO0OOOOO[171]) * h.O0OoOO0OOOOO[172] ^ h.O0OoOO0OOOOO[173]) ^ v12) & -1L << -((h.O0OoOO0OOOOO[174] + h.O0OoOO0OOOOO[175] - h.O0OoOO0OOOOO[176]) * h.O0OoOO0OOOOO[177]);
-lbl38:
-                // 2 sources
-
-                while ((int)(var24_5[13] >>> (h.O0OoOO0OOOOO[93] - h.O0OoOO0OOOOO[94] - h.O0OoOO0OOOOO[95] ^ h.O0OoOO0OOOOO[96] ^ h.O0OoOO0OOOOO[97])) >= (int)var24_5[13]) {
-                    return;
-                }
-                break block15;
-            }
-            var23_4 = new Object[23];
-            var24_5 = new long[23];
-            var19_1 = 1204805760;
-            block9: while (true) {
-                switch (var19_1) {
-                    default: {
-                        h.0OOOoo00o0();
-                        h.0oOOoOo0O00O = new String[h.O0OoOO0OOOOO[45]];
-                        var19_1 = 721745625;
-                        continue block9;
-                    }
-                    case 721745625: {
-                        h.oO00O0OO0ooO = new String[h.O0OoOO0OOOOO[46]];
-                        var19_1 = -1518372984;
-                        continue block9;
-                    }
-                    case -1518372984: 
-                }
-                break;
-            }
-            v13 = -h.O0OoOO0OOOOO[47];
-            h.o0Oo000O0oO = new Object[v13 << h.O0OoOO0OOOOO[48] | v13 >>> h.O0OoOO0OOOOO[49]];
-            v14 = h.O0OoOO0OOOOO[50] + h.O0OoOO0OOOOO[51];
-            var24_5[1] = var25_6 = 474144041417789159L;
-            v15 = h.O0OoOO0OOOOO[54];
-            v16 = var24_5[1];
-            v17 = -h.O0OoOO0OOOOO[59] * h.O0OoOO0OOOOO[60] * h.O0OoOO0OOOOO[61];
-            var24_5[1] = var25_6 = v16 ^ ((long)(v14 >>> h.O0OoOO0OOOOO[52] | v14 << h.O0OoOO0OOOOO[53]) << ((v15 << h.O0OoOO0OOOOO[55] | v15 >>> h.O0OoOO0OOOOO[56]) ^ h.O0OoOO0OOOOO[57]) - h.O0OoOO0OOOOO[58] ^ v16) & -1L << (v17 >>> h.O0OoOO0OOOOO[62] | v17 << h.O0OoOO0OOOOO[63]);
-            v18 = h.oO00O0OO0ooO[h.O0OoOO0OOOOO[64]];
-            if (v18 == null) {
-                var20_2 = -1773577474;
-                v19 = h.O0OoOO0OOOOO[65];
-                v20 = h.0oOOoOo0O00O[h.O0OoOO0OOOOO[66]];
-                if (v20 == null) {
-                    var23_4[21] = "\uf58a\uee89\u0189\ud487\ue886\ue585\u1b85\ud583\uf682\uf181\u4e80\uee7f\u047f\ue87d\uf27c\uc37b\u0f77\ucf75\ub974\udd73\uf872\ue871\u1971\ubc6f\ue86e\ud16d\u0e6d\ue36b\u106b\uf869\ue468\uec67\u216b\uce69\u0c69\uec67\uf366\uf065\uf464\ufc63\u0c63\ud161\ufa60\ub55f\u0f5f\uc55d\u135d\ub95b\ue856\u3856\u0455\ucd53\u0753\ud051\u1951\ubd4f\uf64e\ue24d\ufa4c\uce4b\uf64a\ud649\u1949\uf447".toCharArray();
-                    var24_5[16] = var25_6 = (long)h.O0OoOO0OOOOO[67];
-                    while ((int)var24_5[16] < ((char[])var23_4[21]).length) {
-                        v21 = (char[])var23_4[21];
-                        v22 = (int)var24_5[16];
-                        v23 = (char)(v21[v22] + v22);
-                        v24 = (char)((char)((char)((char)((char)((char)((char)(v23 >>> h.O0OoOO0OOOOO[68] | v23 << h.O0OoOO0OOOOO[69]) + h.O0OoOO0OOOOO[70]) + v22) - h.O0OoOO0OOOOO[71]) ^ h.O0OoOO0OOOOO[72]) ^ v22) ^ h.O0OoOO0OOOOO[73]);
-                        v21[v22] = (char)((char)((char)(v24 << h.O0OoOO0OOOOO[74] | v24 >>> h.O0OoOO0OOOOO[75]) ^ h.O0OoOO0OOOOO[76]) - h.O0OoOO0OOOOO[77]);
-                        var24_5[16] = var25_6 = (long)((int)var24_5[16] + 1);
-                    }
-                    v20 = h.0oOOoOo0O00O[h.O0OoOO0OOOOO[78]] = new String((char[])var23_4[21]);
-                }
-                v18 = h.o0Oo000O0oO(v19, v20);
-            }
-            var23_4[11] = v18.toCharArray();
-            v25 = -(h.O0OoOO0OOOOO[79] + h.O0OoOO0OOOOO[80]);
-            var24_5[13] = var25_6 = 7433771635471642573L;
-            v26 = var24_5[13];
-            v27 = h.O0OoOO0OOOOO[84] ^ h.O0OoOO0OOOOO[85];
-            var24_5[13] = var25_6 = v26 ^ ((long)((v25 << h.O0OoOO0OOOOO[81] | v25 >>> h.O0OoOO0OOOOO[82]) ^ h.O0OoOO0OOOOO[83]) ^ v26) & -1L >>> -(v27 << h.O0OoOO0OOOOO[86] | v27 >>> h.O0OoOO0OOOOO[87]) - h.O0OoOO0OOOOO[88];
-            v28 = var24_5[13];
-            var24_5[13] = var25_6 = v28 ^ (0L ^ v28) & -1L << -(h.O0OoOO0OOOOO[89] * h.O0OoOO0OOOOO[90] * h.O0OoOO0OOOOO[91]) + h.O0OoOO0OOOOO[92];
-            ** GOTO lbl38
-        }
-        var24_5[13] = var25_6 = var24_5[13] + 0x100000000L;
-        var24_5[6] = var25_6 = -3143021451466280499L;
-        v29 = var24_5[6];
-        var24_5[6] = var25_6 = v29 ^ ((long)((char[])var23_4[11])[(int)(var24_5[13] >>> (h.O0OoOO0OOOOO[98] + h.O0OoOO0OOOOO[99]) * h.O0OoOO0OOOOO[100] - h.O0OoOO0OOOOO[101])] << -(h.O0OoOO0OOOOO[102] - h.O0OoOO0OOOOO[103]) * h.O0OoOO0OOOOO[104] ^ v29) & -1L << -(-(h.O0OoOO0OOOOO[105] * h.O0OoOO0OOOOO[106])) + h.O0OoOO0OOOOO[107];
-        ** while (true)
-    }
+    static { /* RISE-PORT STUB: initializer unrestored */ }
 
     /*
      * Enabled force condition propagation
@@ -184,7 +67,7 @@ lbl38:
     /*
      * Enabled aggressive block sorting
      */
-    private static /* synthetic */ void 0OOOoo00o0() {
+    private static /* synthetic */ void q0OOOoo00o0() {
         int n2 = 1945102554;
         if (n2 != n2) {
             n2 = 1926588522;

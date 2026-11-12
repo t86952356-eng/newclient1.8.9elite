@@ -25,31 +25,25 @@ extends GuiScreen {
     public void initGui() {
         this.bnV = 0;
         this.buttonList.clear();
-        var1_1 = -16;
-        var2_2 = 3;
+        /* ANDROID/VANILLA PORT NOTE: CFR emitted `** GOTO lbl-1000` plus untyped
+           locals here; restructured to plain Java (semantics preserved:
+           enabled = singleplayer && !amb()). */
+        int var1_1 = -16;
+        int var2_2 = 3;
         if (!aa.aER.Bf()) {
-            this.buttonList.add(new net.minecraft.client.gui.c(1, this.width / 2 - 100, this.height / 4 + 120 + -16, 100 - var2_2, 20, "Disconnect"));
-            this.buttonList.add(new net.minecraft.client.gui.c(8, this.width / 2 + var2_2, this.height / 4 + 120 + -16, 100 - var2_2, 20, "Reconnect"));
+            this.buttonList.add(new net.minecraft.client.gui.c(1, this.width / 2 - 100, this.height / 4 + 120 + var1_1, 100 - var2_2, 20, "Disconnect"));
+            this.buttonList.add(new net.minecraft.client.gui.c(8, this.width / 2 + var2_2, this.height / 4 + 120 + var1_1, 100 - var2_2, 20, "Reconnect"));
             ((net.minecraft.client.gui.c)this.buttonList.get((int)0)).displayString = I18n.a("menu.disconnect", new Object[0]);
         } else {
-            this.buttonList.add(new net.minecraft.client.gui.c(1, this.width / 2 - 100, this.height / 4 + 120 + -16, I18n.a("menu.returnToMenu", new Object[0])));
+            this.buttonList.add(new net.minecraft.client.gui.c(1, this.width / 2 - 100, this.height / 4 + 120 + var1_1, I18n.a("menu.returnToMenu", new Object[0])));
         }
-        this.buttonList.add(new net.minecraft.client.gui.c(4, this.width / 2 - 100, this.height / 4 + 24 + -16, I18n.a("menu.returnToGame", new Object[0])));
-        this.buttonList.add(new net.minecraft.client.gui.c(0, this.width / 2 - 100, this.height / 4 + 96 + -16, 98, 20, I18n.a("menu.options", new Object[0])));
-        var3_3 = new net.minecraft.client.gui.c(7, this.width / 2 + 2, this.height / 4 + 96 + -16, 98, 20, I18n.a("menu.shareToLan", new Object[0]));
+        this.buttonList.add(new net.minecraft.client.gui.c(4, this.width / 2 - 100, this.height / 4 + 24 + var1_1, I18n.a("menu.returnToGame", new Object[0])));
+        this.buttonList.add(new net.minecraft.client.gui.c(0, this.width / 2 - 100, this.height / 4 + 96 + var1_1, 98, 20, I18n.a("menu.options", new Object[0])));
+        net.minecraft.client.gui.c var3_3 = new net.minecraft.client.gui.c(7, this.width / 2 + 2, this.height / 4 + 96 + var1_1, 98, 20, I18n.a("menu.shareToLan", new Object[0]));
         this.buttonList.add(var3_3);
-        this.buttonList.add(new net.minecraft.client.gui.c(5, this.width / 2 - 100, this.height / 4 + 48 + -16, 98, 20, I18n.a("gui.achievements", new Object[0])));
-        this.buttonList.add(new net.minecraft.client.gui.c(6, this.width / 2 + 2, this.height / 4 + 48 + -16, 98, 20, I18n.a("gui.stats", new Object[0])));
-        if (!aa.aER.isSingleplayer()) ** GOTO lbl-1000
-        if (!aa.aER.Bg().amb()) {
-            v0 = true;
-        } else lbl-1000:
-        // 2 sources
-
-        {
-            v0 = false;
-        }
-        var3_3.enabled = v0;
+        this.buttonList.add(new net.minecraft.client.gui.c(5, this.width / 2 - 100, this.height / 4 + 48 + var1_1, 98, 20, I18n.a("gui.achievements", new Object[0])));
+        this.buttonList.add(new net.minecraft.client.gui.c(6, this.width / 2 + 2, this.height / 4 + 48 + var1_1, 98, 20, I18n.a("gui.stats", new Object[0])));
+        var3_3.enabled = aa.aER.isSingleplayer() && !aa.aER.Bg().amb();
     }
 
     @Override

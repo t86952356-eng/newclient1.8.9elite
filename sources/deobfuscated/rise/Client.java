@@ -66,7 +66,7 @@ extends Enum<Client> {
     public static /* synthetic */ String d;
     public /* synthetic */ t q;
     public /* synthetic */ ScriptManager u;
-    public static /* synthetic */ String 0OOOoo00o0;
+    public static /* synthetic */ String q0OOOoo00o0;
     public /* synthetic */ DropdownClickGui I;
     public static /* synthetic */ String c;
     public static /* synthetic */ String[] ooo00oo0Ooo0;
@@ -77,7 +77,7 @@ extends Enum<Client> {
     public /* synthetic */ ModuleManager o;
     public /* synthetic */ ExecutorService k;
     public /* synthetic */ ConfigManager B;
-    public static /* synthetic */ Object[] 0oOOoOo0O00O;
+    public static /* synthetic */ Object[] q0oOOoOo0O00O;
     public /* synthetic */ q F;
     public /* synthetic */ aao n;
     public static /* synthetic */ String g;
@@ -100,7 +100,7 @@ extends Enum<Client> {
     /*
      * Enabled aggressive block sorting
      */
-    private static /* synthetic */ void 0OOOoo00o0() {
+    private static /* synthetic */ void q0OOOoo00o0() {
         int n2 = -1493950576;
         if (n2 != n2) {
         }
@@ -928,10 +928,10 @@ extends Enum<Client> {
             }
             var31_7 = new Object[29];
             var32_3 = new long[29];
-            v0 = Client.0oOOoOo0O00O;
-            if (Client.0oOOoOo0O00O == null) {
+            v0 = Client.q0oOOoOo0O00O;
+            if (Client.q0oOOoOo0O00O == null) {
                 v1 = new Object[Client.oOo00Oo0OOo0[346]];
-                Client.0oOOoOo0O00O = v1;
+                Client.q0oOOoOo0O00O = v1;
                 v0 = v1;
                 var31_7[28] = new byte[Client.oOo00Oo0OOo0[348] ^ Client.oOo00Oo0OOo0[349]];
                 ((byte[])var31_7[28])[Client.oOo00Oo0OOo0[350] ^ Client.oOo00Oo0OOo0[351]] = Client.oOo00Oo0OOo0[352] ^ Client.oOo00Oo0OOo0[353];

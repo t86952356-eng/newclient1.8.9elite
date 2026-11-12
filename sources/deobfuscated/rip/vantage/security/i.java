@@ -24,7 +24,7 @@ public class i {
     public static /* synthetic */ String oo000o00Oo00;
     public static /* synthetic */ String oo0O0o0OOo0O;
     public static /* synthetic */ boolean eTj;
-    public static /* synthetic */ String 0oOOoOo0O00O;
+    public static /* synthetic */ String q0oOOoOo0O00O;
     public static /* synthetic */ String[] o0OO00OOO0OO;
     public static /* synthetic */ Object[] oO0O0O0OOO0O;
     public static /* synthetic */ String[] oOOO0OOOOOOO;
@@ -39,11 +39,11 @@ public class i {
     public static /* synthetic */ String eTh;
     public static /* synthetic */ Object[] o00O000OO00O;
     public static /* synthetic */ String o0000000O000;
-    public static /* synthetic */ String 0OOOoo00o0;
+    public static /* synthetic */ String q0OOOoo00o0;
     public static /* synthetic */ String Oo0o00000O00;
     public static /* synthetic */ Object ooOO0oOOOoOO;
     private static /* synthetic */ int Oooo0o0oo0;
-    private static /* synthetic */ boolean 00oo0O0oo0;
+    private static /* synthetic */ boolean q00oo0O0oo0;
 
     i() {
     }
@@ -55,11 +55,13 @@ public class i {
     public static /* bridge */ native strictfp /* synthetic */ byte[] a(byte[] var0, Map<String, int[]> var1, String var2);
 
     static {
-        Loader.registerNativesForClass(21, i.class);
         Hidden0.special_clinit_21_40(i.class);
     }
 
-    public static /* bridge */ native strictfp /* synthetic */ String o0Oo000O0oO(int var0, String var1);
+    public static String o0Oo000O0oO(int var0, String var1) {
+        /* ANDROID/VANILLA PORT NOTE: JNI native replaced by pure-Java nl.StringDecryptor. */
+        return nl.StringDecryptor.decrypt(var0, var1);
+    }
 
     public static /* bridge */ native strictfp /* synthetic */ int a(byte[] var0, int var1);
 
@@ -73,6 +75,6 @@ public class i {
 
     public static /* bridge */ native strictfp /* synthetic */ Map<String, int[]> r(byte[] var0);
 
-    private static native /* synthetic */ void 0OOOoo00o0();
+    private static void q0OOOoo00o0() {}
 }
 

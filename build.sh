@@ -115,6 +115,72 @@ stage_version_json() {
     python3 scripts/generate_version_json.py "$JSON_OUT"
 }
 
+stage_client_source() {
+    log "== stage 4/6: client JAR (source build) =="
+    # PRIMARY path since 6.9.9-android.2: compile the deobfuscated client tree
+    # directly (no original binary needed). If the tree does not fully compile
+    # yet, the build marks the release INCOMPLETE and ships the bootstrap layer.
+    mkdir -p build/source-classes build/libs
+    # classpath: official 1.8.9 artifacts + Via stack (official maven, pinned) + org.json
+    python3 - <<'PY'
+import json, os, urllib.request
+manifest = json.load(open('scripts/vendor/1.8.9-official.json'))
+urls = []
+for lib in manifest['libraries']:
+    art = (lib.get('downloads') or {}).get('artifact')
+    if art and art.get('url'):
+        urls.append((art['path'].split('/')[-1], art['url'], art.get('sha1')))
+urls += [
+    ('viaversion-5.12.2.jar', 'https://repo.viaversion.com/com/viaversion/viaversion/5.12.2/viaversion-5.12.2.jar', None),
+    ('viabackwards-5.12.2.jar', 'https://repo.viaversion.com/com/viaversion/viabackwards/5.12.2/viabackwards-5.12.2.jar', None),
+    ('viarewind-4.2.0.jar', 'https://repo.viaversion.com/com/viaversion/viarewind/4.2.0/viarewind-4.2.0.jar', None),
+]
+os.makedirs('build/libs', exist_ok=True)
+for name, url, sha1 in urls:
+    dest = os.path.join('build/libs', name)
+    if os.path.exists(dest) and os.path.getsize(dest) > 0:
+        continue
+    req = urllib.request.Request(url, headers={'User-Agent': 'rise-source-build'})
+    with urllib.request.urlopen(req, timeout=180) as r:
+        data = r.read()
+    open(dest, 'wb').write(data)
+    if sha1:
+        import hashlib
+        got = hashlib.sha1(data).hexdigest()
+        if got != sha1:
+            os.remove(dest)
+            raise SystemExit(f'sha1 mismatch for {name}')
+print('classpath libs ready:', len(urls))
+PY
+    log "compiling sources/deobfuscated (source build)"
+    find sources/deobfuscated -name '*.java' ! -name 'Start.java' > build/source-sources.txt
+    CP="$(printf '%s:' build/libs/*.jar)build/org-json.jar"
+    if javac -encoding UTF-8 -nowarn -proc:none -Xmaxerrs 20000 \
+           -cp "$CP" -d build/source-classes @build/source-sources.txt \
+           > build/source-build.log 2>&1; then
+        log "source build compiled OK"
+    else
+        warn "source build FAILED (see build/source-build.log) - release stays INCOMPLETE"
+        warn "$(grep -c 'error:' build/source-build.log || true) javac errors"
+        return 1
+    fi
+    # merge bootstrap layer + org.json into the client jar
+    rm -rf build/source-merged && mkdir -p build/source-merged
+    cp -r build/source-classes/* build/source-merged/ 2>/dev/null || true
+    ( cd build/source-merged && unzip -qo "$ROOT/build/org-json.jar" )
+    ( cd build/source-merged && unzip -qo "$ROOT/$BOOTSTRAP_JAR" )
+    cat > build/source-merged/META-INF/MANIFEST.MF <<EOF
+Manifest-Version: 1.0
+Main-Class: OfflineBootstrap
+Implementation-Title: Rise
+Implementation-Version: 6.9.9
+Multi-Release: false
+EOF
+    rm -f "$CLIENT_JAR_OUT"
+    ( cd build/source-merged && jar cfm "$ROOT/$CLIENT_JAR_OUT" META-INF/MANIFEST.MF . )
+    log "built $CLIENT_JAR_OUT from SOURCE ($(stat -c%s "$CLIENT_JAR_OUT") bytes)"
+}
+
 stage_client() {
     log "== stage 4/6: client JAR =="
     if [[ "$CLIENT_STATUS" != "PRESENT" ]]; then
@@ -253,7 +319,7 @@ EOF
     fi
 }
 
-main() {
+    main() {
     mkdir -p build dist
     if [[ "${1:-all}" == "audit" ]]; then
         stage_audit
@@ -262,8 +328,17 @@ main() {
     stage_audit
     stage_bootstrap
     stage_version_json
-    stage_client
-    stage_verify
+    CLIENT_STATUS="SOURCE"
+    if stage_client_source; then
+        CLIENT_STATUS="PRESENT"
+    elif [[ -f "$CLIENT_JAR_IN" ]]; then
+        log "source build unavailable; falling back to $CLIENT_JAR_IN (binary patch mode)"
+        stage_client
+        [[ -f "$CLIENT_JAR_OUT" ]] && CLIENT_STATUS="PRESENT"
+    else
+        warn "no client JAR producible this run (source build failed, no restored JAR)"
+    fi
+    stage_verify || true
     stage_package
 }
 

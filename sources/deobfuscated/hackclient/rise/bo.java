@@ -38,7 +38,7 @@ extends am {
     public static /* synthetic */ String[] oOo00Oo0OOo0;
     public /* synthetic */ boolean eJ;
     public /* synthetic */ byte eS;
-    public static /* synthetic */ String 0oOOoOo0O00O;
+    public static /* synthetic */ String q0oOOoOo0O00O;
     public /* synthetic */ boolean eW;
     public /* synthetic */ Map<UUID, GameProfile> eD;
     public /* synthetic */ int fd;
@@ -74,7 +74,7 @@ extends am {
     @EventLink
     public /* synthetic */ Listener<TickEvent> fh;
     public /* synthetic */ long eI;
-    public static /* synthetic */ String 0OOOoo00o0;
+    public static /* synthetic */ String q0OOOoo00o0;
     private static /* synthetic */ int[] o0000000O000;
     public static /* synthetic */ String Oo0o00000O00;
     @EventLink
@@ -197,7 +197,7 @@ extends am {
         }
         Object[] objectArray = new Object[21];
         long[] lArray = new long[21];
-        bo.0OOOoo00o0();
+        bo.q0OOOoo00o0();
         oo000o00Oo00 = new String[4];
         oOo00Oo0OOo0 = new String[1];
         int n3 = 2981888 << 25 | 2981888 >>> 7;
@@ -276,9 +276,9 @@ extends am {
             lArray[3] = l2 = l12 ^ (0L ^ l12) & -1L << (n21 << 17 | n21 >>> 15);
         }
         ew = -262236 + 17 ^ 0xFFFFFFB5;
-        String string3 = 0oOOoOo0O00O;
+        String string3 = q0oOOoOo0O00O;
         if (string3 == null) {
-            string3 = 0oOOoOo0O00O = (String)O0OoOO0OOOOO[(1972264473 * -55 + 93) * 121] + (String)O0OoOO0OOOOO[-(~(~-90 - 59))];
+            string3 = q0oOOoOo0O00O = (String)O0OoOO0OOOOO[(1972264473 * -55 + 93) * 121] + (String)O0OoOO0OOOOO[-(~(~-90 - 59))];
         }
         ev = UUID.fromString(string3);
     }
@@ -305,7 +305,7 @@ extends am {
     /*
      * Enabled aggressive block sorting
      */
-    private static /* synthetic */ void 0OOOoo00o0() {
+    private static /* synthetic */ void q0OOOoo00o0() {
         int n2 = 317848908;
         if (n2 != n2) {
             throw null;

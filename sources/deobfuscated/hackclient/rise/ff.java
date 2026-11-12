@@ -20,7 +20,7 @@ extends dh {
         this.jQ = f2;
     }
 
-    public a do() {
+    public a j_do() {
         return this.jP;
     }
 

@@ -2433,7 +2433,7 @@ l {
         return this.dDj;
     }
 
-    public void if(int n2) {
+    public void j_if(int n2) {
         this.dDj = n2;
     }
 

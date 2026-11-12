@@ -67,3 +67,40 @@ version** conversion (Android-first: ARM64, FoldCraft Launcher, Gl4ES).
   string decryptor (BLOCKER-2).
 - No on-device test has been performed yet; the port does not claim Android
   playability until one is.
+
+## [6.9.9-android.2] — 2026-11-12 — source-build port session
+
+**Context.** The owner confirmed the original compiled client JAR
+(`artifacts/client-restored.jar`, BLOCKER-1) will never be available, and
+ordered the client to be built from the decompiled source tree by any means.
+This session converts the project to a **source build**.
+
+### Added
+- `nl/StringDecryptor.java` — pure-Java AES string decryptor (identical
+  algorithm to the JNI native it replaces; constants extracted mechanically
+  from the decompiled copy in `net.minecraft.network.r`). All 25 native
+  declarations now delegate to it; `nl.Loader` natives are no longer needed.
+  This resolves BLOCKER-2 at compile time.
+- `build.sh stage_client_source` — the primary client-JAR stage: compiles
+  `sources/deobfuscated` directly; on failure the release is packaged with an
+  honest INCOMPLETE marker (never faked).
+- Via stack (viaversion 5.12.2, viabackwards 5.12.2, viarewind 4.2.0) as
+  runtime libraries in `versions/Rise-6.9.9/Rise-6.9.9.json`.
+
+### Changed
+- 77 files: illegal digit-led identifiers renamed (`q` prefix); keyword-named
+  members (`do`/`if`/`switch`) renamed (`j_` prefix) with call sites.
+- Package `rise.module.impl.render.interface` → `…guimode` (keyword package
+  name was illegal Java source).
+- `net/minecraft/client/gui/{aa,au,cd,cn}.java`: CFR `** GOTO lbl-1000`
+  control-flow damage hand-restructured to plain if/else; untyped locals typed.
+- ~60 files: GOTO/orphan damaged method bodies stubbed with typed defaults
+  (`/* RISE-PORT STUB */`), signatures preserved; 29 heavily damaged files
+  rewritten as compilable skeletons (several still need manual cleanup).
+
+### Known issues (honest state)
+- The source tree does **not** fully compile yet (~1.5k javac errors across 44
+  files after 12 repair rounds). The precise per-file worklist is in
+  `PORTING_NOTES.md` §7.3; protected files (Rise boot core, vanilla menu path,
+  `Minecraft.java`, `ModuleManager`, `SoundHandler`) must be repaired by hand,
+  never stubbed. Releases stay INCOMPLETE until the source build is green.

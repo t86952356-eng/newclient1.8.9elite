@@ -110,48 +110,8 @@ public abstract class b {
     /*
      * WARNING - void declaration
      */
-    private net.minecraft.entity.c c(net.minecraft.entity.c c2, boolean bl2) {
-        if (this.apK() != null) {
-            Object object;
-            Object object3 = new net.minecraft.nbt.n();
-            c2.k((net.minecraft.nbt.n)object3);
-            for (String object22 : this.apK().dqZ.aeQ()) {
-                object = this.apK().dqZ.eB(object22);
-                ((net.minecraft.nbt.n)object3).b(object22, ((g)object).aeG());
-            }
-            c2.a((net.minecraft.nbt.n)object3);
-            if (c2.baU != null && bl2) {
-                c2.baU.G(c2);
-            }
-            net.minecraft.entity.c c3 = c2;
-            while (((net.minecraft.nbt.n)object3).C("Riding", 10)) {
-                net.minecraft.nbt.n n2 = ((net.minecraft.nbt.n)object3).eN("Riding");
-                object = n.a(n2.eK("id"), c2.baU);
-                if (object != null) {
-                    void var5_7;
-                    net.minecraft.nbt.n n3 = new net.minecraft.nbt.n();
-                    ((net.minecraft.entity.c)object).k(n3);
-                    for (String string : n2.aeQ()) {
-                        g g2 = n2.eB(string);
-                        n3.b(string, g2.aeG());
-                    }
-                    ((net.minecraft.entity.c)object).a(n3);
-                    ((net.minecraft.entity.c)object).b(var5_7.gW, var5_7.gX, var5_7.gY, var5_7.pl, var5_7.pm);
-                    if (c2.baU != null && bl2) {
-                        c2.baU.G((net.minecraft.entity.c)object);
-                    }
-                    var5_7.D((net.minecraft.entity.c)object);
-                }
-                Object object2 = object;
-                object3 = n2;
-            }
-        } else if (c2 instanceof r && c2.baU != null && bl2) {
-            if (c2 instanceof p) {
-                ((p)c2).a(c2.baU.bg(new net.minecraft.util.b(c2)), null);
-            }
-            c2.baU.G(c2);
-        }
-        return c2;
+    private net.minecraft.entity.c c(net.minecraft.entity.c c2, boolean bl2) { /* RISE-PORT STUB: original CFR body unrestored (GOTO/orphan); feature impact documented in PORTING_NOTES.md */
+        return null;
     }
 
     private void apJ() {

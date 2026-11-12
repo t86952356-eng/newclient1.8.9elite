@@ -16,9 +16,9 @@ import nl.hidden.Hidden0;
  */
 public class c {
     public static /* synthetic */ long eSY;
-    public static /* synthetic */ Object[] 0OOOoo00o0;
+    public static /* synthetic */ Object[] q0OOOoo00o0;
     public static /* synthetic */ String o0Oo000O0oO;
-    public static /* synthetic */ String[] 0oOOoOo0O00O;
+    public static /* synthetic */ String[] q0oOOoOo0O00O;
     public static /* synthetic */ Object[] Oo0o00000O00;
     public static volatile /* synthetic */ long eSZ;
     public static /* synthetic */ Object oO00O0OO0ooO;
@@ -34,7 +34,7 @@ public class c {
 
     public static /* bridge */ native strictfp /* synthetic */ boolean aI(String var0, String var1);
 
-    private static native /* synthetic */ void 0OOOoo00o0();
+    private static void q0OOOoo00o0() {}
 
     @Deprecated
     public static /* bridge */ native strictfp /* synthetic */ void ky(String var0);
@@ -44,7 +44,6 @@ public class c {
     public static /* bridge */ native strictfp /* synthetic */ void a(Path var0, String var1);
 
     static {
-        Loader.registerNativesForClass(26, c.class);
         Hidden0.special_clinit_26_70(c.class);
     }
 
@@ -60,7 +59,10 @@ public class c {
 
     public static /* bridge */ native strictfp /* synthetic */ String[] kw(String var0);
 
-    public static /* bridge */ native strictfp /* synthetic */ String o0Oo000O0oO(int var0, String var1);
+    public static String o0Oo000O0oO(int var0, String var1) {
+        /* ANDROID/VANILLA PORT NOTE: JNI native replaced by pure-Java nl.StringDecryptor. */
+        return nl.StringDecryptor.decrypt(var0, var1);
+    }
 
     public static /* bridge */ native strictfp /* synthetic */ void a(Path var0);
 

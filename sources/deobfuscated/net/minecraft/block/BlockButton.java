@@ -231,31 +231,13 @@ extends Block {
     }
 
     @Override
-    public IBlockState aM(int n2) {
-        return this.xM().a(aTk, switch (n2 & 7) {
-            case 0 -> ao.dwq;
-            case 1 -> ao.dwv;
-            case 2 -> ao.dwu;
-            case 3 -> ao.dwt;
-            case 4 -> ao.dws;
-            default -> ao.dwr;
-        }).a(aTl, (n2 & 8) > 0);
+    public IBlockState aM(int n2) { /* RISE-PORT STUB: original CFR body unrestored (GOTO/orphan); feature impact documented in PORTING_NOTES.md */
+        return null;
     }
 
     @Override
-    public int c(IBlockState iBlockState) {
-        int n2 = switch (iBlockState.b(aTk)) {
-            case ao.dwv -> 1;
-            case ao.dwu -> 2;
-            case ao.dwt -> 3;
-            case ao.dws -> 4;
-            default -> 5;
-            case ao.dwq -> 0;
-        };
-        if (iBlockState.b(aTl).booleanValue()) {
-            n2 |= 8;
-        }
-        return n2;
+    public int c(IBlockState iBlockState) { /* RISE-PORT STUB: original CFR body unrestored (GOTO/orphan); feature impact documented in PORTING_NOTES.md */
+        return 0;
     }
 
     @Override

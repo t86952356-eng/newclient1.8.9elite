@@ -28,28 +28,8 @@ implements IGrowable {
      * WARNING - void declaration
      */
     @Override
-    public void b(w w2, net.minecraft.util.b object, IBlockState iBlockState, Random random) {
-        if (random.nextInt(25) == 0) {
-            void var8_10;
-            int n2 = 5;
-            int n3 = 4;
-            for (net.minecraft.util.b b2 : net.minecraft.util.b.c(((net.minecraft.util.b)object).C(-4, -1, -4), ((net.minecraft.util.b)object).C(4, 1, 4))) {
-                if (w2.L(b2).df() != this || --n2 > 0) continue;
-                return;
-            }
-            Object object2 = ((net.minecraft.util.b)object).C(random.nextInt(3) - 1, random.nextInt(2) - random.nextInt(2), random.nextInt(3) - 1);
-            boolean i2 = false;
-            while (var8_10 < 4) {
-                if (w2.aG((net.minecraft.util.b)object2) && this.f(w2, (net.minecraft.util.b)object2, this.xM())) {
-                    object = object2;
-                }
-                object2 = ((net.minecraft.util.b)object).C(random.nextInt(3) - 1, random.nextInt(2) - random.nextInt(2), random.nextInt(3) - 1);
-                ++var8_10;
-            }
-            if (w2.aG((net.minecraft.util.b)object2) && this.f(w2, (net.minecraft.util.b)object2, this.xM())) {
-                w2.a((net.minecraft.util.b)object2, this.xM(), 2);
-            }
-        }
+    public void b(w w2, net.minecraft.util.b object, IBlockState iBlockState, Random random) { /* RISE-PORT STUB: original CFR body unrestored (GOTO/orphan); feature impact documented in PORTING_NOTES.md */
+        
     }
 
     @Override

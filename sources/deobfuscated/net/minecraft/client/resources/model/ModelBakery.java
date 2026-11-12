@@ -532,7 +532,7 @@ public class ModelBakery {
                     if (modelBlock.Mv() == cfe && !TextureMap.bZD.equals(cm3)) {
                         TextureAtlasSprite.dp(cm3.toString());
                     } else if (modelBlock.Mv() == cff && !TextureMap.bZD.equals(cm3)) {
-                        TextureAtlasSprite.do(cm3.toString());
+                        TextureAtlasSprite.j_do(cm3.toString());
                     }
                     hashSet.add(cm3);
                 }

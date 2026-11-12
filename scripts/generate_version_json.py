@@ -25,6 +25,50 @@ VERSION_ID = "Rise-6.9.9"
 MAIN_CLASS = "OfflineBootstrap"
 RELEASE_TIME = "2026-11-12T12:00:00+00:00"
 
+# Via stack (GPL, official ViaVersion maven repository) — required at runtime by
+# the client's protocol-translation layer (de.florianmichael.vialoadingbase is
+# compiled INTO the client; these three are the external API jars).
+VIA_LIBRARIES = [
+    ("com.viaversion:viaversion", "5.12.2"),
+    ("com.viaversion:viabackwards", "5.12.2"),
+    ("com.viaversion:viarewind", "4.2.0"),
+]
+VIA_REPO = "https://repo.viaversion.com"
+
+
+def via_library_entries():
+    """Maven library entries for the Via stack, with sha1/size resolved from the
+    official repository (cached under build/libs so repeat builds are offline)."""
+    import hashlib
+    import os
+
+    entries = []
+    os.makedirs("build/libs", exist_ok=True)
+    for coords, version in VIA_LIBRARIES:
+        group, artifact = coords.split(":")
+        path = f"{group.replace('.', '/')}/{artifact}/{version}/{artifact}-{version}.jar"
+        url = f"{VIA_REPO}/{path}"
+        cache = os.path.join("build/libs", f"{artifact}-{version}.jar")
+        if os.path.exists(cache) and os.path.getsize(cache) > 0:
+            data = open(cache, "rb").read()
+        else:
+            req = urllib.request.Request(url, headers={"User-Agent": "rise-version-builder"})
+            with urllib.request.urlopen(req, timeout=180) as response:
+                data = response.read()
+            open(cache, "wb").write(data)
+        entries.append({
+            "name": coords + ":" + version,
+            "downloads": {
+                "artifact": {
+                    "path": path,
+                    "url": url,
+                    "sha1": hashlib.sha1(data).hexdigest(),
+                    "size": len(data),
+                }
+            },
+        })
+    return entries
+
 
 def fetch(url: str):
     req = urllib.request.Request(url, headers={"User-Agent": "rise-version-builder"})
@@ -58,10 +102,11 @@ def main() -> int:
         # 1.8.9 uses the legacy single-string argument format. Launchers on
         # Android (FCL/Pojav/Zalith) expand these tokens themselves.
         "minecraftArguments": vanilla["minecraftArguments"],
-        # Same libraries as vanilla 1.8.9 (LWJGL 2, guava 17, gson, netty...).
+        # Same libraries as vanilla 1.8.9 (LWJGL 2, guava 17, gson, netty...)
+        # plus the Via stack the client's protocol layer needs at runtime.
         # Android launchers substitute their own LWJGL/OpenGL compatibility
         # layer for the LWJGL entries automatically.
-        "libraries": vanilla["libraries"],
+        "libraries": vanilla["libraries"] + via_library_entries(),
         # Rise-specific metadata (informational; launchers ignore it).
         "rise": {
             "clientVersion": "6.9.9",

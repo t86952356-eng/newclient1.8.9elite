@@ -4,7 +4,7 @@
  * Could not load the following classes:
  *  lombok.Generated
  */
-package rise.module.impl.render.interface;
+package rise.module.impl.render.guimode;
 
 import lombok.Generated;
 import rise.module.Mode;

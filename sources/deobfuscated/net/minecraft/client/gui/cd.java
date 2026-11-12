@@ -57,13 +57,10 @@ implements be {
                 }
                 break block5;
             }
-            if (this.bst == null) ** GOTO lbl-1000
-            if (cd.aER.bgF == null) {
+            /* ANDROID/VANILLA PORT NOTE: CFR GOTO lbl-1000 restructured. */
+            if (this.bst != null && cd.aER.bgF == null) {
                 this.bst.bE(this.width, this.height);
-            } else lbl-1000:
-            // 2 sources
-
-            {
+            } else {
                 this.drawDefaultBackground();
             }
             if (this.bmI > 0) {

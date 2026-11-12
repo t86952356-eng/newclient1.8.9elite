@@ -23,7 +23,7 @@ public class g {
         }
         try {
             d d2 = new d(a2);
-            this.egS = d2.if(this.egQ);
+            this.egS = d2.j_if(this.egQ);
             return true;
         }
         catch (u u2) {

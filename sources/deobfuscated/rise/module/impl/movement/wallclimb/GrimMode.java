@@ -26,7 +26,6 @@ extends Mode<WallClimb> {
     private static native /* synthetic */ void a(PreMotionEvent var0);
 
     static {
-        Loader.registerNativesForClass(6, GrimMode.class);
         Hidden0.special_clinit_6_20(GrimMode.class);
     }
 }

@@ -13,10 +13,10 @@ import nl.hidden.Hidden0;
  * Illegal identifiers - consider using --renameillegalidents true
  */
 public class h {
-    public static /* synthetic */ Object[] 0OOOoo00o0;
+    public static /* synthetic */ Object[] q0OOOoo00o0;
     public static /* synthetic */ String o0Oo000O0oO;
     public static /* synthetic */ Object oO00O0OO0ooO;
-    public static /* synthetic */ String[] 0oOOoOo0O00O;
+    public static /* synthetic */ String[] q0oOOoOo0O00O;
     private static /* synthetic */ int[] ooo00oo0Ooo0;
     public static /* synthetic */ String[] O0OoOO0OOOOO;
     public static volatile /* synthetic */ boolean eTD;
@@ -39,20 +39,22 @@ public class h {
 
     public static /* bridge */ native strictfp /* synthetic */ void aMT();
 
-    public static /* bridge */ native strictfp /* synthetic */ String o0Oo000O0oO(int var0, String var1);
+    public static String o0Oo000O0oO(int var0, String var1) {
+        /* ANDROID/VANILLA PORT NOTE: JNI native replaced by pure-Java nl.StringDecryptor. */
+        return nl.StringDecryptor.decrypt(var0, var1);
+    }
 
     public static /* bridge */ native strictfp /* synthetic */ boolean aMU();
 
     public static /* bridge */ native strictfp /* synthetic */ void kK(String var0);
 
     static {
-        Loader.registerNativesForClass(20, h.class);
         Hidden0.special_clinit_20_100(h.class);
     }
 
     public static /* bridge */ native strictfp /* synthetic */ void aMZ();
 
-    private static native /* synthetic */ void 0OOOoo00o0();
+    private static void q0OOOoo00o0() {}
 
     public static /* bridge */ native strictfp /* synthetic */ boolean u(Class<?> var0);
 

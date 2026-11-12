@@ -736,22 +736,8 @@ extends Module {
         return 0.0f;
     }
 
-    private int n(co co2) {
-        y y2 = (y)co2.bP();
-        int n2 = y2.cVI;
-        int n3 = switch (y2.adN()) {
-            case aa.cVP -> 5;
-            case aa.cVN -> 4;
-            case aa.cVM -> 3;
-            case aa.cVO -> 2;
-            case aa.cVL -> 1;
-            default -> 0;
-        };
-        int n4 = l.d(a.cpX.cqw, co2);
-        int n5 = l.d(a.cqb.cqw, co2);
-        int n6 = l.d(a.cpY.cqw, co2);
-        int n7 = l.d(a.cqa.cqw, co2);
-        return n2 * 100 + n3 * 10 + n4 * 6 + (n5 + n6 + n7) * 2;
+    private int n(co co2) { /* RISE-PORT STUB: original CFR body unrestored (GOTO/orphan); feature impact documented in PORTING_NOTES.md */
+        return 0;
     }
 
     private int r(co co2) {

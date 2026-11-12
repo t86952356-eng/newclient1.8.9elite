@@ -19,7 +19,7 @@ import rip.vantage.runtime.d;
  */
 public class c {
     public static /* synthetic */ Set<Integer> eSC;
-    public static /* synthetic */ String 0OOOoo00o0;
+    public static /* synthetic */ String q0OOOoo00o0;
     public static /* synthetic */ Set<Integer> eSD;
     public static /* synthetic */ String o0OO00OOO0OO;
     public static /* synthetic */ String o0oO00oOO0oO;
@@ -42,29 +42,29 @@ public class c {
     public static /* synthetic */ String o00O000OO00O;
     public static /* synthetic */ String o0000000O000;
     public static /* synthetic */ List<d> eSH;
-    public static /* synthetic */ String[] 0Oo00OOo00;
-    public static /* synthetic */ String 00oo0O0oo0;
+    public static /* synthetic */ String[] q0Oo00OOo00;
+    public static /* synthetic */ String q00oo0O0oo0;
     public static /* synthetic */ String ooo00oo0Ooo0;
-    public static /* synthetic */ String 0oOOoOo0O00O;
-    public static /* synthetic */ String 00Oo0O0Oo0;
+    public static /* synthetic */ String q0oOOoOo0O00O;
+    public static /* synthetic */ String q00Oo0O0Oo0;
     public static /* synthetic */ Object O0o00oOo00;
     public static /* synthetic */ String oooO0ooOOooO;
     public static /* synthetic */ String ooOo00oOo0;
-    public static /* synthetic */ Object[] 0oo00Ooo00;
+    public static /* synthetic */ Object[] q0oo00Ooo00;
     public static /* synthetic */ String[] eSB;
     public static /* synthetic */ String oooo00ooo0;
     public static /* synthetic */ String oOoo00Ooo0;
     public static /* synthetic */ long eSI;
     public static /* synthetic */ String o0o000o0O0o0;
     public static /* synthetic */ String ooO00oO0OoO0;
-    public static /* synthetic */ String 0o0o0Oo0o0;
+    public static /* synthetic */ String q0o0o0Oo0o0;
     public static /* synthetic */ String OOOo0ooo00;
     public static /* synthetic */ String o0Oo000O0oO;
     public static /* synthetic */ String oO00O0OO0ooO;
     public static /* synthetic */ String OOoo0oo0o0;
     public static /* synthetic */ String ooOO0oOOOoOO;
     public static /* synthetic */ String[] oo0000o000;
-    public static /* synthetic */ String 0O0o0OO0o0;
+    public static /* synthetic */ String q0O0o0OO0o0;
     public static /* synthetic */ String O0OoOO0OOOOO;
     public static /* synthetic */ String oO000O00OO00;
     public static /* synthetic */ String Oo0o00000O00;
@@ -75,12 +75,12 @@ public class c {
     public static /* synthetic */ String oOOO0OOOOOOO;
     public static /* synthetic */ Pattern eSN;
     public static /* synthetic */ String oo0O0o0OOo0O;
-    private static /* synthetic */ int 00000O0000;
+    private static /* synthetic */ int q00000O0000;
     private static /* synthetic */ boolean oO0000O000;
 
     public static /* bridge */ native strictfp /* synthetic */ boolean aLw();
 
-    private static native /* synthetic */ void 0OOOoo00o0();
+    private static void q0OOOoo00o0() {}
 
     public static /* bridge */ native strictfp /* synthetic */ boolean aLv();
 
@@ -89,10 +89,12 @@ public class c {
 
     public static /* bridge */ native strictfp /* synthetic */ List<d> r(String[] var0);
 
-    public static /* bridge */ native strictfp /* synthetic */ String o0Oo000O0oO(int var0, String var1);
+    public static String o0Oo000O0oO(int var0, String var1) {
+        /* ANDROID/VANILLA PORT NOTE: JNI native replaced by pure-Java nl.StringDecryptor. */
+        return nl.StringDecryptor.decrypt(var0, var1);
+    }
 
     static {
-        Loader.registerNativesForClass(16, c.class);
         Hidden0.special_clinit_16_60(c.class);
     }
 

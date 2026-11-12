@@ -6,10 +6,10 @@ package hackclient.rise;
 import rise.module.Mode;
 import rise.module.Module;
 import rise.module.impl.render.Interface;
-import rise.module.impl.render.interface.YuMode;
-import rise.module.impl.render.interface.YvMode;
-import rise.module.impl.render.interface.YyMode;
-import rise.module.impl.render.interface.ZdMode;
+import rise.module.impl.render.guimode.YuMode;
+import rise.module.impl.render.guimode.YvMode;
+import rise.module.impl.render.guimode.YyMode;
+import rise.module.impl.render.guimode.ZdMode;
 import rise.value.ModeValue;
 
 class xj

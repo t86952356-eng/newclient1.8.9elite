@@ -108,7 +108,6 @@ public class c {
     private native /* synthetic */ void aLr();
 
     static {
-        Loader.registerNativesForClass(0, c.class);
         Hidden0.special_clinit_0_320(c.class);
     }
 }

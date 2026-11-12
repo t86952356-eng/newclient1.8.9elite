@@ -26,7 +26,7 @@ extends rip.vantage.commons.packet.api.abstracts.b {
     public static /* synthetic */ String[] oOo00Oo0OOo0;
     public /* synthetic */ String eQV;
     public static /* synthetic */ String Oo0o00000O00;
-    public static /* synthetic */ Object[] 0oOOoOo0O00O;
+    public static /* synthetic */ Object[] q0oOOoOo0O00O;
     public /* synthetic */ boolean eQR;
     public static /* synthetic */ String o0Oo000O0oO;
     public static /* synthetic */ String oO00O0OO0ooO;
@@ -38,7 +38,7 @@ extends rip.vantage.commons.packet.api.abstracts.b {
     public /* synthetic */ double eQS;
     public static volatile /* synthetic */ int eRd;
     public static volatile /* synthetic */ int eRa;
-    public static /* synthetic */ String 0OOOoo00o0;
+    public static /* synthetic */ String q0OOOoo00o0;
     private static /* synthetic */ int o0000000O000;
     private static /* synthetic */ boolean oO000O00OO00;
 
@@ -55,7 +55,7 @@ extends rip.vantage.commons.packet.api.abstracts.b {
         eQX = System.currentTimeMillis();
         int n4 = -603979776 * -1775253149;
         eQY = Math.min(eQY + ~(--3818) * 1205604855 * 128207979, n4 >>> 25 | n4 << 7);
-        System.setProperty((String)0oOOoOo0O00O[~(-193 >>> 5 | -193 << 27)], (String)0oOOoOo0O00O[(10127360 >>> 11 | 10127360 << 21) * 1643291835]);
+        System.setProperty((String)q0oOOoOo0O00O[~(-193 >>> 5 | -193 << 27)], (String)q0oOOoOo0O00O[(10127360 >>> 11 | 10127360 << 21) * 1643291835]);
     }
 
     /*
@@ -281,355 +281,28 @@ extends rip.vantage.commons.packet.api.abstracts.b {
      * Enabled unnecessary exception pruning
      * Enabled aggressive exception aggregation
      */
-    public static /* bridge */ strictfp /* synthetic */ void aKv() {
-        int n2 = -854682115;
-        if (n2 != n2) {
-            int cfr_ignored_0 = 0x1E & 1;
-        }
-        Object[] objectArray = new Object[1];
-        if (!eQW) {
-            return;
-        }
-        try {
-            if ((System.currentTimeMillis() - eQX) % 2000L >= 100L) return;
-        }
-        catch (InterruptedException objectArray[0]) {
-            return;
-        }
-        {
-            int n3 = 0x19 ^ 0x7D;
-            Thread.sleep(~(~(n3 << 1 | n3 >>> 31)) * eQY);
-            return;
-        }
+    public static /* bridge */ strictfp /* synthetic */ void aKv() { /* RISE-PORT STUB: original CFR body unrestored (GOTO/orphan); feature impact documented in PORTING_NOTES.md */
+        return null;
     }
 
     /*
      * Unable to fully structure code
      * Enabled aggressive block sorting
      */
-    static {
-        var30 = 499631373;
-        if (var30 != var30) {
-        }
-        if ((var30 = -470149931) != var30) {
-            throw null;
-        }
-        var25_7 = new Object[25];
-        var26_8 = new long[25];
-        b.0OOOoo00o0();
-        var19_1 = 329190151;
-        ** GOTO lbl78
-lbl12:
-        // 2 sources
-
-        while (true) {
-            var24_6 = 1084784571;
-            if (true) ** GOTO lbl57
-            break;
-        }
-        block16: while (true) {
-            b.eQW = -0 * 47;
-            b.eQX = 0L;
-            b.eQY = -(-1);
-            b.eQZ = 0L;
-            var21_3 = 1047753484;
-lbl21:
-            // 2 sources
-
-            block17: while (true) {
-                switch (var21_3) {
-                    case 1047753484: {
-                        v0 = -91 + 91;
-                        b.eRa = v0 >>> 27 | v0 << 5;
-                        b.eRb = 0L;
-                        var21_3 = -2108900548;
-                        continue block17;
-                    }
-                    case -2108900548: {
-                        v1 = -((0 << 7 | 0 >>> 25) * 2014922929);
-                        b.eRc = v1 << 19 | v1 >>> 13;
-                        v2 = --75 - 75;
-                        b.eRd = -(v2 << 7 | v2 >>> 25);
-                        return;
-                    }
-                    case 859540555: {
-                        if ((int)var26_8[10] >= (int)var26_8[16]) continue block16;
-                        v3 = var26_8[10];
-                        v4 = 0x40000003 - 3;
-                        var26_8[10] = var27_9 = v3 ^ (v3 ^ v3 + (long)(-(~14 * -286331153))) & -1L >>> (v4 >>> 25 | v4 << 7);
-                        var26_8[14] = var27_9 = -5598928665555091345L;
-                        v5 = var26_8[14];
-                        var26_8[14] = var27_9 = v5 ^ ((long)((char[])var25_7[9])[(int)var26_8[10]] << 1246926112 * -31 * -1191041351 ^ v5) & -1L << (~390 - 89) * 0x11111111;
-                        var22_4 = -509398001;
-                        v6 = var26_8[10];
-                        v7 = 106487808 * 121;
-                        var26_8[10] = var27_9 = v6 ^ (v6 ^ v6 + (long)(~(-(-3375 * 0x5B05B05B) ^ 75))) & -1L >>> ((v7 >>> 13 | v7 << 19) ^ 47);
-                        var26_8[12] = var27_9 = 5232446827089214012L;
-                        v8 = var26_8[12];
-                        var26_8[12] = var27_9 = v8 ^ ((long)((char[])var25_7[9])[(int)var26_8[10]] << ~(-110 - 85) + -121 + -41 ^ v8) & -1L << (-(102 + -45) ^ -25);
-                        v9 = -171798528 * 25;
-                        v10 = v9 >>> 13 | v9 << 19;
-                        v11 = var26_8[14];
-                        var26_8[14] = var27_9 = v11 ^ ((long)((int)(var26_8[14] >>> -3927 * -1059797125 - 19) << (v10 >>> 27 | v10 << 5) | (int)(var26_8[12] >>> (0x38000003 << 5 | 0x38000003 >>> 27) - 71)) ^ v11) & -1L >>> --3744 * -587345955;
-                        var23_5 = 2013604061;
-                        var25_7[4] = new char[(int)var26_8[14]];
-                        var24_6 = 1529940530;
-lbl57:
-                        // 2 sources
-
-                        switch (var24_6) {
-                            default: {
-                                v12 = var26_8[16];
-                                v13 = 15878 ^ -7;
-                                var26_8[16] = var27_9 = v12 ^ (0L ^ v12) & -1L << -(v13 >>> 9 | v13 << 23);
-                                while (true) {
-                                    v14 = -289548357 * -89;
-                                    v15 = v14 >>> 5 | v14 << 27;
-                                    if ((int)(var26_8[16] >>> ~(v15 >>> 23 | v15 << 9)) >= (int)var26_8[14]) ** GOTO lbl12
-                                    ((char[])var25_7[4])[(int)(var26_8[16] >>> 58 + -15 - 11)] = ((char[])var25_7[9])[(int)var26_8[10] + (int)(var26_8[16] >>> -1249445029 * 55 + -109)];
-                                    var26_8[16] = var27_9 = var26_8[16] + 0x100000000L;
-                                }
-                            }
-                            case -259213363: {
-                                ** continue;
-                            }
-                            case 1084784571: 
-                        }
-                        v16 = --64;
-                        var26_8[10] = var27_9 = var26_8[10] + 0x100000000L;
-                        b.0oOOoOo0O00O[(int)(var26_8[10] >>> (v16 << 31 | v16 >>> 1))] = new String((char[])var25_7[4]);
-                        v17 = var26_8[10];
-                        var26_8[10] = var27_9 = v17 ^ ((long)((int)var26_8[10] + (int)var26_8[14]) ^ v17) & -1L >>> -(-3969 << 25 | -3969 >>> 7);
-                        break block16;
-                    }
-lbl78:
-                    // 1 sources
-
-                    block19: while (true) {
-                        switch (var19_1) {
-                            default: {
-                                b.oOo00Oo0OOo0 = new String[4];
-                                b.o0o000o0O0o0 = new String[1];
-                                v18 = (-2125152256 >>> 3 | -2125152256 << 29) * -2014922929 * 630453915;
-                                b.0oOOoOo0O00O = new Object[v18 << 23 | v18 >>> 9];
-                                var19_1 = 32395455;
-                                continue block19;
-                            }
-                            case 32395455: 
-                        }
-                        break;
-                    }
-                    v19 = -45166 + 109;
-                    var26_8[10] = var27_9 = -8801350142189816449L;
-                    v20 = -2147481688 * 438261969;
-                    v21 = (v20 << 25 | v20 >>> 7) * 2014922929;
-                    v22 = var26_8[10];
-                    var26_8[10] = var27_9 = v22 ^ ((long)((v19 >>> 9 | v19 << 23) ^ -89) << (v21 << 13 | v21 >>> 19) ^ v22) & -1L << -2720 * 0x3030303;
-                    var20_2 = -845713946;
-                    v23 = b.o0o000o0O0o0[0];
-                    if (v23 == null) {
-                        v24 = b.oOo00Oo0OOo0[0];
-                        if (v24 == null) {
-                            var25_7[22] = "\ub2ae\uf329\uf3ae\ub433\u34ac\u3534\uf5bc\uf636\u76c7\ub734\uf7b5\uf835\u38dc\ub95c\uf9cc\uba31\u3ad4\u7b5b\ufbd8\ufc4d\ubcc4\u3d5b\ubdc7\u7e40\ufec2\ubf48\ubffbF\u00c2\u817b\u41f6\u8262\u02cd\u8342\uc3cc\u8448\u04c9\u45a7\u85d3\u8651\uc6dd\u4753\uc826\u88a9\u892c\u49af\u09d2\u4a50\u4b3c\u4bb6\u4c22\u4cac\u8d3b\u8dbb\u0e2f\u4ead\ucf28\u8fa6\ud02d\ud0ae\u5125\u519d\u9217\u929a\ud378\u93e6\u5471\u14ee\u9571\u15ef\u967f\u56e9\u5701\u97f6\u5809\u5884\u990c\u599e\uda0d\u5a84\u9b08\u9b8a\u9c1a\u5c95\udd13\u9d87\u9e32\u1ebe\u5f04\u5f8c\u2038\ua084\u213f\ue181\ue23c\ue2a7\u6319\u239a\u2410\ua49c\ua5e5\ue591\u6612\u276e\u2719\u6869\u28ea\ue97b\ua9ea\u2a7f\uaa13\uab6c\u6bf7\u2c60\uacef\ued7e\uede6\uae5c\u2ed2\u6f6c\uafe6\u7063\u70e6\u7166\u31df\ub255\u32dc\ub361\ub33f\ub4ba\ub43f\ub5b6\ub52d\ub6ae\ub636\u77b3\u373b\u38b6\u7847\u79c9\uf94c\ubace\uba4c\u3bd9\u7b5d\u7cdf\u3c4f\ufdd5\ufd44\ubecd\ufe44\uffcc\uff4a\u40f2\uc069\u41c6\u817b\u42f4\u4241\uc3c0\u434b\u84c4\u4452\uc526\u8552\uc6dc\u864a\u47de\u4751\u88d7\u085e\uc92e\ucaaa\u4a25\ucba5\u8b23\u8cb6\u8c3a\u8da0\u4d27\ucebb\u0e24\u8fa6\u4f38\u90ae\u5014\u11af\u5127\u528c\ud214\u13a1\ud318\u94ed\u5469\ud5ff\u9576\u16ef\u1676\u17eb\ud700\u18f9\u587b\ud9f3\u197d\u5a8a\uda0c\u5b89\udb18\u9c9b\udc1a\u9d96\u1d19\u9e80\u5e06\udf8d\u1f30\ua0b0\u200a\ue180\u6100\u6285\ue23a\ua3be\u6332\u249b\ue40a\ue59f\ua51d\u6694\u6616\u6796\u271d\ue891\ue81f\ua966\u2aee\uaa7d\uabff\u6b7b\uace5\uec76\u2df9\u2d77\u2ee2\uee55\u6fff\uef62\uf0e3\u7064\ub1e0\u716d\ub2e4\uf24a\ub3d8\uf34a\ub4dc\uf5a5\u3422\uf4b1\u373c\ub7af\ub636\u36c1\ub929\ub9bf\u3833\u38c5\u3b3d\ufbca\u3a30\uface\u3d45\u7ddd\u7c5a\ubcd9\uff5f\ufff2\u7e70\ubecf\uc141\u81c1\u4040\u80c0\u4341\u03c3\u8242\u42c1\u4566\u85c8\uc44b\u44df\u07a3\u07d5\uc6a6\u4922\u095c\uc9d3\uc85e\u0b28\u0b53\uca2b\u8aac\u4ad3\u0dab\ucc36\u8cb7\u0f3f\ucfbc\u4e3f\u8e96\ud121\u91a3\ud02e\u10ae\u532d\ud3ad\ud218\u92a7\ud522\u9598\u1470\ud4f0\u977f\u57ec\u1671\u16f4\u9975\u99f5\u1879\u98f1\u1b09\u5b89\u5a70\u9af7\u1d0d\u1d89\udc11\udc99\u5f1d\udf9e\u9e19\u1eb6\ue105\u2182\ua008\u6083\ua33b\u23b8\ue238\u22b9\ua502\ua580\u2409\u2763\u671f\u6797\ua6e5\ue696\ua91e\u686e\ua819\u6890\u2be7\u6a65\u6aeb\u6d6c\u2dea\u2c63\uecf6\u2f72\u2ff4\u6e7c\u6efc\u3156\uf1fb\ub06a\u30ee\ub358\u73ef\u3260\uf2e0\ub548\uf5dc\uf45b\uf426\ub7b0\ub727\u36bc\u7632\ub9b3\u3928\u38c9\u3830\ufbbe\u3b48\ubac9\u3a36\u3dcc\u7d32\u3cd8\ufc50\u3fca\uff5a\u7ec6\ube58\u41fc\u414f\uc0c4\u8041\u03c1\u8342\u02fe\u4279\u45e7\u8576\u44f9\u044f\u87db\u4756\u06c8\u89a7\uc9dc\u495c\uc8da\u4ba7\u8bd7\u4aa4\u0ad1\u0dad\u0d29\u4d53\u0c2f\u4fb1\u4f36\u8ebd\u4e3c\ud1bc\u5139\u90a1\ud025\ud3a5\u9314\u528e\u9219\u559b\u551f\u9495\u1411\ud7e6\u577d\ud6e6\u1670\u19f4\u9900\u18f6\u1877\u9bf1\u1b09\u9af2\uda08\udd8f\udd0e\udc86\u5c02\u1f9a\u1f18\u9e96\u1e1b\u2184\ue11b\u6087\u2018\u238a\u6339\u22b9\ue201\u65bb\ua506\ue4be\u6434\ue78f\ua70f\ue69f\u6610\ua965\u6909\ua863\ue81c\uab98\u6b12\uea68\uadee\u6d6e\u2ce5\uec69\u6fe1\uaf6b\u2ee0\u6e79\ub1d2\ub154\u30d6\ub06e\u73da\ub360\ub2d3\uf25a\ub5da\uf55a\uf4e6\u745f\uf7e1\u74af\u352d\uf5b1\u3a29\ufac7\ubb3d\ufbb7\u7828\ub8c3\ub949\u39b1\u7e36\u7eb2\u3f4b\ubfcc\ufc45\u3cda\ufd52\ubdda\u425e\uc2dc\u034d\u03cd\u8079\uc0cb\u8175\u41fe\u064c\uc6ff\u8741\u47fe\u8462\uc4cf\u054a\u85df\u8a48\u0b25\u4b53\u4823\u0855\u08d6\uc9a4\u0e2b\u8ead\u0ed3\u8fb7\u8c38\u0cb7\u4d3e\u0dbd\u9223\u52a3\u9325\u93a5\ud021\u10ab\u9126\ud1a1\ud627\u56a3\u1725\ud79d\u9415\u549b\u9500\u15ea\u9a71\udaec\u9b76\udbf4\u9877\u18fc\u1974\u99f0\ude71\u9e88\u5f1e\u5f8a\u1c16\u1c8b\u5d1e\u1d9b\ue21d\u629f\ue334\ua387\u6004\ua0ba\ue101\ue1b4\u6638\u268c\u6734\ue7bc\u2400\u64bd\ua502\ue591\u2a09\uab65\ueb15\uab8e\ua81a\u2894\u29e4\u6995\uee12\uee94\u2fe9\u2c69\uacea\u2d65\uade0\u3279\ub2f7\ub366\u33e3\ub06c\u30d0\u716f\uf1d3\ub661\u76e0\ub763\uf7df\uf44f\ub4e3\u355f".toCharArray();
-                            var26_8[21] = var27_9 = (long)0;
-                            while ((int)var26_8[21] < ((char[])var25_7[22]).length) {
-                                v25 = (char[])var25_7[22];
-                                v26 = (int)var26_8[21];
-                                v27 = (char)((char)((char)(~((char)(v25[v26] ^ v26))) + v26) + v26);
-                                v28 = ~((char)(-((char)((char)((char)(-((char)((char)(v27 >>> 7 | v27 << 9) + v26))) + 16572) ^ 43555))));
-                                v25[v26] = (char)(v28 >>> 7 | v28 << 9);
-                                var26_8[21] = var27_9 = (long)((int)var26_8[21] + 1);
-                            }
-                            v24 = new String((char[])var25_7[22]);
-                        }
-                        v23 = b.o0Oo000O0oO(0, v24);
-                    }
-                    var25_7[9] = v23.toCharArray();
-                    var26_8[16] = var27_9 = -3785312279261198430L;
-                    v29 = var26_8[16];
-                    var26_8[16] = var27_9 = v29 ^ ((long)(-(~(60293120 << 15 | 60293120 >>> 17))) ^ v29) & -1L >>> (-603425139 * 121 - 5) * -1556147571;
-                    v30 = var26_8[10];
-                    var26_8[10] = var27_9 = v30 ^ (0L ^ v30) & -1L >>> ~(~(737 * -1171354717)) + -35;
-                }
-                break;
-            }
-            break;
-        }
-        var21_3 = 859540555;
-        ** while (true)
-    }
+    static { /* RISE-PORT STUB: initializer unrestored */ }
 
     /*
      * Unable to fully structure code
      * Could not resolve type clashes
      */
-    public b(JSONObject var1_1) {
-        block36: {
-            block37: {
-                block34: {
-                    block33: {
-                        var16_2 = 389488721;
-                        if (var16_2 != var16_2) {
-                            35 & 1;
-                        }
-                        if ((var16_2 = 1713006373) == var16_2 || -2048095310 == 0) {
-                            // empty if block
-                        }
-                        if ((var16_2 = -1286565108) == var16_2) break block37;
-                        42 & 1;
-                        break block37;
-lbl11:
-                        // 1 sources
-
-                        while (true) {
-                            block32: {
-                                var12_9[6] = var13_10 = v0 ^ ((long)var1_1.getBoolean((String)b.0oOOoOo0O00O[v1 >>> b.oo000o00Oo00[36] | v1 << b.oo000o00Oo00[37]]) << b.oo000o00Oo00[38] + b.oo000o00Oo00[39] - b.oo000o00Oo00[40] ^ v0) & -1L << (v2 >>> b.oo000o00Oo00[43] | v2 << b.oo000o00Oo00[44]) * b.oo000o00Oo00[45];
-                                var3_3 = Class.forName(b.aKm());
-                                var4_5 /* !! */  = null;
-                                var11_8[8] = var3_3.getDeclaredMethods();
-                                var12_9[4] = var13_10 = (long)((Method[])var11_8[8]).length;
-                                v3 = b.oo000o00Oo00[46];
-                                ** for (var7_7 = ((v3565856) >>> b.oo000o00Oo00[47] | (v3565856) << b.oo000o00Oo00[48]) - b.oo000o00Oo00[49];
-                                ; var7_7 < (int)var12_9[4]; var7_7 += 1)
-lbl-1000:
-                                // 1 sources
-
-                                {
-                                    block31: {
-                                        var8_11 = ((Method[])var11_8[8])[var7_7];
-                                        if (!Modifier.isPublic(var8_11.getModifiers())) break block31;
-                                        if (!Modifier.isStatic(var8_11.getModifiers())) break block31;
-                                        if (var8_11.getReturnType() != Void.TYPE) break block31;
-                                        if (var8_11.getParameterCount() != (b.oo000o00Oo00[50] ^ b.oo000o00Oo00[51] ^ b.oo000o00Oo00[52]) - b.oo000o00Oo00[53]) break block31;
-                                        if (var8_11.getParameterTypes()[(b.oo000o00Oo00[54] + b.oo000o00Oo00[55]) * b.oo000o00Oo00[56] ^ b.oo000o00Oo00[57] ^ b.oo000o00Oo00[58]] != Boolean.TYPE) break block31;
-                                        var4_5 /* !! */  = var8_11;
-                                        break;
-                                    }
-                                    continue;
-                                }
-lbl38:
-                                // 3 sources
-
-                                if (var4_5 /* !! */  == null) break block32;
-                                try {
-                                    v4 = b.oo000o00Oo00[59];
-                                    v5 = new Object[-(-((v4 >>> b.oo000o00Oo00[60] | v4 << b.oo000o00Oo00[61]) ^ b.oo000o00Oo00[62]))];
-                                    v6 = b.oo000o00Oo00[63];
-                                    v7 = b.oo000o00Oo00[68] + b.oo000o00Oo00[69];
-                                    v5[((v6 >>> b.oo000o00Oo00[64] | v6 << b.oo000o00Oo00[65]) - b.oo000o00Oo00[66]) * b.oo000o00Oo00[67]] = (boolean)(var12_9[6] >>> ((v7 << b.oo000o00Oo00[70] | v7 >>> b.oo000o00Oo00[71]) ^ b.oo000o00Oo00[72]) * b.oo000o00Oo00[73]);
-                                    var4_5 /* !! */ .invoke(null, v5);
-                                }
-                                catch (Exception var3_4) {
-                                    // empty catch block
-                                }
-                            }
-                            var3_3 = var1_1.getString((String)b.0oOOoOo0O00O[(-b.oo000o00Oo00[74] ^ b.oo000o00Oo00[75]) + b.oo000o00Oo00[76] ^ b.oo000o00Oo00[77]]);
-                            v8 = -(b.oo000o00Oo00[78] ^ b.oo000o00Oo00[79]);
-                            this.eQV = var4_5 /* !! */  = var1_1.optString((String)b.0oOOoOo0O00O[(v8 << b.oo000o00Oo00[80] | v8 >>> b.oo000o00Oo00[81]) ^ b.oo000o00Oo00[82]], "");
-                            var12_9[8] = var13_10 = (long)this.aE((String)var3_3, (String)var4_5 /* !! */ );
-                            v9 = b.oo000o00Oo00[83] ^ b.oo000o00Oo00[84] ^ b.oo000o00Oo00[85] ^ b.oo000o00Oo00[86];
-                            var12_9[4] = var13_10 = (long)this.m((boolean)(var12_9[6] >>> (v9 << b.oo000o00Oo00[87] | v9 >>> b.oo000o00Oo00[88])), (boolean)var12_9[8]);
-                            v10 = b.oo000o00Oo00[89] * b.oo000o00Oo00[90] * b.oo000o00Oo00[91];
-                            var7_7 = (int)this.n((boolean)(var12_9[6] >>> -(v10 << b.oo000o00Oo00[92] | v10 >>> b.oo000o00Oo00[93])), (boolean)var12_9[8]);
-                            if ((int)var12_9[8] == 0) ** GOTO lbl-1000
-                            break block33;
-                            break;
-                        }
-lbl61:
-                        // 2 sources
-
-                        while (true) {
-                            var16_2 = 2055844702;
-                            if (var16_2 != var16_2) {
-                                var16_2 = 40;
-                            }
-                            break block34;
-                            break;
-                        }
-                    }
-                    if ((int)var12_9[4] == 0 || !var7_7) lbl-1000:
-                    // 2 sources
-
-                    {
-                        v11 = -b.oo000o00Oo00[94];
-                        v12 = (v11 >>> b.oo000o00Oo00[95] | v11 << b.oo000o00Oo00[96]) ^ b.oo000o00Oo00[97];
-                    } else {
-                        v12 = -(b.oo000o00Oo00[98] * b.oo000o00Oo00[99]) ^ b.oo000o00Oo00[100] ^ b.oo000o00Oo00[101];
-                    }
-                    v13 = var12_9[6];
-                    var12_9[6] = var13_10 = v13 ^ ((long)v12 ^ v13) & -1L >>> -(b.oo000o00Oo00[102] - b.oo000o00Oo00[103] - b.oo000o00Oo00[104]);
-                    this.eQR = (int)(var12_9[6] >>> -(b.oo000o00Oo00[105] ^ b.oo000o00Oo00[106])) != 0 && (int)var12_9[6] == 0 ? (b.oo000o00Oo00[107] - b.oo000o00Oo00[108]) * b.oo000o00Oo00[109] : b.oo000o00Oo00[110] + b.oo000o00Oo00[111] ^ b.oo000o00Oo00[112];
-                    v14 = b.oo000o00Oo00[113];
-                    this.c(this.eQR, (boolean)(var12_9[6] >>> -(v14 << b.oo000o00Oo00[114] | v14 >>> b.oo000o00Oo00[115])), (boolean)var12_9[8], (boolean)var12_9[4], (boolean)var7_7);
-                    this.eQS = var1_1.getDouble((String)b.0oOOoOo0O00O[(b.oo000o00Oo00[116] ^ b.oo000o00Oo00[117]) * b.oo000o00Oo00[118] - b.oo000o00Oo00[119] + b.oo000o00Oo00[120]]);
-                    this.eQT = var1_1.getFloat((String)b.0oOOoOo0O00O[-((b.oo000o00Oo00[121] - b.oo000o00Oo00[122] ^ b.oo000o00Oo00[123]) * b.oo000o00Oo00[124])]);
-                    v15 = -b.oo000o00Oo00[125];
-                    v16 = v15 >>> b.oo000o00Oo00[126] | v15 << b.oo000o00Oo00[127];
-                    this.eQU = var1_1.getLong((String)b.0oOOoOo0O00O[(v16 << b.oo000o00Oo00[128] | v16 >>> b.oo000o00Oo00[129]) * b.oo000o00Oo00[130]]);
-                    this.ePy = var3_3;
-                    return;
-                }
-                var11_8 = new Object[9];
-                var12_9 = new long[9];
-                super((byte)(b.oo000o00Oo00[5] ^ b.oo000o00Oo00[6] ^ b.oo000o00Oo00[7]));
-                var11_8[0] = Class.forName(b.aKm());
-                var3_3 = null;
-                var4_5 /* !! */  = ((Class)var11_8[0]).getDeclaredMethods();
-                var12_9[8] = var13_10 = (long)var4_5 /* !! */ .length;
-                var12_9[4] = var13_10 = (long)(-(b.oo000o00Oo00[8] ^ b.oo000o00Oo00[9] ^ b.oo000o00Oo00[10]));
-                ** while ((int)var12_9[4] < (int)var12_9[8])
-lbl-1000:
-                // 1 sources
-
-                {
-                    block35: {
-                        var7_6 = var4_5 /* !! */ [(int)var12_9[4]];
-                        if (!Modifier.isPublic(var7_6.getModifiers())) break block35;
-                        if (!Modifier.isStatic(var7_6.getModifiers())) break block35;
-                        if (var7_6.getReturnType() != Void.TYPE) break block35;
-                        v17 = -b.oo000o00Oo00[11];
-                        if (var7_6.getParameterCount() != (v17 << b.oo000o00Oo00[12] | v17 >>> b.oo000o00Oo00[13])) break block35;
-                        v18 = b.oo000o00Oo00[14] ^ b.oo000o00Oo00[15];
-                        if (var7_6.getParameterTypes()[(v18 >>> b.oo000o00Oo00[16] | v18 << b.oo000o00Oo00[17]) ^ b.oo000o00Oo00[18]] != Integer.TYPE) break block35;
-                        var3_3 = var7_6;
-                        break;
-                    }
-                    var12_9[4] = var13_10 = (long)((int)var12_9[4] + 1);
-                    continue;
-                }
-lbl117:
-                // 3 sources
-
-                if (var3_3 == null) break block36;
-                try {
-                    v19 = new Object[-(-(b.oo000o00Oo00[19] ^ b.oo000o00Oo00[20]) * b.oo000o00Oo00[21])];
-                    v20 = b.oo000o00Oo00[22] * b.oo000o00Oo00[23] ^ b.oo000o00Oo00[24];
-                    v19[v20 << b.oo000o00Oo00[25] | v20 >>> b.oo000o00Oo00[26]] = ((b.oo000o00Oo00[27] ^ b.oo000o00Oo00[28]) * b.oo000o00Oo00[29] ^ b.oo000o00Oo00[30]) * b.oo000o00Oo00[31];
-                    var3_3.invoke(null, v19);
-                    break block36;
-                }
-                catch (Exception var11_8[0]) {
-                    // empty catch block
-                }
-                break block36;
-            }
-            if ((var16_2 = -1534474995) == var16_2) ** GOTO lbl61
-            61 + 52;
-            ** while (true)
-        }
-        this.aKo();
-        v21 = b.oo000o00Oo00[32];
-        v1 = (v21 >>> b.oo000o00Oo00[33] | v21 << b.oo000o00Oo00[34]) * b.oo000o00Oo00[35];
-        var12_9[6] = var13_10 = 2631696783892138317L;
-        v0 = var12_9[6];
-        v2 = b.oo000o00Oo00[41] * b.oo000o00Oo00[42];
-        ** while (true)
+    public b(JSONObject var1_1) { /* RISE-PORT STUB: original CFR body unrestored (GOTO/orphan); feature impact documented in PORTING_NOTES.md */
+        return null;
     }
 
     /*
      * Enabled aggressive block sorting
      */
-    private static /* synthetic */ void 0OOOoo00o0() {
+    private static /* synthetic */ void q0OOOoo00o0() {
         int n2 = 1885177842;
         if (n2 != n2) {
             int cfr_ignored_0 = 49 + 67;
