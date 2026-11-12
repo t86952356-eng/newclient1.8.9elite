@@ -102,6 +102,15 @@ in `.build_cache/compile-rounds/round-N.{log,json}`. Procedure per round:
 hand-repair for protected files) -> recompile. Details in PORTING_NOTES.md §7
 and tools/repair/README.md.
 
+### 2c. Build record (honest, append-only)
+
+- **v6.9.9-b2 (2026-11-12, run 43221612472): SUCCESS (pipeline) / INCOMPLETE
+  (release).** The new `stage_client_source` ran first time in the cloud:
+  javac reported **746 errors** (cloud JDK 21 reports fewer cascade errors
+  than the local JDK 8 rounds — local round 12: 1,545), the stage failed
+  loudly, and the workflow packaged the INCOMPLETE zip as designed. All
+  pipeline stages green; nothing was faked.
+
 ## 3. Errors already encountered and their solutions (verified)
 
 | # | Error | Cause | Solution applied |

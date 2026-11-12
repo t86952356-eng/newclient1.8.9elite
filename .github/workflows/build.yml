@@ -80,7 +80,7 @@ jobs:
           if [ "$BUILD_STATUS" = "COMPLETE" ]; then
             STATUS_LINE="$STATUS_LINE — the release zip contains the full playable client JAR (Rise-6.9.9.jar) plus the version manifest."
           else
-            STATUS_LINE="$STATUS_LINE — the game JAR could not be produced because artifacts/client-restored.jar is not present in the repository. The zip contains the version manifest (Rise-6.9.9.json) and the bootstrap runtime layer for inspection. See ANDROID_PORT_AUDIT.md (BLOCKER-1) for exactly what to provide."
+            STATUS_LINE="$STATUS_LINE — the source build did not fully compile this run. The zip contains the version manifest (Rise-6.9.9.json) and the bootstrap runtime layer for inspection. The precise remaining worklist is in PORTING_NOTES.md §7.3 (releases flip to COMPLETE automatically once the source build compiles)."
           fi
           {
             echo "# Rise 6.9.9 — Client Version (${TAG})"
