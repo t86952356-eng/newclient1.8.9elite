@@ -110,6 +110,10 @@ and tools/repair/README.md.
   than the local JDK 8 rounds — local round 12: 1,545), the stage failed
   loudly, and the workflow packaged the INCOMPLETE zip as designed. All
   pipeline stages green; nothing was faked.
+- **v6.9.9-b3 (2026-11-12, run 43221880810): SUCCESS (pipeline) / INCOMPLETE
+  (release).** Same honest result with corrected release notes (source-build
+  narrative instead of the obsolete client-restored.jar one) and the changelog
+  reordered newest-first.
 
 ## 3. Errors already encountered and their solutions (verified)
 
