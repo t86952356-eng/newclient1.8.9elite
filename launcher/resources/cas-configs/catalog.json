@@ -1,0 +1,272 @@
+{
+  "repository": "risellc/RiseOnlineConfigs",
+  "revision": "6a807c96d24218004f4f2642287d36ae48d2c036",
+  "committed_at": "2026-11-02T10:02:04+11:00",
+  "fetched_at": "2026-11-09T17:39:07.708764+00:00",
+  "configs": [
+    {
+      "name": "Easecation",
+      "file": "Easecation.json",
+      "sha": "87322c33fbb9a9f728bb04ed6101571e42255b4a",
+      "ip": "easecaution",
+      "updated": "15/8/2026",
+      "featured": true
+    },
+    {
+      "name": "blocksmc",
+      "file": "blocksmc.json",
+      "sha": "9926a0aaa8f88ed4ab88bb13c180d28a30aa2461",
+      "ip": "",
+      "updated": "",
+      "featured": false
+    },
+    {
+      "name": "BlocksMC1.18",
+      "file": "blocksmc1.18.json",
+      "sha": "7efc095382fa7eede729ca1717d767f2a82bf258",
+      "ip": "blocksmc.com",
+      "updated": "27/10/2025",
+      "featured": true
+    },
+    {
+      "name": "bloxd",
+      "file": "bloxd.json",
+      "sha": "bb406219e02cb5f24f7b33b099e5e99cfe7b69b5",
+      "ip": "",
+      "updated": "",
+      "featured": false
+    },
+    {
+      "name": "cubecraft",
+      "file": "cubecraft.json",
+      "sha": "093fe6a0e37c87848ff6b5118db8cb7426020c0c",
+      "ip": "",
+      "updated": "",
+      "featured": false
+    },
+    {
+      "name": "CubecraftDisabler",
+      "file": "cubecraftdisabler.json",
+      "sha": "00f124476c13038c1978f84e4763c33ac9c28763",
+      "ip": "play.cubecraft.net",
+      "updated": "30/6/2025",
+      "featured": true
+    },
+    {
+      "name": "Heypixel",
+      "file": "heypixel.json",
+      "sha": "4584306e70ca87626fae830f923e045037f9bd05",
+      "ip": "mc.163.com",
+      "updated": "1/1/2026",
+      "featured": true
+    },
+    {
+      "name": "hylex",
+      "file": "hylex.json",
+      "sha": "ff0fe7c3493c73a96c3c8abd7da8f5bba10539b7",
+      "ip": "",
+      "updated": "",
+      "featured": false
+    },
+    {
+      "name": "Hylex1.18",
+      "file": "hylex1.18.json",
+      "sha": "9e0c42d18d52c508e892edf884434f09f9317214",
+      "ip": "hylex.gg",
+      "updated": "12/24/2025",
+      "featured": true
+    },
+    {
+      "name": "hypixel1.21",
+      "file": "hypixel1.21.json",
+      "sha": "9c9da60b4df23b83a9b3468c664d27d27b1e04d2",
+      "ip": "",
+      "updated": "",
+      "featured": false
+    },
+    {
+      "name": "Hypixel1.8",
+      "file": "hypixel1.8.json",
+      "sha": "a2bab8a323f614f92c16764f7f51f955d6577d00",
+      "ip": "mc.hypixel.net",
+      "updated": "23/9/2026",
+      "featured": true
+    },
+    {
+      "name": "hypixel1.8bw",
+      "file": "hypixel1.8bw.json",
+      "sha": "821263931a6beb2711ba7f630165fccf648fca2c",
+      "ip": "",
+      "updated": "",
+      "featured": false
+    },
+    {
+      "name": "hypixelbw1.19",
+      "file": "hypixelbw1.19.json",
+      "sha": "63975059d1e1ada9eba78a01d9eb0568e5e47ac0",
+      "ip": "",
+      "updated": "",
+      "featured": false
+    },
+    {
+      "name": "hypixelfly1.19",
+      "file": "hypixelfly1.19.json",
+      "sha": "f12e38673f1951dd1ac291098193e57664c11ddc",
+      "ip": "",
+      "updated": "",
+      "featured": false
+    },
+    {
+      "name": "HypixelNCP1.20",
+      "file": "hypixelncp1.20.json",
+      "sha": "d477b8f3e145d964ac0e790af65aea0dc0c11b2f",
+      "ip": "hypixel.net",
+      "updated": "12/24/2024",
+      "featured": true
+    },
+    {
+      "name": "hypixelnew",
+      "file": "hypixelnew.json",
+      "sha": "09e4a2312c9ef300f18ce38d93eec05759c08b18",
+      "ip": "",
+      "updated": "",
+      "featured": false
+    },
+    {
+      "name": "hypixelnew2",
+      "file": "hypixelnew2.json",
+      "sha": "192ad5407dcf91ec6553ec22ab2a0a85272393a0",
+      "ip": "",
+      "updated": "",
+      "featured": false
+    },
+    {
+      "name": "intave",
+      "file": "intave.json",
+      "sha": "b77559bcd4a5ba595b37c811c3ca85b5861f346a",
+      "ip": "",
+      "updated": "",
+      "featured": false
+    },
+    {
+      "name": "matrix",
+      "file": "matrix.json",
+      "sha": "557173c3062f406de3a8135a7e26b509b79db089",
+      "ip": "",
+      "updated": "",
+      "featured": false
+    },
+    {
+      "name": "Matrix1.12",
+      "file": "matrix1.12.json",
+      "sha": "416946fa2dd7a702faecabdcb1ad1c28b11af529",
+      "ip": "all matrix servers",
+      "updated": "11/11/2025",
+      "featured": true
+    },
+    {
+      "name": "minelatino",
+      "file": "minelatino.json",
+      "sha": "ae07e40477952862a2636469b2c5f4ac6a015371",
+      "ip": "",
+      "updated": "",
+      "featured": false
+    },
+    {
+      "name": "miniblox",
+      "file": "miniblox.json",
+      "sha": "5fb1248accde56f15d71571dd33ffeff43a753be",
+      "ip": "",
+      "updated": "",
+      "featured": false
+    },
+    {
+      "name": "mmc",
+      "file": "mmc.json",
+      "sha": "6b229d142908981d4d75a94440101b864f80a6d2",
+      "ip": "",
+      "updated": "",
+      "featured": false
+    },
+    {
+      "name": "ModernGrim",
+      "file": "moderngrim.json",
+      "sha": "f38429a093c5f8f521431765cc1dfb8437e5712d",
+      "ip": "all 1.9+ grim servers",
+      "updated": "16/11/2025",
+      "featured": true
+    },
+    {
+      "name": "ModernMMC",
+      "file": "modernmmc.json",
+      "sha": "bf1e2c0bb72541e38c1ca9a08007189956e45234",
+      "ip": "minemen.club",
+      "updated": "3/10/2025",
+      "featured": true
+    },
+    {
+      "name": "mushmc",
+      "file": "mushmc.json",
+      "sha": "3fd995a9678e43ca7be37f2c72c7ed28ce1fba3b",
+      "ip": "",
+      "updated": "",
+      "featured": false
+    },
+    {
+      "name": "polar",
+      "file": "polar.json",
+      "sha": "5040707d873a1d6caccaf0185c2b207b55f88156",
+      "ip": "",
+      "updated": "",
+      "featured": false
+    },
+    {
+      "name": "roxbot",
+      "file": "roxbot.json",
+      "sha": "47d3be4b44042d64ddda947f1cfed9b1b387b789",
+      "ip": "",
+      "updated": "",
+      "featured": false
+    },
+    {
+      "name": "supercraft",
+      "file": "supercraft.json",
+      "sha": "b5bf3f89ac3c0d0e1067e5f4502b58b5f10b1525",
+      "ip": "",
+      "updated": "",
+      "featured": false
+    },
+    {
+      "name": "Vulcan",
+      "file": "vulcan.json",
+      "sha": "480e658b877eee4cc857e124103b332ebca6cd52",
+      "ip": "all vulcan servers",
+      "updated": "16/11/2025",
+      "featured": true
+    },
+    {
+      "name": "watchdogprediction",
+      "file": "watchdogprediction.json",
+      "sha": "fa61d3783fda36fb196124a839951337aaa9ee35",
+      "ip": "",
+      "updated": "",
+      "featured": false
+    },
+    {
+      "name": "watchdogprediction1.20",
+      "file": "watchdogprediction1.20.json",
+      "sha": "632deace19861fb2f747da2bea10640c32c8e999",
+      "ip": "",
+      "updated": "",
+      "featured": false
+    },
+    {
+      "name": "watchogprediction",
+      "file": "watchogprediction.json",
+      "sha": "dbe0f6c9a4a0a441265fad46ef602070b4d69697",
+      "ip": "",
+      "updated": "",
+      "featured": false
+    }
+  ]
+}

@@ -1,0 +1,16 @@
+{
+  "clientVersion": "6.9.9",
+  "classes": 4125,
+  "moduleClasses": 154,
+  "modes": 279,
+  "semanticClassNames": 482,
+  "nativeDeclarations": 401,
+  "categories": {
+    "COMBAT": 16,
+    "EXPLOIT": 10,
+    "GHOST": 15,
+    "MOVEMENT": 27,
+    "PLAYER": 44,
+    "RENDER": 42
+  }
+}

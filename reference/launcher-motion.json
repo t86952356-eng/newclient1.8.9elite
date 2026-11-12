@@ -1,0 +1,49 @@
+{
+  "defaultPlayerName": "User",
+  "savedPlayerNamesPreserved": true,
+  "animations": [
+    "window entrance and dismissal",
+    "button hover, press, focus and enabled state",
+    "text field focus and validation",
+    "toggle thumb and color",
+    "combo box opening and arrow",
+    "smooth scrolling",
+    "config table loading and selection",
+    "startup spinner and status transitions",
+    "bootstrap progress"
+  ],
+  "durationsMillis": {
+    "hover": 150,
+    "toggle": 180,
+    "windowEntrance": 220,
+    "windowDismissal": 120,
+    "scroll": 150
+  },
+  "frameIntervalMillis": 16,
+  "idleClockStops": true,
+  "interruptionTestPassed": true,
+  "intermediateFrameTestPassed": true,
+  "reducedMotionTestPassed": true,
+  "immediateInputTestPassed": true,
+  "configIoRunsOffEventThread": true,
+  "logUpdatesBatched": true,
+  "startupReadySignalVerified": true,
+  "clientSmoke": {
+    "defaultConfigChecks": 143,
+    "mainMenu": true,
+    "clickGui": "hackclient.rise.abf",
+    "altsScreen": "com.alan.clients.ui.menu.impl.account.AccountManagerScreen",
+    "rawInputRegistered": true,
+    "defaultConfigDifferences": [],
+    "rawInputAvailable": true,
+    "complete": true,
+    "version": "6.9.9",
+    "modules": 146,
+    "worldLoaded": true
+  },
+  "portableVerification": "Client logger precedence passed.\n[Native] Bundled OpenSSL and OpenAL loaded.\nBundled audio, native decryptor and Inter font passed.\n[RawMouse] Windows Raw Input ready.\nBundled Windows Raw Input receiver passed.\nRuntime linkage and world/menu status updates passed.\n",
+  "artifact": "dist/RiseLauncher.exe",
+  "artifactBytes": 346160479,
+  "artifactSha256": "808edc60fba084cf5ab81cdd1c448f2b73e658c643efd2fed92675ebf88e7187",
+  "launcherClassDigest": "33189a195dcc5891433a706deafd30957cff06bddc4a0062be47dcf86610756a"
+}

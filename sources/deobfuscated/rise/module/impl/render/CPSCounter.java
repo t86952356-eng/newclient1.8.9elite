@@ -1,0 +1,75 @@
+/*
+ * Decompiled with CFR 0.152.
+ */
+package rise.module.impl.render;
+
+import hackclient.rise.ady;
+import hackclient.rise.aec;
+import hackclient.rise.ait;
+import hackclient.rise.akn;
+import hackclient.rise.gb;
+import hackclient.rise.gd;
+import hackclient.rise.gg;
+import java.awt.Color;
+import rise.event.EventLink;
+import rise.event.Listener;
+import rise.event.impl.ClickEvent;
+import rise.event.impl.PreMotionEvent;
+import rise.event.impl.Render2DEvent;
+import rise.module.Category;
+import rise.module.Module;
+import rise.module.ModuleInfo;
+import rise.util.math.Vector2d;
+import rise.util.math.Vector2f;
+import rise.value.BooleanValue;
+
+@ModuleInfo(aliases={"module.render.cpscounter.name"}, description="module.render.cpscounter.description", category=Category.RENDER)
+public final class CPSCounter
+extends Module {
+    private final BooleanValue anC = new BooleanValue("Title", (Module)this, (Boolean)false);
+    private final akn anD = new akn("Position", (Module)this, new Vector2d(200.0, 200.0));
+    private final Vector2f anE = new Vector2f(22.0f, 22.0f);
+    private final aec<Boolean> anF = new aec(20);
+    private boolean anG;
+    private int anH;
+    @EventLink
+    public final Listener<Render2DEvent> anI = render2DEvent -> {
+        Vector2d vector2d = this.anD.aqy;
+        String string = (Boolean)this.anC.wD() != false ? "CPS " : "";
+        String string2 = "" + this.anH;
+        float f2 = gb.ks.a(20, gd.kH).bQ(string);
+        this.anE.x = f2 + (float)gb.ks.a(20, gd.kG).bQ(string2);
+        this.b(gg.kV, 1).c(() -> {
+            double d2 = vector2d.x;
+            double d3 = vector2d.y;
+            double d4 = this.anE.x + 6.0f;
+            double d5 = this.anE.y - 1.0f;
+            double d6 = this.rP().pB();
+            this.rP();
+            ait.c(d2, d3, d4, d5, d6, ady.sa());
+            this.anD.n(new Vector2d(this.anE.x + 6.0f, this.anE.y - 1.0f));
+            double d7 = vector2d.x + 3.0;
+            double d8 = vector2d.y + (double)(this.anE.y / 2.0f) - (double)(gb.ks.a(20, gd.kG).tF() / 4.0f);
+            gb.ks.a(20, gd.kH).b(string, d7, d8, this.rP().rQ().getRGB());
+            gb.ks.a(20, gd.kG).b(string2, d7 + (double)f2, d8, Color.WHITE.getRGB());
+        });
+        this.b(gg.kU).c(() -> ait.c(vector2d.x, vector2d.y, (double)(this.anE.x + 6.0f), (double)(this.anE.y - 1.0f), this.rP().pB(), Color.BLACK));
+        this.b(gg.kT).c(() -> ait.c(vector2d.x + 0.5, vector2d.y + 0.5, (double)(this.anE.x + 6.0f - 1.0f), (double)(this.anE.y - 2.0f), this.rP().pB() + 1, this.rP().rU()));
+    };
+    @EventLink
+    public final Listener<ClickEvent> anJ = clickEvent -> {
+        this.anG = true;
+    };
+    @EventLink
+    public final Listener<PreMotionEvent> anK = preMotionEvent -> {
+        this.anH = 0;
+        this.anF.add(this.anG);
+        this.anF.forEach(bl2 -> {
+            if (bl2.booleanValue()) {
+                ++this.anH;
+            }
+        });
+        this.anG = false;
+    };
+}
+

@@ -1,0 +1,15 @@
+{
+  "clientVersion": "6.9.9",
+  "sourceLauncher": "2.6",
+  "clientOriginalSha256": "c7251f3ab2addf2b7d257d159c2b0b1ccc470cc1bdcbfa34136340a8f5db21c8",
+  "clientRestoredSha256": "a93ea829dcc0869173a7c3aad8a466b6790bb46d0a6f4eaf772b5bcf756d3e17",
+  "coreSha256": "57211b1a76365a4aacde12cc4f10b1e8715788d4fd410223993e9bcddef1103f",
+  "classes": 4125,
+  "rawSourceFiles": 4125,
+  "renamedSourceFiles": 4125,
+  "moduleClasses": 154,
+  "semanticClassNames": 482,
+  "decompiler": "CFR 0.152",
+  "diagnosticFiles": 57,
+  "nativeImplementationsRestored": false
+}

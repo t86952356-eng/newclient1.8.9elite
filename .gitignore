@@ -1,0 +1,12 @@
+# Owner-provided binaries (never redistribute; force-add only if the owner chooses)
+artifacts/*.jar
+
+# Build outputs
+build/
+dist/
+work/
+.gradle/
+
+# Local env
+*.log
+.DS_Store

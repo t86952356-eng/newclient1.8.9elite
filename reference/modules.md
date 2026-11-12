@@ -1,0 +1,454 @@
+# Rise 6.9.9 モジュール索引
+
+登録の有無を問わず、最新版のModuleInfo注釈から抽出しています。
+
+## COMBAT
+
+- [Anti Bot](../sources/deobfuscated/rise/module/impl/combat/AntiBot.java): Removes bots used by servers to detect Aura
+  - [hi](../sources/deobfuscated/rise/module/impl/combat/antibot/HiMode.java)
+  - [hj](../sources/deobfuscated/rise/module/impl/combat/antibot/HjMode.java)
+  - [hk](../sources/deobfuscated/rise/module/impl/combat/antibot/HkMode.java)
+  - [hl](../sources/deobfuscated/rise/module/impl/combat/antibot/HlMode.java)
+  - [hm](../sources/deobfuscated/rise/module/impl/combat/antibot/HmMode.java)
+  - [hn](../sources/deobfuscated/rise/module/impl/combat/antibot/HnMode.java)
+  - [ho](../sources/deobfuscated/rise/module/impl/combat/antibot/HoMode.java)
+  - [hp](../sources/deobfuscated/rise/module/impl/combat/antibot/HpMode.java)
+  - [hr](../sources/deobfuscated/rise/module/impl/combat/antibot/HrMode.java)
+  - [hs](../sources/deobfuscated/rise/module/impl/combat/antibot/HsMode.java)
+  - [ht](../sources/deobfuscated/rise/module/impl/combat/antibot/HtMode.java)
+  - [hu](../sources/deobfuscated/rise/module/impl/combat/antibot/HuMode.java)
+- [Combo One Hit](../sources/deobfuscated/rise/module/impl/combat/ComboOneHit.java): Kills players extremely fast in the Combo gamemode
+- [Criticals](../sources/deobfuscated/rise/module/impl/combat/Criticals.java): Makes you get a critical hit every time you attack
+  - [Edit](../sources/deobfuscated/rise/module/impl/combat/criticals/EditMode.java)
+  - [No Ground](../sources/deobfuscated/rise/module/impl/combat/criticals/NoGroundMode.java)
+  - [Packet](../sources/deobfuscated/rise/module/impl/combat/criticals/PacketMode.java)
+  - [Verus](../sources/deobfuscated/rise/module/impl/combat/criticals/VerusMode.java)
+  - [Vulcan](../sources/deobfuscated/rise/module/impl/combat/criticals/VulcanMode.java)
+  - [Watchdog](../sources/deobfuscated/rise/module/impl/combat/criticals/WatchdogMode.java)
+- [Fences](../sources/deobfuscated/rise/module/impl/combat/Fences.java): Prevents you from falling off in sumo
+- [Keep Range](../sources/deobfuscated/rise/module/impl/combat/KeepRange.java): Keeps you just within range of the target, reduces the potential for incoming attacks.
+- [Kill Aura](../sources/deobfuscated/rise/module/impl/combat/KillAura.java): Automatically attacks nearby entities
+- [Lag Break](../sources/deobfuscated/rise/module/impl/combat/LagBreak.java): Adaptive fakelag with optional pulse to break enemy timing
+- [Legit Reach](../sources/deobfuscated/rise/module/impl/combat/LegitReach.java): Uses latency to give you a reach advantage
+- [Mimic](../sources/deobfuscated/rise/module/impl/combat/Mimic.java): 
+  - [Clicker](../sources/deobfuscated/rise/module/impl/combat/mimic/ClickerMode.java)
+  - [Rotations](../sources/deobfuscated/rise/module/impl/combat/mimic/RotationsMode.java)
+- [Peircing](../sources/deobfuscated/rise/module/impl/combat/Peircing.java): Allows attacks to raycast through blocks
+- [Regen](../sources/deobfuscated/rise/module/impl/combat/Regen.java): Makes you regenerate health faster
+  - [Vanilla](../sources/deobfuscated/rise/module/impl/combat/regen/VanillaMode.java)
+  - [Verus Regen](../sources/deobfuscated/rise/module/impl/combat/regen/VerusRegenMode.java)
+  - [World Guard](../sources/deobfuscated/rise/module/impl/combat/regen/WorldGuardMode.java)
+- [Teleport Aura](../sources/deobfuscated/rise/module/impl/combat/TeleportAura.java): Automatically attacks entities from far away by teleporting
+- [Throwable Aura](../sources/deobfuscated/rise/module/impl/combat/ThrowableAura.java): Automatically throws eggs/snowballs at nearby targets using hotbar slot switching
+- [Tick Base](../sources/deobfuscated/rise/module/impl/combat/TickBase.java): Uses latency to give you a reach advantage
+- [Velocity](../sources/deobfuscated/rise/module/impl/combat/Velocity.java): Uses heavy dick and balls to drag across the floor to reduce velocity.
+  - [Grim Reduce](../sources/deobfuscated/rise/module/impl/combat/velocity/GrimReduceMode.java)
+  - [AAC](../sources/deobfuscated/rise/module/impl/combat/velocity/AACMode.java)
+  - [Bounce](../sources/deobfuscated/rise/module/impl/combat/velocity/BounceMode.java)
+  - [Buffer Abuse](../sources/deobfuscated/rise/module/impl/combat/velocity/BufferAbuseMode.java)
+  - [Grim Test](../sources/deobfuscated/rise/module/impl/combat/velocity/GrimTestMode.java)
+  - [Delay](../sources/deobfuscated/rise/module/impl/combat/velocity/DelayMode.java)
+  - [Matrix](../sources/deobfuscated/rise/module/impl/combat/velocity/MatrixMode.java)
+  - [Grim](../sources/deobfuscated/rise/module/impl/combat/velocity/GrimMode.java)
+  - [Grim 2](../sources/deobfuscated/rise/module/impl/combat/velocity/Grim2Mode.java)
+  - [Ground](../sources/deobfuscated/rise/module/impl/combat/velocity/GroundMode.java)
+  - [Intave](../sources/deobfuscated/rise/module/impl/combat/velocity/IntaveMode.java)
+  - [Karhu](../sources/deobfuscated/rise/module/impl/combat/velocity/KarhuMode.java)
+  - [Legit/Jump Reset](../sources/deobfuscated/rise/module/impl/combat/velocity/LegitJumpResetMode.java)
+  - [MMC](../sources/deobfuscated/rise/module/impl/combat/velocity/MMCMode.java)
+  - [Watchdog Damage Boost Fly Disabler](../sources/deobfuscated/rise/module/impl/combat/velocity/WatchdogDamageBoostFlyDisablerMode.java)
+  - [Standard](../sources/deobfuscated/rise/module/impl/combat/velocity/StandardMode.java)
+  - [Tick](../sources/deobfuscated/rise/module/impl/combat/velocity/TickMode.java)
+  - [Universocraft](../sources/deobfuscated/rise/module/impl/combat/velocity/UniversocraftMode.java)
+  - [Vulcan](../sources/deobfuscated/rise/module/impl/combat/velocity/VulcanMode.java)
+  - [Watchdog Prediction](../sources/deobfuscated/rise/module/impl/combat/velocity/WatchdogPredictionMode.java)
+  - [Watchdog Reduce](../sources/deobfuscated/rise/module/impl/combat/velocity/WatchdogReduceMode.java)
+  - [Watchdog](../sources/deobfuscated/rise/module/impl/combat/velocity/WatchdogMode.java)
+- [Watchdog TP Aura](../sources/deobfuscated/rise/module/impl/combat/WatchdogTPAura.java): Teleport-based aura for Hypixel Watchdog
+
+## EXPLOIT
+
+- [Block Tracker](../sources/deobfuscated/rise/module/impl/exploit/BlockTracker.java): Prints in chat when the watched player starts or stops blocking
+- [Console Spammer](../sources/deobfuscated/rise/module/impl/exploit/ConsoleSpammer.java): Tries to spam the console of the server
+  - [Channel](../sources/deobfuscated/rise/module/impl/exploit/consolespammer/ChannelMode.java)
+- [Crasher](../sources/deobfuscated/rise/module/impl/exploit/Crasher.java): Uses various exploits to try and crash some servers
+  - [Custom](../sources/deobfuscated/rise/module/impl/exploit/crasher/CustomMode.java)
+  - [Vanilla](../sources/deobfuscated/rise/module/impl/exploit/crasher/VanillaMode.java)
+- [Disabler](../sources/deobfuscated/rise/module/impl/exploit/Disabler.java): Partially disables anticheats
+  - [iw](../sources/deobfuscated/rise/module/impl/exploit/disabler/IwMode.java)
+  - [jp](../sources/deobfuscated/rise/module/impl/exploit/disabler/JpMode.java)
+  - [jr](../sources/deobfuscated/rise/module/impl/exploit/disabler/JrMode.java)
+  - [js](../sources/deobfuscated/rise/module/impl/exploit/disabler/JsMode.java)
+  - [jt](../sources/deobfuscated/rise/module/impl/exploit/disabler/JtMode.java)
+  - [ju](../sources/deobfuscated/rise/module/impl/exploit/disabler/JuMode.java)
+  - [jv](../sources/deobfuscated/rise/module/impl/exploit/disabler/JvMode.java)
+  - [jw](../sources/deobfuscated/rise/module/impl/exploit/disabler/JwMode.java)
+  - [jx](../sources/deobfuscated/rise/module/impl/exploit/disabler/JxMode.java)
+  - [jy](../sources/deobfuscated/rise/module/impl/exploit/disabler/JyMode.java)
+  - [jz](../sources/deobfuscated/rise/module/impl/exploit/disabler/JzMode.java)
+  - [ka](../sources/deobfuscated/rise/module/impl/exploit/disabler/KaMode.java)
+  - [kb](../sources/deobfuscated/rise/module/impl/exploit/disabler/KbMode.java)
+  - [kc](../sources/deobfuscated/rise/module/impl/exploit/disabler/KcMode.java)
+  - [kd](../sources/deobfuscated/rise/module/impl/exploit/disabler/KdMode.java)
+  - [ke](../sources/deobfuscated/rise/module/impl/exploit/disabler/KeMode.java)
+  - [kf](../sources/deobfuscated/rise/module/impl/exploit/disabler/KfMode.java)
+  - [kg](../sources/deobfuscated/rise/module/impl/exploit/disabler/KgMode.java)
+  - [kh](../sources/deobfuscated/rise/module/impl/exploit/disabler/KhMode.java)
+  - [ki](../sources/deobfuscated/rise/module/impl/exploit/disabler/KiMode.java)
+  - [kj](../sources/deobfuscated/rise/module/impl/exploit/disabler/KjMode.java)
+  - [Test](../sources/deobfuscated/rise/module/impl/exploit/disabler/TestMode.java)
+  - [kl](../sources/deobfuscated/rise/module/impl/exploit/disabler/KlMode.java)
+  - [km](../sources/deobfuscated/rise/module/impl/exploit/disabler/KmMode.java)
+  - [kn](../sources/deobfuscated/rise/module/impl/exploit/disabler/KnMode.java)
+  - [ko](../sources/deobfuscated/rise/module/impl/exploit/disabler/KoMode.java)
+  - [kp](../sources/deobfuscated/rise/module/impl/exploit/disabler/KpMode.java)
+  - [kq](../sources/deobfuscated/rise/module/impl/exploit/disabler/KqMode.java)
+- [Ghost Hand](../sources/deobfuscated/rise/module/impl/exploit/GhostHand.java): Lets you open containers through blocks you are looking through
+- [God Mode](../sources/deobfuscated/rise/module/impl/exploit/GodMode.java): Prevents people from damaging you on some servers
+- [Lightning Tracker](../sources/deobfuscated/rise/module/impl/exploit/LightningTracker.java): Prints the coordinates of lightning strikes in chat
+- [No Rotate](../sources/deobfuscated/rise/module/impl/exploit/NoRotate.java): Prevents servers from modifying your view angles
+  - [Edit](../sources/deobfuscated/rise/module/impl/exploit/norotate/EditMode.java)
+  - [Cancel](../sources/deobfuscated/rise/module/impl/exploit/norotate/CancelMode.java)
+- [Ping Spoof](../sources/deobfuscated/rise/module/impl/exploit/PingSpoof.java): Simulates higher latency to the server
+- [Staff Detector](../sources/deobfuscated/rise/module/impl/exploit/StaffDetector.java): Detects when staff join your game invis
+  - [Hypixel](../sources/deobfuscated/rise/module/impl/exploit/staffdetector/HypixelMode.java)
+  - [List](../sources/deobfuscated/rise/module/impl/exploit/staffdetector/ListMode.java)
+
+## GHOST
+
+- [Aim Assist](../sources/deobfuscated/rise/module/impl/ghost/AimAssist.java): Assists you in aiming
+- [Aim Back Track](../sources/deobfuscated/rise/module/impl/ghost/AimBackTrack.java): Allows you to hit entities in their previous locations
+- [Auto Clicker](../sources/deobfuscated/rise/module/impl/ghost/AutoClicker.java): Clicks automatically
+  - [Drag Click Simulations](../sources/deobfuscated/rise/module/impl/ghost/autoclicker/DragClickSimulationsMode.java)
+  - [Normal](../sources/deobfuscated/rise/module/impl/ghost/autoclicker/NormalMode.java)
+- [Click Assist](../sources/deobfuscated/rise/module/impl/ghost/ClickAssist.java): Duplicates mouse clicks to gain higher CPS
+- [Fast Place](../sources/deobfuscated/rise/module/impl/ghost/FastPlace.java): Makes the place delay shorter
+- [Gui Clicker](../sources/deobfuscated/rise/module/impl/ghost/GuiClicker.java): Automatically clicks in guis
+- [Hitbox](../sources/deobfuscated/rise/module/impl/ghost/Hitbox.java): Expands other entities hitboxes
+- [KB Displacement](../sources/deobfuscated/rise/module/impl/ghost/KBDisplacement.java): Silently steers your post-hit server yaw toward nearby hazards for manual fights.
+- [Keep Sprint](../sources/deobfuscated/rise/module/impl/ghost/KeepSprint.java): Keeps sprinting after you attack an entity
+- [Legit Scaffold](../sources/deobfuscated/rise/module/impl/ghost/LegitScaffold.java): Sneaks at the edge of blocks
+- [No Click Delay](../sources/deobfuscated/rise/module/impl/ghost/NoClickDelay.java): Removes the 1.8 click delay when missing an attack
+- [Reach](../sources/deobfuscated/rise/module/impl/ghost/Reach.java): Allows you to hit entities from further away
+- [Safe Walk](../sources/deobfuscated/rise/module/impl/ghost/SafeWalk.java): Stops you from falling off the edge
+- [WTap](../sources/deobfuscated/rise/module/impl/ghost/WTap.java): Briefly releases W after attacking to increase knockback given
+- [WTap](../sources/deobfuscated/rise/module/impl/ghost/WTap_lk.java): Briefly releases W after attacking to increase knockback given
+  - [Legit](../sources/deobfuscated/rise/module/impl/ghost/wtap/LegitMode.java)
+  - [Silent](../sources/deobfuscated/rise/module/impl/ghost/wtap/SilentMode.java)
+
+## MOVEMENT
+
+- [Anti AFK](../sources/deobfuscated/rise/module/impl/movement/AntiAFK.java): Prevents you from getting AFK kicked by servers
+- [Auto MLG](../sources/deobfuscated/rise/module/impl/movement/AutoMLG.java): Automatically places water bucket when falling
+- [Auto Stuck](../sources/deobfuscated/rise/module/impl/movement/AutoStuck.java): Automatically toggles Stuck when falling into the void and throws a pearl if available
+- [Clipper](../sources/deobfuscated/rise/module/impl/movement/Clipper.java): Lets you clip vertically through the ground
+- [Flight](../sources/deobfuscated/rise/module/impl/movement/Flight.java): Grants you the ability to fly
+  - [Watchdog Prediction](../sources/deobfuscated/rise/module/impl/movement/flight/WatchdogPredictionMode.java)
+  - [Grim 1.9-1.18.1](../sources/deobfuscated/rise/module/impl/movement/flight/Grim191181Mode.java)
+  - [Watchdog 2](../sources/deobfuscated/rise/module/impl/movement/flight/Watchdog2Mode.java)
+  - [Air Jump](../sources/deobfuscated/rise/module/impl/movement/flight/AirJumpMode.java)
+  - [Air Walk](../sources/deobfuscated/rise/module/impl/movement/flight/AirWalkMode.java)
+  - [Bloxd](../sources/deobfuscated/rise/module/impl/movement/flight/BloxdMode.java)
+  - [MiniBlox](../sources/deobfuscated/rise/module/impl/movement/flight/MiniBloxMode.java)
+  - [Block](../sources/deobfuscated/rise/module/impl/movement/flight/BlockMode.java)
+  - [Buffer Abuse](../sources/deobfuscated/rise/module/impl/movement/flight/BufferAbuseMode.java)
+  - [CubeCraft](../sources/deobfuscated/rise/module/impl/movement/flight/CubeCraftMode.java)
+  - [Funcraft](../sources/deobfuscated/rise/module/impl/movement/flight/FuncraftMode.java)
+  - [Grim 2](../sources/deobfuscated/rise/module/impl/movement/flight/Grim2Mode.java)
+  - [Grim 3](../sources/deobfuscated/rise/module/impl/movement/flight/Grim3Mode.java)
+  - [Latest NCP](../sources/deobfuscated/rise/module/impl/movement/flight/LatestNCPMode.java)
+  - [MMC](../sources/deobfuscated/rise/module/impl/movement/flight/MMCMode.java)
+  - [ne](../sources/deobfuscated/rise/module/impl/movement/flight/NeMode.java)
+  - [Matrix High Jump](../sources/deobfuscated/rise/module/impl/movement/flight/MatrixHighJumpMode.java)
+  - [ng](../sources/deobfuscated/rise/module/impl/movement/flight/NgMode.java)
+  - [Matrix](../sources/deobfuscated/rise/module/impl/movement/flight/MatrixMode.java)
+  - [MineLand](../sources/deobfuscated/rise/module/impl/movement/flight/MineLandMode.java)
+  - [Vulcan 2](../sources/deobfuscated/rise/module/impl/movement/flight/Vulcan2Mode.java)
+  - [Vulcan (Deprecated)](../sources/deobfuscated/rise/module/impl/movement/flight/VulcanDeprecatedMode.java)
+  - [Old NCP](../sources/deobfuscated/rise/module/impl/movement/flight/OldNCPMode.java)
+  - [SkyCave](../sources/deobfuscated/rise/module/impl/movement/flight/SkyCaveMode.java)
+  - [Watchdog Prediction 2](../sources/deobfuscated/rise/module/impl/movement/flight/WatchdogPrediction2Mode.java)
+  - [Matrix Damage](../sources/deobfuscated/rise/module/impl/movement/flight/MatrixDamageMode.java)
+  - [Verus Damage New](../sources/deobfuscated/rise/module/impl/movement/flight/VerusDamageNewMode.java)
+  - [Vanilla](../sources/deobfuscated/rise/module/impl/movement/flight/VanillaMode.java)
+  - [Verus](../sources/deobfuscated/rise/module/impl/movement/flight/VerusMode.java)
+  - [Vulcan Damage](../sources/deobfuscated/rise/module/impl/movement/flight/VulcanDamageMode.java)
+  - [Watchdog Boat](../sources/deobfuscated/rise/module/impl/movement/flight/WatchdogBoatMode.java)
+  - [Watchdog](../sources/deobfuscated/rise/module/impl/movement/flight/WatchdogMode.java)
+  - [Zone Craft](../sources/deobfuscated/rise/module/impl/movement/flight/ZoneCraftMode.java)
+  - [MMC Fireball](../sources/deobfuscated/rise/module/impl/movement/flight/MMCFireballMode.java)
+  - [Damage (Deprecated)](../sources/deobfuscated/rise/module/impl/movement/flight/DamageDeprecatedMode.java)
+- [Inventory Move](../sources/deobfuscated/rise/module/impl/movement/InventoryMove.java): Allows you to move whilst in GUIs
+  - [Buffer Abuse](../sources/deobfuscated/rise/module/impl/movement/inventorymove/BufferAbuseMode.java)
+  - [Cancel](../sources/deobfuscated/rise/module/impl/movement/inventorymove/CancelMode.java)
+  - [Grim](../sources/deobfuscated/rise/module/impl/movement/inventorymove/GrimMode.java)
+  - [Grim 2](../sources/deobfuscated/rise/module/impl/movement/inventorymove/Grim2Mode.java)
+  - [Normal](../sources/deobfuscated/rise/module/impl/movement/inventorymove/NormalMode.java)
+  - [Watchdog](../sources/deobfuscated/rise/module/impl/movement/inventorymove/WatchdogMode.java)
+- [Jesus](../sources/deobfuscated/rise/module/impl/movement/Jesus.java): Allows you to walk on or through water
+  - [Vulcan Gravity](../sources/deobfuscated/rise/module/impl/movement/jesus/VulcanGravityMode.java)
+  - [Karhu](../sources/deobfuscated/rise/module/impl/movement/jesus/KarhuMode.java)
+  - [NCP](../sources/deobfuscated/rise/module/impl/movement/jesus/NCPMode.java)
+  - [Vanilla](../sources/deobfuscated/rise/module/impl/movement/jesus/VanillaMode.java)
+  - [Vulcan Dolphin](../sources/deobfuscated/rise/module/impl/movement/jesus/VulcanDolphinMode.java)
+  - [Watchdog Dolphin 1.18+](../sources/deobfuscated/rise/module/impl/movement/jesus/WatchdogDolphin118Mode.java)
+  - [Watchdog](../sources/deobfuscated/rise/module/impl/movement/jesus/WatchdogMode.java)
+- [Long Jump](../sources/deobfuscated/rise/module/impl/movement/LongJump.java): Makes you jump further than normal
+  - [Grim](../sources/deobfuscated/rise/module/impl/movement/longjump/GrimMode.java)
+  - [Watchdog Water 1.18+](../sources/deobfuscated/rise/module/impl/movement/longjump/WatchdogWater118Mode.java)
+  - [Fire Ball](../sources/deobfuscated/rise/module/impl/movement/longjump/FireBallMode.java)
+  - [Matrix 2](../sources/deobfuscated/rise/module/impl/movement/longjump/Matrix2Mode.java)
+  - [NCP](../sources/deobfuscated/rise/module/impl/movement/longjump/NCPMode.java)
+  - [Bloxd](../sources/deobfuscated/rise/module/impl/movement/longjump/BloxdMode.java)
+  - [Vanilla](../sources/deobfuscated/rise/module/impl/movement/longjump/VanillaMode.java)
+  - [Vulcan 2](../sources/deobfuscated/rise/module/impl/movement/longjump/Vulcan2Mode.java)
+  - [Vulcan](../sources/deobfuscated/rise/module/impl/movement/longjump/VulcanMode.java)
+  - [Watchdog Glide](../sources/deobfuscated/rise/module/impl/movement/longjump/WatchdogGlideMode.java)
+  - [Watchdog 2](../sources/deobfuscated/rise/module/impl/movement/longjump/Watchdog2Mode.java)
+  - [Watchdog Fire Ball](../sources/deobfuscated/rise/module/impl/movement/longjump/WatchdogFireBallMode.java)
+  - [Watchdog Fire Ball 2](../sources/deobfuscated/rise/module/impl/movement/longjump/WatchdogFireBall2Mode.java)
+  - [Watchdog](../sources/deobfuscated/rise/module/impl/movement/longjump/WatchdogMode.java)
+- [No Clip](../sources/deobfuscated/rise/module/impl/movement/NoClip.java): Allows you to pass through normally solid blocks
+- [No Jump Delay](../sources/deobfuscated/rise/module/impl/movement/NoJumpDelay.java): Removes Minecraft's jump delay
+- [No Slow](../sources/deobfuscated/rise/module/impl/movement/NoSlow.java): Allows you to move at full speed whilst using items
+  - [Grim 3.0](../sources/deobfuscated/rise/module/impl/movement/noslow/Grim30Mode.java)
+  - [Grim 1.9](../sources/deobfuscated/rise/module/impl/movement/noslow/Grim19Mode.java)
+  - [Grim](../sources/deobfuscated/rise/module/impl/movement/noslow/GrimMode.java)
+  - [Intave](../sources/deobfuscated/rise/module/impl/movement/noslow/IntaveMode.java)
+  - [pe](../sources/deobfuscated/rise/module/impl/movement/noslow/PeMode.java)
+  - [Matrix](../sources/deobfuscated/rise/module/impl/movement/noslow/MatrixMode.java)
+  - [Legit](../sources/deobfuscated/rise/module/impl/movement/noslow/LegitMode.java)
+  - [NCP](../sources/deobfuscated/rise/module/impl/movement/noslow/NCPMode.java)
+  - [New NCP](../sources/deobfuscated/rise/module/impl/movement/noslow/NewNCPMode.java)
+  - [Watchdog Prediction](../sources/deobfuscated/rise/module/impl/movement/noslow/WatchdogPredictionMode.java)
+  - [Prediction](../sources/deobfuscated/rise/module/impl/movement/noslow/PredictionMode.java)
+  - [Vanilla](../sources/deobfuscated/rise/module/impl/movement/noslow/VanillaMode.java)
+  - [Variable](../sources/deobfuscated/rise/module/impl/movement/noslow/VariableMode.java)
+  - [Watchdog](../sources/deobfuscated/rise/module/impl/movement/noslow/WatchdogMode.java)
+- [Phase](../sources/deobfuscated/rise/module/impl/movement/Phase.java): Lets you go through solid blocks
+  - [BlocksMC](../sources/deobfuscated/rise/module/impl/movement/phase/BlocksMCMode.java)
+  - [Grim](../sources/deobfuscated/rise/module/impl/movement/phase/GrimMode.java)
+  - [Normal](../sources/deobfuscated/rise/module/impl/movement/phase/NormalMode.java)
+  - [Vulcan](../sources/deobfuscated/rise/module/impl/movement/phase/VulcanMode.java)
+  - [Watchdog Blink](../sources/deobfuscated/rise/module/impl/movement/phase/WatchdogBlinkMode.java)
+  - [Watchdog 1.17.1 Full Block](../sources/deobfuscated/rise/module/impl/movement/phase/Watchdog1171FullBlockMode.java)
+  - [Watchdog Semi Block](../sources/deobfuscated/rise/module/impl/movement/phase/WatchdogSemiBlockMode.java)
+  - [pv](../sources/deobfuscated/rise/module/impl/movement/phase/PvMode.java)
+  - [Watchdog Prediction Full Block](../sources/deobfuscated/rise/module/impl/movement/phase/WatchdogPredictionFullBlockMode.java)
+- [Potion Extender](../sources/deobfuscated/rise/module/impl/movement/PotionExtender.java): Extends potion effects on some servers
+- [Resource Pack Spoof](../sources/deobfuscated/rise/module/impl/movement/ResourcePackSpoof.java): Allows you to pretend you loaded a resource pack a server requested
+- [Snap Tap](../sources/deobfuscated/rise/module/impl/movement/SnapTap.java): Prioritizes the last pressed key when both opposing keys are held
+- [Sneak](../sources/deobfuscated/rise/module/impl/movement/Sneak.java): Makes you always sneak, sometimes without slowing down
+  - [Hold](../sources/deobfuscated/rise/module/impl/movement/sneak/HoldMode.java)
+  - [NCP](../sources/deobfuscated/rise/module/impl/movement/sneak/NCPMode.java)
+  - [Standard](../sources/deobfuscated/rise/module/impl/movement/sneak/StandardMode.java)
+- [Speed](../sources/deobfuscated/rise/module/impl/movement/Speed.java): Increases your movement speed
+  - [Grim 2](../sources/deobfuscated/rise/module/impl/movement/speed/Grim2Mode.java)
+  - [Grim](../sources/deobfuscated/rise/module/impl/movement/speed/GrimMode.java)
+  - [BlocksMC](../sources/deobfuscated/rise/module/impl/movement/speed/BlocksMCMode.java)
+  - [MiniBlox](../sources/deobfuscated/rise/module/impl/movement/speed/MiniBloxMode.java)
+  - [Polar](../sources/deobfuscated/rise/module/impl/movement/speed/PolarMode.java)
+  - [Watchdog Prediction](../sources/deobfuscated/rise/module/impl/movement/speed/WatchdogPredictionMode.java)
+  - [KoksCraft](../sources/deobfuscated/rise/module/impl/movement/speed/KoksCraftMode.java)
+  - [Legit](../sources/deobfuscated/rise/module/impl/movement/speed/LegitMode.java)
+  - [Matrix](../sources/deobfuscated/rise/module/impl/movement/speed/MatrixMode.java)
+  - [MineMenClub](../sources/deobfuscated/rise/module/impl/movement/speed/MineMenClubMode.java)
+  - [NCP](../sources/deobfuscated/rise/module/impl/movement/speed/NCPMode.java)
+  - [Tatako](../sources/deobfuscated/rise/module/impl/movement/speed/TatakoMode.java)
+  - [Strafe](../sources/deobfuscated/rise/module/impl/movement/speed/StrafeMode.java)
+  - [Old NCP Y-port](../sources/deobfuscated/rise/module/impl/movement/speed/OldNCPYPortMode.java)
+  - [Vanilla](../sources/deobfuscated/rise/module/impl/movement/speed/VanillaMode.java)
+  - [Verus](../sources/deobfuscated/rise/module/impl/movement/speed/VerusMode.java)
+  - [Vulcan](../sources/deobfuscated/rise/module/impl/movement/speed/VulcanMode.java)
+  - [Watchdog 6 Tick](../sources/deobfuscated/rise/module/impl/movement/speed/Watchdog6TickMode.java)
+  - [Watchdog](../sources/deobfuscated/rise/module/impl/movement/speed/WatchdogMode.java)
+- [Sprint](../sources/deobfuscated/rise/module/impl/movement/Sprint.java): Makes you sprint
+- [Step](../sources/deobfuscated/rise/module/impl/movement/Step.java): Steps up or down blocks
+  - [Jump](../sources/deobfuscated/rise/module/impl/movement/step/JumpMode.java)
+  - [Matrix](../sources/deobfuscated/rise/module/impl/movement/step/MatrixMode.java)
+  - [NCP Packetless](../sources/deobfuscated/rise/module/impl/movement/step/NCPPacketlessMode.java)
+  - [NCP](../sources/deobfuscated/rise/module/impl/movement/step/NCPMode.java)
+  - [New NCP](../sources/deobfuscated/rise/module/impl/movement/step/NewNCPMode.java)
+  - [Vanilla](../sources/deobfuscated/rise/module/impl/movement/step/VanillaMode.java)
+  - [Vulcan](../sources/deobfuscated/rise/module/impl/movement/step/VulcanMode.java)
+  - [Watchdog](../sources/deobfuscated/rise/module/impl/movement/step/WatchdogMode.java)
+- [Strafe](../sources/deobfuscated/rise/module/impl/movement/Strafe.java): Makes you always strafe, letting you move freely in air
+- [Stuck](../sources/deobfuscated/rise/module/impl/movement/Stuck.java): Makes you get stuck
+- [Target Strafe](../sources/deobfuscated/rise/module/impl/movement/TargetStrafe.java): Strafes around the target you're currently attacking
+- [Teleport](../sources/deobfuscated/rise/module/impl/movement/Teleport.java): Allows you to teleport
+  - [Watchdog BedWars](../sources/deobfuscated/rise/module/impl/movement/teleport/WatchdogBedWarsMode.java)
+  - [MiniBlox](../sources/deobfuscated/rise/module/impl/movement/teleport/MiniBloxMode.java)
+- [Terrain Speed](../sources/deobfuscated/rise/module/impl/movement/TerrainSpeed.java): Makes you go faster on terrain
+  - [Bloxd](../sources/deobfuscated/rise/module/impl/movement/terrainspeed/BloxdMode.java)
+  - [Watchdog](../sources/deobfuscated/rise/module/impl/movement/terrainspeed/WatchdogMode.java)
+- [Test](../sources/deobfuscated/rise/module/impl/movement/Test.java): (Dev) Testing module for Rise Developers
+- [Timer](../sources/deobfuscated/rise/module/impl/movement/Timer.java): Changes the speed that Minecraft runs at
+- [Wall Climb](../sources/deobfuscated/rise/module/impl/movement/WallClimb.java): Allows you to climb up walls like a spider
+  - [Grim](../sources/deobfuscated/rise/module/impl/movement/wallclimb/GrimMode.java)
+  - [MineMenClub](../sources/deobfuscated/rise/module/impl/movement/wallclimb/MineMenClubMode.java)
+  - [Verus](../sources/deobfuscated/rise/module/impl/movement/wallclimb/VerusMode.java)
+  - [Vulcan](../sources/deobfuscated/rise/module/impl/movement/wallclimb/VulcanMode.java)
+  - [Watchdog](../sources/deobfuscated/rise/module/impl/movement/wallclimb/WatchdogMode.java)
+
+## PLAYER
+
+- [Anti Crash](../sources/deobfuscated/rise/module/impl/player/AntiCrash.java): Patches various exploits used by malicious servers
+- [Anti Fire Ball](../sources/deobfuscated/rise/module/impl/player/AntiFireBall.java): Prevents you from getting hit by fireballs
+- [Anti Suffocate](../sources/deobfuscated/rise/module/impl/player/AntiSuffocate.java): Prevents you from getting suffocated
+- [Anti Void](../sources/deobfuscated/rise/module/impl/player/AntiVoid.java): Prevents you from falling into the void
+  - [Blink](../sources/deobfuscated/rise/module/impl/player/antivoid/BlinkMode.java)
+  - [Collision](../sources/deobfuscated/rise/module/impl/player/antivoid/CollisionMode.java)
+  - [Packet](../sources/deobfuscated/rise/module/impl/player/antivoid/PacketMode.java)
+  - [Position](../sources/deobfuscated/rise/module/impl/player/antivoid/PositionMode.java)
+  - [Vulcan](../sources/deobfuscated/rise/module/impl/player/antivoid/VulcanMode.java)
+  - [Watchdog](../sources/deobfuscated/rise/module/impl/player/antivoid/WatchdogMode.java)
+- [Auto Block-In](../sources/deobfuscated/rise/module/impl/player/AutoBlockIn.java): Builds a block enclosure around you.
+- [Auto GG](../sources/deobfuscated/rise/module/impl/player/AutoGG.java): Automatically sends a message at the end of the game
+- [Auto Groomer](../sources/deobfuscated/rise/module/impl/player/AutoGroomer.java): Helps you groom people.
+- [Auto Head](../sources/deobfuscated/rise/module/impl/player/AutoHead.java): Automatically eats golden heads in UHC
+- [Auto Play](../sources/deobfuscated/rise/module/impl/player/AutoPlay.java): Joins a new game after a win
+- [Auto Pot](../sources/deobfuscated/rise/module/impl/player/AutoPot.java): Throws potions for you
+- [Auto Tool](../sources/deobfuscated/rise/module/impl/player/AutoTool.java): Switches to the most efficient tool when breaking a block
+- [Bedwars Utils](../sources/deobfuscated/rise/module/impl/player/BedwarsUtils.java): Useful Utils for Bedwars
+- [Blink](../sources/deobfuscated/rise/module/impl/player/Blink.java): Temporarily chokes data being sent to the server
+- [Breaker](../sources/deobfuscated/rise/module/impl/player/Breaker.java): Automatically breaks beds around you
+- [Breaker](../sources/deobfuscated/rise/module/impl/player/Breaker_tx.java): Automatically breaks beds around you
+- [Breaker](../sources/deobfuscated/rise/module/impl/player/Breaker_tz.java): Automatically breaks beds around you
+- [Chat Bypass](../sources/deobfuscated/rise/module/impl/player/ChatBypass.java): Lets you bypass the chat filter on servers
+- [Cheat Detector](../sources/deobfuscated/rise/module/impl/player/CheatDetector.java): Detects other cheaters in your game
+- [Chest Stealer](../sources/deobfuscated/rise/module/impl/player/ChestStealer.java): Steals items from chests for you
+- [Client Spoofer](../sources/deobfuscated/rise/module/impl/player/ClientSpoofer.java): Tricks the server into thinking you're on a different client
+  - [LabyMod](../sources/deobfuscated/rise/module/impl/player/clientspoofer/LabyModMode.java)
+- [Clutch](../sources/deobfuscated/rise/module/impl/player/Clutch.java): Automatically block clutches (Hold sneak to enable)
+- [Data](../sources/deobfuscated/rise/module/impl/player/Data.java): Talk to other Rise users, use prefix "#" in chat
+- [Debugger](../sources/deobfuscated/rise/module/impl/player/Debugger.java): (Dev) Debugs packets and adds a profiler
+- [Fast Break](../sources/deobfuscated/rise/module/impl/player/FastBreak.java): Breaks blocks faster
+- [Fast Use](../sources/deobfuscated/rise/module/impl/player/FastUse.java): Uses items faster
+- [Health Bypass](../sources/deobfuscated/rise/module/impl/player/HealthBypass.java): Forces clientside health display to use the below-name scoreboard value
+- [Insults](../sources/deobfuscated/rise/module/impl/player/Insults.java): Insults players after you kill them
+- [Inventory Manager](../sources/deobfuscated/rise/module/impl/player/InventoryManager.java): Sorts your inventory for you and throws out useless items
+- [Inventory Manager](../sources/deobfuscated/rise/module/impl/player/InventoryManager_ty.java): Sorts your inventory for you and throws out useless items
+- [Inventory Sync](../sources/deobfuscated/rise/module/impl/player/InventorySync.java): Synchronizes your inventory with the server
+- [Murder Mystery](../sources/deobfuscated/rise/module/impl/player/MurderMystery.java): Detects murderers in Murder Mystery
+- [No Fall](../sources/deobfuscated/rise/module/impl/player/NoFall.java): Reduces or eliminates fall damage
+  - [Grim Server 1.9+](../sources/deobfuscated/rise/module/impl/player/nofall/GrimServer19Mode.java)
+  - [Watchdog Prediction](../sources/deobfuscated/rise/module/impl/player/nofall/WatchdogPredictionMode.java)
+  - [Chunk Load](../sources/deobfuscated/rise/module/impl/player/nofall/ChunkLoadMode.java)
+  - [Clutch](../sources/deobfuscated/rise/module/impl/player/nofall/ClutchMode.java)
+  - [Flag](../sources/deobfuscated/rise/module/impl/player/nofall/FlagMode.java)
+  - [ut](../sources/deobfuscated/rise/module/impl/player/nofall/UtMode.java)
+  - [Heypixel](../sources/deobfuscated/rise/module/impl/player/nofall/HeypixelMode.java)
+  - [Matrix](../sources/deobfuscated/rise/module/impl/player/nofall/MatrixMode.java)
+  - [No Ground](../sources/deobfuscated/rise/module/impl/player/nofall/NoGroundMode.java)
+  - [Packet](../sources/deobfuscated/rise/module/impl/player/nofall/PacketMode.java)
+  - [Vulcan](../sources/deobfuscated/rise/module/impl/player/nofall/VulcanMode.java)
+  - [Round](../sources/deobfuscated/rise/module/impl/player/nofall/RoundMode.java)
+  - [Spoof](../sources/deobfuscated/rise/module/impl/player/nofall/SpoofMode.java)
+  - [Watchdog Packet](../sources/deobfuscated/rise/module/impl/player/nofall/WatchdogPacketMode.java)
+  - [Watchdog Blink](../sources/deobfuscated/rise/module/impl/player/nofall/WatchdogBlinkMode.java)
+- [No Gui Close](../sources/deobfuscated/rise/module/impl/player/NoGuiClose.java): Prevents servers from closing opened GUIs
+- [No Pitch Limit](../sources/deobfuscated/rise/module/impl/player/NoPitchLimit.java): Lets you look up or down at normally impossible angles
+- [Nuker](../sources/deobfuscated/rise/module/impl/player/Nuker.java): Breaks blocks around you
+- [Old Inventory Manager](../sources/deobfuscated/rise/module/impl/player/OldInventoryManager.java): Sorts your inventory for you and throws out useless items
+- [Player Notifier](../sources/deobfuscated/rise/module/impl/player/PlayerNotifier.java): Notifies you when an enemy comes close to your bed
+- [Polar Detector](../sources/deobfuscated/rise/module/impl/player/PolarDetector.java): module.player.polardetector.description
+- [Sampler (Dev)](../sources/deobfuscated/rise/module/impl/player/SamplerDev.java): Prevents you from getting AFK kicked by servers
+- [Scaffold](../sources/deobfuscated/rise/module/impl/player/Scaffold.java): Builds a bridge under you as you walk
+  - [vd](../sources/deobfuscated/rise/module/impl/player/scaffold/VdMode.java)
+  - [ve](../sources/deobfuscated/rise/module/impl/player/scaffold/VeMode.java)
+  - [vf](../sources/deobfuscated/rise/module/impl/player/scaffold/VfMode.java)
+  - [vg](../sources/deobfuscated/rise/module/impl/player/scaffold/VgMode.java)
+  - [vh](../sources/deobfuscated/rise/module/impl/player/scaffold/VhMode.java)
+  - [vi](../sources/deobfuscated/rise/module/impl/player/scaffold/ViMode.java)
+  - [vj](../sources/deobfuscated/rise/module/impl/player/scaffold/VjMode.java)
+  - [vk](../sources/deobfuscated/rise/module/impl/player/scaffold/VkMode.java)
+  - [vl](../sources/deobfuscated/rise/module/impl/player/scaffold/VlMode.java)
+  - [vm](../sources/deobfuscated/rise/module/impl/player/scaffold/VmMode.java)
+  - [vn](../sources/deobfuscated/rise/module/impl/player/scaffold/VnMode.java)
+  - [vo](../sources/deobfuscated/rise/module/impl/player/scaffold/VoMode.java)
+  - [vp](../sources/deobfuscated/rise/module/impl/player/scaffold/VpMode.java)
+  - [vq](../sources/deobfuscated/rise/module/impl/player/scaffold/VqMode.java)
+  - [vs](../sources/deobfuscated/rise/module/impl/player/scaffold/VsMode.java)
+  - [vt](../sources/deobfuscated/rise/module/impl/player/scaffold/VtMode.java)
+  - [vu](../sources/deobfuscated/rise/module/impl/player/scaffold/VuMode.java)
+  - [vv](../sources/deobfuscated/rise/module/impl/player/scaffold/VvMode.java)
+  - [vw](../sources/deobfuscated/rise/module/impl/player/scaffold/VwMode.java)
+  - [vx](../sources/deobfuscated/rise/module/impl/player/scaffold/VxMode.java)
+  - [vy](../sources/deobfuscated/rise/module/impl/player/scaffold/VyMode.java)
+  - [vz](../sources/deobfuscated/rise/module/impl/player/scaffold/VzMode.java)
+  - [wa](../sources/deobfuscated/rise/module/impl/player/scaffold/WaMode.java)
+  - [wb](../sources/deobfuscated/rise/module/impl/player/scaffold/WbMode.java)
+  - [wc](../sources/deobfuscated/rise/module/impl/player/scaffold/WcMode.java)
+  - [wd](../sources/deobfuscated/rise/module/impl/player/scaffold/WdMode.java)
+- [Spammer](../sources/deobfuscated/rise/module/impl/player/Spammer.java): Spams chat with the specified message
+- [Twerk](../sources/deobfuscated/rise/module/impl/player/Twerk.java): Makes you twerk
+- [Watchdog Blink](../sources/deobfuscated/rise/module/impl/player/WatchdogBlink.java): Holds outbound packets and drips one tick's worth every N ticks
+- [module.other.proximityvoicechat.name](../sources/deobfuscated/rise/module/impl/player/ModuleOtherProximityvoicechatName.java): module.other.proximityvoicechat.description
+
+## RENDER
+
+- [2D ESP](../sources/deobfuscated/rise/module/impl/render/Module2DESP.java): Renders players using a two-dimensional rectangle
+- [Ambience](../sources/deobfuscated/rise/module/impl/render/Ambience.java): Allows you to change the time and weather
+- [Animations](../sources/deobfuscated/rise/module/impl/render/Animations.java): Adjusts animations within Minecraft
+- [Apple Skin](../sources/deobfuscated/rise/module/impl/render/AppleSkin.java): Displays food saturation over the hunger bar
+- [BPS Counter](../sources/deobfuscated/rise/module/impl/render/BPSCounter.java): Displays your current speed
+- [Bed Plates](../sources/deobfuscated/rise/module/impl/render/BedPlates.java): Shows the 2 weakest defense blocks around beds
+- [Black Hole Orbit](../sources/deobfuscated/rise/module/impl/render/BlackHoleOrbit.java): Animated black hole orbit consuming two stars
+- [Boss Bar](../sources/deobfuscated/rise/module/impl/render/BossBar.java): Displays Minecraft's boss bar overlay
+- [Bread Crumbs](../sources/deobfuscated/rise/module/impl/render/BreadCrumbs.java): Renders a trail behind you
+- [CPS Counter](../sources/deobfuscated/rise/module/impl/render/CPSCounter.java): Displays your clicks per second
+- [Chat](../sources/deobfuscated/rise/module/impl/render/Chat.java): Displays Minecraft chat
+- [Chest ESP](../sources/deobfuscated/rise/module/impl/render/ChestESP.java): Renders all chests with a soft glow
+- [Click GUI](../sources/deobfuscated/rise/module/impl/render/ClickGUI.java): Displays a GUI that allows you to toggle modules and edit their settings
+- [Click Sounds](../sources/deobfuscated/rise/module/impl/render/ClickSounds.java): Plays a click sound when you swing
+- [ESP](../sources/deobfuscated/rise/module/impl/render/ESP.java): Renders all players into a shader and displays it
+  - [yp](../sources/deobfuscated/rise/module/impl/render/esp/YpMode.java)
+  - [yq](../sources/deobfuscated/rise/module/impl/render/esp/YqMode.java)
+  - [yr](../sources/deobfuscated/rise/module/impl/render/esp/YrMode.java)
+- [FPS Counter](../sources/deobfuscated/rise/module/impl/render/FPSCounter.java): Displays your frames per second
+- [Free Cam](../sources/deobfuscated/rise/module/impl/render/FreeCam.java): Allows you to leave your player
+- [Free Look](../sources/deobfuscated/rise/module/impl/render/FreeLook.java): Allows you to look around you without changing your direction
+- [Full Bright](../sources/deobfuscated/rise/module/impl/render/FullBright.java): Prevents world darkness
+  - [Effect](../sources/deobfuscated/rise/module/impl/render/fullbright/EffectMode.java)
+  - [Gamma](../sources/deobfuscated/rise/module/impl/render/fullbright/GammaMode.java)
+- [Glint](../sources/deobfuscated/rise/module/impl/render/Glint.java): Allows you to adjust the enchantment visual effect
+- [Hot Bar](../sources/deobfuscated/rise/module/impl/render/HotBar.java): Lets you customize your Minecraft hotbar
+- [Hurt Camera](../sources/deobfuscated/rise/module/impl/render/HurtCamera.java): Modifies the hurt camera animation
+- [Hurt Color](../sources/deobfuscated/rise/module/impl/render/HurtColor.java): Modifies the hurt camera animation
+- [IRC](../sources/deobfuscated/rise/module/impl/render/IRC.java): Talk to other Rise users, use prefix "#" in chat
+- [Interface](../sources/deobfuscated/rise/module/impl/render/Interface.java): The clients interface with all information
+  - [yu](../sources/deobfuscated/rise/module/impl/render/interface/YuMode.java)
+  - [yv](../sources/deobfuscated/rise/module/impl/render/interface/YvMode.java)
+  - [yy](../sources/deobfuscated/rise/module/impl/render/interface/YyMode.java)
+  - [zd](../sources/deobfuscated/rise/module/impl/render/interface/ZdMode.java)
+  - [ze](../sources/deobfuscated/rise/module/impl/render/interface/ZeMode.java)
+- [Item Physics](../sources/deobfuscated/rise/module/impl/render/ItemPhysics.java): Gives dropped items physics
+- [Jump Circles](../sources/deobfuscated/rise/module/impl/render/JumpCircles.java): Draws circles around the player when they jump
+- [Key Strokes](../sources/deobfuscated/rise/module/impl/render/KeyStrokes.java): Displays key strokes
+- [Kill Effect](../sources/deobfuscated/rise/module/impl/render/KillEffect.java): Displays a custom effect when you kill someone
+- [Name Tags](../sources/deobfuscated/rise/module/impl/render/NameTags.java): Renders a custom name tag above entities
+  - [Classic](../sources/deobfuscated/rise/module/impl/render/nametags/ClassicMode.java)
+  - [Modern](../sources/deobfuscated/rise/module/impl/render/nametags/ModernMode.java)
+  - [Vanilla](../sources/deobfuscated/rise/module/impl/render/nametags/VanillaMode.java)
+- [No Camera Clip](../sources/deobfuscated/rise/module/impl/render/NoCameraClip.java): Prevents your third person camera from colliding
+- [Particles](../sources/deobfuscated/rise/module/impl/render/Particles.java): Modify Minecraft's particles
+- [Scoreboard](../sources/deobfuscated/rise/module/impl/render/Scoreboard.java): Allows you to customize the Minecraft scoreboard
+- [Session Stats](../sources/deobfuscated/rise/module/impl/render/SessionStats.java): Displays a GUI with the stats of your current session
+  - [Modern](../sources/deobfuscated/rise/module/impl/render/sessionstats/ModernMode.java)
+  - [Rue](../sources/deobfuscated/rise/module/impl/render/sessionstats/RueMode.java)
+- [Spotify](../sources/deobfuscated/rise/module/impl/render/Spotify.java): Shows information on your currently playing Spotify track
+- [Streamer](../sources/deobfuscated/rise/module/impl/render/Streamer.java): Hides your name
+- [Target Info](../sources/deobfuscated/rise/module/impl/render/TargetInfo.java): Displays information about the entity you're fighting
+  - [Creida Modern](../sources/deobfuscated/rise/module/impl/render/targetinfo/CreidaModernMode.java)
+  - [Exhibition](../sources/deobfuscated/rise/module/impl/render/targetinfo/ExhibitionMode.java)
+  - [Modern](../sources/deobfuscated/rise/module/impl/render/targetinfo/ModernMode.java)
+  - [Compact](../sources/deobfuscated/rise/module/impl/render/targetinfo/CompactMode.java)
+  - [Novoline](../sources/deobfuscated/rise/module/impl/render/targetinfo/NovolineMode.java)
+  - [Godly](../sources/deobfuscated/rise/module/impl/render/targetinfo/GodlyMode.java)
+  - [Wurst](../sources/deobfuscated/rise/module/impl/render/targetinfo/WurstMode.java)
+  - [BMS](../sources/deobfuscated/rise/module/impl/render/targetinfo/BMSMode.java)
+- [Tracers](../sources/deobfuscated/rise/module/impl/render/Tracers.java): Renders a line from your crosshair to every player
+- [Translator](../sources/deobfuscated/rise/module/impl/render/Translator.java): Translates your chat, might not work with some VPNs
+- [Unlimited Chat](../sources/deobfuscated/rise/module/impl/render/UnlimitedChat.java): Removes the 100-line limit from chat
+- [View Bobbing](../sources/deobfuscated/rise/module/impl/render/ViewBobbing.java): Allows you to customize the camera shake when walking
+- [XRay](../sources/deobfuscated/rise/module/impl/render/XRay.java): Shows ores through walls with ESP and tracers

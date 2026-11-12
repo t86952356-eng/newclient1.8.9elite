@@ -1,0 +1,3601 @@
+[
+  {
+    "name": "Anti Bot",
+    "category": "COMBAT",
+    "original": "hackclient/rise/gn",
+    "class": "rise/module/impl/combat/AntiBot",
+    "description": "Removes bots used by servers to detect Aura",
+    "aliases": [
+      "module.combat.antibot.name"
+    ],
+    "nativeMethods": 0,
+    "modes": [
+      {
+        "name": "hi",
+        "original": "hackclient/rise/hi",
+        "class": "rise/module/impl/combat/antibot/HiMode",
+        "nativeMethods": 0
+      },
+      {
+        "name": "hj",
+        "original": "hackclient/rise/hj",
+        "class": "rise/module/impl/combat/antibot/HjMode",
+        "nativeMethods": 0
+      },
+      {
+        "name": "hk",
+        "original": "hackclient/rise/hk",
+        "class": "rise/module/impl/combat/antibot/HkMode",
+        "nativeMethods": 0
+      },
+      {
+        "name": "hl",
+        "original": "hackclient/rise/hl",
+        "class": "rise/module/impl/combat/antibot/HlMode",
+        "nativeMethods": 0
+      },
+      {
+        "name": "hm",
+        "original": "hackclient/rise/hm",
+        "class": "rise/module/impl/combat/antibot/HmMode",
+        "nativeMethods": 0
+      },
+      {
+        "name": "hn",
+        "original": "hackclient/rise/hn",
+        "class": "rise/module/impl/combat/antibot/HnMode",
+        "nativeMethods": 0
+      },
+      {
+        "name": "ho",
+        "original": "hackclient/rise/ho",
+        "class": "rise/module/impl/combat/antibot/HoMode",
+        "nativeMethods": 0
+      },
+      {
+        "name": "hp",
+        "original": "hackclient/rise/hp",
+        "class": "rise/module/impl/combat/antibot/HpMode",
+        "nativeMethods": 0
+      },
+      {
+        "name": "hr",
+        "original": "hackclient/rise/hr",
+        "class": "rise/module/impl/combat/antibot/HrMode",
+        "nativeMethods": 0
+      },
+      {
+        "name": "hs",
+        "original": "hackclient/rise/hs",
+        "class": "rise/module/impl/combat/antibot/HsMode",
+        "nativeMethods": 0
+      },
+      {
+        "name": "ht",
+        "original": "hackclient/rise/ht",
+        "class": "rise/module/impl/combat/antibot/HtMode",
+        "nativeMethods": 0
+      },
+      {
+        "name": "hu",
+        "original": "hackclient/rise/hu",
+        "class": "rise/module/impl/combat/antibot/HuMode",
+        "nativeMethods": 0
+      }
+    ]
+  },
+  {
+    "name": "Combo One Hit",
+    "category": "COMBAT",
+    "original": "hackclient/rise/gp",
+    "class": "rise/module/impl/combat/ComboOneHit",
+    "description": "Kills players extremely fast in the Combo gamemode",
+    "aliases": [
+      "module.combat.comboonehit.name",
+      "Insta Kill",
+      "Instant Kill"
+    ],
+    "nativeMethods": 0,
+    "modes": []
+  },
+  {
+    "name": "Criticals",
+    "category": "COMBAT",
+    "original": "hackclient/rise/gq",
+    "class": "rise/module/impl/combat/Criticals",
+    "description": "Makes you get a critical hit every time you attack",
+    "aliases": [
+      "module.combat.criticals.name"
+    ],
+    "nativeMethods": 0,
+    "modes": [
+      {
+        "name": "Edit",
+        "original": "hackclient/rise/hv",
+        "class": "rise/module/impl/combat/criticals/EditMode",
+        "nativeMethods": 0
+      },
+      {
+        "name": "No Ground",
+        "original": "hackclient/rise/hw",
+        "class": "rise/module/impl/combat/criticals/NoGroundMode",
+        "nativeMethods": 0
+      },
+      {
+        "name": "Packet",
+        "original": "hackclient/rise/hx",
+        "class": "rise/module/impl/combat/criticals/PacketMode",
+        "nativeMethods": 0
+      },
+      {
+        "name": "Verus",
+        "original": "hackclient/rise/hy",
+        "class": "rise/module/impl/combat/criticals/VerusMode",
+        "nativeMethods": 0
+      },
+      {
+        "name": "Vulcan",
+        "original": "hackclient/rise/hz",
+        "class": "rise/module/impl/combat/criticals/VulcanMode",
+        "nativeMethods": 0
+      },
+      {
+        "name": "Watchdog",
+        "original": "hackclient/rise/ia",
+        "class": "rise/module/impl/combat/criticals/WatchdogMode",
+        "nativeMethods": 0
+      }
+    ]
+  },
+  {
+    "name": "Fences",
+    "category": "COMBAT",
+    "original": "hackclient/rise/gr",
+    "class": "rise/module/impl/combat/Fences",
+    "description": "Prevents you from falling off in sumo",
+    "aliases": [
+      "module.combat.fences.name"
+    ],
+    "nativeMethods": 0,
+    "modes": []
+  },
+  {
+    "name": "Keep Range",
+    "category": "COMBAT",
+    "original": "hackclient/rise/gs",
+    "class": "rise/module/impl/combat/KeepRange",
+    "description": "Keeps you just within range of the target, reduces the potential for incoming attacks.",
+    "aliases": [
+      "module.combat.keeprange.name",
+      "S Tap"
+    ],
+    "nativeMethods": 0,
+    "modes": []
+  },
+  {
+    "name": "Kill Aura",
+    "category": "COMBAT",
+    "original": "hackclient/rise/go",
+    "class": "rise/module/impl/combat/KillAura",
+    "description": "Automatically attacks nearby entities",
+    "aliases": [
+      "module.combat.killaura.name",
+      "Aura",
+      "Force Field"
+    ],
+    "nativeMethods": 0,
+    "modes": []
+  },
+  {
+    "name": "Lag Break",
+    "category": "COMBAT",
+    "original": "hackclient/rise/gw",
+    "class": "rise/module/impl/combat/LagBreak",
+    "description": "Adaptive fakelag with optional pulse to break enemy timing",
+    "aliases": [
+      "module.combat.lagbreak.name",
+      "Lag Range",
+      "Fake Lag"
+    ],
+    "nativeMethods": 0,
+    "modes": []
+  },
+  {
+    "name": "Legit Reach",
+    "category": "COMBAT",
+    "original": "hackclient/rise/gx",
+    "class": "rise/module/impl/combat/LegitReach",
+    "description": "Uses latency to give you a reach advantage",
+    "aliases": [
+      "module.combat.legitreach.name",
+      "Back Track"
+    ],
+    "nativeMethods": 0,
+    "modes": []
+  },
+  {
+    "name": "Mimic",
+    "category": "COMBAT",
+    "original": "hackclient/rise/gy",
+    "class": "rise/module/impl/combat/Mimic",
+    "description": "",
+    "aliases": [
+      "Mimic"
+    ],
+    "nativeMethods": 0,
+    "modes": [
+      {
+        "name": "Clicker",
+        "original": "hackclient/rise/ib",
+        "class": "rise/module/impl/combat/mimic/ClickerMode",
+        "nativeMethods": 0
+      },
+      {
+        "name": "Rotations",
+        "original": "hackclient/rise/ic",
+        "class": "rise/module/impl/combat/mimic/RotationsMode",
+        "nativeMethods": 0
+      }
+    ]
+  },
+  {
+    "name": "Peircing",
+    "category": "COMBAT",
+    "original": "hackclient/rise/gz",
+    "class": "rise/module/impl/combat/Peircing",
+    "description": "Allows attacks to raycast through blocks",
+    "aliases": [
+      "Peircing",
+      "Piercing"
+    ],
+    "nativeMethods": 0,
+    "modes": []
+  },
+  {
+    "name": "Regen",
+    "category": "COMBAT",
+    "original": "hackclient/rise/ha",
+    "class": "rise/module/impl/combat/Regen",
+    "description": "Makes you regenerate health faster",
+    "aliases": [
+      "module.combat.regen.name"
+    ],
+    "nativeMethods": 0,
+    "modes": [
+      {
+        "name": "Vanilla",
+        "original": "hackclient/rise/id",
+        "class": "rise/module/impl/combat/regen/VanillaMode",
+        "nativeMethods": 0
+      },
+      {
+        "name": "Verus Regen",
+        "original": "hackclient/rise/ie",
+        "class": "rise/module/impl/combat/regen/VerusRegenMode",
+        "nativeMethods": 0
+      },
+      {
+        "name": "World Guard",
+        "original": "hackclient/rise/if",
+        "class": "rise/module/impl/combat/regen/WorldGuardMode",
+        "nativeMethods": 0
+      }
+    ]
+  },
+  {
+    "name": "Teleport Aura",
+    "category": "COMBAT",
+    "original": "hackclient/rise/hb",
+    "class": "rise/module/impl/combat/TeleportAura",
+    "description": "Automatically attacks entities from far away by teleporting",
+    "aliases": [
+      "module.combat.teleportaura.name",
+      "Infinite Aura",
+      "Infinite",
+      "TP Aura"
+    ],
+    "nativeMethods": 0,
+    "modes": []
+  },
+  {
+    "name": "Throwable Aura",
+    "category": "COMBAT",
+    "original": "hackclient/rise/hd",
+    "class": "rise/module/impl/combat/ThrowableAura",
+    "description": "Automatically throws eggs/snowballs at nearby targets using hotbar slot switching",
+    "aliases": [
+      "module.combat.throwableaura.name"
+    ],
+    "nativeMethods": 0,
+    "modes": []
+  },
+  {
+    "name": "Tick Base",
+    "category": "COMBAT",
+    "original": "hackclient/rise/he",
+    "class": "rise/module/impl/combat/TickBase",
+    "description": "Uses latency to give you a reach advantage",
+    "aliases": [
+      "module.combat.tickbase.name"
+    ],
+    "nativeMethods": 0,
+    "modes": []
+  },
+  {
+    "name": "Velocity",
+    "category": "COMBAT",
+    "original": "hackclient/rise/hf",
+    "class": "rise/module/impl/combat/Velocity",
+    "description": "Uses heavy dick and balls to drag across the floor to reduce velocity.",
+    "aliases": [
+      "module.combat.velocity.name"
+    ],
+    "nativeMethods": 0,
+    "modes": [
+      {
+        "name": "Grim Reduce",
+        "original": "hackclient/rise/hq",
+        "class": "rise/module/impl/combat/velocity/GrimReduceMode",
+        "nativeMethods": 0
+      },
+      {
+        "name": "AAC",
+        "original": "hackclient/rise/ig",
+        "class": "rise/module/impl/combat/velocity/AACMode",
+        "nativeMethods": 0
+      },
+      {
+        "name": "Bounce",
+        "original": "hackclient/rise/ih",
+        "class": "rise/module/impl/combat/velocity/BounceMode",
+        "nativeMethods": 0
+      },
+      {
+        "name": "Buffer Abuse",
+        "original": "hackclient/rise/ii",
+        "class": "rise/module/impl/combat/velocity/BufferAbuseMode",
+        "nativeMethods": 0
+      },
+      {
+        "name": "Grim Test",
+        "original": "hackclient/rise/ij",
+        "class": "rise/module/impl/combat/velocity/GrimTestMode",
+        "nativeMethods": 0
+      },
+      {
+        "name": "Delay",
+        "original": "hackclient/rise/ik",
+        "class": "rise/module/impl/combat/velocity/DelayMode",
+        "nativeMethods": 0
+      },
+      {
+        "name": "Matrix",
+        "original": "hackclient/rise/im",
+        "class": "rise/module/impl/combat/velocity/MatrixMode",
+        "nativeMethods": 0
+      },
+      {
+        "name": "Grim",
+        "original": "hackclient/rise/in",
+        "class": "rise/module/impl/combat/velocity/GrimMode",
+        "nativeMethods": 0
+      },
+      {
+        "name": "Grim 2",
+        "original": "hackclient/rise/io",
+        "class": "rise/module/impl/combat/velocity/Grim2Mode",
+        "nativeMethods": 0
+      },
+      {
+        "name": "Ground",
+        "original": "hackclient/rise/ip",
+        "class": "rise/module/impl/combat/velocity/GroundMode",
+        "nativeMethods": 0
+      },
+      {
+        "name": "Intave",
+        "original": "hackclient/rise/iq",
+        "class": "rise/module/impl/combat/velocity/IntaveMode",
+        "nativeMethods": 0
+      },
+      {
+        "name": "Karhu",
+        "original": "hackclient/rise/ir",
+        "class": "rise/module/impl/combat/velocity/KarhuMode",
+        "nativeMethods": 0
+      },
+      {
+        "name": "Legit/Jump Reset",
+        "original": "hackclient/rise/is",
+        "class": "rise/module/impl/combat/velocity/LegitJumpResetMode",
+        "nativeMethods": 0
+      },
+      {
+        "name": "MMC",
+        "original": "hackclient/rise/it",
+        "class": "rise/module/impl/combat/velocity/MMCMode",
+        "nativeMethods": 0
+      },
+      {
+        "name": "Watchdog Damage Boost Fly Disabler",
+        "original": "hackclient/rise/iu",
+        "class": "rise/module/impl/combat/velocity/WatchdogDamageBoostFlyDisablerMode",
+        "nativeMethods": 0
+      },
+      {
+        "name": "Standard",
+        "original": "hackclient/rise/iv",
+        "class": "rise/module/impl/combat/velocity/StandardMode",
+        "nativeMethods": 0
+      },
+      {
+        "name": "Tick",
+        "original": "hackclient/rise/ix",
+        "class": "rise/module/impl/combat/velocity/TickMode",
+        "nativeMethods": 0
+      },
+      {
+        "name": "Universocraft",
+        "original": "hackclient/rise/iy",
+        "class": "rise/module/impl/combat/velocity/UniversocraftMode",
+        "nativeMethods": 0
+      },
+      {
+        "name": "Vulcan",
+        "original": "hackclient/rise/iz",
+        "class": "rise/module/impl/combat/velocity/VulcanMode",
+        "nativeMethods": 0
+      },
+      {
+        "name": "Watchdog Prediction",
+        "original": "hackclient/rise/ja",
+        "class": "rise/module/impl/combat/velocity/WatchdogPredictionMode",
+        "nativeMethods": 0
+      },
+      {
+        "name": "Watchdog Reduce",
+        "original": "hackclient/rise/jb",
+        "class": "rise/module/impl/combat/velocity/WatchdogReduceMode",
+        "nativeMethods": 0
+      },
+      {
+        "name": "Watchdog",
+        "original": "hackclient/rise/jc",
+        "class": "rise/module/impl/combat/velocity/WatchdogMode",
+        "nativeMethods": 0
+      }
+    ]
+  },
+  {
+    "name": "Watchdog TP Aura",
+    "category": "COMBAT",
+    "original": "hackclient/rise/hg",
+    "class": "rise/module/impl/combat/WatchdogTPAura",
+    "description": "Teleport-based aura for Hypixel Watchdog",
+    "aliases": [
+      "Watchdog TP Aura",
+      "WatchdogTPAura"
+    ],
+    "nativeMethods": 0,
+    "modes": []
+  },
+  {
+    "name": "Block Tracker",
+    "category": "EXPLOIT",
+    "original": "hackclient/rise/jd",
+    "class": "rise/module/impl/exploit/BlockTracker",
+    "description": "Prints in chat when the watched player starts or stops blocking",
+    "aliases": [
+      "module.exploit.blocktracker.name"
+    ],
+    "nativeMethods": 0,
+    "modes": []
+  },
+  {
+    "name": "Console Spammer",
+    "category": "EXPLOIT",
+    "original": "hackclient/rise/je",
+    "class": "rise/module/impl/exploit/ConsoleSpammer",
+    "description": "Tries to spam the console of the server",
+    "aliases": [
+      "module.combat.consolespammer.name"
+    ],
+    "nativeMethods": 0,
+    "modes": [
+      {
+        "name": "Channel",
+        "original": "hackclient/rise/jn",
+        "class": "rise/module/impl/exploit/consolespammer/ChannelMode",
+        "nativeMethods": 0
+      }
+    ]
+  },
+  {
+    "name": "Crasher",
+    "category": "EXPLOIT",
+    "original": "hackclient/rise/jf",
+    "class": "rise/module/impl/exploit/Crasher",
+    "description": "Uses various exploits to try and crash some servers",
+    "aliases": [
+      "module.combat.crasher.name"
+    ],
+    "nativeMethods": 0,
+    "modes": [
+      {
+        "name": "Custom",
+        "original": "hackclient/rise/jo",
+        "class": "rise/module/impl/exploit/crasher/CustomMode",
+        "nativeMethods": 0
+      },
+      {
+        "name": "Vanilla",
+        "original": "hackclient/rise/jq",
+        "class": "rise/module/impl/exploit/crasher/VanillaMode",
+        "nativeMethods": 0
+      }
+    ]
+  },
+  {
+    "name": "Disabler",
+    "category": "EXPLOIT",
+    "original": "hackclient/rise/jg",
+    "class": "rise/module/impl/exploit/Disabler",
+    "description": "Partially disables anticheats",
+    "aliases": [
+      "module.combat.disabler.name"
+    ],
+    "nativeMethods": 0,
+    "modes": [
+      {
+        "name": "iw",
+        "original": "hackclient/rise/iw",
+        "class": "rise/module/impl/exploit/disabler/IwMode",
+        "nativeMethods": 0
+      },
+      {
+        "name": "jp",
+        "original": "hackclient/rise/jp",
+        "class": "rise/module/impl/exploit/disabler/JpMode",
+        "nativeMethods": 0
+      },
+      {
+        "name": "jr",
+        "original": "hackclient/rise/jr",
+        "class": "rise/module/impl/exploit/disabler/JrMode",
+        "nativeMethods": 0
+      },
+      {
+        "name": "js",
+        "original": "hackclient/rise/js",
+        "class": "rise/module/impl/exploit/disabler/JsMode",
+        "nativeMethods": 0
+      },
+      {
+        "name": "jt",
+        "original": "hackclient/rise/jt",
+        "class": "rise/module/impl/exploit/disabler/JtMode",
+        "nativeMethods": 0
+      },
+      {
+        "name": "ju",
+        "original": "hackclient/rise/ju",
+        "class": "rise/module/impl/exploit/disabler/JuMode",
+        "nativeMethods": 0
+      },
+      {
+        "name": "jv",
+        "original": "hackclient/rise/jv",
+        "class": "rise/module/impl/exploit/disabler/JvMode",
+        "nativeMethods": 0
+      },
+      {
+        "name": "jw",
+        "original": "hackclient/rise/jw",
+        "class": "rise/module/impl/exploit/disabler/JwMode",
+        "nativeMethods": 0
+      },
+      {
+        "name": "jx",
+        "original": "hackclient/rise/jx",
+        "class": "rise/module/impl/exploit/disabler/JxMode",
+        "nativeMethods": 0
+      },
+      {
+        "name": "jy",
+        "original": "hackclient/rise/jy",
+        "class": "rise/module/impl/exploit/disabler/JyMode",
+        "nativeMethods": 0
+      },
+      {
+        "name": "jz",
+        "original": "hackclient/rise/jz",
+        "class": "rise/module/impl/exploit/disabler/JzMode",
+        "nativeMethods": 0
+      },
+      {
+        "name": "ka",
+        "original": "hackclient/rise/ka",
+        "class": "rise/module/impl/exploit/disabler/KaMode",
+        "nativeMethods": 0
+      },
+      {
+        "name": "kb",
+        "original": "hackclient/rise/kb",
+        "class": "rise/module/impl/exploit/disabler/KbMode",
+        "nativeMethods": 0
+      },
+      {
+        "name": "kc",
+        "original": "hackclient/rise/kc",
+        "class": "rise/module/impl/exploit/disabler/KcMode",
+        "nativeMethods": 0
+      },
+      {
+        "name": "kd",
+        "original": "hackclient/rise/kd",
+        "class": "rise/module/impl/exploit/disabler/KdMode",
+        "nativeMethods": 0
+      },
+      {
+        "name": "ke",
+        "original": "hackclient/rise/ke",
+        "class": "rise/module/impl/exploit/disabler/KeMode",
+        "nativeMethods": 0
+      },
+      {
+        "name": "kf",
+        "original": "hackclient/rise/kf",
+        "class": "rise/module/impl/exploit/disabler/KfMode",
+        "nativeMethods": 0
+      },
+      {
+        "name": "kg",
+        "original": "hackclient/rise/kg",
+        "class": "rise/module/impl/exploit/disabler/KgMode",
+        "nativeMethods": 0
+      },
+      {
+        "name": "kh",
+        "original": "hackclient/rise/kh",
+        "class": "rise/module/impl/exploit/disabler/KhMode",
+        "nativeMethods": 0
+      },
+      {
+        "name": "ki",
+        "original": "hackclient/rise/ki",
+        "class": "rise/module/impl/exploit/disabler/KiMode",
+        "nativeMethods": 0
+      },
+      {
+        "name": "kj",
+        "original": "hackclient/rise/kj",
+        "class": "rise/module/impl/exploit/disabler/KjMode",
+        "nativeMethods": 0
+      },
+      {
+        "name": "Test",
+        "original": "hackclient/rise/kk",
+        "class": "rise/module/impl/exploit/disabler/TestMode",
+        "nativeMethods": 0
+      },
+      {
+        "name": "kl",
+        "original": "hackclient/rise/kl",
+        "class": "rise/module/impl/exploit/disabler/KlMode",
+        "nativeMethods": 0
+      },
+      {
+        "name": "km",
+        "original": "hackclient/rise/km",
+        "class": "rise/module/impl/exploit/disabler/KmMode",
+        "nativeMethods": 0
+      },
+      {
+        "name": "kn",
+        "original": "hackclient/rise/kn",
+        "class": "rise/module/impl/exploit/disabler/KnMode",
+        "nativeMethods": 0
+      },
+      {
+        "name": "ko",
+        "original": "hackclient/rise/ko",
+        "class": "rise/module/impl/exploit/disabler/KoMode",
+        "nativeMethods": 0
+      },
+      {
+        "name": "kp",
+        "original": "hackclient/rise/kp",
+        "class": "rise/module/impl/exploit/disabler/KpMode",
+        "nativeMethods": 0
+      },
+      {
+        "name": "kq",
+        "original": "hackclient/rise/kq",
+        "class": "rise/module/impl/exploit/disabler/KqMode",
+        "nativeMethods": 0
+      }
+    ]
+  },
+  {
+    "name": "Ghost Hand",
+    "category": "EXPLOIT",
+    "original": "hackclient/rise/jh",
+    "class": "rise/module/impl/exploit/GhostHand",
+    "description": "Lets you open containers through blocks you are looking through",
+    "aliases": [
+      "module.exploit.ghosthand.name"
+    ],
+    "nativeMethods": 0,
+    "modes": []
+  },
+  {
+    "name": "God Mode",
+    "category": "EXPLOIT",
+    "original": "hackclient/rise/ji",
+    "class": "rise/module/impl/exploit/GodMode",
+    "description": "Prevents people from damaging you on some servers",
+    "aliases": [
+      "module.combat.godmode.name"
+    ],
+    "nativeMethods": 0,
+    "modes": []
+  },
+  {
+    "name": "Lightning Tracker",
+    "category": "EXPLOIT",
+    "original": "hackclient/rise/jj",
+    "class": "rise/module/impl/exploit/LightningTracker",
+    "description": "Prints the coordinates of lightning strikes in chat",
+    "aliases": [
+      "module.combat.lightningtracker.name"
+    ],
+    "nativeMethods": 0,
+    "modes": []
+  },
+  {
+    "name": "No Rotate",
+    "category": "EXPLOIT",
+    "original": "hackclient/rise/jk",
+    "class": "rise/module/impl/exploit/NoRotate",
+    "description": "Prevents servers from modifying your view angles",
+    "aliases": [
+      "module.combat.norotate.name"
+    ],
+    "nativeMethods": 0,
+    "modes": [
+      {
+        "name": "Edit",
+        "original": "hackclient/rise/kr",
+        "class": "rise/module/impl/exploit/norotate/EditMode",
+        "nativeMethods": 0
+      },
+      {
+        "name": "Cancel",
+        "original": "hackclient/rise/ks",
+        "class": "rise/module/impl/exploit/norotate/CancelMode",
+        "nativeMethods": 0
+      }
+    ]
+  },
+  {
+    "name": "Ping Spoof",
+    "category": "EXPLOIT",
+    "original": "hackclient/rise/jl",
+    "class": "rise/module/impl/exploit/PingSpoof",
+    "description": "Simulates higher latency to the server",
+    "aliases": [
+      "module.combat.pingspoof.name"
+    ],
+    "nativeMethods": 0,
+    "modes": []
+  },
+  {
+    "name": "Staff Detector",
+    "category": "EXPLOIT",
+    "original": "hackclient/rise/jm",
+    "class": "rise/module/impl/exploit/StaffDetector",
+    "description": "Detects when staff join your game invis",
+    "aliases": [
+      "module.combat.staffdetector.name"
+    ],
+    "nativeMethods": 0,
+    "modes": [
+      {
+        "name": "Hypixel",
+        "original": "hackclient/rise/kt",
+        "class": "rise/module/impl/exploit/staffdetector/HypixelMode",
+        "nativeMethods": 0
+      },
+      {
+        "name": "List",
+        "original": "hackclient/rise/ku",
+        "class": "rise/module/impl/exploit/staffdetector/ListMode",
+        "nativeMethods": 0
+      }
+    ]
+  },
+  {
+    "name": "Aim Assist",
+    "category": "GHOST",
+    "original": "hackclient/rise/kv",
+    "class": "rise/module/impl/ghost/AimAssist",
+    "description": "Assists you in aiming",
+    "aliases": [
+      "module.ghost.aimassist.name"
+    ],
+    "nativeMethods": 0,
+    "modes": []
+  },
+  {
+    "name": "Aim Back Track",
+    "category": "GHOST",
+    "original": "hackclient/rise/kw",
+    "class": "rise/module/impl/ghost/AimBackTrack",
+    "description": "Allows you to hit entities in their previous locations",
+    "aliases": [
+      "module.ghost.aimbacktrack.name"
+    ],
+    "nativeMethods": 0,
+    "modes": []
+  },
+  {
+    "name": "Auto Clicker",
+    "category": "GHOST",
+    "original": "hackclient/rise/kx",
+    "class": "rise/module/impl/ghost/AutoClicker",
+    "description": "Clicks automatically",
+    "aliases": [
+      "module.ghost.autoclicker.name"
+    ],
+    "nativeMethods": 0,
+    "modes": [
+      {
+        "name": "Drag Click Simulations",
+        "original": "hackclient/rise/lm",
+        "class": "rise/module/impl/ghost/autoclicker/DragClickSimulationsMode",
+        "nativeMethods": 0
+      },
+      {
+        "name": "Normal",
+        "original": "hackclient/rise/ln",
+        "class": "rise/module/impl/ghost/autoclicker/NormalMode",
+        "nativeMethods": 0
+      }
+    ]
+  },
+  {
+    "name": "Click Assist",
+    "category": "GHOST",
+    "original": "hackclient/rise/ky",
+    "class": "rise/module/impl/ghost/ClickAssist",
+    "description": "Duplicates mouse clicks to gain higher CPS",
+    "aliases": [
+      "module.ghost.clickassist.name"
+    ],
+    "nativeMethods": 0,
+    "modes": []
+  },
+  {
+    "name": "Fast Place",
+    "category": "GHOST",
+    "original": "hackclient/rise/la",
+    "class": "rise/module/impl/ghost/FastPlace",
+    "description": "Makes the place delay shorter",
+    "aliases": [
+      "module.ghost.fastplace.name"
+    ],
+    "nativeMethods": 0,
+    "modes": []
+  },
+  {
+    "name": "Gui Clicker",
+    "category": "GHOST",
+    "original": "hackclient/rise/lb",
+    "class": "rise/module/impl/ghost/GuiClicker",
+    "description": "Automatically clicks in guis",
+    "aliases": [
+      "module.ghost.guiclicker.name"
+    ],
+    "nativeMethods": 0,
+    "modes": []
+  },
+  {
+    "name": "Hitbox",
+    "category": "GHOST",
+    "original": "hackclient/rise/lc",
+    "class": "rise/module/impl/ghost/Hitbox",
+    "description": "Expands other entities hitboxes",
+    "aliases": [
+      "module.ghost.hitbox.name"
+    ],
+    "nativeMethods": 0,
+    "modes": []
+  },
+  {
+    "name": "KB Displacement",
+    "category": "GHOST",
+    "original": "hackclient/rise/ld",
+    "class": "rise/module/impl/ghost/KBDisplacement",
+    "description": "Silently steers your post-hit server yaw toward nearby hazards for manual fights.",
+    "aliases": [
+      "KB Displacement",
+      "Manual KB Displacement"
+    ],
+    "nativeMethods": 0,
+    "modes": []
+  },
+  {
+    "name": "Keep Sprint",
+    "category": "GHOST",
+    "original": "hackclient/rise/lf",
+    "class": "rise/module/impl/ghost/KeepSprint",
+    "description": "Keeps sprinting after you attack an entity",
+    "aliases": [
+      "module.ghost.keepsprint.name"
+    ],
+    "nativeMethods": 0,
+    "modes": []
+  },
+  {
+    "name": "Legit Scaffold",
+    "category": "GHOST",
+    "original": "hackclient/rise/kz",
+    "class": "rise/module/impl/ghost/LegitScaffold",
+    "description": "Sneaks at the edge of blocks",
+    "aliases": [
+      "module.ghost.legitscaffold.name",
+      "Eagle"
+    ],
+    "nativeMethods": 0,
+    "modes": []
+  },
+  {
+    "name": "No Click Delay",
+    "category": "GHOST",
+    "original": "hackclient/rise/lg",
+    "class": "rise/module/impl/ghost/NoClickDelay",
+    "description": "Removes the 1.8 click delay when missing an attack",
+    "aliases": [
+      "module.ghost.noclickdelay.name"
+    ],
+    "nativeMethods": 0,
+    "modes": []
+  },
+  {
+    "name": "Reach",
+    "category": "GHOST",
+    "original": "hackclient/rise/lh",
+    "class": "rise/module/impl/ghost/Reach",
+    "description": "Allows you to hit entities from further away",
+    "aliases": [
+      "module.ghost.reach.name"
+    ],
+    "nativeMethods": 0,
+    "modes": []
+  },
+  {
+    "name": "Safe Walk",
+    "category": "GHOST",
+    "original": "hackclient/rise/lj",
+    "class": "rise/module/impl/ghost/SafeWalk",
+    "description": "Stops you from falling off the edge",
+    "aliases": [
+      "module.ghost.safewalk.name"
+    ],
+    "nativeMethods": 0,
+    "modes": []
+  },
+  {
+    "name": "WTap",
+    "category": "GHOST",
+    "original": "hackclient/rise/li",
+    "class": "rise/module/impl/ghost/WTap",
+    "description": "Briefly releases W after attacking to increase knockback given",
+    "aliases": [
+      "module.ghost.wtap.name",
+      "Extra Knock Back",
+      "Super Knock Back",
+      "Knock Back",
+      "Sprint Reset"
+    ],
+    "nativeMethods": 0,
+    "modes": []
+  },
+  {
+    "name": "WTap",
+    "category": "GHOST",
+    "original": "hackclient/rise/lk",
+    "class": "rise/module/impl/ghost/WTap_lk",
+    "description": "Briefly releases W after attacking to increase knockback given",
+    "aliases": [
+      "module.ghost.wtap.name",
+      "Extra Knock Back",
+      "Super Knock Back",
+      "Knock Back",
+      "Sprint Reset"
+    ],
+    "nativeMethods": 0,
+    "modes": [
+      {
+        "name": "Legit",
+        "original": "hackclient/rise/lp",
+        "class": "rise/module/impl/ghost/wtap/LegitMode",
+        "nativeMethods": 0
+      },
+      {
+        "name": "Silent",
+        "original": "hackclient/rise/lq",
+        "class": "rise/module/impl/ghost/wtap/SilentMode",
+        "nativeMethods": 0
+      }
+    ]
+  },
+  {
+    "name": "Anti AFK",
+    "category": "MOVEMENT",
+    "original": "hackclient/rise/rk",
+    "class": "rise/module/impl/movement/AntiAFK",
+    "description": "Prevents you from getting AFK kicked by servers",
+    "aliases": [
+      "module.other.antiafk.name"
+    ],
+    "nativeMethods": 0,
+    "modes": []
+  },
+  {
+    "name": "Auto MLG",
+    "category": "MOVEMENT",
+    "original": "hackclient/rise/lr",
+    "class": "rise/module/impl/movement/AutoMLG",
+    "description": "Automatically places water bucket when falling",
+    "aliases": [
+      "module.movement.automlg.name"
+    ],
+    "nativeMethods": 0,
+    "modes": []
+  },
+  {
+    "name": "Auto Stuck",
+    "category": "MOVEMENT",
+    "original": "hackclient/rise/lu",
+    "class": "rise/module/impl/movement/AutoStuck",
+    "description": "Automatically toggles Stuck when falling into the void and throws a pearl if available",
+    "aliases": [
+      "module.movement.autostuck.name"
+    ],
+    "nativeMethods": 0,
+    "modes": []
+  },
+  {
+    "name": "Clipper",
+    "category": "MOVEMENT",
+    "original": "hackclient/rise/lv",
+    "class": "rise/module/impl/movement/Clipper",
+    "description": "Lets you clip vertically through the ground",
+    "aliases": [
+      "module.movement.clipper.name"
+    ],
+    "nativeMethods": 0,
+    "modes": []
+  },
+  {
+    "name": "Flight",
+    "category": "MOVEMENT",
+    "original": "hackclient/rise/lw",
+    "class": "rise/module/impl/movement/Flight",
+    "description": "Grants you the ability to fly",
+    "aliases": [
+      "module.movement.flight.name",
+      "Fly"
+    ],
+    "nativeMethods": 0,
+    "modes": [
+      {
+        "name": "Watchdog Prediction",
+        "original": "hackclient/rise/ll",
+        "class": "rise/module/impl/movement/flight/WatchdogPredictionMode",
+        "nativeMethods": 0
+      },
+      {
+        "name": "Grim 1.9-1.18.1",
+        "original": "hackclient/rise/lo",
+        "class": "rise/module/impl/movement/flight/Grim191181Mode",
+        "nativeMethods": 0
+      },
+      {
+        "name": "Watchdog 2",
+        "original": "hackclient/rise/mq",
+        "class": "rise/module/impl/movement/flight/Watchdog2Mode",
+        "nativeMethods": 0
+      },
+      {
+        "name": "Air Jump",
+        "original": "hackclient/rise/mr",
+        "class": "rise/module/impl/movement/flight/AirJumpMode",
+        "nativeMethods": 0
+      },
+      {
+        "name": "Air Walk",
+        "original": "hackclient/rise/ms",
+        "class": "rise/module/impl/movement/flight/AirWalkMode",
+        "nativeMethods": 0
+      },
+      {
+        "name": "Bloxd",
+        "original": "hackclient/rise/mu",
+        "class": "rise/module/impl/movement/flight/BloxdMode",
+        "nativeMethods": 0
+      },
+      {
+        "name": "MiniBlox",
+        "original": "hackclient/rise/mv",
+        "class": "rise/module/impl/movement/flight/MiniBloxMode",
+        "nativeMethods": 0
+      },
+      {
+        "name": "Block",
+        "original": "hackclient/rise/mw",
+        "class": "rise/module/impl/movement/flight/BlockMode",
+        "nativeMethods": 0
+      },
+      {
+        "name": "Buffer Abuse",
+        "original": "hackclient/rise/mx",
+        "class": "rise/module/impl/movement/flight/BufferAbuseMode",
+        "nativeMethods": 0
+      },
+      {
+        "name": "CubeCraft",
+        "original": "hackclient/rise/my",
+        "class": "rise/module/impl/movement/flight/CubeCraftMode",
+        "nativeMethods": 0
+      },
+      {
+        "name": "Funcraft",
+        "original": "hackclient/rise/mz",
+        "class": "rise/module/impl/movement/flight/FuncraftMode",
+        "nativeMethods": 0
+      },
+      {
+        "name": "Grim 2",
+        "original": "hackclient/rise/na",
+        "class": "rise/module/impl/movement/flight/Grim2Mode",
+        "nativeMethods": 0
+      },
+      {
+        "name": "Grim 3",
+        "original": "hackclient/rise/nb",
+        "class": "rise/module/impl/movement/flight/Grim3Mode",
+        "nativeMethods": 0
+      },
+      {
+        "name": "Latest NCP",
+        "original": "hackclient/rise/nc",
+        "class": "rise/module/impl/movement/flight/LatestNCPMode",
+        "nativeMethods": 0
+      },
+      {
+        "name": "MMC",
+        "original": "hackclient/rise/nd",
+        "class": "rise/module/impl/movement/flight/MMCMode",
+        "nativeMethods": 0
+      },
+      {
+        "name": "ne",
+        "original": "hackclient/rise/ne",
+        "class": "rise/module/impl/movement/flight/NeMode",
+        "nativeMethods": 0
+      },
+      {
+        "name": "Matrix High Jump",
+        "original": "hackclient/rise/nf",
+        "class": "rise/module/impl/movement/flight/MatrixHighJumpMode",
+        "nativeMethods": 0
+      },
+      {
+        "name": "ng",
+        "original": "hackclient/rise/ng",
+        "class": "rise/module/impl/movement/flight/NgMode",
+        "nativeMethods": 0
+      },
+      {
+        "name": "Matrix",
+        "original": "hackclient/rise/nh",
+        "class": "rise/module/impl/movement/flight/MatrixMode",
+        "nativeMethods": 0
+      },
+      {
+        "name": "MineLand",
+        "original": "hackclient/rise/ni",
+        "class": "rise/module/impl/movement/flight/MineLandMode",
+        "nativeMethods": 0
+      },
+      {
+        "name": "Vulcan 2",
+        "original": "hackclient/rise/nj",
+        "class": "rise/module/impl/movement/flight/Vulcan2Mode",
+        "nativeMethods": 0
+      },
+      {
+        "name": "Vulcan (Deprecated)",
+        "original": "hackclient/rise/nk",
+        "class": "rise/module/impl/movement/flight/VulcanDeprecatedMode",
+        "nativeMethods": 0
+      },
+      {
+        "name": "Old NCP",
+        "original": "hackclient/rise/nl",
+        "class": "rise/module/impl/movement/flight/OldNCPMode",
+        "nativeMethods": 0
+      },
+      {
+        "name": "SkyCave",
+        "original": "hackclient/rise/nm",
+        "class": "rise/module/impl/movement/flight/SkyCaveMode",
+        "nativeMethods": 0
+      },
+      {
+        "name": "Watchdog Prediction 2",
+        "original": "hackclient/rise/nn",
+        "class": "rise/module/impl/movement/flight/WatchdogPrediction2Mode",
+        "nativeMethods": 0
+      },
+      {
+        "name": "Matrix Damage",
+        "original": "hackclient/rise/np",
+        "class": "rise/module/impl/movement/flight/MatrixDamageMode",
+        "nativeMethods": 0
+      },
+      {
+        "name": "Verus Damage New",
+        "original": "hackclient/rise/nq",
+        "class": "rise/module/impl/movement/flight/VerusDamageNewMode",
+        "nativeMethods": 0
+      },
+      {
+        "name": "Vanilla",
+        "original": "hackclient/rise/nr",
+        "class": "rise/module/impl/movement/flight/VanillaMode",
+        "nativeMethods": 0
+      },
+      {
+        "name": "Verus",
+        "original": "hackclient/rise/ns",
+        "class": "rise/module/impl/movement/flight/VerusMode",
+        "nativeMethods": 0
+      },
+      {
+        "name": "Vulcan Damage",
+        "original": "hackclient/rise/nt",
+        "class": "rise/module/impl/movement/flight/VulcanDamageMode",
+        "nativeMethods": 0
+      },
+      {
+        "name": "Watchdog Boat",
+        "original": "hackclient/rise/nu",
+        "class": "rise/module/impl/movement/flight/WatchdogBoatMode",
+        "nativeMethods": 0
+      },
+      {
+        "name": "Watchdog",
+        "original": "hackclient/rise/nv",
+        "class": "rise/module/impl/movement/flight/WatchdogMode",
+        "nativeMethods": 0
+      },
+      {
+        "name": "Zone Craft",
+        "original": "hackclient/rise/nw",
+        "class": "rise/module/impl/movement/flight/ZoneCraftMode",
+        "nativeMethods": 0
+      },
+      {
+        "name": "MMC Fireball",
+        "original": "hackclient/rise/nx",
+        "class": "rise/module/impl/movement/flight/MMCFireballMode",
+        "nativeMethods": 0
+      },
+      {
+        "name": "Damage (Deprecated)",
+        "original": "hackclient/rise/ny",
+        "class": "rise/module/impl/movement/flight/DamageDeprecatedMode",
+        "nativeMethods": 0
+      }
+    ]
+  },
+  {
+    "name": "Inventory Move",
+    "category": "MOVEMENT",
+    "original": "hackclient/rise/lx",
+    "class": "rise/module/impl/movement/InventoryMove",
+    "description": "Allows you to move whilst in GUIs",
+    "aliases": [
+      "module.movement.inventorymove.name"
+    ],
+    "nativeMethods": 0,
+    "modes": [
+      {
+        "name": "Buffer Abuse",
+        "original": "hackclient/rise/nz",
+        "class": "rise/module/impl/movement/inventorymove/BufferAbuseMode",
+        "nativeMethods": 0
+      },
+      {
+        "name": "Cancel",
+        "original": "hackclient/rise/oa",
+        "class": "rise/module/impl/movement/inventorymove/CancelMode",
+        "nativeMethods": 0
+      },
+      {
+        "name": "Grim",
+        "original": "hackclient/rise/ob",
+        "class": "rise/module/impl/movement/inventorymove/GrimMode",
+        "nativeMethods": 0
+      },
+      {
+        "name": "Grim 2",
+        "original": "hackclient/rise/oc",
+        "class": "rise/module/impl/movement/inventorymove/Grim2Mode",
+        "nativeMethods": 0
+      },
+      {
+        "name": "Normal",
+        "original": "hackclient/rise/od",
+        "class": "rise/module/impl/movement/inventorymove/NormalMode",
+        "nativeMethods": 0
+      },
+      {
+        "name": "Watchdog",
+        "original": "hackclient/rise/oe",
+        "class": "rise/module/impl/movement/inventorymove/WatchdogMode",
+        "nativeMethods": 0
+      }
+    ]
+  },
+  {
+    "name": "Jesus",
+    "category": "MOVEMENT",
+    "original": "hackclient/rise/ly",
+    "class": "rise/module/impl/movement/Jesus",
+    "description": "Allows you to walk on or through water",
+    "aliases": [
+      "module.movement.jesus.name"
+    ],
+    "nativeMethods": 0,
+    "modes": [
+      {
+        "name": "Vulcan Gravity",
+        "original": "hackclient/rise/of",
+        "class": "rise/module/impl/movement/jesus/VulcanGravityMode",
+        "nativeMethods": 0
+      },
+      {
+        "name": "Karhu",
+        "original": "hackclient/rise/og",
+        "class": "rise/module/impl/movement/jesus/KarhuMode",
+        "nativeMethods": 0
+      },
+      {
+        "name": "NCP",
+        "original": "hackclient/rise/oh",
+        "class": "rise/module/impl/movement/jesus/NCPMode",
+        "nativeMethods": 0
+      },
+      {
+        "name": "Vanilla",
+        "original": "hackclient/rise/oi",
+        "class": "rise/module/impl/movement/jesus/VanillaMode",
+        "nativeMethods": 0
+      },
+      {
+        "name": "Vulcan Dolphin",
+        "original": "hackclient/rise/oj",
+        "class": "rise/module/impl/movement/jesus/VulcanDolphinMode",
+        "nativeMethods": 0
+      },
+      {
+        "name": "Watchdog Dolphin 1.18+",
+        "original": "hackclient/rise/ok",
+        "class": "rise/module/impl/movement/jesus/WatchdogDolphin118Mode",
+        "nativeMethods": 0
+      },
+      {
+        "name": "Watchdog",
+        "original": "hackclient/rise/ol",
+        "class": "rise/module/impl/movement/jesus/WatchdogMode",
+        "nativeMethods": 0
+      }
+    ]
+  },
+  {
+    "name": "Long Jump",
+    "category": "MOVEMENT",
+    "original": "hackclient/rise/lz",
+    "class": "rise/module/impl/movement/LongJump",
+    "description": "Makes you jump further than normal",
+    "aliases": [
+      "module.movement.longjump.name"
+    ],
+    "nativeMethods": 0,
+    "modes": [
+      {
+        "name": "Grim",
+        "original": "hackclient/rise/mt",
+        "class": "rise/module/impl/movement/longjump/GrimMode",
+        "nativeMethods": 0
+      },
+      {
+        "name": "Watchdog Water 1.18+",
+        "original": "hackclient/rise/om",
+        "class": "rise/module/impl/movement/longjump/WatchdogWater118Mode",
+        "nativeMethods": 0
+      },
+      {
+        "name": "Fire Ball",
+        "original": "hackclient/rise/oo",
+        "class": "rise/module/impl/movement/longjump/FireBallMode",
+        "nativeMethods": 0
+      },
+      {
+        "name": "Matrix 2",
+        "original": "hackclient/rise/op",
+        "class": "rise/module/impl/movement/longjump/Matrix2Mode",
+        "nativeMethods": 0
+      },
+      {
+        "name": "NCP",
+        "original": "hackclient/rise/oq",
+        "class": "rise/module/impl/movement/longjump/NCPMode",
+        "nativeMethods": 0
+      },
+      {
+        "name": "Bloxd",
+        "original": "hackclient/rise/or",
+        "class": "rise/module/impl/movement/longjump/BloxdMode",
+        "nativeMethods": 0
+      },
+      {
+        "name": "Vanilla",
+        "original": "hackclient/rise/os",
+        "class": "rise/module/impl/movement/longjump/VanillaMode",
+        "nativeMethods": 0
+      },
+      {
+        "name": "Vulcan 2",
+        "original": "hackclient/rise/ou",
+        "class": "rise/module/impl/movement/longjump/Vulcan2Mode",
+        "nativeMethods": 0
+      },
+      {
+        "name": "Vulcan",
+        "original": "hackclient/rise/ov",
+        "class": "rise/module/impl/movement/longjump/VulcanMode",
+        "nativeMethods": 0
+      },
+      {
+        "name": "Watchdog Glide",
+        "original": "hackclient/rise/ow",
+        "class": "rise/module/impl/movement/longjump/WatchdogGlideMode",
+        "nativeMethods": 0
+      },
+      {
+        "name": "Watchdog 2",
+        "original": "hackclient/rise/ox",
+        "class": "rise/module/impl/movement/longjump/Watchdog2Mode",
+        "nativeMethods": 0
+      },
+      {
+        "name": "Watchdog Fire Ball",
+        "original": "hackclient/rise/oy",
+        "class": "rise/module/impl/movement/longjump/WatchdogFireBallMode",
+        "nativeMethods": 0
+      },
+      {
+        "name": "Watchdog Fire Ball 2",
+        "original": "hackclient/rise/oz",
+        "class": "rise/module/impl/movement/longjump/WatchdogFireBall2Mode",
+        "nativeMethods": 0
+      },
+      {
+        "name": "Watchdog",
+        "original": "hackclient/rise/pa",
+        "class": "rise/module/impl/movement/longjump/WatchdogMode",
+        "nativeMethods": 0
+      }
+    ]
+  },
+  {
+    "name": "No Clip",
+    "category": "MOVEMENT",
+    "original": "hackclient/rise/ma",
+    "class": "rise/module/impl/movement/NoClip",
+    "description": "Allows you to pass through normally solid blocks",
+    "aliases": [
+      "module.movement.noclip.name"
+    ],
+    "nativeMethods": 0,
+    "modes": []
+  },
+  {
+    "name": "No Jump Delay",
+    "category": "MOVEMENT",
+    "original": "hackclient/rise/mb",
+    "class": "rise/module/impl/movement/NoJumpDelay",
+    "description": "Removes Minecraft's jump delay",
+    "aliases": [
+      "module.movement.nojumpdelay.name"
+    ],
+    "nativeMethods": 0,
+    "modes": []
+  },
+  {
+    "name": "No Slow",
+    "category": "MOVEMENT",
+    "original": "hackclient/rise/mc",
+    "class": "rise/module/impl/movement/NoSlow",
+    "description": "Allows you to move at full speed whilst using items",
+    "aliases": [
+      "module.movement.noslow.name"
+    ],
+    "nativeMethods": 0,
+    "modes": [
+      {
+        "name": "Grim 3.0",
+        "original": "hackclient/rise/no",
+        "class": "rise/module/impl/movement/noslow/Grim30Mode",
+        "nativeMethods": 0
+      },
+      {
+        "name": "Grim 1.9",
+        "original": "hackclient/rise/pb",
+        "class": "rise/module/impl/movement/noslow/Grim19Mode",
+        "nativeMethods": 0
+      },
+      {
+        "name": "Grim",
+        "original": "hackclient/rise/pc",
+        "class": "rise/module/impl/movement/noslow/GrimMode",
+        "nativeMethods": 0
+      },
+      {
+        "name": "Intave",
+        "original": "hackclient/rise/pd",
+        "class": "rise/module/impl/movement/noslow/IntaveMode",
+        "nativeMethods": 0
+      },
+      {
+        "name": "pe",
+        "original": "hackclient/rise/pe",
+        "class": "rise/module/impl/movement/noslow/PeMode",
+        "nativeMethods": 0
+      },
+      {
+        "name": "Matrix",
+        "original": "hackclient/rise/pf",
+        "class": "rise/module/impl/movement/noslow/MatrixMode",
+        "nativeMethods": 0
+      },
+      {
+        "name": "Legit",
+        "original": "hackclient/rise/pg",
+        "class": "rise/module/impl/movement/noslow/LegitMode",
+        "nativeMethods": 0
+      },
+      {
+        "name": "NCP",
+        "original": "hackclient/rise/ph",
+        "class": "rise/module/impl/movement/noslow/NCPMode",
+        "nativeMethods": 0
+      },
+      {
+        "name": "New NCP",
+        "original": "hackclient/rise/pi",
+        "class": "rise/module/impl/movement/noslow/NewNCPMode",
+        "nativeMethods": 0
+      },
+      {
+        "name": "Watchdog Prediction",
+        "original": "hackclient/rise/pj",
+        "class": "rise/module/impl/movement/noslow/WatchdogPredictionMode",
+        "nativeMethods": 0
+      },
+      {
+        "name": "Prediction",
+        "original": "hackclient/rise/pk",
+        "class": "rise/module/impl/movement/noslow/PredictionMode",
+        "nativeMethods": 0
+      },
+      {
+        "name": "Vanilla",
+        "original": "hackclient/rise/pl",
+        "class": "rise/module/impl/movement/noslow/VanillaMode",
+        "nativeMethods": 0
+      },
+      {
+        "name": "Variable",
+        "original": "hackclient/rise/pm",
+        "class": "rise/module/impl/movement/noslow/VariableMode",
+        "nativeMethods": 0
+      },
+      {
+        "name": "Watchdog",
+        "original": "hackclient/rise/pn",
+        "class": "rise/module/impl/movement/noslow/WatchdogMode",
+        "nativeMethods": 0
+      }
+    ]
+  },
+  {
+    "name": "Phase",
+    "category": "MOVEMENT",
+    "original": "hackclient/rise/md",
+    "class": "rise/module/impl/movement/Phase",
+    "description": "Lets you go through solid blocks",
+    "aliases": [
+      "module.movement.phase.name"
+    ],
+    "nativeMethods": 0,
+    "modes": [
+      {
+        "name": "BlocksMC",
+        "original": "hackclient/rise/po",
+        "class": "rise/module/impl/movement/phase/BlocksMCMode",
+        "nativeMethods": 0
+      },
+      {
+        "name": "Grim",
+        "original": "hackclient/rise/pp",
+        "class": "rise/module/impl/movement/phase/GrimMode",
+        "nativeMethods": 0
+      },
+      {
+        "name": "Normal",
+        "original": "hackclient/rise/pq",
+        "class": "rise/module/impl/movement/phase/NormalMode",
+        "nativeMethods": 0
+      },
+      {
+        "name": "Vulcan",
+        "original": "hackclient/rise/pr",
+        "class": "rise/module/impl/movement/phase/VulcanMode",
+        "nativeMethods": 0
+      },
+      {
+        "name": "Watchdog Blink",
+        "original": "hackclient/rise/ps",
+        "class": "rise/module/impl/movement/phase/WatchdogBlinkMode",
+        "nativeMethods": 0
+      },
+      {
+        "name": "Watchdog 1.17.1 Full Block",
+        "original": "hackclient/rise/pt",
+        "class": "rise/module/impl/movement/phase/Watchdog1171FullBlockMode",
+        "nativeMethods": 0
+      },
+      {
+        "name": "Watchdog Semi Block",
+        "original": "hackclient/rise/pu",
+        "class": "rise/module/impl/movement/phase/WatchdogSemiBlockMode",
+        "nativeMethods": 0
+      },
+      {
+        "name": "pv",
+        "original": "hackclient/rise/pv",
+        "class": "rise/module/impl/movement/phase/PvMode",
+        "nativeMethods": 0
+      },
+      {
+        "name": "Watchdog Prediction Full Block",
+        "original": "hackclient/rise/pw",
+        "class": "rise/module/impl/movement/phase/WatchdogPredictionFullBlockMode",
+        "nativeMethods": 0
+      }
+    ]
+  },
+  {
+    "name": "Potion Extender",
+    "category": "MOVEMENT",
+    "original": "hackclient/rise/me",
+    "class": "rise/module/impl/movement/PotionExtender",
+    "description": "Extends potion effects on some servers",
+    "aliases": [
+      "module.movement.potionextender.name"
+    ],
+    "nativeMethods": 0,
+    "modes": []
+  },
+  {
+    "name": "Resource Pack Spoof",
+    "category": "MOVEMENT",
+    "original": "hackclient/rise/sf",
+    "class": "rise/module/impl/movement/ResourcePackSpoof",
+    "description": "Allows you to pretend you loaded a resource pack a server requested",
+    "aliases": [
+      "Resource Pack Spoof"
+    ],
+    "nativeMethods": 0,
+    "modes": []
+  },
+  {
+    "name": "Snap Tap",
+    "category": "MOVEMENT",
+    "original": "hackclient/rise/mf",
+    "class": "rise/module/impl/movement/SnapTap",
+    "description": "Prioritizes the last pressed key when both opposing keys are held",
+    "aliases": [
+      "module.movement.snaptap.name",
+      "Null Move",
+      "SOCD",
+      "Null Binds"
+    ],
+    "nativeMethods": 0,
+    "modes": []
+  },
+  {
+    "name": "Sneak",
+    "category": "MOVEMENT",
+    "original": "hackclient/rise/mg",
+    "class": "rise/module/impl/movement/Sneak",
+    "description": "Makes you always sneak, sometimes without slowing down",
+    "aliases": [
+      "module.movement.sneak.name"
+    ],
+    "nativeMethods": 0,
+    "modes": [
+      {
+        "name": "Hold",
+        "original": "hackclient/rise/px",
+        "class": "rise/module/impl/movement/sneak/HoldMode",
+        "nativeMethods": 0
+      },
+      {
+        "name": "NCP",
+        "original": "hackclient/rise/py",
+        "class": "rise/module/impl/movement/sneak/NCPMode",
+        "nativeMethods": 0
+      },
+      {
+        "name": "Standard",
+        "original": "hackclient/rise/pz",
+        "class": "rise/module/impl/movement/sneak/StandardMode",
+        "nativeMethods": 0
+      }
+    ]
+  },
+  {
+    "name": "Speed",
+    "category": "MOVEMENT",
+    "original": "hackclient/rise/mh",
+    "class": "rise/module/impl/movement/Speed",
+    "description": "Increases your movement speed",
+    "aliases": [
+      "module.movement.speed.name"
+    ],
+    "nativeMethods": 0,
+    "modes": [
+      {
+        "name": "Grim 2",
+        "original": "hackclient/rise/on",
+        "class": "rise/module/impl/movement/speed/Grim2Mode",
+        "nativeMethods": 0
+      },
+      {
+        "name": "Grim",
+        "original": "hackclient/rise/ot",
+        "class": "rise/module/impl/movement/speed/GrimMode",
+        "nativeMethods": 0
+      },
+      {
+        "name": "BlocksMC",
+        "original": "hackclient/rise/qa",
+        "class": "rise/module/impl/movement/speed/BlocksMCMode",
+        "nativeMethods": 0
+      },
+      {
+        "name": "MiniBlox",
+        "original": "hackclient/rise/qb",
+        "class": "rise/module/impl/movement/speed/MiniBloxMode",
+        "nativeMethods": 0
+      },
+      {
+        "name": "Polar",
+        "original": "hackclient/rise/qc",
+        "class": "rise/module/impl/movement/speed/PolarMode",
+        "nativeMethods": 0
+      },
+      {
+        "name": "Watchdog Prediction",
+        "original": "hackclient/rise/qd",
+        "class": "rise/module/impl/movement/speed/WatchdogPredictionMode",
+        "nativeMethods": 0
+      },
+      {
+        "name": "KoksCraft",
+        "original": "hackclient/rise/qe",
+        "class": "rise/module/impl/movement/speed/KoksCraftMode",
+        "nativeMethods": 0
+      },
+      {
+        "name": "Legit",
+        "original": "hackclient/rise/qf",
+        "class": "rise/module/impl/movement/speed/LegitMode",
+        "nativeMethods": 0
+      },
+      {
+        "name": "Matrix",
+        "original": "hackclient/rise/qg",
+        "class": "rise/module/impl/movement/speed/MatrixMode",
+        "nativeMethods": 0
+      },
+      {
+        "name": "MineMenClub",
+        "original": "hackclient/rise/qh",
+        "class": "rise/module/impl/movement/speed/MineMenClubMode",
+        "nativeMethods": 0
+      },
+      {
+        "name": "NCP",
+        "original": "hackclient/rise/qi",
+        "class": "rise/module/impl/movement/speed/NCPMode",
+        "nativeMethods": 0
+      },
+      {
+        "name": "Tatako",
+        "original": "hackclient/rise/qj",
+        "class": "rise/module/impl/movement/speed/TatakoMode",
+        "nativeMethods": 0
+      },
+      {
+        "name": "Strafe",
+        "original": "hackclient/rise/qk",
+        "class": "rise/module/impl/movement/speed/StrafeMode",
+        "nativeMethods": 0
+      },
+      {
+        "name": "Old NCP Y-port",
+        "original": "hackclient/rise/ql",
+        "class": "rise/module/impl/movement/speed/OldNCPYPortMode",
+        "nativeMethods": 0
+      },
+      {
+        "name": "Vanilla",
+        "original": "hackclient/rise/qm",
+        "class": "rise/module/impl/movement/speed/VanillaMode",
+        "nativeMethods": 0
+      },
+      {
+        "name": "Verus",
+        "original": "hackclient/rise/qn",
+        "class": "rise/module/impl/movement/speed/VerusMode",
+        "nativeMethods": 0
+      },
+      {
+        "name": "Vulcan",
+        "original": "hackclient/rise/qo",
+        "class": "rise/module/impl/movement/speed/VulcanMode",
+        "nativeMethods": 0
+      },
+      {
+        "name": "Watchdog 6 Tick",
+        "original": "hackclient/rise/qp",
+        "class": "rise/module/impl/movement/speed/Watchdog6TickMode",
+        "nativeMethods": 0
+      },
+      {
+        "name": "Watchdog",
+        "original": "hackclient/rise/qq",
+        "class": "rise/module/impl/movement/speed/WatchdogMode",
+        "nativeMethods": 0
+      }
+    ]
+  },
+  {
+    "name": "Sprint",
+    "category": "MOVEMENT",
+    "original": "hackclient/rise/mi",
+    "class": "rise/module/impl/movement/Sprint",
+    "description": "Makes you sprint",
+    "aliases": [
+      "module.movement.sprint.name"
+    ],
+    "nativeMethods": 0,
+    "modes": []
+  },
+  {
+    "name": "Step",
+    "category": "MOVEMENT",
+    "original": "hackclient/rise/mj",
+    "class": "rise/module/impl/movement/Step",
+    "description": "Steps up or down blocks",
+    "aliases": [
+      "module.movement.step.name"
+    ],
+    "nativeMethods": 0,
+    "modes": [
+      {
+        "name": "Jump",
+        "original": "hackclient/rise/qr",
+        "class": "rise/module/impl/movement/step/JumpMode",
+        "nativeMethods": 0
+      },
+      {
+        "name": "Matrix",
+        "original": "hackclient/rise/qs",
+        "class": "rise/module/impl/movement/step/MatrixMode",
+        "nativeMethods": 0
+      },
+      {
+        "name": "NCP Packetless",
+        "original": "hackclient/rise/qt",
+        "class": "rise/module/impl/movement/step/NCPPacketlessMode",
+        "nativeMethods": 0
+      },
+      {
+        "name": "NCP",
+        "original": "hackclient/rise/qu",
+        "class": "rise/module/impl/movement/step/NCPMode",
+        "nativeMethods": 0
+      },
+      {
+        "name": "New NCP",
+        "original": "hackclient/rise/qv",
+        "class": "rise/module/impl/movement/step/NewNCPMode",
+        "nativeMethods": 0
+      },
+      {
+        "name": "Vanilla",
+        "original": "hackclient/rise/qw",
+        "class": "rise/module/impl/movement/step/VanillaMode",
+        "nativeMethods": 0
+      },
+      {
+        "name": "Vulcan",
+        "original": "hackclient/rise/qx",
+        "class": "rise/module/impl/movement/step/VulcanMode",
+        "nativeMethods": 0
+      },
+      {
+        "name": "Watchdog",
+        "original": "hackclient/rise/qy",
+        "class": "rise/module/impl/movement/step/WatchdogMode",
+        "nativeMethods": 0
+      }
+    ]
+  },
+  {
+    "name": "Strafe",
+    "category": "MOVEMENT",
+    "original": "hackclient/rise/mk",
+    "class": "rise/module/impl/movement/Strafe",
+    "description": "Makes you always strafe, letting you move freely in air",
+    "aliases": [
+      "module.movement.strafe.name"
+    ],
+    "nativeMethods": 0,
+    "modes": []
+  },
+  {
+    "name": "Stuck",
+    "category": "MOVEMENT",
+    "original": "hackclient/rise/ml",
+    "class": "rise/module/impl/movement/Stuck",
+    "description": "Makes you get stuck",
+    "aliases": [
+      "module.movement.stuck.name",
+      "stasis"
+    ],
+    "nativeMethods": 0,
+    "modes": []
+  },
+  {
+    "name": "Target Strafe",
+    "category": "MOVEMENT",
+    "original": "hackclient/rise/mm",
+    "class": "rise/module/impl/movement/TargetStrafe",
+    "description": "Strafes around the target you're currently attacking",
+    "aliases": [
+      "module.movement.targetstrafe.name"
+    ],
+    "nativeMethods": 0,
+    "modes": []
+  },
+  {
+    "name": "Teleport",
+    "category": "MOVEMENT",
+    "original": "hackclient/rise/mn",
+    "class": "rise/module/impl/movement/Teleport",
+    "description": "Allows you to teleport",
+    "aliases": [
+      "module.movement.teleport.name"
+    ],
+    "nativeMethods": 0,
+    "modes": [
+      {
+        "name": "Watchdog BedWars",
+        "original": "hackclient/rise/qz",
+        "class": "rise/module/impl/movement/teleport/WatchdogBedWarsMode",
+        "nativeMethods": 0
+      },
+      {
+        "name": "MiniBlox",
+        "original": "hackclient/rise/ra",
+        "class": "rise/module/impl/movement/teleport/MiniBloxMode",
+        "nativeMethods": 0
+      }
+    ]
+  },
+  {
+    "name": "Terrain Speed",
+    "category": "MOVEMENT",
+    "original": "hackclient/rise/mo",
+    "class": "rise/module/impl/movement/TerrainSpeed",
+    "description": "Makes you go faster on terrain",
+    "aliases": [
+      "module.movement.terrainspeed.name"
+    ],
+    "nativeMethods": 0,
+    "modes": [
+      {
+        "name": "Bloxd",
+        "original": "hackclient/rise/rb",
+        "class": "rise/module/impl/movement/terrainspeed/BloxdMode",
+        "nativeMethods": 0
+      },
+      {
+        "name": "Watchdog",
+        "original": "hackclient/rise/re",
+        "class": "rise/module/impl/movement/terrainspeed/WatchdogMode",
+        "nativeMethods": 0
+      }
+    ]
+  },
+  {
+    "name": "Test",
+    "category": "MOVEMENT",
+    "original": "hackclient/rise/sp",
+    "class": "rise/module/impl/movement/Test",
+    "description": "(Dev) Testing module for Rise Developers",
+    "aliases": [
+      "module.other.test.name"
+    ],
+    "nativeMethods": 0,
+    "modes": []
+  },
+  {
+    "name": "Timer",
+    "category": "MOVEMENT",
+    "original": "hackclient/rise/sq",
+    "class": "rise/module/impl/movement/Timer",
+    "description": "Changes the speed that Minecraft runs at",
+    "aliases": [
+      "module.other.timer.name"
+    ],
+    "nativeMethods": 0,
+    "modes": []
+  },
+  {
+    "name": "Wall Climb",
+    "category": "MOVEMENT",
+    "original": "hackclient/rise/mp",
+    "class": "rise/module/impl/movement/WallClimb",
+    "description": "Allows you to climb up walls like a spider",
+    "aliases": [
+      "module.movement.wallclimb.name",
+      "Spider"
+    ],
+    "nativeMethods": 0,
+    "modes": [
+      {
+        "name": "Grim",
+        "original": "hackclient/rise/rf",
+        "class": "rise/module/impl/movement/wallclimb/GrimMode",
+        "nativeMethods": 1
+      },
+      {
+        "name": "MineMenClub",
+        "original": "hackclient/rise/rg",
+        "class": "rise/module/impl/movement/wallclimb/MineMenClubMode",
+        "nativeMethods": 0
+      },
+      {
+        "name": "Verus",
+        "original": "hackclient/rise/rh",
+        "class": "rise/module/impl/movement/wallclimb/VerusMode",
+        "nativeMethods": 0
+      },
+      {
+        "name": "Vulcan",
+        "original": "hackclient/rise/ri",
+        "class": "rise/module/impl/movement/wallclimb/VulcanMode",
+        "nativeMethods": 0
+      },
+      {
+        "name": "Watchdog",
+        "original": "hackclient/rise/rj",
+        "class": "rise/module/impl/movement/wallclimb/WatchdogMode",
+        "nativeMethods": 0
+      }
+    ]
+  },
+  {
+    "name": "Anti Crash",
+    "category": "PLAYER",
+    "original": "hackclient/rise/rl",
+    "class": "rise/module/impl/player/AntiCrash",
+    "description": "Patches various exploits used by malicious servers",
+    "aliases": [
+      "module.other.anticrash.name",
+      "Security Features",
+      "Anti Exploit"
+    ],
+    "nativeMethods": 0,
+    "modes": []
+  },
+  {
+    "name": "Anti Fire Ball",
+    "category": "PLAYER",
+    "original": "hackclient/rise/sz",
+    "class": "rise/module/impl/player/AntiFireBall",
+    "description": "Prevents you from getting hit by fireballs",
+    "aliases": [
+      "module.player.antifireball.name"
+    ],
+    "nativeMethods": 0,
+    "modes": []
+  },
+  {
+    "name": "Anti Suffocate",
+    "category": "PLAYER",
+    "original": "hackclient/rise/ta",
+    "class": "rise/module/impl/player/AntiSuffocate",
+    "description": "Prevents you from getting suffocated",
+    "aliases": [
+      "module.player.antisuffocate.name"
+    ],
+    "nativeMethods": 0,
+    "modes": []
+  },
+  {
+    "name": "Anti Void",
+    "category": "PLAYER",
+    "original": "hackclient/rise/tb",
+    "class": "rise/module/impl/player/AntiVoid",
+    "description": "Prevents you from falling into the void",
+    "aliases": [
+      "module.player.antivoid.name"
+    ],
+    "nativeMethods": 0,
+    "modes": [
+      {
+        "name": "Blink",
+        "original": "hackclient/rise/uj",
+        "class": "rise/module/impl/player/antivoid/BlinkMode",
+        "nativeMethods": 0
+      },
+      {
+        "name": "Collision",
+        "original": "hackclient/rise/uk",
+        "class": "rise/module/impl/player/antivoid/CollisionMode",
+        "nativeMethods": 0
+      },
+      {
+        "name": "Packet",
+        "original": "hackclient/rise/ul",
+        "class": "rise/module/impl/player/antivoid/PacketMode",
+        "nativeMethods": 0
+      },
+      {
+        "name": "Position",
+        "original": "hackclient/rise/um",
+        "class": "rise/module/impl/player/antivoid/PositionMode",
+        "nativeMethods": 0
+      },
+      {
+        "name": "Vulcan",
+        "original": "hackclient/rise/un",
+        "class": "rise/module/impl/player/antivoid/VulcanMode",
+        "nativeMethods": 0
+      },
+      {
+        "name": "Watchdog",
+        "original": "hackclient/rise/uo",
+        "class": "rise/module/impl/player/antivoid/WatchdogMode",
+        "nativeMethods": 0
+      }
+    ]
+  },
+  {
+    "name": "Auto Block-In",
+    "category": "PLAYER",
+    "original": "hackclient/rise/tg",
+    "class": "rise/module/impl/player/AutoBlockIn",
+    "description": "Builds a block enclosure around you.",
+    "aliases": [
+      "Auto Block-In",
+      "Auto Enclose",
+      "Block In",
+      "Self Trap",
+      "Surround",
+      "Instant Bunker"
+    ],
+    "nativeMethods": 0,
+    "modes": []
+  },
+  {
+    "name": "Auto GG",
+    "category": "PLAYER",
+    "original": "hackclient/rise/rm",
+    "class": "rise/module/impl/player/AutoGG",
+    "description": "Automatically sends a message at the end of the game",
+    "aliases": [
+      "module.other.autogg.name"
+    ],
+    "nativeMethods": 0,
+    "modes": []
+  },
+  {
+    "name": "Auto Groomer",
+    "category": "PLAYER",
+    "original": "hackclient/rise/rn",
+    "class": "rise/module/impl/player/AutoGroomer",
+    "description": "Helps you groom people.",
+    "aliases": [
+      "module.other.autogroomer.name"
+    ],
+    "nativeMethods": 0,
+    "modes": []
+  },
+  {
+    "name": "Auto Head",
+    "category": "PLAYER",
+    "original": "hackclient/rise/tc",
+    "class": "rise/module/impl/player/AutoHead",
+    "description": "Automatically eats golden heads in UHC",
+    "aliases": [
+      "module.player.autohead.name"
+    ],
+    "nativeMethods": 0,
+    "modes": []
+  },
+  {
+    "name": "Auto Play",
+    "category": "PLAYER",
+    "original": "hackclient/rise/ro",
+    "class": "rise/module/impl/player/AutoPlay",
+    "description": "Joins a new game after a win",
+    "aliases": [
+      "module.other.hypixelautoplay.name"
+    ],
+    "nativeMethods": 0,
+    "modes": []
+  },
+  {
+    "name": "Auto Pot",
+    "category": "PLAYER",
+    "original": "hackclient/rise/td",
+    "class": "rise/module/impl/player/AutoPot",
+    "description": "Throws potions for you",
+    "aliases": [
+      "module.player.autopot.name"
+    ],
+    "nativeMethods": 0,
+    "modes": []
+  },
+  {
+    "name": "Auto Tool",
+    "category": "PLAYER",
+    "original": "hackclient/rise/te",
+    "class": "rise/module/impl/player/AutoTool",
+    "description": "Switches to the most efficient tool when breaking a block",
+    "aliases": [
+      "module.player.autotool.name"
+    ],
+    "nativeMethods": 0,
+    "modes": []
+  },
+  {
+    "name": "Bedwars Utils",
+    "category": "PLAYER",
+    "original": "hackclient/rise/rp",
+    "class": "rise/module/impl/player/BedwarsUtils",
+    "description": "Useful Utils for Bedwars",
+    "aliases": [
+      "module.other.bwutils.name"
+    ],
+    "nativeMethods": 0,
+    "modes": []
+  },
+  {
+    "name": "Blink",
+    "category": "PLAYER",
+    "original": "hackclient/rise/tf",
+    "class": "rise/module/impl/player/Blink",
+    "description": "Temporarily chokes data being sent to the server",
+    "aliases": [
+      "module.player.blink.name"
+    ],
+    "nativeMethods": 0,
+    "modes": []
+  },
+  {
+    "name": "Breaker",
+    "category": "PLAYER",
+    "original": "hackclient/rise/ti",
+    "class": "rise/module/impl/player/Breaker",
+    "description": "Automatically breaks beds around you",
+    "aliases": [
+      "module.player.breaker.name"
+    ],
+    "nativeMethods": 0,
+    "modes": []
+  },
+  {
+    "name": "Breaker",
+    "category": "PLAYER",
+    "original": "hackclient/rise/tx",
+    "class": "rise/module/impl/player/Breaker_tx",
+    "description": "Automatically breaks beds around you",
+    "aliases": [
+      "module.player.breaker.name"
+    ],
+    "nativeMethods": 0,
+    "modes": []
+  },
+  {
+    "name": "Breaker",
+    "category": "PLAYER",
+    "original": "hackclient/rise/tz",
+    "class": "rise/module/impl/player/Breaker_tz",
+    "description": "Automatically breaks beds around you",
+    "aliases": [
+      "module.player.breaker.name"
+    ],
+    "nativeMethods": 0,
+    "modes": []
+  },
+  {
+    "name": "Chat Bypass",
+    "category": "PLAYER",
+    "original": "hackclient/rise/rq",
+    "class": "rise/module/impl/player/ChatBypass",
+    "description": "Lets you bypass the chat filter on servers",
+    "aliases": [
+      "module.other.chatbypass.name"
+    ],
+    "nativeMethods": 0,
+    "modes": []
+  },
+  {
+    "name": "Cheat Detector",
+    "category": "PLAYER",
+    "original": "hackclient/rise/rr",
+    "class": "rise/module/impl/player/CheatDetector",
+    "description": "Detects other cheaters in your game",
+    "aliases": [
+      "module.other.cheatdetector.name"
+    ],
+    "nativeMethods": 0,
+    "modes": []
+  },
+  {
+    "name": "Chest Stealer",
+    "category": "PLAYER",
+    "original": "hackclient/rise/uf",
+    "class": "rise/module/impl/player/ChestStealer",
+    "description": "Steals items from chests for you",
+    "aliases": [
+      "module.player.stealer.name",
+      "Stealer"
+    ],
+    "nativeMethods": 0,
+    "modes": []
+  },
+  {
+    "name": "Client Spoofer",
+    "category": "PLAYER",
+    "original": "hackclient/rise/rt",
+    "class": "rise/module/impl/player/ClientSpoofer",
+    "description": "Tricks the server into thinking you're on a different client",
+    "aliases": [
+      "module.other.clientspoofer.name"
+    ],
+    "nativeMethods": 0,
+    "modes": [
+      {
+        "name": "LabyMod",
+        "original": "hackclient/rise/ss",
+        "class": "rise/module/impl/player/clientspoofer/LabyModMode",
+        "nativeMethods": 0
+      }
+    ]
+  },
+  {
+    "name": "Clutch",
+    "category": "PLAYER",
+    "original": "hackclient/rise/tk",
+    "class": "rise/module/impl/player/Clutch",
+    "description": "Automatically block clutches (Hold sneak to enable)",
+    "aliases": [
+      "module.player.clutch.name"
+    ],
+    "nativeMethods": 0,
+    "modes": []
+  },
+  {
+    "name": "Data",
+    "category": "PLAYER",
+    "original": "hackclient/rise/ru",
+    "class": "rise/module/impl/player/Data",
+    "description": "Talk to other Rise users, use prefix \"#\" in chat",
+    "aliases": [
+      "Data"
+    ],
+    "nativeMethods": 0,
+    "modes": []
+  },
+  {
+    "name": "Debugger",
+    "category": "PLAYER",
+    "original": "hackclient/rise/rv",
+    "class": "rise/module/impl/player/Debugger",
+    "description": "(Dev) Debugs packets and adds a profiler",
+    "aliases": [
+      "module.other.debugger.name"
+    ],
+    "nativeMethods": 0,
+    "modes": []
+  },
+  {
+    "name": "Fast Break",
+    "category": "PLAYER",
+    "original": "hackclient/rise/tl",
+    "class": "rise/module/impl/player/FastBreak",
+    "description": "Breaks blocks faster",
+    "aliases": [
+      "module.player.fastbreak.name"
+    ],
+    "nativeMethods": 0,
+    "modes": []
+  },
+  {
+    "name": "Fast Use",
+    "category": "PLAYER",
+    "original": "hackclient/rise/tm",
+    "class": "rise/module/impl/player/FastUse",
+    "description": "Uses items faster",
+    "aliases": [
+      "module.player.fastuse.name"
+    ],
+    "nativeMethods": 0,
+    "modes": []
+  },
+  {
+    "name": "Health Bypass",
+    "category": "PLAYER",
+    "original": "hackclient/rise/to",
+    "class": "rise/module/impl/player/HealthBypass",
+    "description": "Forces clientside health display to use the below-name scoreboard value",
+    "aliases": [
+      "module.player.healthbypass.name"
+    ],
+    "nativeMethods": 0,
+    "modes": []
+  },
+  {
+    "name": "Insults",
+    "category": "PLAYER",
+    "original": "hackclient/rise/rx",
+    "class": "rise/module/impl/player/Insults",
+    "description": "Insults players after you kill them",
+    "aliases": [
+      "module.other.insults.name"
+    ],
+    "nativeMethods": 0,
+    "modes": []
+  },
+  {
+    "name": "Inventory Manager",
+    "category": "PLAYER",
+    "original": "hackclient/rise/tr",
+    "class": "rise/module/impl/player/InventoryManager",
+    "description": "Sorts your inventory for you and throws out useless items",
+    "aliases": [
+      "module.player.manager.name",
+      "Manager"
+    ],
+    "nativeMethods": 0,
+    "modes": []
+  },
+  {
+    "name": "Inventory Manager",
+    "category": "PLAYER",
+    "original": "hackclient/rise/ty",
+    "class": "rise/module/impl/player/InventoryManager_ty",
+    "description": "Sorts your inventory for you and throws out useless items",
+    "aliases": [
+      "module.player.manager.name",
+      "Manager"
+    ],
+    "nativeMethods": 0,
+    "modes": []
+  },
+  {
+    "name": "Inventory Sync",
+    "category": "PLAYER",
+    "original": "hackclient/rise/tp",
+    "class": "rise/module/impl/player/InventorySync",
+    "description": "Synchronizes your inventory with the server",
+    "aliases": [
+      "module.player.inventorysync.name"
+    ],
+    "nativeMethods": 0,
+    "modes": []
+  },
+  {
+    "name": "Murder Mystery",
+    "category": "PLAYER",
+    "original": "hackclient/rise/ry",
+    "class": "rise/module/impl/player/MurderMystery",
+    "description": "Detects murderers in Murder Mystery",
+    "aliases": [
+      "module.other.murdermystery.name"
+    ],
+    "nativeMethods": 0,
+    "modes": []
+  },
+  {
+    "name": "No Fall",
+    "category": "PLAYER",
+    "original": "hackclient/rise/ua",
+    "class": "rise/module/impl/player/NoFall",
+    "description": "Reduces or eliminates fall damage",
+    "aliases": [
+      "module.player.nofall.name"
+    ],
+    "nativeMethods": 0,
+    "modes": [
+      {
+        "name": "Grim Server 1.9+",
+        "original": "hackclient/rise/sa",
+        "class": "rise/module/impl/player/nofall/GrimServer19Mode",
+        "nativeMethods": 0
+      },
+      {
+        "name": "Watchdog Prediction",
+        "original": "hackclient/rise/uh",
+        "class": "rise/module/impl/player/nofall/WatchdogPredictionMode",
+        "nativeMethods": 0
+      },
+      {
+        "name": "Chunk Load",
+        "original": "hackclient/rise/up",
+        "class": "rise/module/impl/player/nofall/ChunkLoadMode",
+        "nativeMethods": 0
+      },
+      {
+        "name": "Clutch",
+        "original": "hackclient/rise/uq",
+        "class": "rise/module/impl/player/nofall/ClutchMode",
+        "nativeMethods": 0
+      },
+      {
+        "name": "Flag",
+        "original": "hackclient/rise/us",
+        "class": "rise/module/impl/player/nofall/FlagMode",
+        "nativeMethods": 0
+      },
+      {
+        "name": "ut",
+        "original": "hackclient/rise/ut",
+        "class": "rise/module/impl/player/nofall/UtMode",
+        "nativeMethods": 0
+      },
+      {
+        "name": "Heypixel",
+        "original": "hackclient/rise/uu",
+        "class": "rise/module/impl/player/nofall/HeypixelMode",
+        "nativeMethods": 0
+      },
+      {
+        "name": "Matrix",
+        "original": "hackclient/rise/uv",
+        "class": "rise/module/impl/player/nofall/MatrixMode",
+        "nativeMethods": 0
+      },
+      {
+        "name": "No Ground",
+        "original": "hackclient/rise/uw",
+        "class": "rise/module/impl/player/nofall/NoGroundMode",
+        "nativeMethods": 0
+      },
+      {
+        "name": "Packet",
+        "original": "hackclient/rise/ux",
+        "class": "rise/module/impl/player/nofall/PacketMode",
+        "nativeMethods": 0
+      },
+      {
+        "name": "Vulcan",
+        "original": "hackclient/rise/uy",
+        "class": "rise/module/impl/player/nofall/VulcanMode",
+        "nativeMethods": 0
+      },
+      {
+        "name": "Round",
+        "original": "hackclient/rise/uz",
+        "class": "rise/module/impl/player/nofall/RoundMode",
+        "nativeMethods": 0
+      },
+      {
+        "name": "Spoof",
+        "original": "hackclient/rise/va",
+        "class": "rise/module/impl/player/nofall/SpoofMode",
+        "nativeMethods": 0
+      },
+      {
+        "name": "Watchdog Packet",
+        "original": "hackclient/rise/vb",
+        "class": "rise/module/impl/player/nofall/WatchdogPacketMode",
+        "nativeMethods": 0
+      },
+      {
+        "name": "Watchdog Blink",
+        "original": "hackclient/rise/vc",
+        "class": "rise/module/impl/player/nofall/WatchdogBlinkMode",
+        "nativeMethods": 0
+      }
+    ]
+  },
+  {
+    "name": "No Gui Close",
+    "category": "PLAYER",
+    "original": "hackclient/rise/rz",
+    "class": "rise/module/impl/player/NoGuiClose",
+    "description": "Prevents servers from closing opened GUIs",
+    "aliases": [
+      "module.other.noguiclose.name"
+    ],
+    "nativeMethods": 0,
+    "modes": []
+  },
+  {
+    "name": "No Pitch Limit",
+    "category": "PLAYER",
+    "original": "hackclient/rise/sb",
+    "class": "rise/module/impl/player/NoPitchLimit",
+    "description": "Lets you look up or down at normally impossible angles",
+    "aliases": [
+      "module.other.nopitchlimit.name"
+    ],
+    "nativeMethods": 0,
+    "modes": []
+  },
+  {
+    "name": "Nuker",
+    "category": "PLAYER",
+    "original": "hackclient/rise/sc",
+    "class": "rise/module/impl/player/Nuker",
+    "description": "Breaks blocks around you",
+    "aliases": [
+      "module.other.nuker.name"
+    ],
+    "nativeMethods": 0,
+    "modes": []
+  },
+  {
+    "name": "Old Inventory Manager",
+    "category": "PLAYER",
+    "original": "hackclient/rise/ub",
+    "class": "rise/module/impl/player/OldInventoryManager",
+    "description": "Sorts your inventory for you and throws out useless items",
+    "aliases": [
+      "module.player.oldmanager.name",
+      "old manager"
+    ],
+    "nativeMethods": 0,
+    "modes": []
+  },
+  {
+    "name": "Player Notifier",
+    "category": "PLAYER",
+    "original": "hackclient/rise/sd",
+    "class": "rise/module/impl/player/PlayerNotifier",
+    "description": "Notifies you when an enemy comes close to your bed",
+    "aliases": [
+      "module.other.playernotifier.name"
+    ],
+    "nativeMethods": 0,
+    "modes": []
+  },
+  {
+    "name": "Polar Detector",
+    "category": "PLAYER",
+    "original": "hackclient/rise/ud",
+    "class": "rise/module/impl/player/PolarDetector",
+    "description": "module.player.polardetector.description",
+    "aliases": [
+      "module.player.polardetector.name"
+    ],
+    "nativeMethods": 0,
+    "modes": []
+  },
+  {
+    "name": "Sampler (Dev)",
+    "category": "PLAYER",
+    "original": "hackclient/rise/sg",
+    "class": "rise/module/impl/player/SamplerDev",
+    "description": "Prevents you from getting AFK kicked by servers",
+    "aliases": [
+      "Sampler (Dev)"
+    ],
+    "nativeMethods": 0,
+    "modes": []
+  },
+  {
+    "name": "Scaffold",
+    "category": "PLAYER",
+    "original": "hackclient/rise/tn",
+    "class": "rise/module/impl/player/Scaffold",
+    "description": "Builds a bridge under you as you walk",
+    "aliases": [
+      "module.player.scaffold.name"
+    ],
+    "nativeMethods": 0,
+    "modes": [
+      {
+        "name": "vd",
+        "original": "hackclient/rise/vd",
+        "class": "rise/module/impl/player/scaffold/VdMode",
+        "nativeMethods": 0
+      },
+      {
+        "name": "ve",
+        "original": "hackclient/rise/ve",
+        "class": "rise/module/impl/player/scaffold/VeMode",
+        "nativeMethods": 0
+      },
+      {
+        "name": "vf",
+        "original": "hackclient/rise/vf",
+        "class": "rise/module/impl/player/scaffold/VfMode",
+        "nativeMethods": 0
+      },
+      {
+        "name": "vg",
+        "original": "hackclient/rise/vg",
+        "class": "rise/module/impl/player/scaffold/VgMode",
+        "nativeMethods": 0
+      },
+      {
+        "name": "vh",
+        "original": "hackclient/rise/vh",
+        "class": "rise/module/impl/player/scaffold/VhMode",
+        "nativeMethods": 0
+      },
+      {
+        "name": "vi",
+        "original": "hackclient/rise/vi",
+        "class": "rise/module/impl/player/scaffold/ViMode",
+        "nativeMethods": 0
+      },
+      {
+        "name": "vj",
+        "original": "hackclient/rise/vj",
+        "class": "rise/module/impl/player/scaffold/VjMode",
+        "nativeMethods": 0
+      },
+      {
+        "name": "vk",
+        "original": "hackclient/rise/vk",
+        "class": "rise/module/impl/player/scaffold/VkMode",
+        "nativeMethods": 0
+      },
+      {
+        "name": "vl",
+        "original": "hackclient/rise/vl",
+        "class": "rise/module/impl/player/scaffold/VlMode",
+        "nativeMethods": 0
+      },
+      {
+        "name": "vm",
+        "original": "hackclient/rise/vm",
+        "class": "rise/module/impl/player/scaffold/VmMode",
+        "nativeMethods": 0
+      },
+      {
+        "name": "vn",
+        "original": "hackclient/rise/vn",
+        "class": "rise/module/impl/player/scaffold/VnMode",
+        "nativeMethods": 0
+      },
+      {
+        "name": "vo",
+        "original": "hackclient/rise/vo",
+        "class": "rise/module/impl/player/scaffold/VoMode",
+        "nativeMethods": 0
+      },
+      {
+        "name": "vp",
+        "original": "hackclient/rise/vp",
+        "class": "rise/module/impl/player/scaffold/VpMode",
+        "nativeMethods": 0
+      },
+      {
+        "name": "vq",
+        "original": "hackclient/rise/vq",
+        "class": "rise/module/impl/player/scaffold/VqMode",
+        "nativeMethods": 0
+      },
+      {
+        "name": "vs",
+        "original": "hackclient/rise/vs",
+        "class": "rise/module/impl/player/scaffold/VsMode",
+        "nativeMethods": 0
+      },
+      {
+        "name": "vt",
+        "original": "hackclient/rise/vt",
+        "class": "rise/module/impl/player/scaffold/VtMode",
+        "nativeMethods": 0
+      },
+      {
+        "name": "vu",
+        "original": "hackclient/rise/vu",
+        "class": "rise/module/impl/player/scaffold/VuMode",
+        "nativeMethods": 0
+      },
+      {
+        "name": "vv",
+        "original": "hackclient/rise/vv",
+        "class": "rise/module/impl/player/scaffold/VvMode",
+        "nativeMethods": 0
+      },
+      {
+        "name": "vw",
+        "original": "hackclient/rise/vw",
+        "class": "rise/module/impl/player/scaffold/VwMode",
+        "nativeMethods": 0
+      },
+      {
+        "name": "vx",
+        "original": "hackclient/rise/vx",
+        "class": "rise/module/impl/player/scaffold/VxMode",
+        "nativeMethods": 0
+      },
+      {
+        "name": "vy",
+        "original": "hackclient/rise/vy",
+        "class": "rise/module/impl/player/scaffold/VyMode",
+        "nativeMethods": 0
+      },
+      {
+        "name": "vz",
+        "original": "hackclient/rise/vz",
+        "class": "rise/module/impl/player/scaffold/VzMode",
+        "nativeMethods": 0
+      },
+      {
+        "name": "wa",
+        "original": "hackclient/rise/wa",
+        "class": "rise/module/impl/player/scaffold/WaMode",
+        "nativeMethods": 0
+      },
+      {
+        "name": "wb",
+        "original": "hackclient/rise/wb",
+        "class": "rise/module/impl/player/scaffold/WbMode",
+        "nativeMethods": 0
+      },
+      {
+        "name": "wc",
+        "original": "hackclient/rise/wc",
+        "class": "rise/module/impl/player/scaffold/WcMode",
+        "nativeMethods": 0
+      },
+      {
+        "name": "wd",
+        "original": "hackclient/rise/wd",
+        "class": "rise/module/impl/player/scaffold/WdMode",
+        "nativeMethods": 0
+      }
+    ]
+  },
+  {
+    "name": "Spammer",
+    "category": "PLAYER",
+    "original": "hackclient/rise/si",
+    "class": "rise/module/impl/player/Spammer",
+    "description": "Spams chat with the specified message",
+    "aliases": [
+      "module.other.spammer.name"
+    ],
+    "nativeMethods": 0,
+    "modes": []
+  },
+  {
+    "name": "Twerk",
+    "category": "PLAYER",
+    "original": "hackclient/rise/ug",
+    "class": "rise/module/impl/player/Twerk",
+    "description": "Makes you twerk",
+    "aliases": [
+      "module.player.twerk.name"
+    ],
+    "nativeMethods": 0,
+    "modes": []
+  },
+  {
+    "name": "Watchdog Blink",
+    "category": "PLAYER",
+    "original": "hackclient/rise/ui",
+    "class": "rise/module/impl/player/WatchdogBlink",
+    "description": "Holds outbound packets and drips one tick's worth every N ticks",
+    "aliases": [
+      "module.player.watchdogblink.name"
+    ],
+    "nativeMethods": 0,
+    "modes": []
+  },
+  {
+    "name": "module.other.proximityvoicechat.name",
+    "category": "PLAYER",
+    "original": "hackclient/rise/se",
+    "class": "rise/module/impl/player/ModuleOtherProximityvoicechatName",
+    "description": "module.other.proximityvoicechat.description",
+    "aliases": [
+      "module.other.proximityvoicechat.name"
+    ],
+    "nativeMethods": 0,
+    "modes": []
+  },
+  {
+    "name": "2D ESP",
+    "category": "RENDER",
+    "original": "hackclient/rise/xv",
+    "class": "rise/module/impl/render/Module2DESP",
+    "description": "Renders players using a two-dimensional rectangle",
+    "aliases": [
+      "module.render.2desp.name"
+    ],
+    "nativeMethods": 0,
+    "modes": []
+  },
+  {
+    "name": "Ambience",
+    "category": "RENDER",
+    "original": "hackclient/rise/we",
+    "class": "rise/module/impl/render/Ambience",
+    "description": "Allows you to change the time and weather",
+    "aliases": [
+      "module.render.ambience.name"
+    ],
+    "nativeMethods": 0,
+    "modes": []
+  },
+  {
+    "name": "Animations",
+    "category": "RENDER",
+    "original": "hackclient/rise/wg",
+    "class": "rise/module/impl/render/Animations",
+    "description": "Adjusts animations within Minecraft",
+    "aliases": [
+      "module.render.animations.name"
+    ],
+    "nativeMethods": 0,
+    "modes": []
+  },
+  {
+    "name": "Apple Skin",
+    "category": "RENDER",
+    "original": "hackclient/rise/wh",
+    "class": "rise/module/impl/render/AppleSkin",
+    "description": "Displays food saturation over the hunger bar",
+    "aliases": [
+      "module.render.appleskin.name"
+    ],
+    "nativeMethods": 0,
+    "modes": []
+  },
+  {
+    "name": "BPS Counter",
+    "category": "RENDER",
+    "original": "hackclient/rise/wj",
+    "class": "rise/module/impl/render/BPSCounter",
+    "description": "Displays your current speed",
+    "aliases": [
+      "module.render.bpscounter.name"
+    ],
+    "nativeMethods": 0,
+    "modes": []
+  },
+  {
+    "name": "Bed Plates",
+    "category": "RENDER",
+    "original": "hackclient/rise/wk",
+    "class": "rise/module/impl/render/BedPlates",
+    "description": "Shows the 2 weakest defense blocks around beds",
+    "aliases": [
+      "module.render.bedplates.name",
+      "Bed Plates"
+    ],
+    "nativeMethods": 0,
+    "modes": []
+  },
+  {
+    "name": "Black Hole Orbit",
+    "category": "RENDER",
+    "original": "hackclient/rise/wp",
+    "class": "rise/module/impl/render/BlackHoleOrbit",
+    "description": "Animated black hole orbit consuming two stars",
+    "aliases": [
+      "module.render.blackholeorbit.name"
+    ],
+    "nativeMethods": 0,
+    "modes": []
+  },
+  {
+    "name": "Boss Bar",
+    "category": "RENDER",
+    "original": "hackclient/rise/wt",
+    "class": "rise/module/impl/render/BossBar",
+    "description": "Displays Minecraft's boss bar overlay",
+    "aliases": [
+      "module.render.bossbar.name"
+    ],
+    "nativeMethods": 0,
+    "modes": []
+  },
+  {
+    "name": "Bread Crumbs",
+    "category": "RENDER",
+    "original": "hackclient/rise/wu",
+    "class": "rise/module/impl/render/BreadCrumbs",
+    "description": "Renders a trail behind you",
+    "aliases": [
+      "module.render.breadcrumbs.name"
+    ],
+    "nativeMethods": 0,
+    "modes": []
+  },
+  {
+    "name": "CPS Counter",
+    "category": "RENDER",
+    "original": "hackclient/rise/ww",
+    "class": "rise/module/impl/render/CPSCounter",
+    "description": "Displays your clicks per second",
+    "aliases": [
+      "module.render.cpscounter.name"
+    ],
+    "nativeMethods": 0,
+    "modes": []
+  },
+  {
+    "name": "Chat",
+    "category": "RENDER",
+    "original": "hackclient/rise/yg",
+    "class": "rise/module/impl/render/Chat",
+    "description": "Displays Minecraft chat",
+    "aliases": [
+      "module.render.chat.name"
+    ],
+    "nativeMethods": 0,
+    "modes": []
+  },
+  {
+    "name": "Chest ESP",
+    "category": "RENDER",
+    "original": "hackclient/rise/wx",
+    "class": "rise/module/impl/render/ChestESP",
+    "description": "Renders all chests with a soft glow",
+    "aliases": [
+      "module.render.chestesp.name"
+    ],
+    "nativeMethods": 0,
+    "modes": []
+  },
+  {
+    "name": "Click GUI",
+    "category": "RENDER",
+    "original": "hackclient/rise/wy",
+    "class": "rise/module/impl/render/ClickGUI",
+    "description": "Displays a GUI that allows you to toggle modules and edit their settings",
+    "aliases": [
+      "module.render.clickgui.name"
+    ],
+    "nativeMethods": 0,
+    "modes": []
+  },
+  {
+    "name": "Click Sounds",
+    "category": "RENDER",
+    "original": "hackclient/rise/rs",
+    "class": "rise/module/impl/render/ClickSounds",
+    "description": "Plays a click sound when you swing",
+    "aliases": [
+      "module.other.clicksounds.name"
+    ],
+    "nativeMethods": 0,
+    "modes": []
+  },
+  {
+    "name": "ESP",
+    "category": "RENDER",
+    "original": "hackclient/rise/wz",
+    "class": "rise/module/impl/render/ESP",
+    "description": "Renders all players into a shader and displays it",
+    "aliases": [
+      "module.render.esp.name"
+    ],
+    "nativeMethods": 0,
+    "modes": [
+      {
+        "name": "yp",
+        "original": "hackclient/rise/yp",
+        "class": "rise/module/impl/render/esp/YpMode",
+        "nativeMethods": 0
+      },
+      {
+        "name": "yq",
+        "original": "hackclient/rise/yq",
+        "class": "rise/module/impl/render/esp/YqMode",
+        "nativeMethods": 0
+      },
+      {
+        "name": "yr",
+        "original": "hackclient/rise/yr",
+        "class": "rise/module/impl/render/esp/YrMode",
+        "nativeMethods": 0
+      }
+    ]
+  },
+  {
+    "name": "FPS Counter",
+    "category": "RENDER",
+    "original": "hackclient/rise/xa",
+    "class": "rise/module/impl/render/FPSCounter",
+    "description": "Displays your frames per second",
+    "aliases": [
+      "module.render.fpscounter.name"
+    ],
+    "nativeMethods": 0,
+    "modes": []
+  },
+  {
+    "name": "Free Cam",
+    "category": "RENDER",
+    "original": "hackclient/rise/xb",
+    "class": "rise/module/impl/render/FreeCam",
+    "description": "Allows you to leave your player",
+    "aliases": [
+      "module.render.freecam.name"
+    ],
+    "nativeMethods": 0,
+    "modes": []
+  },
+  {
+    "name": "Free Look",
+    "category": "RENDER",
+    "original": "hackclient/rise/xc",
+    "class": "rise/module/impl/render/FreeLook",
+    "description": "Allows you to look around you without changing your direction",
+    "aliases": [
+      "module.render.freelook.name"
+    ],
+    "nativeMethods": 0,
+    "modes": []
+  },
+  {
+    "name": "Full Bright",
+    "category": "RENDER",
+    "original": "hackclient/rise/xd",
+    "class": "rise/module/impl/render/FullBright",
+    "description": "Prevents world darkness",
+    "aliases": [
+      "module.render.fullbright.name"
+    ],
+    "nativeMethods": 0,
+    "modes": [
+      {
+        "name": "Effect",
+        "original": "hackclient/rise/ys",
+        "class": "rise/module/impl/render/fullbright/EffectMode",
+        "nativeMethods": 0
+      },
+      {
+        "name": "Gamma",
+        "original": "hackclient/rise/yt",
+        "class": "rise/module/impl/render/fullbright/GammaMode",
+        "nativeMethods": 0
+      }
+    ]
+  },
+  {
+    "name": "Glint",
+    "category": "RENDER",
+    "original": "hackclient/rise/xe",
+    "class": "rise/module/impl/render/Glint",
+    "description": "Allows you to adjust the enchantment visual effect",
+    "aliases": [
+      "module.render.glint.name"
+    ],
+    "nativeMethods": 0,
+    "modes": []
+  },
+  {
+    "name": "Hot Bar",
+    "category": "RENDER",
+    "original": "hackclient/rise/xf",
+    "class": "rise/module/impl/render/HotBar",
+    "description": "Lets you customize your Minecraft hotbar",
+    "aliases": [
+      "module.render.hotbar.name"
+    ],
+    "nativeMethods": 0,
+    "modes": []
+  },
+  {
+    "name": "Hurt Camera",
+    "category": "RENDER",
+    "original": "hackclient/rise/xg",
+    "class": "rise/module/impl/render/HurtCamera",
+    "description": "Modifies the hurt camera animation",
+    "aliases": [
+      "module.render.hurtcamera.name"
+    ],
+    "nativeMethods": 0,
+    "modes": []
+  },
+  {
+    "name": "Hurt Color",
+    "category": "RENDER",
+    "original": "hackclient/rise/xh",
+    "class": "rise/module/impl/render/HurtColor",
+    "description": "Modifies the hurt camera animation",
+    "aliases": [
+      "module.render.hurtcolor.name"
+    ],
+    "nativeMethods": 0,
+    "modes": []
+  },
+  {
+    "name": "IRC",
+    "category": "RENDER",
+    "original": "hackclient/rise/rw",
+    "class": "rise/module/impl/render/IRC",
+    "description": "Talk to other Rise users, use prefix \"#\" in chat",
+    "aliases": [
+      "module.other.irc.name"
+    ],
+    "nativeMethods": 0,
+    "modes": []
+  },
+  {
+    "name": "Interface",
+    "category": "RENDER",
+    "original": "hackclient/rise/xi",
+    "class": "rise/module/impl/render/Interface",
+    "description": "The clients interface with all information",
+    "aliases": [
+      "module.render.interface.name"
+    ],
+    "nativeMethods": 0,
+    "modes": [
+      {
+        "name": "yu",
+        "original": "hackclient/rise/yu",
+        "class": "rise/module/impl/render/interface/YuMode",
+        "nativeMethods": 0
+      },
+      {
+        "name": "yv",
+        "original": "hackclient/rise/yv",
+        "class": "rise/module/impl/render/interface/YvMode",
+        "nativeMethods": 0
+      },
+      {
+        "name": "yy",
+        "original": "hackclient/rise/yy",
+        "class": "rise/module/impl/render/interface/YyMode",
+        "nativeMethods": 0
+      },
+      {
+        "name": "zd",
+        "original": "hackclient/rise/zd",
+        "class": "rise/module/impl/render/interface/ZdMode",
+        "nativeMethods": 0
+      },
+      {
+        "name": "ze",
+        "original": "hackclient/rise/ze",
+        "class": "rise/module/impl/render/interface/ZeMode",
+        "nativeMethods": 0
+      }
+    ]
+  },
+  {
+    "name": "Item Physics",
+    "category": "RENDER",
+    "original": "hackclient/rise/xm",
+    "class": "rise/module/impl/render/ItemPhysics",
+    "description": "Gives dropped items physics",
+    "aliases": [
+      "module.render.itemphysics.name"
+    ],
+    "nativeMethods": 0,
+    "modes": []
+  },
+  {
+    "name": "Jump Circles",
+    "category": "RENDER",
+    "original": "hackclient/rise/xn",
+    "class": "rise/module/impl/render/JumpCircles",
+    "description": "Draws circles around the player when they jump",
+    "aliases": [
+      "Jump Circles"
+    ],
+    "nativeMethods": 0,
+    "modes": []
+  },
+  {
+    "name": "Key Strokes",
+    "category": "RENDER",
+    "original": "hackclient/rise/xp",
+    "class": "rise/module/impl/render/KeyStrokes",
+    "description": "Displays key strokes",
+    "aliases": [
+      "module.render.keystrokes.name"
+    ],
+    "nativeMethods": 0,
+    "modes": []
+  },
+  {
+    "name": "Kill Effect",
+    "category": "RENDER",
+    "original": "hackclient/rise/xr",
+    "class": "rise/module/impl/render/KillEffect",
+    "description": "Displays a custom effect when you kill someone",
+    "aliases": [
+      "module.render.killeffect.name"
+    ],
+    "nativeMethods": 0,
+    "modes": []
+  },
+  {
+    "name": "Name Tags",
+    "category": "RENDER",
+    "original": "hackclient/rise/xs",
+    "class": "rise/module/impl/render/NameTags",
+    "description": "Renders a custom name tag above entities",
+    "aliases": [
+      "module.render.nametags.name"
+    ],
+    "nativeMethods": 0,
+    "modes": [
+      {
+        "name": "Classic",
+        "original": "hackclient/rise/zs",
+        "class": "rise/module/impl/render/nametags/ClassicMode",
+        "nativeMethods": 0
+      },
+      {
+        "name": "Modern",
+        "original": "hackclient/rise/zt",
+        "class": "rise/module/impl/render/nametags/ModernMode",
+        "nativeMethods": 0
+      },
+      {
+        "name": "Vanilla",
+        "original": "hackclient/rise/zu",
+        "class": "rise/module/impl/render/nametags/VanillaMode",
+        "nativeMethods": 0
+      }
+    ]
+  },
+  {
+    "name": "No Camera Clip",
+    "category": "RENDER",
+    "original": "hackclient/rise/xt",
+    "class": "rise/module/impl/render/NoCameraClip",
+    "description": "Prevents your third person camera from colliding",
+    "aliases": [
+      "module.render.nocameraclip.name"
+    ],
+    "nativeMethods": 0,
+    "modes": []
+  },
+  {
+    "name": "Particles",
+    "category": "RENDER",
+    "original": "hackclient/rise/xu",
+    "class": "rise/module/impl/render/Particles",
+    "description": "Modify Minecraft's particles",
+    "aliases": [
+      "module.render.particles.name"
+    ],
+    "nativeMethods": 0,
+    "modes": []
+  },
+  {
+    "name": "Scoreboard",
+    "category": "RENDER",
+    "original": "hackclient/rise/xw",
+    "class": "rise/module/impl/render/Scoreboard",
+    "description": "Allows you to customize the Minecraft scoreboard",
+    "aliases": [
+      "module.render.scoreboard.name"
+    ],
+    "nativeMethods": 0,
+    "modes": []
+  },
+  {
+    "name": "Session Stats",
+    "category": "RENDER",
+    "original": "hackclient/rise/xx",
+    "class": "rise/module/impl/render/SessionStats",
+    "description": "Displays a GUI with the stats of your current session",
+    "aliases": [
+      "module.render.sessionstats.name"
+    ],
+    "nativeMethods": 0,
+    "modes": [
+      {
+        "name": "Modern",
+        "original": "hackclient/rise/zv",
+        "class": "rise/module/impl/render/sessionstats/ModernMode",
+        "nativeMethods": 0
+      },
+      {
+        "name": "Rue",
+        "original": "hackclient/rise/zx",
+        "class": "rise/module/impl/render/sessionstats/RueMode",
+        "nativeMethods": 0
+      }
+    ]
+  },
+  {
+    "name": "Spotify",
+    "category": "RENDER",
+    "original": "hackclient/rise/sj",
+    "class": "rise/module/impl/render/Spotify",
+    "description": "Shows information on your currently playing Spotify track",
+    "aliases": [
+      "module.other.spotify.name"
+    ],
+    "nativeMethods": 0,
+    "modes": []
+  },
+  {
+    "name": "Streamer",
+    "category": "RENDER",
+    "original": "hackclient/rise/xy",
+    "class": "rise/module/impl/render/Streamer",
+    "description": "Hides your name",
+    "aliases": [
+      "module.render.streamer.name"
+    ],
+    "nativeMethods": 0,
+    "modes": []
+  },
+  {
+    "name": "Target Info",
+    "category": "RENDER",
+    "original": "hackclient/rise/xz",
+    "class": "rise/module/impl/render/TargetInfo",
+    "description": "Displays information about the entity you're fighting",
+    "aliases": [
+      "module.render.targetinfo.name"
+    ],
+    "nativeMethods": 0,
+    "modes": [
+      {
+        "name": "Creida Modern",
+        "original": "hackclient/rise/aaa",
+        "class": "rise/module/impl/render/targetinfo/CreidaModernMode",
+        "nativeMethods": 0
+      },
+      {
+        "name": "Exhibition",
+        "original": "hackclient/rise/aac",
+        "class": "rise/module/impl/render/targetinfo/ExhibitionMode",
+        "nativeMethods": 0
+      },
+      {
+        "name": "Modern",
+        "original": "hackclient/rise/aad",
+        "class": "rise/module/impl/render/targetinfo/ModernMode",
+        "nativeMethods": 0
+      },
+      {
+        "name": "Compact",
+        "original": "hackclient/rise/aaf",
+        "class": "rise/module/impl/render/targetinfo/CompactMode",
+        "nativeMethods": 0
+      },
+      {
+        "name": "Novoline",
+        "original": "hackclient/rise/aag",
+        "class": "rise/module/impl/render/targetinfo/NovolineMode",
+        "nativeMethods": 0
+      },
+      {
+        "name": "Godly",
+        "original": "hackclient/rise/aah",
+        "class": "rise/module/impl/render/targetinfo/GodlyMode",
+        "nativeMethods": 0
+      },
+      {
+        "name": "Wurst",
+        "original": "hackclient/rise/aai",
+        "class": "rise/module/impl/render/targetinfo/WurstMode",
+        "nativeMethods": 0
+      },
+      {
+        "name": "BMS",
+        "original": "hackclient/rise/zz",
+        "class": "rise/module/impl/render/targetinfo/BMSMode",
+        "nativeMethods": 0
+      }
+    ]
+  },
+  {
+    "name": "Tracers",
+    "category": "RENDER",
+    "original": "hackclient/rise/ya",
+    "class": "rise/module/impl/render/Tracers",
+    "description": "Renders a line from your crosshair to every player",
+    "aliases": [
+      "module.render.tracers.name"
+    ],
+    "nativeMethods": 0,
+    "modes": []
+  },
+  {
+    "name": "Translator",
+    "category": "RENDER",
+    "original": "hackclient/rise/sr",
+    "class": "rise/module/impl/render/Translator",
+    "description": "Translates your chat, might not work with some VPNs",
+    "aliases": [
+      "module.other.translator.name"
+    ],
+    "nativeMethods": 0,
+    "modes": []
+  },
+  {
+    "name": "Unlimited Chat",
+    "category": "RENDER",
+    "original": "hackclient/rise/yb",
+    "class": "rise/module/impl/render/UnlimitedChat",
+    "description": "Removes the 100-line limit from chat",
+    "aliases": [
+      "module.render.unlimitedchat.name"
+    ],
+    "nativeMethods": 0,
+    "modes": []
+  },
+  {
+    "name": "View Bobbing",
+    "category": "RENDER",
+    "original": "hackclient/rise/yc",
+    "class": "rise/module/impl/render/ViewBobbing",
+    "description": "Allows you to customize the camera shake when walking",
+    "aliases": [
+      "module.render.viewbobbing.name"
+    ],
+    "nativeMethods": 0,
+    "modes": []
+  },
+  {
+    "name": "XRay",
+    "category": "RENDER",
+    "original": "hackclient/rise/yd",
+    "class": "rise/module/impl/render/XRay",
+    "description": "Shows ores through walls with ESP and tracers",
+    "aliases": [
+      "XRay",
+      "X-Ray",
+      "Ore ESP"
+    ],
+    "nativeMethods": 0,
+    "modes": []
+  }
+]

@@ -1,0 +1,49 @@
+/*
+ * Decompiled with CFR 0.152.
+ */
+package net.minecraft.client.gui;
+
+import hackclient.rise.adu;
+import net.minecraft.client.gui.as;
+import net.minecraft.client.gui.bp;
+import net.minecraft.client.gui.c;
+import net.minecraft.client.resources.I18n;
+
+public class an
+extends bp {
+    @Override
+    public void initGui() {
+        this.buttonList.clear();
+        this.buttonList.add(new as(0, this.width / 2 - 155, this.height / 4 + 120 + 12, I18n.a("gui.toTitle", new Object[0])));
+        this.buttonList.add(new as(1, this.width / 2 - 155 + 160, this.height / 4 + 120 + 12, I18n.a("menu.quit", new Object[0])));
+    }
+
+    @Override
+    protected void actionPerformed(c c2) {
+        if (c2.id == 0) {
+            aER.a(new adu());
+        } else if (c2.id == 1) {
+            aER.AJ();
+        }
+    }
+
+    @Override
+    protected void keyTyped(char c2, int n2) {
+    }
+
+    @Override
+    public void drawScreen(int n2, int n3, float f2) {
+        this.drawDefaultBackground();
+        this.drawCenteredString(this.fontRendererObj, "Out of memory!", this.width / 2, this.height / 4 - 60 + 20, 0xFFFFFF);
+        this.drawString(this.fontRendererObj, "Minecraft has run out of memory.", this.width / 2 - 140, this.height / 4 - 60 + 60 + 0, 0xA0A0A0);
+        this.drawString(this.fontRendererObj, "This could be caused by a bug in the game or by the", this.width / 2 - 140, this.height / 4 - 60 + 60 + 18, 0xA0A0A0);
+        this.drawString(this.fontRendererObj, "Java Virtual Machine not being allocated enough", this.width / 2 - 140, this.height / 4 - 60 + 60 + 27, 0xA0A0A0);
+        this.drawString(this.fontRendererObj, "memory.", this.width / 2 - 140, this.height / 4 - 60 + 60 + 36, 0xA0A0A0);
+        this.drawString(this.fontRendererObj, "To prevent level corruption, the current game has quit.", this.width / 2 - 140, this.height / 4 - 60 + 60 + 54, 0xA0A0A0);
+        this.drawString(this.fontRendererObj, "We've tried to free up enough memory to let you go back to", this.width / 2 - 140, this.height / 4 - 60 + 60 + 63, 0xA0A0A0);
+        this.drawString(this.fontRendererObj, "the main menu and back to playing, but this may not have worked.", this.width / 2 - 140, this.height / 4 - 60 + 60 + 72, 0xA0A0A0);
+        this.drawString(this.fontRendererObj, "Please restart the game if you see this message again.", this.width / 2 - 140, this.height / 4 - 60 + 60 + 81, 0xA0A0A0);
+        super.drawScreen(n2, n3, f2);
+    }
+}
+

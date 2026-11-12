@@ -1,0 +1,11 @@
+{
+  "executable": "dist/RiseLauncher.exe",
+  "bytes": 346160479,
+  "sha256": "808edc60fba084cf5ab81cdd1c448f2b73e658c643efd2fed92675ebf88e7187",
+  "payload_sha256": "cbbce547940cef446edec78563a507149d91ad0f910ee3943de72294512b5c75",
+  "files": 1063,
+  "asset_objects": 722,
+  "asset_bytes": 114708537,
+  "unpacked_bytes": 478083276,
+  "platform": "Windows x64"
+}

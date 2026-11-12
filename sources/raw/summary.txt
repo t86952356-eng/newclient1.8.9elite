@@ -1,0 +1,982 @@
+Summary for work/source-6.9.9/client-core.jar
+Decompiled with CFR 0.152
+
+
+hackclient.rise.a
+----------------------------
+
+o0Oo000O0oO(int java.lang.String )
+  Unable to fully structure code
+<clinit>()
+  Exception : org.benf.cfr.reader.util.ConfusedCFRException: Started 2 blocks at once
+
+
+hackclient.rise.aap
+----------------------------
+
+<clinit>()
+  Unable to fully structure code
+o0Oo000O0oO(int java.lang.String )
+  Unable to fully structure code
+
+
+hackclient.rise.abs
+----------------------------
+
+b(hackclient.rise.er )
+  Unable to fully structure code
+<clinit>()
+  Unable to fully structure code
+o0Oo000O0oO(int java.lang.String )
+  Unable to fully structure code
+
+
+hackclient.rise.ahm
+----------------------------
+
+a(net.minecraft.scoreboard.g )
+  Unable to fully structure code
+a(javax.net.ssl.HttpsURLConnection )
+  Exception : org.benf.cfr.reader.util.ConfusedCFRException: Back jump on a try block [egrp 7[TRYBLOCK] [1 : 237->276)] java.lang.Exception
+c(java.lang.String java.lang.String java.lang.String )
+  Exception : org.benf.cfr.reader.util.ConfusedCFRException: Tried to end blocks [25[CATCHBLOCK], 26[CATCHBLOCK], 3[TRYBLOCK], 13[TRYBLOCK], 15[TRYBLOCK]], but top level block is 17[TRYBLOCK]
+vC()
+  Unable to fully structure code
+<clinit>()
+  Recovered potentially malformed switches.  Disable with '--allowmalformedswitch false'
+  Unable to fully structure code
+b(net.minecraft.scoreboard.d )
+  Unable to fully structure code
+cj(java.lang.String )
+  Unable to fully structure code
+a(java.util.regex.Pattern )
+  Recovered potentially malformed switches.  Disable with '--allowmalformedswitch false'
+  Unable to fully structure code
+vD()
+  Unable to fully structure code
+ch(java.lang.String )
+  Unable to fully structure code
+vH()
+  Unable to fully structure code
+  Could not resolve type clashes
+vK()
+  Recovered potentially malformed switches.  Disable with '--allowmalformedswitch false'
+vL()
+  Unable to fully structure code
+o0Oo000O0oO(int java.lang.String )
+  Unable to fully structure code
+vJ()
+  Unable to fully structure code
+oi()
+  Recovered potentially malformed switches.  Disable with '--allowmalformedswitch false'
+  Unable to fully structure code
+vE()
+  Exception : org.benf.cfr.reader.util.ConfusedCFRException: First case is not immediately after switch.
+vF()
+  Unable to fully structure code
+b(java.util.regex.Pattern[] )
+  Unable to fully structure code
+
+
+hackclient.rise.ax
+----------------------------
+
+o0Oo000O0oO(int java.lang.String )
+  Unable to fully structure code
+
+
+hackclient.rise.bo
+----------------------------
+
+o0Oo000O0oO(int java.lang.String )
+  Exception : org.benf.cfr.reader.util.ConfusedCFRException: First case is not immediately after switch.
+<clinit>()
+  Handled impossible loop by adding 'first' condition
+
+
+hackclient.rise.gm
+----------------------------
+
+o0Oo000O0oO(int java.lang.String )
+  Unable to fully structure code
+<clinit>()
+  Unable to fully structure code
+
+
+hackclient.rise.go
+----------------------------
+
+c(double net.minecraft.entity.r )
+  Unable to fully structure code
+a(net.minecraft.block.Block )
+  Unable to fully structure code
+o0Oo000O0oO(int java.lang.String )
+  Recovered potentially malformed switches.  Disable with '--allowmalformedswitch false'
+  Unable to fully structure code
+<clinit>()
+  Unable to fully structure code
+
+
+hackclient.rise.hd
+----------------------------
+
+o0Oo000O0oO(int java.lang.String )
+  Recovered potentially malformed switches.  Disable with '--allowmalformedswitch false'
+  Unable to fully structure code
+<clinit>()
+  Recovered potentially malformed switches.  Disable with '--allowmalformedswitch false'
+  Unable to fully structure code
+
+
+hackclient.rise.hq
+----------------------------
+
+o0Oo000O0oO(int java.lang.String )
+  Exception : org.benf.cfr.reader.util.ConfusedCFRException: Tried to end blocks [36[UNCONDITIONALDOLOOP]], but top level block is 37[UNCONDITIONALDOLOOP]
+<clinit>()
+  Unable to fully structure code
+
+
+hackclient.rise.jn
+----------------------------
+
+o0Oo000O0oO(int java.lang.String )
+  Unable to fully structure code
+<clinit>()
+  Unable to fully structure code
+
+
+hackclient.rise.jp
+----------------------------
+
+<clinit>()
+  Unable to fully structure code
+o0Oo000O0oO(int java.lang.String )
+  Unable to fully structure code
+
+
+hackclient.rise.lj
+----------------------------
+
+b(hackclient.rise.ej )
+  Unable to fully structure code
+
+
+hackclient.rise.lo
+----------------------------
+
+o0Oo000O0oO(int java.lang.String )
+  Unable to fully structure code
+<clinit>()
+  Exception : org.benf.cfr.reader.util.ConfusedCFRException: First case is not immediately after switch.
+
+
+hackclient.rise.mx
+----------------------------
+
+o0Oo000O0oO(int java.lang.String )
+  Unable to fully structure code
+<clinit>()
+  Unable to fully structure code
+
+
+hackclient.rise.no
+----------------------------
+
+o0Oo000O0oO(int java.lang.String )
+  Recovered potentially malformed switches.  Disable with '--allowmalformedswitch false'
+  Unable to fully structure code
+<clinit>()
+  Handled impossible loop by adding 'first' condition
+e(hackclient.rise.ea )
+  Recovered potentially malformed switches.  Disable with '--allowmalformedswitch false'
+  Unable to fully structure code
+
+
+hackclient.rise.ol
+----------------------------
+
+d(hackclient.rise.eo )
+  Recovered potentially malformed switches.  Disable with '--allowmalformedswitch false'
+  Unable to fully structure code
+f(hackclient.rise.ei )
+  Unable to fully structure code
+
+
+hackclient.rise.on
+----------------------------
+
+o0Oo000O0oO(int java.lang.String )
+  Exception : org.benf.cfr.reader.util.ConfusedCFRException: Extractable last case doesn't follow previous, and can't clone.
+<clinit>()
+  Unable to fully structure code
+
+
+hackclient.rise.ow
+----------------------------
+
+b(hackclient.rise.eo )
+  Unable to fully structure code
+
+
+hackclient.rise.ry
+----------------------------
+
+<clinit>()
+  Recovered potentially malformed switches.  Disable with '--allowmalformedswitch false'
+  Unable to fully structure code
+o0Oo000O0oO(int java.lang.String )
+  Unable to fully structure code
+
+
+hackclient.rise.sj
+----------------------------
+
+h(java.lang.String java.lang.String )
+  Loose catch block
+N(java.lang.String )
+  Unable to fully structure code
+
+
+hackclient.rise.sk
+----------------------------
+
+<init>(hackclient.rise.sj int int[] int[] java.util.List )
+  Ignored method signature, as it can't be verified against descriptor
+
+
+hackclient.rise.sl
+----------------------------
+
+<init>(hackclient.rise.sj int double[] java.util.List )
+  Ignored method signature, as it can't be verified against descriptor
+
+
+hackclient.rise.tn
+----------------------------
+
+o0Oo000O0oO(int java.lang.String )
+  Unable to fully structure code
+
+
+hackclient.rise.wg
+----------------------------
+
+<clinit>()
+  Handled impossible loop by adding 'first' condition
+o0Oo000O0oO(int java.lang.String )
+  Recovered potentially malformed switches.  Disable with '--allowmalformedswitch false'
+  Unable to fully structure code
+
+
+hackclient.rise.yi
+----------------------------
+
+h(byte[] )
+  Exception : org.benf.cfr.reader.util.ConfusedCFRException: Tried to end blocks [11[FORLOOP]], but top level block is 6[TRYBLOCK]
+a(java.lang.String java.lang.String int java.util.Set<java.lang.String> )
+  Exception : org.benf.cfr.reader.util.ConfusedCFRException: Tried to end blocks [0[TRYBLOCK]], but top level block is 8[WHILELOOP]
+ab(java.lang.String )
+  Loose catch block
+
+
+hackclient.rise.zi
+----------------------------
+
+<clinit>()
+  Unable to fully structure code
+o0Oo000O0oO(int java.lang.String )
+  Unable to fully structure code
+
+
+hackclient.rise.zj
+----------------------------
+
+<clinit>()
+  Handled impossible loop by adding 'first' condition
+o0Oo000O0oO(int java.lang.String )
+  Exception : org.benf.cfr.reader.util.ConfusedCFRException: First case is not immediately after switch.
+
+
+hackclient.rise.zk
+----------------------------
+
+o0Oo000O0oO(int java.lang.String )
+  Recovered potentially malformed switches.  Disable with '--allowmalformedswitch false'
+  Unable to fully structure code
+<clinit>()
+  Unable to fully structure code
+
+
+hackclient.rise.zl
+----------------------------
+
+o0Oo000O0oO(int java.lang.String )
+  Unable to fully structure code
+<clinit>()
+  Unable to fully structure code
+
+
+hackclient.rise.zm
+----------------------------
+
+<clinit>()
+  Unable to fully structure code
+o0Oo000O0oO(int java.lang.String )
+  Unable to fully structure code
+
+
+hackclient.rise.zn
+----------------------------
+
+o0Oo000O0oO(int java.lang.String )
+  Unable to fully structure code
+
+
+hackclient.rise.zp
+----------------------------
+
+o0Oo000O0oO(int java.lang.String )
+  Exception : org.benf.cfr.reader.util.ConfusedCFRException: First case is not immediately after switch.
+<clinit>()
+  Unable to fully structure code
+
+
+hackclient.rise.zq
+----------------------------
+
+o0Oo000O0oO(int java.lang.String )
+  Unable to fully structure code
+<clinit>()
+  Exception : org.benf.cfr.reader.util.ConfusedCFRException: First case is not immediately after switch.
+
+
+net.minecraft.client.gui.aa
+----------------------------
+
+initGui()
+  Unable to fully structure code
+
+
+net.minecraft.client.gui.achievement.f
+----------------------------
+
+<init>(net.minecraft.client.gui.achievement.e net.minecraft.client.gui.achievement.c )
+  Ignored method signature, as it can't be verified against descriptor
+
+
+net.minecraft.client.gui.achievement.i
+----------------------------
+
+<init>(net.minecraft.client.gui.achievement.h net.minecraft.client.gui.achievement.c )
+  Ignored method signature, as it can't be verified against descriptor
+
+
+net.minecraft.client.gui.au
+----------------------------
+
+initGui()
+  Could not resolve type clashes
+  Unable to fully structure code
+
+
+net.minecraft.client.gui.bl
+----------------------------
+
+s(int int )
+  Unable to fully structure code
+
+
+net.minecraft.client.gui.cd
+----------------------------
+
+drawScreen(int int float )
+  Unable to fully structure code
+
+
+net.minecraft.client.gui.cn
+----------------------------
+
+initGui()
+  Unable to fully structure code
+
+
+net.minecraft.client.gui.s
+----------------------------
+
+b(float int int )
+  Unable to fully structure code
+
+
+net.minecraft.client.multiplayer.b
+----------------------------
+
+<clinit>()
+  Unable to fully structure code
+o0Oo000O0oO(int java.lang.String )
+  Recovered potentially malformed switches.  Disable with '--allowmalformedswitch false'
+  Unable to fully structure code
+
+
+net.minecraft.client.network.g
+----------------------------
+
+<init>(net.minecraft.client.network.f javax.crypto.SecretKey )
+  Ignored method signature, as it can't be verified against descriptor
+
+
+net.minecraft.client.network.i
+----------------------------
+
+<init>(net.minecraft.client.network.h java.lang.String )
+  Ignored method signature, as it can't be verified against descriptor
+
+
+net.minecraft.client.network.j
+----------------------------
+
+<init>(net.minecraft.client.network.h java.lang.String )
+  Ignored method signature, as it can't be verified against descriptor
+
+
+net.minecraft.client.network.k
+----------------------------
+
+<init>(net.minecraft.client.network.h java.lang.String java.lang.String )
+  Ignored method signature, as it can't be verified against descriptor
+
+
+net.minecraft.client.network.s
+----------------------------
+
+<init>(net.minecraft.client.network.r net.minecraft.network.r net.minecraft.client.multiplayer.f )
+  Ignored method signature, as it can't be verified against descriptor
+
+
+net.minecraft.client.settings.a
+----------------------------
+
+QJ()
+  Could not resolve type clashes
+
+
+net.minecraft.command.ac
+----------------------------
+
+<init>(net.minecraft.command.ab net.minecraft.command.aw )
+  Ignored method signature, as it can't be verified against descriptor
+
+
+net.minecraft.command.bb
+----------------------------
+
+<init>(int int )
+  Ignored method signature, as it can't be verified against descriptor
+
+
+net.minecraft.command.bc
+----------------------------
+
+<init>(net.minecraft.util.a )
+  Ignored method signature, as it can't be verified against descriptor
+
+
+net.minecraft.command.bd
+----------------------------
+
+<init>(net.minecraft.util.b )
+  Ignored method signature, as it can't be verified against descriptor
+
+
+net.minecraft.command.be
+----------------------------
+
+<init>(java.lang.String boolean )
+  Ignored method signature, as it can't be verified against descriptor
+
+
+net.minecraft.command.bf
+----------------------------
+
+<init>(int int )
+  Ignored method signature, as it can't be verified against descriptor
+
+
+net.minecraft.command.bg
+----------------------------
+
+<init>(int )
+  Ignored method signature, as it can't be verified against descriptor
+
+
+net.minecraft.command.bh
+----------------------------
+
+<init>(java.lang.String boolean )
+  Ignored method signature, as it can't be verified against descriptor
+
+
+net.minecraft.command.bi
+----------------------------
+
+<init>(java.util.Map )
+  Ignored method signature, as it can't be verified against descriptor
+
+
+net.minecraft.command.bj
+----------------------------
+
+<init>(java.lang.String boolean )
+  Ignored method signature, as it can't be verified against descriptor
+
+
+net.minecraft.command.bk
+----------------------------
+
+<init>(net.minecraft.util.b int int int int )
+  Ignored method signature, as it can't be verified against descriptor
+
+
+net.minecraft.command.bl
+----------------------------
+
+<init>(int int )
+  Ignored method signature, as it can't be verified against descriptor
+
+
+net.minecraft.command.p
+----------------------------
+
+<init>(net.minecraft.command.o net.minecraft.entity.c net.minecraft.command.aw net.minecraft.util.b double double double )
+  Ignored method signature, as it can't be verified against descriptor
+
+
+net.minecraft.command.server.b
+----------------------------
+
+<init>(net.minecraft.command.server.a net.minecraft.entity.player.e net.minecraft.stats.f )
+  Ignored method signature, as it can't be verified against descriptor
+
+
+net.minecraft.crash.j
+----------------------------
+
+<init>(int net.minecraft.block.Block )
+  Ignored method signature, as it can't be verified against descriptor
+
+
+net.minecraft.crash.k
+----------------------------
+
+<init>(int )
+  Ignored method signature, as it can't be verified against descriptor
+
+
+net.minecraft.crash.l
+----------------------------
+
+<init>(net.minecraft.util.b )
+  Ignored method signature, as it can't be verified against descriptor
+
+
+net.minecraft.crash.m
+----------------------------
+
+<init>(net.minecraft.block.state.IBlockState )
+  Ignored method signature, as it can't be verified against descriptor
+
+
+net.minecraft.crash.n
+----------------------------
+
+<init>(net.minecraft.util.b )
+  Ignored method signature, as it can't be verified against descriptor
+
+
+net.minecraft.entity.ai.ah
+----------------------------
+
+<init>(net.minecraft.entity.ai.ag com.google.common.base.Predicate )
+  Ignored method signature, as it can't be verified against descriptor
+
+
+net.minecraft.entity.item.a
+----------------------------
+
+a(net.minecraft.entity.player.a net.minecraft.util.da )
+  Unable to fully structure code
+
+
+net.minecraft.entity.monster.y
+----------------------------
+
+<init>(net.minecraft.entity.monster.x com.google.common.base.Predicate net.minecraft.entity.j )
+  Ignored method signature, as it can't be verified against descriptor
+
+
+net.minecraft.entity.player.h
+----------------------------
+
+<init>(net.minecraft.entity.player.g net.minecraft.item.co )
+  Ignored method signature, as it can't be verified against descriptor
+
+
+net.minecraft.entity.x
+----------------------------
+
+<init>(net.minecraft.entity.w int )
+  Ignored method signature, as it can't be verified against descriptor
+
+
+net.minecraft.item.bu
+----------------------------
+
+<init>(java.lang.String[] )
+  Ignored method signature, as it can't be verified against descriptor
+
+
+net.minecraft.nbt.o
+----------------------------
+
+<init>(net.minecraft.nbt.n java.lang.String )
+  Ignored method signature, as it can't be verified against descriptor
+
+
+net.minecraft.nbt.p
+----------------------------
+
+<init>(net.minecraft.nbt.n int )
+  Ignored method signature, as it can't be verified against descriptor
+
+
+net.minecraft.network.ah
+----------------------------
+
+<init>(net.minecraft.network.ab net.minecraft.network.r )
+  Ignored method signature, as it can't be verified against descriptor
+
+
+net.minecraft.network.ai
+----------------------------
+
+<init>(net.minecraft.network.ab net.minecraft.network.r net.minecraft.util.s )
+  Ignored method signature, as it can't be verified against descriptor
+
+
+net.minecraft.network.am
+----------------------------
+
+<init>(net.minecraft.network.aj net.minecraft.network.g )
+  Ignored method signature, as it can't be verified against descriptor
+
+
+net.minecraft.network.i
+----------------------------
+
+<init>(net.minecraft.network.h net.minecraft.util.s )
+  Ignored method signature, as it can't be verified against descriptor
+
+
+net.minecraft.network.k
+----------------------------
+
+<init>(net.minecraft.network.h net.minecraft.network.aj )
+  Ignored method signature, as it can't be verified against descriptor
+
+
+net.minecraft.network.play.server.ai
+----------------------------
+
+<init>(net.minecraft.network.play.server.ah java.lang.String double java.util.Collection )
+  Ignored method signature, as it can't be verified against descriptor
+
+
+net.minecraft.network.r
+----------------------------
+
+<clinit>()
+  Handled impossible loop by adding 'first' condition
+o0Oo000O0oO(int java.lang.String )
+  Recovered potentially malformed switches.  Disable with '--allowmalformedswitch false'
+  Unable to fully structure code
+
+
+net.minecraft.network.v
+----------------------------
+
+<init>(net.minecraft.network.r net.minecraft.network.a net.minecraft.network.a hackclient.rise.fi io.netty.util.concurrent.GenericFutureListener[] )
+  Ignored method signature, as it can't be verified against descriptor
+
+
+net.minecraft.network.w
+----------------------------
+
+<init>(net.minecraft.network.r net.minecraft.network.a net.minecraft.network.a net.minecraft.network.aj io.netty.util.concurrent.GenericFutureListener[] )
+  Ignored method signature, as it can't be verified against descriptor
+
+
+net.minecraft.realms.s
+----------------------------
+
+<init>(net.minecraft.realms.r net.minecraft.realms.q net.minecraft.network.r java.lang.String )
+  Ignored method signature, as it can't be verified against descriptor
+
+
+net.minecraft.tileentity.ai
+----------------------------
+
+<init>(net.minecraft.tileentity.ag net.minecraft.entity.player.a )
+  Ignored method signature, as it can't be verified against descriptor
+
+
+net.minecraft.util.az
+----------------------------
+
+<init>(net.minecraft.util.be java.lang.String java.net.Proxy java.util.Map java.io.File int )
+  Ignored method signature, as it can't be verified against descriptor
+run()
+  Exception : org.benf.cfr.reader.util.ConfusedCFRException: Tried to end blocks [1[TRYBLOCK]], but top level block is 10[WHILELOOP]
+
+
+net.minecraft.util.bv
+----------------------------
+
+<clinit>()
+  Unable to fully structure code
+o0Oo000O0oO(int java.lang.String )
+  Recovered potentially malformed switches.  Disable with '--allowmalformedswitch false'
+  Unable to fully structure code
+
+
+net.minecraft.util.c
+----------------------------
+
+<init>(net.minecraft.util.b net.minecraft.util.b )
+  Ignored method signature, as it can't be verified against descriptor
+
+
+net.minecraft.util.e
+----------------------------
+
+<init>(net.minecraft.util.b net.minecraft.util.b )
+  Ignored method signature, as it can't be verified against descriptor
+
+
+net.minecraft.util.z
+----------------------------
+
+<init>(net.minecraft.util.y java.lang.Class )
+  Ignored method signature, as it can't be verified against descriptor
+
+
+net.minecraft.world.chunk.b
+----------------------------
+
+<init>(net.minecraft.world.chunk.a int int int )
+  Ignored method signature, as it can't be verified against descriptor
+
+
+net.minecraft.world.chunk.c
+----------------------------
+
+<init>(net.minecraft.world.chunk.a net.minecraft.util.b )
+  Ignored method signature, as it can't be verified against descriptor
+
+
+net.minecraft.world.chunk.d
+----------------------------
+
+<init>(net.minecraft.world.chunk.a net.minecraft.util.b )
+  Ignored method signature, as it can't be verified against descriptor
+
+
+net.minecraft.world.gen.layer.b
+----------------------------
+
+<init>(net.minecraft.world.biome.j )
+  Ignored method signature, as it can't be verified against descriptor
+
+
+net.minecraft.world.gen.layer.c
+----------------------------
+
+<init>(net.minecraft.world.biome.j )
+  Ignored method signature, as it can't be verified against descriptor
+
+
+net.minecraft.world.gen.structure.p
+----------------------------
+
+<init>(net.minecraft.world.gen.structure.o int int )
+  Ignored method signature, as it can't be verified against descriptor
+
+
+net.minecraft.world.gen.structure.q
+----------------------------
+
+<init>(net.minecraft.world.gen.structure.o int int )
+  Ignored method signature, as it can't be verified against descriptor
+
+
+net.minecraft.world.x
+----------------------------
+
+<init>(net.minecraft.world.w net.minecraft.util.b )
+  Ignored method signature, as it can't be verified against descriptor
+
+
+net.minecraft.world.y
+----------------------------
+
+<init>(net.minecraft.world.w net.minecraft.block.Block )
+  Ignored method signature, as it can't be verified against descriptor
+
+
+net.optifine.e
+----------------------------
+
+<init>(net.minecraft.util.b net.minecraft.util.b )
+  Ignored method signature, as it can't be verified against descriptor
+
+
+net.optifine.http.e
+----------------------------
+
+<init>(java.util.Map )
+  Ignored method signature, as it can't be verified against descriptor
+
+
+net.optifine.shaders.config.d
+----------------------------
+
+ja(java.lang.String )
+  Unable to fully structure code
+
+
+net.optifine.shaders.gui.j
+----------------------------
+
+<init>(net.optifine.shaders.gui.i int )
+  Ignored method signature, as it can't be verified against descriptor
+
+
+net.optifine.util.ad
+----------------------------
+
+<init>(java.lang.reflect.Method java.lang.Object )
+  Ignored method signature, as it can't be verified against descriptor
+
+
+rip.vantage.commons.packet.impl.client.protection.h
+----------------------------
+
+<clinit>()
+  Unable to fully structure code
+o0Oo000O0oO(int java.lang.String )
+  Exception : org.benf.cfr.reader.util.ConfusedCFRException: First case is not immediately after switch.
+
+
+rip.vantage.commons.packet.impl.client.protection.i
+----------------------------
+
+<clinit>()
+  Unable to fully structure code
+o0Oo000O0oO(int java.lang.String )
+  Exception : org.benf.cfr.reader.util.ConfusedCFRException: First case is not immediately after switch.
+
+
+rip.vantage.commons.packet.impl.server.monitoring.a
+----------------------------
+
+o0Oo000O0oO(int java.lang.String )
+  Exception : org.benf.cfr.reader.util.ConfusedCFRException: First case is not immediately after switch.
+
+
+rip.vantage.commons.packet.impl.server.monitoring.b
+----------------------------
+
+<clinit>()
+  Recovered potentially malformed switches.  Disable with '--allowmalformedswitch false'
+o0Oo000O0oO(int java.lang.String )
+  Unable to fully structure code
+
+
+rip.vantage.commons.packet.impl.server.monitoring.c
+----------------------------
+
+o0Oo000O0oO(int java.lang.String )
+  Recovered potentially malformed switches.  Disable with '--allowmalformedswitch false'
+  Unable to fully structure code
+<clinit>()
+  Unable to fully structure code
+
+
+rip.vantage.commons.packet.impl.server.monitoring.d
+----------------------------
+
+<clinit>()
+  Recovered potentially malformed switches.  Disable with '--allowmalformedswitch false'
+  Unable to fully structure code
+o0Oo000O0oO(int java.lang.String )
+  Unable to fully structure code
+
+
+rip.vantage.commons.packet.impl.server.monitoring.e
+----------------------------
+
+o0Oo000O0oO(int java.lang.String )
+  Exception : org.benf.cfr.reader.util.ConfusedCFRException: Extractable last case doesn't follow previous, and can't clone.
+
+
+rip.vantage.commons.packet.impl.server.monitoring.f
+----------------------------
+
+<clinit>()
+  Unable to fully structure code
+o0Oo000O0oO(int java.lang.String )
+  Unable to fully structure code
+
+
+rip.vantage.commons.packet.impl.server.monitoring.g
+----------------------------
+
+<clinit>()
+  Unable to fully structure code
+o0Oo000O0oO(int java.lang.String )
+  Unable to fully structure code
+
+
+rip.vantage.commons.packet.impl.server.protection.b
+----------------------------
+
+o0Oo000O0oO(int java.lang.String )
+  Exception : org.benf.cfr.reader.util.ConfusedCFRException: First case is not immediately after switch.
+<clinit>()
+  Unable to fully structure code
+<init>(org.json.JSONObject )
+  Unable to fully structure code
+  Could not resolve type clashes
+
+
+rip.vantage.runtime.e
+----------------------------
+
+<clinit>()
+  Recovered potentially malformed switches.  Disable with '--allowmalformedswitch false'
+  Unable to fully structure code
+kq(java.lang.String )
+  Unable to fully structure code
+o0Oo000O0oO(int java.lang.String )
+  Unable to fully structure code
+kr(java.lang.String )
+  Recovered potentially malformed switches.  Disable with '--allowmalformedswitch false'
+  Unable to fully structure code
+
+
+rip.vantage.security.f
+----------------------------
+
+<clinit>()
+  Unable to fully structure code
+o0Oo000O0oO(int java.lang.String )
+  Unable to fully structure code

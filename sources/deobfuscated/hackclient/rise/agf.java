@@ -1,0 +1,25 @@
+/*
+ * Decompiled with CFR 0.152.
+ */
+package hackclient.rise;
+
+import java.awt.Color;
+
+public abstract class agf {
+    public abstract int b(String var1, double var2, double var4, int var6, boolean var7);
+
+    public abstract int a(String var1, double var2, double var4, int var6);
+
+    public abstract int b(String var1, double var2, double var4, int var6);
+
+    public abstract int bQ(String var1);
+
+    public abstract int c(String var1, double var2, double var4, int var6);
+
+    public abstract int d(String var1, double var2, double var4, int var6);
+
+    public abstract float tF();
+
+    public abstract void a(char var1, int var2, int var3, Color var4);
+}
+

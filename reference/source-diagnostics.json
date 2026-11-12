@@ -1,0 +1,366 @@
+[
+  {
+    "file": "sources/deobfuscated/rise/Client.java",
+    "warnings": [
+      "Decompilation failed",
+      "Unable to fully structure code",
+      "Exception performing whole class analysis"
+    ]
+  },
+  {
+    "file": "sources/deobfuscated/rise/module/ModuleManager.java",
+    "warnings": [
+      "Unable to fully structure code"
+    ]
+  },
+  {
+    "file": "sources/deobfuscated/rise/module/impl/combat/KillAura.java",
+    "warnings": [
+      "Decompilation failed",
+      "Unable to fully structure code"
+    ]
+  },
+  {
+    "file": "sources/deobfuscated/rise/module/impl/combat/ThrowableAura.java",
+    "warnings": [
+      "Unable to fully structure code"
+    ]
+  },
+  {
+    "file": "sources/deobfuscated/rise/module/impl/ghost/SafeWalk.java",
+    "warnings": [
+      "Unable to fully structure code"
+    ]
+  },
+  {
+    "file": "sources/deobfuscated/rise/module/impl/player/MurderMystery.java",
+    "warnings": [
+      "Unable to fully structure code"
+    ]
+  },
+  {
+    "file": "sources/deobfuscated/rise/module/impl/player/Scaffold.java",
+    "warnings": [
+      "Decompilation failed",
+      "Unable to fully structure code"
+    ]
+  },
+  {
+    "file": "sources/deobfuscated/rise/module/impl/render/Animations.java",
+    "warnings": [
+      "Decompilation failed",
+      "Unable to fully structure code"
+    ]
+  },
+  {
+    "file": "sources/deobfuscated/rise/module/impl/render/Spotify.java",
+    "warnings": [
+      "Unable to fully structure code"
+    ]
+  },
+  {
+    "file": "sources/deobfuscated/rise/module/impl/movement/flight/BufferAbuseMode.java",
+    "warnings": [
+      "Unable to fully structure code"
+    ]
+  },
+  {
+    "file": "sources/deobfuscated/rise/module/impl/movement/flight/Grim191181Mode.java",
+    "warnings": [
+      "Decompilation failed",
+      "Unable to fully structure code"
+    ]
+  },
+  {
+    "file": "sources/deobfuscated/rise/module/impl/movement/jesus/WatchdogMode.java",
+    "warnings": [
+      "Unable to fully structure code"
+    ]
+  },
+  {
+    "file": "sources/deobfuscated/rise/module/impl/movement/longjump/WatchdogGlideMode.java",
+    "warnings": [
+      "Unable to fully structure code"
+    ]
+  },
+  {
+    "file": "sources/deobfuscated/rise/module/impl/movement/noslow/Grim30Mode.java",
+    "warnings": [
+      "Unable to fully structure code"
+    ]
+  },
+  {
+    "file": "sources/deobfuscated/rise/module/impl/movement/phase/NormalMode.java",
+    "warnings": [
+      "Decompilation failed"
+    ]
+  },
+  {
+    "file": "sources/deobfuscated/rise/module/impl/movement/speed/Grim2Mode.java",
+    "warnings": [
+      "Decompilation failed",
+      "Unable to fully structure code"
+    ]
+  },
+  {
+    "file": "sources/deobfuscated/rise/module/impl/exploit/consolespammer/ChannelMode.java",
+    "warnings": [
+      "Decompilation failed",
+      "Unable to fully structure code"
+    ]
+  },
+  {
+    "file": "sources/deobfuscated/rise/module/impl/exploit/disabler/JpMode.java",
+    "warnings": [
+      "Decompilation failed",
+      "Unable to fully structure code"
+    ]
+  },
+  {
+    "file": "sources/deobfuscated/rise/module/impl/combat/velocity/GrimReduceMode.java",
+    "warnings": [
+      "Decompilation failed",
+      "Unable to fully structure code"
+    ]
+  },
+  {
+    "file": "sources/deobfuscated/rip/vantage/runtime/e.java",
+    "warnings": [
+      "Unable to fully structure code"
+    ]
+  },
+  {
+    "file": "sources/deobfuscated/rip/vantage/security/f.java",
+    "warnings": [
+      "Unable to fully structure code"
+    ]
+  },
+  {
+    "file": "sources/deobfuscated/rip/vantage/commons/packet/impl/server/monitoring/a.java",
+    "warnings": [
+      "Decompilation failed",
+      "Exception performing whole class analysis"
+    ]
+  },
+  {
+    "file": "sources/deobfuscated/rip/vantage/commons/packet/impl/server/monitoring/b.java",
+    "warnings": [
+      "Unable to fully structure code"
+    ]
+  },
+  {
+    "file": "sources/deobfuscated/rip/vantage/commons/packet/impl/server/monitoring/c.java",
+    "warnings": [
+      "Unable to fully structure code"
+    ]
+  },
+  {
+    "file": "sources/deobfuscated/rip/vantage/commons/packet/impl/server/monitoring/d.java",
+    "warnings": [
+      "Unable to fully structure code"
+    ]
+  },
+  {
+    "file": "sources/deobfuscated/rip/vantage/commons/packet/impl/server/monitoring/e.java",
+    "warnings": [
+      "Decompilation failed",
+      "Exception performing whole class analysis"
+    ]
+  },
+  {
+    "file": "sources/deobfuscated/rip/vantage/commons/packet/impl/server/monitoring/f.java",
+    "warnings": [
+      "Unable to fully structure code"
+    ]
+  },
+  {
+    "file": "sources/deobfuscated/rip/vantage/commons/packet/impl/server/monitoring/g.java",
+    "warnings": [
+      "Unable to fully structure code"
+    ]
+  },
+  {
+    "file": "sources/deobfuscated/rip/vantage/commons/packet/impl/server/protection/b.java",
+    "warnings": [
+      "Decompilation failed",
+      "Unable to fully structure code"
+    ]
+  },
+  {
+    "file": "sources/deobfuscated/rip/vantage/commons/packet/impl/client/protection/h.java",
+    "warnings": [
+      "Decompilation failed",
+      "Unable to fully structure code"
+    ]
+  },
+  {
+    "file": "sources/deobfuscated/rip/vantage/commons/packet/impl/client/protection/i.java",
+    "warnings": [
+      "Decompilation failed",
+      "Unable to fully structure code"
+    ]
+  },
+  {
+    "file": "sources/deobfuscated/net/optifine/shaders/config/d.java",
+    "warnings": [
+      "Unable to fully structure code"
+    ]
+  },
+  {
+    "file": "sources/deobfuscated/net/minecraft/network/r.java",
+    "warnings": [
+      "Unable to fully structure code"
+    ]
+  },
+  {
+    "file": "sources/deobfuscated/net/minecraft/util/az.java",
+    "warnings": [
+      "Decompilation failed"
+    ]
+  },
+  {
+    "file": "sources/deobfuscated/net/minecraft/util/bv.java",
+    "warnings": [
+      "Unable to fully structure code"
+    ]
+  },
+  {
+    "file": "sources/deobfuscated/net/minecraft/entity/item/a.java",
+    "warnings": [
+      "Unable to fully structure code"
+    ]
+  },
+  {
+    "file": "sources/deobfuscated/net/minecraft/client/gui/aa.java",
+    "warnings": [
+      "Unable to fully structure code"
+    ]
+  },
+  {
+    "file": "sources/deobfuscated/net/minecraft/client/gui/au.java",
+    "warnings": [
+      "Unable to fully structure code"
+    ]
+  },
+  {
+    "file": "sources/deobfuscated/net/minecraft/client/gui/bl.java",
+    "warnings": [
+      "Unable to fully structure code"
+    ]
+  },
+  {
+    "file": "sources/deobfuscated/net/minecraft/client/gui/cd.java",
+    "warnings": [
+      "Unable to fully structure code"
+    ]
+  },
+  {
+    "file": "sources/deobfuscated/net/minecraft/client/gui/cn.java",
+    "warnings": [
+      "Unable to fully structure code"
+    ]
+  },
+  {
+    "file": "sources/deobfuscated/net/minecraft/client/gui/s.java",
+    "warnings": [
+      "Unable to fully structure code"
+    ]
+  },
+  {
+    "file": "sources/deobfuscated/net/minecraft/client/multiplayer/b.java",
+    "warnings": [
+      "Unable to fully structure code"
+    ]
+  },
+  {
+    "file": "sources/deobfuscated/hackclient/rise/aap.java",
+    "warnings": [
+      "Decompilation failed",
+      "Unable to fully structure code"
+    ]
+  },
+  {
+    "file": "sources/deobfuscated/hackclient/rise/abs.java",
+    "warnings": [
+      "Unable to fully structure code"
+    ]
+  },
+  {
+    "file": "sources/deobfuscated/hackclient/rise/ahm.java",
+    "warnings": [
+      "Decompilation failed",
+      "Unable to fully structure code",
+      "Exception performing whole class analysis"
+    ]
+  },
+  {
+    "file": "sources/deobfuscated/hackclient/rise/ax.java",
+    "warnings": [
+      "Unable to fully structure code"
+    ]
+  },
+  {
+    "file": "sources/deobfuscated/hackclient/rise/bo.java",
+    "warnings": [
+      "Decompilation failed",
+      "Exception performing whole class analysis"
+    ]
+  },
+  {
+    "file": "sources/deobfuscated/hackclient/rise/yi.java",
+    "warnings": [
+      "Decompilation failed"
+    ]
+  },
+  {
+    "file": "sources/deobfuscated/hackclient/rise/zi.java",
+    "warnings": [
+      "Unable to fully structure code"
+    ]
+  },
+  {
+    "file": "sources/deobfuscated/hackclient/rise/zj.java",
+    "warnings": [
+      "Decompilation failed",
+      "Exception performing whole class analysis"
+    ]
+  },
+  {
+    "file": "sources/deobfuscated/hackclient/rise/zk.java",
+    "warnings": [
+      "Unable to fully structure code"
+    ]
+  },
+  {
+    "file": "sources/deobfuscated/hackclient/rise/zl.java",
+    "warnings": [
+      "Unable to fully structure code"
+    ]
+  },
+  {
+    "file": "sources/deobfuscated/hackclient/rise/zm.java",
+    "warnings": [
+      "Unable to fully structure code"
+    ]
+  },
+  {
+    "file": "sources/deobfuscated/hackclient/rise/zn.java",
+    "warnings": [
+      "Unable to fully structure code"
+    ]
+  },
+  {
+    "file": "sources/deobfuscated/hackclient/rise/zp.java",
+    "warnings": [
+      "Decompilation failed",
+      "Unable to fully structure code"
+    ]
+  },
+  {
+    "file": "sources/deobfuscated/hackclient/rise/zq.java",
+    "warnings": [
+      "Decompilation failed",
+      "Unable to fully structure code"
+    ]
+  }
+]

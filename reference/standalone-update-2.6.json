@@ -1,0 +1,32 @@
+{
+  "clientVersion": "6.9.9",
+  "sourceLauncher": "2.6",
+  "clientSha256": "c7251f3ab2addf2b7d257d159c2b0b1ccc470cc1bdcbfa34136340a8f5db21c8",
+  "librariesSha256": "2f9aeafcd5c9ddf01e65b88bd008e2736b016fa3f4c3c6c902588a9c8c4b88a0",
+  "classesRestored": 4125,
+  "archiveFailures": 0,
+  "normalizationFailures": 0,
+  "configRevision": "6a807c96d24218004f4f2642287d36ae48d2c036",
+  "defaultConfig": "hypixel1.8.json",
+  "defaultConfigSha256": "4d4c89b1382edb0a23428142bb025bb6ae1c640cd098667f2b91ecc334af35d6",
+  "existingProfilePreserved": true,
+  "clientSmoke": {
+    "defaultConfigChecks": 143,
+    "mainMenu": true,
+    "clickGui": "hackclient.rise.abf",
+    "altsScreen": "com.alan.clients.ui.menu.impl.account.AccountManagerScreen",
+    "rawInputRegistered": true,
+    "defaultConfigDifferences": [],
+    "rawInputAvailable": true,
+    "complete": true,
+    "version": "6.9.9",
+    "modules": 146,
+    "worldLoaded": true
+  },
+  "portableVerification": "Client logger precedence passed.\n[Native] Bundled OpenSSL and OpenAL loaded.\nBundled audio, native decryptor and Inter font passed.\n[RawMouse] Windows Raw Input ready.\nBundled Windows Raw Input receiver passed.\nRuntime linkage and world/menu status updates passed.\n",
+  "launcherClassDigest": "33189a195dcc5891433a706deafd30957cff06bddc4a0062be47dcf86610756a",
+  "artifact": "dist/RiseLauncher.exe",
+  "artifactSha256": "808edc60fba084cf5ab81cdd1c448f2b73e658c643efd2fed92675ebf88e7187",
+  "artifactBytes": 346160479,
+  "launcherMotionVerification": "reference/launcher-motion.json"
+}

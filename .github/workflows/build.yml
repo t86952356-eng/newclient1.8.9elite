@@ -1,0 +1,105 @@
+name: Build Rise Client Version
+
+on:
+  push:
+    branches: [main]
+    paths-ignore:
+      - '**.md'
+  workflow_dispatch:
+
+permissions:
+  contents: write
+
+jobs:
+  build:
+    name: Build & Package
+    runs-on: ubuntu-latest
+    outputs:
+      status: ${{ steps.status.outputs.status }}
+      tag: ${{ steps.tag.outputs.tag }}
+    steps:
+      - name: Checkout
+        uses: actions/checkout@v4
+
+      - name: Set up JDK 21
+        uses: actions/setup-java@v4
+        with:
+          distribution: temurin
+          java-version: '21'
+
+      - name: Build (audit -> bootstrap -> version JSON -> client -> verify -> package)
+        run: |
+          chmod +x build.sh
+          ./build.sh 2>&1 | tee build.log
+
+      - name: Record build status
+        id: status
+        run: |
+          if [ -f build/BUILD_STATUS.txt ]; then
+            echo "status=$(cat build/BUILD_STATUS.txt)" >> "$GITHUB_OUTPUT"
+          else
+            echo "status=FAILED" >> "$GITHUB_OUTPUT"
+            exit 1
+          fi
+
+      - name: Determine release tag
+        id: tag
+        run: echo "tag=v6.9.9-b${GITHUB_RUN_NUMBER}" >> "$GITHUB_OUTPUT"
+
+      - name: Upload build artifacts
+        uses: actions/upload-artifact@v4
+        with:
+          name: rise-build-${{ github.run_number }}
+          path: |
+            dist/
+            build.log
+            versions/Rise-6.9.9/Rise-6.9.9.json
+          retention-days: 30
+
+  release:
+    name: Publish GitHub Release
+    needs: build
+    if: github.ref == 'refs/heads/main' || github.event_name == 'workflow_dispatch'
+    runs-on: ubuntu-latest
+    steps:
+      - name: Checkout
+        uses: actions/checkout@v4
+
+      - name: Download build artifacts
+        uses: actions/download-artifact@v4
+        with:
+          name: rise-build-${{ github.run_number }}
+          path: dist-all
+
+      - name: Compose release notes
+        env:
+          BUILD_STATUS: ${{ needs.build.outputs.status }}
+          TAG: ${{ needs.build.outputs.tag }}
+        run: |
+          STATUS_LINE="**Build status: ${BUILD_STATUS}**"
+          if [ "$BUILD_STATUS" = "COMPLETE" ]; then
+            STATUS_LINE="$STATUS_LINE — the release zip contains the full playable client JAR (Rise-6.9.9.jar) plus the version manifest."
+          else
+            STATUS_LINE="$STATUS_LINE — the game JAR could not be produced because artifacts/client-restored.jar is not present in the repository. The zip contains the version manifest (Rise-6.9.9.json) and the bootstrap runtime layer for inspection. See ANDROID_PORT_AUDIT.md (BLOCKER-1) for exactly what to provide."
+          fi
+          {
+            echo "# Rise 6.9.9 — Client Version (${TAG})"
+            echo
+            echo "$STATUS_LINE"
+            echo
+            echo "## What changed in this build"
+            awk '/^## \[/{if(seen)exit; seen=1} seen' CHANGELOG.md
+          } > release-notes.md
+          cat release-notes.md
+
+      - name: Create release
+        uses: softprops/action-gh-release@v2
+        with:
+          tag_name: ${{ needs.build.outputs.tag }}
+          name: Rise 6.9.9 Client Version ${{ needs.build.outputs.tag }}
+          body_path: release-notes.md
+          files: |
+            dist-all/dist/Rise-6.9.9-client-version.zip
+            dist-all/dist/Rise-6.9.9-source.zip
+            dist-all/versions/Rise-6.9.9/Rise-6.9.9.json
+          make_latest: true
